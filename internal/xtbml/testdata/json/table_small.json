@@ -1,0 +1,40 @@
+{
+  "identifier": "sample_table",
+  "version": "1.3",
+  "classification": {
+    "tableIdentity": "tbl-001",
+    "providerDomain": "example.org",
+    "providerName": "Example Provider",
+    "tableReference": "Example Reference",
+    "contentType": { "code": "1", "label": "Demo" },
+    "tableName": "Sample Table",
+    "tableDescription": "A small mortality table for tests.",
+    "comments": "Illustrative only.",
+    "keywords": ["demo", "example"]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": { "code": "2", "label": "Floating Point" },
+        "nation": { "code": "1", "label": "Nowhere" },
+        "tableDescription": "Primary table",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": { "code": "3", "label": "Age" },
+            "axisName": "Age",
+            "minValue": "40",
+            "maxValue": "41",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        { "age": 40, "rate": 0.01 },
+        { "age": 41, "rate": 0.011 }
+      ]
+    }
+  ]
+}

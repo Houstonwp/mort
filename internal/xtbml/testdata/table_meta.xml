@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+	<Table>
+		<MetaData>
+			<ScalingFactor>0</ScalingFactor>
+			<DataType tc="2">Floating Point</DataType>
+			<Nation tc="1">United States of America</Nation>
+			<TableDescription>Ultimate rates.</TableDescription>
+			<AxisDef id="Age">
+				<ScaleType tc="3">Age</ScaleType>
+				<AxisName>Age</AxisName>
+				<MinScaleValue>1</MinScaleValue>
+				<MaxScaleValue>100</MaxScaleValue>
+				<Increment>1</Increment>
+			</AxisDef>
+		</MetaData>
+	</Table>
+	<Table>
+		<MetaData>
+			<ScalingFactor>0</ScalingFactor>
+			<DataType tc="2">Floating Point</DataType>
+			<Nation tc="1">United States of America</Nation>
+			<TableDescription>Select rates.</TableDescription>
+			<AxisDef id="Age">
+				<ScaleType tc="3">Age</ScaleType>
+				<AxisName>Age</AxisName>
+				<MinScaleValue>0</MinScaleValue>
+				<MaxScaleValue>70</MaxScaleValue>
+				<Increment>1</Increment>
+			</AxisDef>
+			<AxisDef id="Duration">
+				<ScaleType tc="2">Duration</ScaleType>
+				<AxisName>Duration</AxisName>
+				<MinScaleValue>1</MinScaleValue>
+				<MaxScaleValue>15</MaxScaleValue>
+				<Increment>1</Increment>
+			</AxisDef>
+		</MetaData>
+	</Table>
+</XTbML>

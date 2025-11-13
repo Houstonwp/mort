@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XTbML version="1.3">
+	<ContentClassification>
+		<TableIdentity>tbl-001</TableIdentity>
+		<ProviderDomain>example.org</ProviderDomain>
+		<ProviderName>Example Provider</ProviderName>
+		<TableReference>Example Reference</TableReference>
+		<ContentType tc="1">Demo</ContentType>
+		<TableName>Sample Table</TableName>
+		<TableDescription>A small mortality table for tests.</TableDescription>
+		<Comments>Illustrative only.</Comments>
+		<KeyWord>demo</KeyWord>
+		<KeyWord>example</KeyWord>
+	</ContentClassification>
+	<Table>
+		<MetaData>
+			<ScalingFactor>0</ScalingFactor>
+			<DataType tc="2">Floating Point</DataType>
+			<Nation tc="1">Nowhere</Nation>
+			<TableDescription>Primary table</TableDescription>
+			<AxisDef id="Age">
+				<ScaleType tc="3">Age</ScaleType>
+				<AxisName>Age</AxisName>
+				<MinScaleValue>40</MinScaleValue>
+				<MaxScaleValue>41</MaxScaleValue>
+				<Increment>1</Increment>
+			</AxisDef>
+		</MetaData>
+		<Values>
+			<Axis>
+				<Y t="40">0.010</Y>
+				<Y t="41">0.011</Y>
+			</Axis>
+		</Values>
+	</Table>
+</XTbML>
