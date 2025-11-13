@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mort.local/schemas/xtbml.schema.json",
+  "title": "XTbML Converted Table",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["identifier", "version", "classification", "tables"],
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "description": "Normalized identifier derived from the table name."
+    },
+    "version": {
+      "type": "string",
+      "description": "XTbML version attribute or 'unknown'."
+    },
+    "classification": {
+      "$ref": "#/$defs/classification"
+    },
+    "tables": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/tableEntry"
+      }
+    }
+  },
+  "$defs": {
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tableName"],
+      "properties": {
+        "tableIdentity": { "type": "string" },
+        "providerDomain": { "type": "string" },
+        "providerName": { "type": "string" },
+        "tableReference": { "type": "string" },
+        "contentType": { "$ref": "#/$defs/classifiedValue" },
+        "tableName": { "type": "string", "minLength": 1 },
+        "tableDescription": { "type": "string" },
+        "comments": { "type": "string" },
+        "keywords": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": false
+        }
+      }
+    },
+    "classifiedValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "label"],
+      "properties": {
+        "code": { "type": "string" },
+        "label": { "type": "string" }
+      }
+    },
+    "axisDefinition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "scaleType", "axisName"],
+      "properties": {
+        "id": { "type": "string" },
+        "scaleType": { "$ref": "#/$defs/classifiedValue" },
+        "axisName": { "type": "string" },
+        "minValue": { "type": "string" },
+        "maxValue": { "type": "string" },
+        "increment": { "type": "string" }
+      }
+    },
+    "tableMeta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "scalingFactor": { "type": "string" },
+        "dataType": { "$ref": "#/$defs/classifiedValue" },
+        "nation": { "$ref": "#/$defs/classifiedValue" },
+        "tableDescription": { "type": "string" },
+        "axes": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/axisDefinition" }
+        }
+      }
+    },
+    "rateEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["age"],
+      "properties": {
+        "age": { "type": "integer", "minimum": 0 },
+        "duration": { "type": "integer", "minimum": 0 },
+        "rate": {
+          "type": ["number", "null"]
+        }
+      }
+    },
+    "tableEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["index"],
+      "properties": {
+        "index": { "type": "integer", "minimum": 0 },
+        "metadata": { "$ref": "#/$defs/tableMeta" },
+        "rates": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/rateEntry" }
+        }
+      }
+    }
+  }
+}
