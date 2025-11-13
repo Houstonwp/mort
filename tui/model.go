@@ -34,9 +34,8 @@ var (
 	accentColor       = lipgloss.Color("99")
 	subtleColor       = lipgloss.Color("245")
 	warningColor      = lipgloss.Color("203")
-	panelStyle        = lipgloss.NewStyle().Border(lipgloss.RoundedBorder()).BorderForeground(accentColor).Padding(1, 2)
-	ratesPanelStyle   = lipgloss.NewStyle().Border(lipgloss.RoundedBorder()).BorderForeground(accentColor).Padding(0, 0)
-	listBoxStyle      = lipgloss.NewStyle().Border(lipgloss.RoundedBorder()).BorderForeground(lipgloss.Color("240")).Padding(0, 1)
+	panelStyle        = lipgloss.NewStyle().Border(lipgloss.RoundedBorder()).BorderForeground(accentColor).Padding(0, 1)
+	ratesPanelStyle   = lipgloss.NewStyle().Border(lipgloss.RoundedBorder()).BorderForeground(accentColor).Padding(0, 1)
 	warningPanelStyle = lipgloss.NewStyle().Border(lipgloss.RoundedBorder()).BorderForeground(warningColor).Padding(0, 1)
 	searchPromptStyle = lipgloss.NewStyle().Foreground(accentColor).PaddingLeft(1)
 	helperTextStyle   = lipgloss.NewStyle().Foreground(subtleColor)
@@ -50,6 +49,11 @@ var (
 )
 
 const maxWarningMessages = 50
+const mortLogo = ` __  __  ___  ____ _____
+|  \/  |/ _ \|  _ \_   _|
+| |\/| | | | | |_) || |
+| |  | | |_| |  _ < | |
+|_|  |_|\___/|_| \_\|_|`
 
 type state int
 
@@ -94,11 +98,11 @@ func NewModel(jsonDir string) Model {
 	delegate.Styles.NormalDesc = helperTextStyle
 	delegate.Styles.SelectedDesc = helperTextStyle.Copy().Foreground(lipgloss.Color("252"))
 	l := list.New(nil, delegate, 0, 0)
-	l.Title = "Mortality Tables"
+	l.Title = ""
 	l.SetShowStatusBar(false)
 	l.SetFilteringEnabled(false)
 	l.SetShowHelp(false)
-	l.SetShowPagination(false)
+	l.SetShowPagination(true)
 	l.Styles.Title = headerStyle
 	l.Styles.NoItems = helperTextStyle
 	l.Styles.PaginationStyle = helperTextStyle
@@ -163,7 +167,7 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
 	case tea.WindowSizeMsg:
 		m.width, m.height = msg.Width, msg.Height
-		m.list.SetSize(msg.Width, max(5, msg.Height-3))
+		m.list.SetSize(m.detailInnerWidth(), max(5, msg.Height-8))
 		m.resizeRatesTable(m.detailInnerWidth())
 	case summariesChunkMsg:
 		if msg.err != nil {
@@ -312,7 +316,16 @@ func (m Model) View() string {
 	}
 	switch m.state {
 	case stateLoading:
-		return "Loading mortality tables…"
+		logo := lipgloss.NewStyle().Foreground(accentColor).Bold(true).Render(mortLogo)
+		subtitle := helperTextStyle.Render("loading mortality tables…")
+		content := lipgloss.JoinVertical(lipgloss.Center, logo, subtitle)
+		return lipgloss.Place(
+			max(1, m.width),
+			max(1, m.height),
+			lipgloss.Center,
+			lipgloss.Center,
+			content,
+		)
 	case stateDetail:
 		return m.detailView()
 	default:
@@ -321,20 +334,43 @@ func (m Model) View() string {
 }
 
 func (m Model) listView() string {
-	listContent := listBoxStyle.Render(lipgloss.PlaceHorizontal(m.width, lipgloss.Left, m.list.View()))
-	var searchLine string
+	contentWidth := m.detailContentWidth()
+	availableHeight := max(6, m.height-4)
+	warning := m.warningView(contentWidth)
+	extraLines := 1 // footer (search/tips) occupies single line outside body
+	if warning != "" {
+		extraLines++
+	}
+	listHeight := max(5, availableHeight-extraLines)
+	m.list.SetSize(m.detailInnerWidth(), listHeight)
+	bodySections := []string{m.list.View()}
+	if warning != "" {
+		bodySections = append(bodySections, warning)
+	}
+	body := panelStyle.Width(contentWidth).Render(
+		lipgloss.JoinVertical(lipgloss.Left, bodySections...),
+	)
+
+	var searchSegment string
 	if m.searching {
-		searchLine = searchPromptStyle.Render(m.searchInput.View())
+		searchSegment = searchPromptStyle.Render(m.searchInput.View())
 	} else {
-		searchLine = helperTextStyle.Render("Press / to search • Enter to inspect • q to quit")
+		searchSegment = helperTextStyle.Render("Press / to search")
 	}
-	help := helperTextStyle.Render("Tip: Use ←/→ after opening a table, Tab cycles detail panes.")
-	sections := []string{listContent}
-	if warning := m.warningView(m.width); warning != "" {
-		sections = append(sections, warning)
-	}
-	sections = append(sections, searchLine, help)
-	return lipgloss.JoinVertical(lipgloss.Left, sections...)
+	tipSegment := helperTextStyle.Render("Enter to inspect • q to quit • ←/→ navigate • Tab cycles detail panes")
+	footerLine := lipgloss.JoinHorizontal(lipgloss.Left, searchSegment, helperTextStyle.Render("  •  "), tipSegment)
+	footer := lipgloss.NewStyle().Width(contentWidth).Render(footerLine)
+
+	content := lipgloss.JoinVertical(
+		lipgloss.Left,
+		headerStyle.Width(contentWidth).Render("Mortality Tables"),
+		body,
+		footer,
+	)
+	return lipgloss.NewStyle().
+		Width(max(1, m.width)).
+		Height(max(1, m.height)).
+		Render(content)
 }
 
 func (m Model) detailView() string {
@@ -750,7 +786,7 @@ func (m Model) detailContentWidth() int {
 }
 
 func (m Model) detailInnerWidth() int {
-	return max(10, m.detailContentWidth()-4)
+	return max(10, m.detailContentWidth()-2)
 }
 
 func (m Model) availableBodyHeight(header, tabs, footer string) int {
