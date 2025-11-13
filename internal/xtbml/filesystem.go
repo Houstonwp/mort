@@ -1,9 +1,7 @@
 package xtbml
 
 import (
-	"bytes"
 	"fmt"
-	"io"
 	"os"
 	"path/filepath"
 	"sort"
@@ -54,17 +52,11 @@ func ConvertDirectoryWithObserver(srcDir, dstDir string, observer func(src, dst 
 
 // ConvertFile converts a single XML file at srcPath into JSON at dstPath.
 func ConvertFile(srcPath, dstPath string) error {
-	f, err := os.Open(srcPath)
+	data, err := os.ReadFile(srcPath)
 	if err != nil {
-		return fmt.Errorf("open %s: %w", srcPath, err)
-	}
-	defer f.Close()
-
-	var buf bytes.Buffer
-	if _, err := io.Copy(&buf, f); err != nil {
 		return fmt.Errorf("read %s: %w", srcPath, err)
 	}
-	out, err := ConvertXTbml(bytes.NewReader(buf.Bytes()))
+	out, err := convertFromBytes(data)
 	if err != nil {
 		return fmt.Errorf("convert %s: %w", srcPath, err)
 	}

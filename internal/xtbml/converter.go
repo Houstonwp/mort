@@ -14,37 +14,23 @@ func ConvertXTbml(r io.Reader) ([]byte, error) {
 	if err != nil {
 		return nil, fmt.Errorf("read input: %w", err)
 	}
+	return convertFromBytes(data)
+}
 
-	version, err := InferVersion(bytes.NewReader(data))
-	if err != nil {
-		return nil, err
-	}
-	classification, err := ParseContentClassification(bytes.NewReader(data))
-	if err != nil {
-		return nil, err
-	}
-	tableMetas, err := ParseTableMetas(bytes.NewReader(data))
-	if err != nil {
-		return nil, err
-	}
-	points, err := ParseRates(bytes.NewReader(data))
+func convertFromBytes(data []byte) ([]byte, error) {
+	doc, err := parseDocument(data)
 	if err != nil {
 		return nil, err
 	}
 
-	payload := struct {
-		Identifier     string                 `json:"identifier"`
-		Version        string                 `json:"version"`
-		Classification *ClassificationPayload `json:"classification"`
-		Tables         []TablePayload         `json:"tables"`
-	}{
-		Identifier:     NormalizeIdentifier(classification.TableName),
-		Version:        version,
-		Classification: toClassificationPayload(classification),
+	payload := ConvertedTable{
+		Identifier:     NormalizeIdentifier(doc.classification.TableName),
+		Version:        doc.version,
+		Classification: toClassificationPayload(doc.classification),
 	}
 
 	tableMap := make(map[int][]RateEntryPayload)
-	for _, point := range points {
+	for _, point := range doc.rates {
 		entry := RateEntryPayload{
 			Age:      point.Age,
 			Duration: point.Duration,
@@ -64,18 +50,18 @@ func ConvertXTbml(r io.Reader) ([]byte, error) {
 		for i, idx := range indexes {
 			payload.Tables[i] = TablePayload{
 				Index:    idx,
-				Metadata: metaForIndex(idx, tableMetas),
+				Metadata: metaForIndex(idx, doc.tableMetas),
 				Rates:    tableMap[idx],
 			}
 		}
 	}
 
-	if len(payload.Tables) == 0 && len(tableMetas) > 0 {
-		payload.Tables = make([]TablePayload, len(tableMetas))
-		for i := range tableMetas {
+	if len(payload.Tables) == 0 && len(doc.tableMetas) > 0 {
+		payload.Tables = make([]TablePayload, len(doc.tableMetas))
+		for i := range doc.tableMetas {
 			payload.Tables[i] = TablePayload{
 				Index:    i,
-				Metadata: metaPayload(tableMetas[i]),
+				Metadata: metaPayload(doc.tableMetas[i]),
 			}
 		}
 	}
@@ -88,6 +74,14 @@ func ConvertXTbml(r io.Reader) ([]byte, error) {
 	}
 
 	return buf.Bytes(), nil
+}
+
+// ConvertedTable represents the normalized JSON payload consumed by UI layers.
+type ConvertedTable struct {
+	Identifier     string                 `json:"identifier"`
+	Version        string                 `json:"version"`
+	Classification *ClassificationPayload `json:"classification"`
+	Tables         []TablePayload         `json:"tables"`
 }
 
 type ClassificationPayload struct {
