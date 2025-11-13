@@ -1,0 +1,30 @@
+{
+  "identifier": "table_beta",
+  "version": "1.3",
+  "classification": {
+    "tableIdentity": "beta",
+    "providerDomain": "example.org",
+    "providerName": "Beta Provider",
+    "tableReference": "Beta Ref",
+    "contentType": { "code": "2", "label": "Demo" },
+    "tableName": "Beta Table",
+    "tableDescription": "Contains Beta data.",
+    "comments": "",
+    "keywords": ["beta"]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": { "code": "2", "label": "Floating Point" },
+        "nation": { "code": "1", "label": "Nowhere" },
+        "tableDescription": "Beta meta",
+        "axes": []
+      },
+      "rates": [
+        { "age": 50, "rate": 0.02 }
+      ]
+    }
+  ]
+}

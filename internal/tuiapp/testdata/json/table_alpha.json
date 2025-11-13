@@ -1,0 +1,30 @@
+{
+  "identifier": "table_alpha",
+  "version": "1.3",
+  "classification": {
+    "tableIdentity": "alpha",
+    "providerDomain": "example.org",
+    "providerName": "Alpha Provider",
+    "tableReference": "Alpha Ref",
+    "contentType": { "code": "1", "label": "Demo" },
+    "tableName": "Alpha Table",
+    "tableDescription": "Alpha description.",
+    "comments": "",
+    "keywords": ["alpha"]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": { "code": "2", "label": "Floating Point" },
+        "nation": { "code": "1", "label": "Nowhere" },
+        "tableDescription": "Alpha meta",
+        "axes": []
+      },
+      "rates": [
+        { "age": 40, "rate": 0.01 }
+      ]
+    }
+  ]
+}
