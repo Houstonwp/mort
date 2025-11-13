@@ -19,7 +19,7 @@ func main() {
 
 	jsonDir := os.Getenv("MORT_JSON_DIR")
 	model := tui.NewModel(jsonDir)
-	if err := tea.NewProgram(model).Start(); err != nil {
+	if err := tea.NewProgram(model, tea.WithAltScreen()).Start(); err != nil {
 		fmt.Fprintf(os.Stderr, "tui error: %v\n", err)
 		os.Exit(1)
 	}

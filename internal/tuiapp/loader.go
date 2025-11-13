@@ -55,12 +55,21 @@ func LoadTableSummaries(dir string) ([]TableSummary, error) {
 	}
 
 	sort.Slice(summaries, func(i, j int) bool {
-		ai, _ := strconv.Atoi(summaries[i].TableIdentity)
-		bi, _ := strconv.Atoi(summaries[j].TableIdentity)
-		if ai != bi {
+		ai, aHas := parseIdentity(summaries[i].TableIdentity)
+		bi, bHas := parseIdentity(summaries[j].TableIdentity)
+		switch {
+		case aHas && bHas && ai != bi:
 			return ai < bi
+		case aHas && !bHas:
+			return true
+		case !aHas && bHas:
+			return false
+		default:
+			if summaries[i].TableIdentity != summaries[j].TableIdentity {
+				return summaries[i].TableIdentity < summaries[j].TableIdentity
+			}
+			return summaries[i].Name < summaries[j].Name
 		}
-		return summaries[i].Name < summaries[j].Name
 	})
 
 	return summaries, nil
@@ -159,4 +168,12 @@ func min(a, b int) int {
 		return a
 	}
 	return b
+}
+
+func parseIdentity(id string) (int, bool) {
+	val, err := strconv.Atoi(id)
+	if err != nil {
+		return 0, false
+	}
+	return val, true
 }
