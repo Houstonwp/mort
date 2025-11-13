@@ -10,8 +10,8 @@ import (
 
 	"github.com/charmbracelet/bubbles/key"
 	"github.com/charmbracelet/bubbles/list"
+	"github.com/charmbracelet/bubbles/paginator"
 	"github.com/charmbracelet/bubbles/table"
-	"github.com/charmbracelet/bubbles/textinput"
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
@@ -37,7 +37,6 @@ var (
 	panelStyle        = lipgloss.NewStyle().Border(lipgloss.RoundedBorder()).BorderForeground(accentColor).Padding(0, 1)
 	ratesPanelStyle   = lipgloss.NewStyle().Border(lipgloss.RoundedBorder()).BorderForeground(accentColor).Padding(0, 1)
 	warningPanelStyle = lipgloss.NewStyle().Border(lipgloss.RoundedBorder()).BorderForeground(warningColor).Padding(0, 1)
-	searchPromptStyle = lipgloss.NewStyle().Foreground(accentColor).PaddingLeft(1)
 	helperTextStyle   = lipgloss.NewStyle().Foreground(subtleColor)
 	tabActiveStyle    = lipgloss.NewStyle().Foreground(lipgloss.Color("0")).Background(accentColor).Bold(true).Padding(0, 2)
 	tabInactiveStyle  = lipgloss.NewStyle().Foreground(subtleColor).Padding(0, 2)
@@ -73,8 +72,6 @@ type Model struct {
 	summaries   []tuiapp.TableSummary
 	filtered    []tuiapp.TableSummary
 	warnings    []string
-	searching   bool
-	searchInput textinput.Model
 	detail      *tuiapp.TableDetail
 	detailIndex int
 	detailTab   int
@@ -98,20 +95,19 @@ func NewModel(jsonDir string) Model {
 	delegate.Styles.NormalDesc = helperTextStyle
 	delegate.Styles.SelectedDesc = helperTextStyle.Copy().Foreground(lipgloss.Color("252"))
 	l := list.New(nil, delegate, 0, 0)
-	l.Title = ""
-	l.SetShowStatusBar(false)
-	l.SetFilteringEnabled(false)
-	l.SetShowHelp(false)
+	l.SetShowTitle(false)
+	l.SetShowStatusBar(true)
+	l.SetFilteringEnabled(true)
+	l.SetShowFilter(true)
+	l.SetShowHelp(true)
 	l.SetShowPagination(true)
+	l.SetStatusBarItemName("table", "tables")
+	l.Paginator.Type = paginator.Arabic
+	l.Paginator.ArabicFormat = "%d/%d"
 	l.Styles.Title = headerStyle
 	l.Styles.NoItems = helperTextStyle
 	l.Styles.PaginationStyle = helperTextStyle
 	l.Styles.HelpStyle = helperTextStyle
-
-	ti := textinput.New()
-	ti.Placeholder = "Search by name or identifier"
-	ti.CharLimit = 64
-	ti.Prompt = "/ "
 
 	rateColumns := []table.Column{
 		{Title: "Age", Width: 8},
@@ -141,14 +137,13 @@ func NewModel(jsonDir string) Model {
 	tv.KeyMap = km
 
 	model := Model{
-		state:       stateLoading,
-		jsonDir:     jsonDir,
-		list:        l,
-		searchInput: ti,
-		width:       80,
-		height:      24,
-		ratesTable:  rt,
-		textView:    tv,
+		state:      stateLoading,
+		jsonDir:    jsonDir,
+		list:       l,
+		width:      80,
+		height:     24,
+		ratesTable: rt,
+		textView:   tv,
 	}
 	model.resizeRatesTable(model.detailInnerWidth())
 	return model
@@ -182,8 +177,8 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		}
 		if msg.done {
 			sortSummaries(m.summaries)
+			m.applyFilter("")
 		}
-		m.applyFilter(m.searchInput.Value())
 		if !msg.done {
 			return m, loadSummariesCmd(m.jsonDir, msg.files, msg.next)
 		}
@@ -206,22 +201,7 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		switch msg.String() {
 		case "ctrl+c", "q":
 			return m, tea.Quit
-		case "/":
-			if m.state == stateList && !m.searching {
-				m.searching = true
-				m.searchInput.Reset()
-				m.searchInput.Focus()
-				m.applyFilter("")
-				return m, nil
-			}
 		case "esc":
-			if m.searching {
-				m.searching = false
-				m.searchInput.Reset()
-				m.applyFilter("")
-				m.searchInput.Blur()
-				return m, nil
-			}
 			if m.state == stateDetail {
 				m.state = stateList
 				m.detail = nil
@@ -255,12 +235,6 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 					return m, nil
 				}
 			}
-		case "enter":
-			if m.searching {
-				m.searching = false
-				m.searchInput.Blur()
-				return m, nil
-			}
 			if m.state == stateList && len(m.filtered) > 0 {
 				if item, ok := m.list.SelectedItem().(tableItem); ok {
 					return m, loadDetailCmd(item.summary.FilePath)
@@ -280,13 +254,6 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				m.resetTextView()
 				return m, nil
 			}
-		}
-
-		if m.searching {
-			var cmd tea.Cmd
-			m.searchInput, cmd = m.searchInput.Update(msg)
-			m.applyFilter(m.searchInput.Value())
-			return m, cmd
 		}
 
 		if m.state == stateDetail && m.detail != nil && m.detailTab == tabRates {
@@ -337,11 +304,7 @@ func (m Model) listView() string {
 	contentWidth := m.detailContentWidth()
 	availableHeight := max(6, m.height-4)
 	warning := m.warningView(contentWidth)
-	extraLines := 1 // footer (search/tips) occupies single line outside body
-	if warning != "" {
-		extraLines++
-	}
-	listHeight := max(5, availableHeight-extraLines)
+	listHeight := max(5, availableHeight)
 	m.list.SetSize(m.detailInnerWidth(), listHeight)
 	bodySections := []string{m.list.View()}
 	if warning != "" {
@@ -351,21 +314,11 @@ func (m Model) listView() string {
 		lipgloss.JoinVertical(lipgloss.Left, bodySections...),
 	)
 
-	var searchSegment string
-	if m.searching {
-		searchSegment = searchPromptStyle.Render(m.searchInput.View())
-	} else {
-		searchSegment = helperTextStyle.Render("Press / to search")
-	}
-	tipSegment := helperTextStyle.Render("Enter to inspect • q to quit • ←/→ navigate • Tab cycles detail panes")
-	footerLine := lipgloss.JoinHorizontal(lipgloss.Left, searchSegment, helperTextStyle.Render("  •  "), tipSegment)
-	footer := lipgloss.NewStyle().Width(contentWidth).Render(footerLine)
-
+	title := headerStyle.Width(contentWidth).Render("Mortality Tables")
 	content := lipgloss.JoinVertical(
 		lipgloss.Left,
-		headerStyle.Width(contentWidth).Render("Mortality Tables"),
+		title,
 		body,
-		footer,
 	)
 	return lipgloss.NewStyle().
 		Width(max(1, m.width)).
