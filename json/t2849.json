@@ -1,0 +1,394 @@
+{
+  "identifier": "1974_medical_expense_tables_100_maximum_surgical_benefit_male",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2849",
+    "providerDomain": "soa.org",
+    "providerName": "Susie Lee",
+    "tableReference": "Anthony J. Houghton and Ronald M. Wolf, \"Development of the 1974 Medical Expense Tables\", Transactions of the Society of Actuaries, Vol. 30 (1978) Accessed: July, 2014 from https://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1978/January/tsa78v303.pdf",
+    "contentType": {
+      "code": "50",
+      "label": "Claim Cost (in Disability)"
+    },
+    "tableName": "1974 Medical Expense Tables: $100 Maximum Surgical Benefit - Male",
+    "tableDescription": "1974 Medical Expense Tables: $100 Maximum Surgical Benefit - Male. Minimum Age: 15. Maximum Age: 99",
+    "comments": "Study Data: Based on the crude net annual claim costs shown in the 1972 Transactions of the Society of Actuaries Reports and the 1974 Transactions of the Society of Actuaries Reports. All the data that underlie this crude experience have been adjusted or standardized to a 1957 California Relative Value Schedule (CRVS) basis, using the procedure\nshown in the 1963 Reports of the Transactions of the Society of Actuaries. Methodology: In order to eliminate the effects of selection and to bring the frequencies to an ultimate level of experience, each set of the crude frequencies were divided by ratios of aggregate experience for all durations to ultimate experience for durations 3 and later. The resulting two sets of crude net annual claim costs are combined by weighting each set by the respective aggregate amounts of claims underlying the set. In order to develop values based on the same surgical schedule as the schedule that underlies the 1956 Intercompany Surgical Table values, the combined crude net annual claim costs at pivotal ages are adjusted from a $100, 1957 CRVS basis to a $100, 1956 Intercompany Surgical Schedule basis. These ratios range from 1.30 at attained age 17 to 1.13 at attained ages 72 and over for male lives, and from 1.27 at attained age 17 to 1.21 at attained ages 72 and over for female lives. The male net annual claim cost at age 17 has been lowered empirically to 125 percent of the claim cost at attained age 22. The final pivotal claim costs are graduated by the same method used to graduate the hospital frequency rates (See SOA Table Identities 2845-2848). Claim costs beyond attained age 77 are developed by extending the respective male and female claim costs at attained age 77, using the following formula: S(x) = S(77)* [1 + 0.03(x - 77)]. Data Transcription Errors: None. Data Certified: 07/2014.",
+    "keywords": [
+      "Aggregate",
+      "Claim Cost",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1974 Medical Expense Tables: $100 Maximum Surgical Benefit - Male. Minimum Age: 15. Maximum Age: 99",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "99",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 2.08
+        },
+        {
+          "age": 16,
+          "rate": 2.08
+        },
+        {
+          "age": 17,
+          "rate": 2.08
+        },
+        {
+          "age": 18,
+          "rate": 1.97
+        },
+        {
+          "age": 19,
+          "rate": 1.87
+        },
+        {
+          "age": 20,
+          "rate": 1.79
+        },
+        {
+          "age": 21,
+          "rate": 1.72
+        },
+        {
+          "age": 22,
+          "rate": 1.66
+        },
+        {
+          "age": 23,
+          "rate": 1.62
+        },
+        {
+          "age": 24,
+          "rate": 1.59
+        },
+        {
+          "age": 25,
+          "rate": 1.57
+        },
+        {
+          "age": 26,
+          "rate": 1.56
+        },
+        {
+          "age": 27,
+          "rate": 1.57
+        },
+        {
+          "age": 28,
+          "rate": 1.59
+        },
+        {
+          "age": 29,
+          "rate": 1.61
+        },
+        {
+          "age": 30,
+          "rate": 1.65
+        },
+        {
+          "age": 31,
+          "rate": 1.69
+        },
+        {
+          "age": 32,
+          "rate": 1.73
+        },
+        {
+          "age": 33,
+          "rate": 1.77
+        },
+        {
+          "age": 34,
+          "rate": 1.82
+        },
+        {
+          "age": 35,
+          "rate": 1.87
+        },
+        {
+          "age": 36,
+          "rate": 1.92
+        },
+        {
+          "age": 37,
+          "rate": 1.98
+        },
+        {
+          "age": 38,
+          "rate": 2.04
+        },
+        {
+          "age": 39,
+          "rate": 2.1
+        },
+        {
+          "age": 40,
+          "rate": 2.16
+        },
+        {
+          "age": 41,
+          "rate": 2.23
+        },
+        {
+          "age": 42,
+          "rate": 2.29
+        },
+        {
+          "age": 43,
+          "rate": 2.35
+        },
+        {
+          "age": 44,
+          "rate": 2.41
+        },
+        {
+          "age": 45,
+          "rate": 2.47
+        },
+        {
+          "age": 46,
+          "rate": 2.54
+        },
+        {
+          "age": 47,
+          "rate": 2.61
+        },
+        {
+          "age": 48,
+          "rate": 2.69
+        },
+        {
+          "age": 49,
+          "rate": 2.78
+        },
+        {
+          "age": 50,
+          "rate": 2.89
+        },
+        {
+          "age": 51,
+          "rate": 3
+        },
+        {
+          "age": 52,
+          "rate": 3.13
+        },
+        {
+          "age": 53,
+          "rate": 3.26
+        },
+        {
+          "age": 54,
+          "rate": 3.41
+        },
+        {
+          "age": 55,
+          "rate": 3.56
+        },
+        {
+          "age": 56,
+          "rate": 3.72
+        },
+        {
+          "age": 57,
+          "rate": 3.9
+        },
+        {
+          "age": 58,
+          "rate": 4.08
+        },
+        {
+          "age": 59,
+          "rate": 4.27
+        },
+        {
+          "age": 60,
+          "rate": 4.47
+        },
+        {
+          "age": 61,
+          "rate": 4.66
+        },
+        {
+          "age": 62,
+          "rate": 4.85
+        },
+        {
+          "age": 63,
+          "rate": 5.04
+        },
+        {
+          "age": 64,
+          "rate": 5.24
+        },
+        {
+          "age": 65,
+          "rate": 5.43
+        },
+        {
+          "age": 66,
+          "rate": 5.62
+        },
+        {
+          "age": 67,
+          "rate": 5.81
+        },
+        {
+          "age": 68,
+          "rate": 5.99
+        },
+        {
+          "age": 69,
+          "rate": 6.18
+        },
+        {
+          "age": 70,
+          "rate": 6.35
+        },
+        {
+          "age": 71,
+          "rate": 6.52
+        },
+        {
+          "age": 72,
+          "rate": 6.69
+        },
+        {
+          "age": 73,
+          "rate": 6.83
+        },
+        {
+          "age": 74,
+          "rate": 6.94
+        },
+        {
+          "age": 75,
+          "rate": 7.04
+        },
+        {
+          "age": 76,
+          "rate": 7.18
+        },
+        {
+          "age": 77,
+          "rate": 7.36
+        },
+        {
+          "age": 78,
+          "rate": 7.58
+        },
+        {
+          "age": 79,
+          "rate": 7.8
+        },
+        {
+          "age": 80,
+          "rate": 8.02
+        },
+        {
+          "age": 81,
+          "rate": 8.24
+        },
+        {
+          "age": 82,
+          "rate": 8.46
+        },
+        {
+          "age": 83,
+          "rate": 8.68
+        },
+        {
+          "age": 84,
+          "rate": 8.91
+        },
+        {
+          "age": 85,
+          "rate": 9.13
+        },
+        {
+          "age": 86,
+          "rate": 9.35
+        },
+        {
+          "age": 87,
+          "rate": 9.57
+        },
+        {
+          "age": 88,
+          "rate": 9.79
+        },
+        {
+          "age": 89,
+          "rate": 10.01
+        },
+        {
+          "age": 90,
+          "rate": 10.23
+        },
+        {
+          "age": 91,
+          "rate": 10.45
+        },
+        {
+          "age": 92,
+          "rate": 10.67
+        },
+        {
+          "age": 93,
+          "rate": 10.89
+        },
+        {
+          "age": 94,
+          "rate": 11.11
+        },
+        {
+          "age": 95,
+          "rate": 11.33
+        },
+        {
+          "age": 96,
+          "rate": 11.56
+        },
+        {
+          "age": 97,
+          "rate": 11.78
+        },
+        {
+          "age": 98,
+          "rate": 12
+        },
+        {
+          "age": 99,
+          "rate": 12.22
+        }
+      ]
+    }
+  ]
+}

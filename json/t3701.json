@@ -1,0 +1,731 @@
+{
+  "identifier": "2023_group_term_life_waiver_study_male_select_period_disabled_death_rates",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "3701",
+    "providerDomain": "www.soa.org",
+    "providerName": "Society of Actuaries",
+    "tableReference": "Group Life Insurance Experience Committee, “2023 Group Term Life Waiver Experience Table Report”, Society of Actuaries (2023). Accessed: November, 2024 from https://www.soa.org/4a0146/globalassets/assets/files/resources/experience-studies/2023/group-life-waiver.pdf",
+    "contentType": {
+      "code": "2",
+      "label": "Disabled Lives Mortality"
+    },
+    "tableName": "2023 Group Term Life Waiver Study - Male, Select Period, Disabled Death Rates",
+    "tableDescription": "2023 Group Term Life Waiver Study - Select Period Death Rates for Disabled - Male. Years 1-10 (Appendix A - Figure A.2) Central Ages. Minimum Age: 17. Maximum Age: 72",
+    "comments": "Study Data: The data used was the same set analyzed in the 2019 GLWP Report. Covers the most recent 10 years of the data, 2006-2015, provided the most relevant and credible data to determine termination rates at the time of table creation. Observation cells with at least 300 observed claim terminations were deemed fully credible and used for the core graduation of rates in the table. The actual variable groupings were selected so that over 80% of the observation cells had this credible number of terminations, and the relatively small number of cells with few terminations did not have a significant impact on the final expectations.\nMethodology: The GLM model provided core rates for most of the Table as published. For the select period tables, rates for disabled ages 27 through 62 were provided from the GLM model. Some small adjustments were made to smooth the durational slope of termination rates in ages 27-32 and 57-62. The Table was extended to disabled ages 17 and 72 by using the termination rate relationships of the 2005 Table. For the ultimate period tables, rates for attained ages 37 to 70 were provided from the GLM model. Modest adjustments were made to ensure a smooth progression of termination rates across attained ages, as well as ensure smooth transition from the select table to the ultimate table. The ultimate recovery table was extended back to age 27 by increasing rates by 1%-1.25% for each age prior to age 37. The recovery rates beyond age 70 were extended down to 0 by attained age 80, consistent with the underlying data. The ultimate mortality table was extended back to age 27 by using the mortality rate slope from the 2005 Table as was done for the select period. To extend mortality rates beyond age 100 to age 120, the sex-specific rates from 2017 Unloaded CSO Composite Mortality Table were used. The mortality rates between ages 70 and 100 were interpolated to ensure an appropriate and smooth exponential rate curve for those 30 ages.",
+    "keywords": [
+      "Select",
+      "United States of America",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2023 Group Term Life Waiver Study - Male. Select Period Death Rates for Disabled. Third Quarter Death Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72",
+        "axes": [
+          {
+            "id": "Month",
+            "scaleType": {
+              "code": "0",
+              "label": "Unknown"
+            },
+            "axisName": "Month",
+            "minValue": "6",
+            "maxValue": "6",
+            "increment": "0"
+          },
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 6,
+          "duration": 17,
+          "rate": 0.0113
+        },
+        {
+          "age": 6,
+          "duration": 22,
+          "rate": 0.0133
+        },
+        {
+          "age": 6,
+          "duration": 27,
+          "rate": 0.0133
+        },
+        {
+          "age": 6,
+          "duration": 32,
+          "rate": 0.0152
+        },
+        {
+          "age": 6,
+          "duration": 37,
+          "rate": 0.0175
+        },
+        {
+          "age": 6,
+          "duration": 42,
+          "rate": 0.0201
+        },
+        {
+          "age": 6,
+          "duration": 47,
+          "rate": 0.0231
+        },
+        {
+          "age": 6,
+          "duration": 52,
+          "rate": 0.0265
+        },
+        {
+          "age": 6,
+          "duration": 57,
+          "rate": 0.0303
+        },
+        {
+          "age": 6,
+          "duration": 62,
+          "rate": 0.0319
+        },
+        {
+          "age": 6,
+          "duration": 67,
+          "rate": 0.0293
+        },
+        {
+          "age": 6,
+          "duration": 72,
+          "rate": 0.0267
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2023 Group Term Life Waiver Study - Male. Select Period Death Rates for Disabled. Fourth Quarter Death Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72",
+        "axes": [
+          {
+            "id": "Month",
+            "scaleType": {
+              "code": "0",
+              "label": "Unknown"
+            },
+            "axisName": "Month",
+            "minValue": "9",
+            "maxValue": "9",
+            "increment": "0"
+          },
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 9,
+          "duration": 17,
+          "rate": 0.0144
+        },
+        {
+          "age": 9,
+          "duration": 22,
+          "rate": 0.0169
+        },
+        {
+          "age": 9,
+          "duration": 27,
+          "rate": 0.0169
+        },
+        {
+          "age": 9,
+          "duration": 32,
+          "rate": 0.0194
+        },
+        {
+          "age": 9,
+          "duration": 37,
+          "rate": 0.0223
+        },
+        {
+          "age": 9,
+          "duration": 42,
+          "rate": 0.0256
+        },
+        {
+          "age": 9,
+          "duration": 47,
+          "rate": 0.0294
+        },
+        {
+          "age": 9,
+          "duration": 52,
+          "rate": 0.0337
+        },
+        {
+          "age": 9,
+          "duration": 57,
+          "rate": 0.0387
+        },
+        {
+          "age": 9,
+          "duration": 62,
+          "rate": 0.0406
+        },
+        {
+          "age": 9,
+          "duration": 67,
+          "rate": 0.0373
+        },
+        {
+          "age": 9,
+          "duration": 72,
+          "rate": 0.034
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2023 Group Term Life Waiver Study - Male. Select Period Death Rates for Disabled. First Quarter for Year 2 Death Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72",
+        "axes": [
+          {
+            "id": "Month",
+            "scaleType": {
+              "code": "0",
+              "label": "Unknown"
+            },
+            "axisName": "Month",
+            "minValue": "12",
+            "maxValue": "12",
+            "increment": "0"
+          },
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 12,
+          "duration": 17,
+          "rate": 0.0134
+        },
+        {
+          "age": 12,
+          "duration": 22,
+          "rate": 0.0158
+        },
+        {
+          "age": 12,
+          "duration": 27,
+          "rate": 0.0158
+        },
+        {
+          "age": 12,
+          "duration": 32,
+          "rate": 0.0181
+        },
+        {
+          "age": 12,
+          "duration": 37,
+          "rate": 0.0208
+        },
+        {
+          "age": 12,
+          "duration": 42,
+          "rate": 0.0239
+        },
+        {
+          "age": 12,
+          "duration": 47,
+          "rate": 0.0274
+        },
+        {
+          "age": 12,
+          "duration": 52,
+          "rate": 0.0314
+        },
+        {
+          "age": 12,
+          "duration": 57,
+          "rate": 0.036
+        },
+        {
+          "age": 12,
+          "duration": 62,
+          "rate": 0.0379
+        },
+        {
+          "age": 12,
+          "duration": 67,
+          "rate": 0.0348
+        },
+        {
+          "age": 12,
+          "duration": 72,
+          "rate": 0.0317
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2023 Group Term Life Waiver Study - Male. Select Period Death Rates for Disabled. Second Quarter for Year 2 Death Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72",
+        "axes": [
+          {
+            "id": "Month",
+            "scaleType": {
+              "code": "0",
+              "label": "Unknown"
+            },
+            "axisName": "Month",
+            "minValue": "15",
+            "maxValue": "15",
+            "increment": "0"
+          },
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "duration": 17,
+          "rate": 0.012
+        },
+        {
+          "age": 15,
+          "duration": 22,
+          "rate": 0.0132
+        },
+        {
+          "age": 15,
+          "duration": 27,
+          "rate": 0.0138
+        },
+        {
+          "age": 15,
+          "duration": 32,
+          "rate": 0.0158
+        },
+        {
+          "age": 15,
+          "duration": 37,
+          "rate": 0.0181
+        },
+        {
+          "age": 15,
+          "duration": 42,
+          "rate": 0.0208
+        },
+        {
+          "age": 15,
+          "duration": 47,
+          "rate": 0.0239
+        },
+        {
+          "age": 15,
+          "duration": 52,
+          "rate": 0.0274
+        },
+        {
+          "age": 15,
+          "duration": 57,
+          "rate": 0.0314
+        },
+        {
+          "age": 15,
+          "duration": 62,
+          "rate": 0.033
+        },
+        {
+          "age": 15,
+          "duration": 67,
+          "rate": 0.0297
+        },
+        {
+          "age": 15,
+          "duration": 72,
+          "rate": 0.0264
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2023 Group Term Life Waiver Study - Male. Select Period Death Rates for Disabled. Third Quarter for Year 2 Death Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72",
+        "axes": [
+          {
+            "id": "Month",
+            "scaleType": {
+              "code": "0",
+              "label": "Unknown"
+            },
+            "axisName": "Month",
+            "minValue": "18",
+            "maxValue": "18",
+            "increment": "0"
+          },
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 18,
+          "duration": 17,
+          "rate": 0.011
+        },
+        {
+          "age": 18,
+          "duration": 22,
+          "rate": 0.0119
+        },
+        {
+          "age": 18,
+          "duration": 27,
+          "rate": 0.0119
+        },
+        {
+          "age": 18,
+          "duration": 32,
+          "rate": 0.0137
+        },
+        {
+          "age": 18,
+          "duration": 37,
+          "rate": 0.0157
+        },
+        {
+          "age": 18,
+          "duration": 42,
+          "rate": 0.0181
+        },
+        {
+          "age": 18,
+          "duration": 47,
+          "rate": 0.0207
+        },
+        {
+          "age": 18,
+          "duration": 52,
+          "rate": 0.0238
+        },
+        {
+          "age": 18,
+          "duration": 57,
+          "rate": 0.0273
+        },
+        {
+          "age": 18,
+          "duration": 62,
+          "rate": 0.0286
+        },
+        {
+          "age": 18,
+          "duration": 67,
+          "rate": 0.0276
+        },
+        {
+          "age": 18,
+          "duration": 72,
+          "rate": 0.0244
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2023 Group Term Life Waiver Study - Male. Select Period Death Rates for Disabled. Fourth Quarter for Year 2 Death Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72",
+        "axes": [
+          {
+            "id": "Month",
+            "scaleType": {
+              "code": "0",
+              "label": "Unknown"
+            },
+            "axisName": "Month",
+            "minValue": "21",
+            "maxValue": "21",
+            "increment": "0"
+          },
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 21,
+          "duration": 17,
+          "rate": 0.0097
+        },
+        {
+          "age": 21,
+          "duration": 22,
+          "rate": 0.0105
+        },
+        {
+          "age": 21,
+          "duration": 27,
+          "rate": 0.0105
+        },
+        {
+          "age": 21,
+          "duration": 32,
+          "rate": 0.012
+        },
+        {
+          "age": 21,
+          "duration": 37,
+          "rate": 0.0138
+        },
+        {
+          "age": 21,
+          "duration": 42,
+          "rate": 0.0159
+        },
+        {
+          "age": 21,
+          "duration": 47,
+          "rate": 0.0182
+        },
+        {
+          "age": 21,
+          "duration": 52,
+          "rate": 0.0209
+        },
+        {
+          "age": 21,
+          "duration": 57,
+          "rate": 0.0239
+        },
+        {
+          "age": 21,
+          "duration": 62,
+          "rate": 0.0251
+        },
+        {
+          "age": 21,
+          "duration": 67,
+          "rate": 0.0251
+        },
+        {
+          "age": 21,
+          "duration": 72,
+          "rate": 0.0219
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2023 Group Term Life Waiver Study - Male. Select Period Death Rates for Disabled. Annual Death Rates for Year 2 -10 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72",
+        "axes": [
+          {
+            "id": "Year",
+            "scaleType": {
+              "code": "0",
+              "label": "Unknown"
+            },
+            "axisName": "Year",
+            "minValue": "2",
+            "maxValue": "10",
+            "increment": "1"
+          },
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 24,
+          "duration": 17,
+          "rate": 0.0453
+        },
+        {
+          "age": 24,
+          "duration": 22,
+          "rate": 0.0504
+        },
+        {
+          "age": 24,
+          "duration": 27,
+          "rate": 0.051
+        },
+        {
+          "age": 24,
+          "duration": 32,
+          "rate": 0.0583
+        },
+        {
+          "age": 24,
+          "duration": 37,
+          "rate": 0.0667
+        },
+        {
+          "age": 24,
+          "duration": 42,
+          "rate": 0.0764
+        },
+        {
+          "age": 24,
+          "duration": 47,
+          "rate": 0.0873
+        },
+        {
+          "age": 24,
+          "duration": 52,
+          "rate": 0.0996
+        },
+        {
+          "age": 24,
+          "duration": 57,
+          "rate": 0.1136
+        },
+        {
+          "age": 24,
+          "duration": 62,
+          "rate": 0.119
+        },
+        {
+          "age": 24,
+          "duration": 67,
+          "rate": 0.1122
+        },
+        {
+          "age": 24,
+          "duration": 72,
+          "rate": 0.1004
+        }
+      ]
+    }
+  ]
+}

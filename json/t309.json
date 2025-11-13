@@ -1,0 +1,402 @@
+{
+  "identifier": "table_7_1944_rrb_railway_employees_mortality_table",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "309",
+    "providerDomain": "soa.org",
+    "providerName": "Roger Scott Lumsden",
+    "tableReference": "Joseph Musher, “Third Annual Valuation of the Assets and Liabilities Under the Railroad Retirement Acts as of December 31, 1944”, Railroad Retirement Board (Chicago, 1946) Table 7. Reprinted by Joseph Musher, “Actuarial Aspects of the Railroad Retirement System”, Transactions of the Society of Actuaries Vol. II No.2 (Chicago, 1950). Accessed:  01/2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1950/January/tsa50v2n22.pdf, p. 5-6",
+    "contentType": {
+      "code": "83",
+      "label": "Group Life"
+    },
+    "tableName": "Table 7: 1944 RRB Railway Employees Mortality Table",
+    "tableDescription": "Table 7: 1944 Railroad Retirement Board (RRB) Railway Employees Mortality Table.  Minimum Age: 18. Maximum Age: 104",
+    "comments": "Study Data: Under the Railroad Retirement Act of 1937, the Railroad Retirement Board (RRB) was established to administer a benefits program that offered four different types of retirement annuities. Congress’ intent was to encourage the retirement of older railroad workers and to provide jobs to younger workers and generally improve the operation of the railroads with stronger, more able bodies (H.R. Rep. No. 1711, 74th Cong., 1st Sess. 10 [1935]). In conjunction with the Act, the RRB must prepare an annual report on the actuarial status of the railroad retirement system and to submit the report to the Congress. However, the information available to the RRB on deaths of covered employees was felt too incomplete and fragmentary to permit valid mortality investigations in 1944. Therefore data associated with group life insurance experience for steam railroad employees from the period 1939-1941 was used. Methodology: Data underlying the group life experience for steam railroad employees was derived from the reports of the Committee on Group Mortality Investigations for 1932-41 and for 1932-38. Any improvements in mortality between the periods of study and the term covered by the RRB’s annual report was accounted for by applying a 1-year set-back in age. Data Transcription Errors: None. Data Certified: 01/2013.",
+    "keywords": [
+      "Aggregate",
+      "Insured Lives Mortality",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "Table 7: 1944 Railroad Retirement Board (RRB) Railway Employees Mortality Table.  Minimum Age: 18. Maximum Age: 104",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "18",
+            "maxValue": "104",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 18,
+          "rate": 0.00156
+        },
+        {
+          "age": 19,
+          "rate": 0.00162
+        },
+        {
+          "age": 20,
+          "rate": 0.00166
+        },
+        {
+          "age": 21,
+          "rate": 0.00172
+        },
+        {
+          "age": 22,
+          "rate": 0.00178
+        },
+        {
+          "age": 23,
+          "rate": 0.00185
+        },
+        {
+          "age": 24,
+          "rate": 0.00194
+        },
+        {
+          "age": 25,
+          "rate": 0.00204
+        },
+        {
+          "age": 26,
+          "rate": 0.00214
+        },
+        {
+          "age": 27,
+          "rate": 0.00226
+        },
+        {
+          "age": 28,
+          "rate": 0.00237
+        },
+        {
+          "age": 29,
+          "rate": 0.00249
+        },
+        {
+          "age": 30,
+          "rate": 0.00261
+        },
+        {
+          "age": 31,
+          "rate": 0.00274
+        },
+        {
+          "age": 32,
+          "rate": 0.00287
+        },
+        {
+          "age": 33,
+          "rate": 0.00302
+        },
+        {
+          "age": 34,
+          "rate": 0.00318
+        },
+        {
+          "age": 35,
+          "rate": 0.00336
+        },
+        {
+          "age": 36,
+          "rate": 0.00357
+        },
+        {
+          "age": 37,
+          "rate": 0.0038
+        },
+        {
+          "age": 38,
+          "rate": 0.00405
+        },
+        {
+          "age": 39,
+          "rate": 0.00432
+        },
+        {
+          "age": 40,
+          "rate": 0.00464
+        },
+        {
+          "age": 41,
+          "rate": 0.00498
+        },
+        {
+          "age": 42,
+          "rate": 0.00538
+        },
+        {
+          "age": 43,
+          "rate": 0.00581
+        },
+        {
+          "age": 44,
+          "rate": 0.0063
+        },
+        {
+          "age": 45,
+          "rate": 0.00683
+        },
+        {
+          "age": 46,
+          "rate": 0.00742
+        },
+        {
+          "age": 47,
+          "rate": 0.00804
+        },
+        {
+          "age": 48,
+          "rate": 0.00873
+        },
+        {
+          "age": 49,
+          "rate": 0.00948
+        },
+        {
+          "age": 50,
+          "rate": 0.01028
+        },
+        {
+          "age": 51,
+          "rate": 0.01118
+        },
+        {
+          "age": 52,
+          "rate": 0.01214
+        },
+        {
+          "age": 53,
+          "rate": 0.0132
+        },
+        {
+          "age": 54,
+          "rate": 0.01435
+        },
+        {
+          "age": 55,
+          "rate": 0.0156
+        },
+        {
+          "age": 56,
+          "rate": 0.01696
+        },
+        {
+          "age": 57,
+          "rate": 0.01842
+        },
+        {
+          "age": 58,
+          "rate": 0.01998
+        },
+        {
+          "age": 59,
+          "rate": 0.02168
+        },
+        {
+          "age": 60,
+          "rate": 0.02352
+        },
+        {
+          "age": 61,
+          "rate": 0.02554
+        },
+        {
+          "age": 62,
+          "rate": 0.02774
+        },
+        {
+          "age": 63,
+          "rate": 0.03015
+        },
+        {
+          "age": 64,
+          "rate": 0.03279
+        },
+        {
+          "age": 65,
+          "rate": 0.03564
+        },
+        {
+          "age": 66,
+          "rate": 0.0387
+        },
+        {
+          "age": 67,
+          "rate": 0.04196
+        },
+        {
+          "age": 68,
+          "rate": 0.04539
+        },
+        {
+          "age": 69,
+          "rate": 0.04904
+        },
+        {
+          "age": 70,
+          "rate": 0.05294
+        },
+        {
+          "age": 71,
+          "rate": 0.05716
+        },
+        {
+          "age": 72,
+          "rate": 0.06176
+        },
+        {
+          "age": 73,
+          "rate": 0.06677
+        },
+        {
+          "age": 74,
+          "rate": 0.07224
+        },
+        {
+          "age": 75,
+          "rate": 0.07818
+        },
+        {
+          "age": 76,
+          "rate": 0.08463
+        },
+        {
+          "age": 77,
+          "rate": 0.09156
+        },
+        {
+          "age": 78,
+          "rate": 0.09898
+        },
+        {
+          "age": 79,
+          "rate": 0.10694
+        },
+        {
+          "age": 80,
+          "rate": 0.11546
+        },
+        {
+          "age": 81,
+          "rate": 0.1246
+        },
+        {
+          "age": 82,
+          "rate": 0.13434
+        },
+        {
+          "age": 83,
+          "rate": 0.14473
+        },
+        {
+          "age": 84,
+          "rate": 0.15581
+        },
+        {
+          "age": 85,
+          "rate": 0.1676
+        },
+        {
+          "age": 86,
+          "rate": 0.18021
+        },
+        {
+          "age": 87,
+          "rate": 0.19358
+        },
+        {
+          "age": 88,
+          "rate": 0.20776
+        },
+        {
+          "age": 89,
+          "rate": 0.2228
+        },
+        {
+          "age": 90,
+          "rate": 0.23866
+        },
+        {
+          "age": 91,
+          "rate": 0.25542
+        },
+        {
+          "age": 92,
+          "rate": 0.27298
+        },
+        {
+          "age": 93,
+          "rate": 0.29134
+        },
+        {
+          "age": 94,
+          "rate": 0.3102
+        },
+        {
+          "age": 95,
+          "rate": 0.32896
+        },
+        {
+          "age": 96,
+          "rate": 0.34718
+        },
+        {
+          "age": 97,
+          "rate": 0.36408
+        },
+        {
+          "age": 98,
+          "rate": 0.37962
+        },
+        {
+          "age": 99,
+          "rate": 0.39616
+        },
+        {
+          "age": 100,
+          "rate": 0.4184
+        },
+        {
+          "age": 101,
+          "rate": 0.45182
+        },
+        {
+          "age": 102,
+          "rate": 0.49902
+        },
+        {
+          "age": 103,
+          "rate": 0.56004
+        },
+        {
+          "age": 104,
+          "rate": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "identifier": "scale_mp_2014_factoring_out_factors_female",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "3140",
+    "providerDomain": "soa.org",
+    "providerName": "Retirement Plans Experience Committee",
+    "tableReference": "Society of Actuaries, research-2014-mort-imp-scale-rates.xlsx, Sheet \"Factoring Out Factors\", https://www.soa.org/Files/Research/Exp-Study/research-2014-mort-imp-scale-rates.xlsx",
+    "contentType": {
+      "code": "78",
+      "label": "Annuitant Mortality"
+    },
+    "tableName": "Scale MP-2014-Factoring out factors-Female",
+    "tableDescription": "Scale MP-2014-Factoring out factors-Female",
+    "comments": "The primary focus of this study was a comprehensive analysis of mortality improvement trends for pension plans in the United States.  The starting historical array for Scale MP-2014 was based on the most recent Social Security mortality dataset (through calendar year 2009) supplied by the Office of the Chief Actuary.  These historical rates were graduated using two-dimensional Whittaker-Henderson graduation techniques. A two-year step-back from 2009 was used, making 2007 the final year of improvement rates based solely on graduated historical data.  The ultimate mortality improvement assumption was selected to be 1.0 percent per annum through age 85, followed first by a linear decrease to 0.85 percent at age 95, and then by a linear decrease to zero at age 115.  A 20-year convergence period was selected for the smooth transition between 2007 and the year that these long-term, ultimate rates are first attained.  Hence, the age-specific Scale MP-2014 rates are constant starting in calendar year 2027. Data Certified: 07/2018.",
+    "keywords": [
+      "Aggregate",
+      "Annuitant Mortality",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "Scale MP-2014-Factoring out factors-Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "20",
+            "maxValue": "120",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 20,
+          "rate": 0.801021990770233
+        },
+        {
+          "age": 21,
+          "rate": 0.822413458236303
+        },
+        {
+          "age": 22,
+          "rate": 0.846787093552213
+        },
+        {
+          "age": 23,
+          "rate": 0.873105515301173
+        },
+        {
+          "age": 24,
+          "rate": 0.900771766425069
+        },
+        {
+          "age": 25,
+          "rate": 0.929686185607746
+        },
+        {
+          "age": 26,
+          "rate": 0.964593050454111
+        },
+        {
+          "age": 27,
+          "rate": 0.995882290548216
+        },
+        {
+          "age": 28,
+          "rate": 1.02257584105431
+        },
+        {
+          "age": 29,
+          "rate": 1.03854757071154
+        },
+        {
+          "age": 30,
+          "rate": 1.04429132601942
+        },
+        {
+          "age": 31,
+          "rate": 1.03986019019896
+        },
+        {
+          "age": 32,
+          "rate": 1.02628906082096
+        },
+        {
+          "age": 33,
+          "rate": 1.00580427891695
+        },
+        {
+          "age": 34,
+          "rate": 0.980057943670312
+        },
+        {
+          "age": 35,
+          "rate": 0.951725458574896
+        },
+        {
+          "age": 36,
+          "rate": 0.922903688598337
+        },
+        {
+          "age": 37,
+          "rate": 0.896034051571265
+        },
+        {
+          "age": 38,
+          "rate": 0.872513459246561
+        },
+        {
+          "age": 39,
+          "rate": 0.853705969391559
+        },
+        {
+          "age": 40,
+          "rate": 0.840132951356801
+        },
+        {
+          "age": 41,
+          "rate": 0.83601861776902
+        },
+        {
+          "age": 42,
+          "rate": 0.837039326934964
+        },
+        {
+          "age": 43,
+          "rate": 0.842779704056727
+        },
+        {
+          "age": 44,
+          "rate": 0.852716343768561
+        },
+        {
+          "age": 45,
+          "rate": 0.866185142832956
+        },
+        {
+          "age": 46,
+          "rate": 0.882077681588492
+        },
+        {
+          "age": 47,
+          "rate": 0.899047508372322
+        },
+        {
+          "age": 48,
+          "rate": 0.919195153377015
+        },
+        {
+          "age": 49,
+          "rate": 0.939559950517884
+        },
+        {
+          "age": 50,
+          "rate": 0.957338628117245
+        },
+        {
+          "age": 51,
+          "rate": 0.97072874166024
+        },
+        {
+          "age": 52,
+          "rate": 0.978574584894666
+        },
+        {
+          "age": 53,
+          "rate": 0.980064425552503
+        },
+        {
+          "age": 54,
+          "rate": 0.975071885050446
+        },
+        {
+          "age": 55,
+          "rate": 0.964458585431487
+        },
+        {
+          "age": 56,
+          "rate": 0.948962597162494
+        },
+        {
+          "age": 57,
+          "rate": 0.930673978820106
+        },
+        {
+          "age": 58,
+          "rate": 0.911036055676086
+        },
+        {
+          "age": 59,
+          "rate": 0.891312745792774
+        },
+        {
+          "age": 60,
+          "rate": 0.873565864725273
+        },
+        {
+          "age": 61,
+          "rate": 0.857879319412278
+        },
+        {
+          "age": 62,
+          "rate": 0.84528556002737
+        },
+        {
+          "age": 63,
+          "rate": 0.8358410513996
+        },
+        {
+          "age": 64,
+          "rate": 0.82886195324546
+        },
+        {
+          "age": 65,
+          "rate": 0.824548351990817
+        },
+        {
+          "age": 66,
+          "rate": 0.822021091141983
+        },
+        {
+          "age": 67,
+          "rate": 0.820928751463336
+        },
+        {
+          "age": 68,
+          "rate": 0.820930482858062
+        },
+        {
+          "age": 69,
+          "rate": 0.821857402736653
+        },
+        {
+          "age": 70,
+          "rate": 0.823375136159134
+        },
+        {
+          "age": 71,
+          "rate": 0.825317604069068
+        },
+        {
+          "age": 72,
+          "rate": 0.827856972648868
+        },
+        {
+          "age": 73,
+          "rate": 0.830488027127333
+        },
+        {
+          "age": 74,
+          "rate": 0.833041105168041
+        },
+        {
+          "age": 75,
+          "rate": 0.835601131483815
+        },
+        {
+          "age": 76,
+          "rate": 0.837911278157541
+        },
+        {
+          "age": 77,
+          "rate": 0.839540095950378
+        },
+        {
+          "age": 78,
+          "rate": 0.840570365341496
+        },
+        {
+          "age": 79,
+          "rate": 0.840999903191478
+        },
+        {
+          "age": 80,
+          "rate": 0.840827910778575
+        },
+        {
+          "age": 81,
+          "rate": 0.839797045581866
+        },
+        {
+          "age": 82,
+          "rate": 0.838681435220588
+        },
+        {
+          "age": 83,
+          "rate": 0.836967750187701
+        },
+        {
+          "age": 84,
+          "rate": 0.835000523234366
+        },
+        {
+          "age": 85,
+          "rate": 0.833377933338874
+        },
+        {
+          "age": 86,
+          "rate": 0.832013088902566
+        },
+        {
+          "age": 87,
+          "rate": 0.831244910870652
+        },
+        {
+          "age": 88,
+          "rate": 0.831753732630541
+        },
+        {
+          "age": 89,
+          "rate": 0.83362598092724
+        },
+        {
+          "age": 90,
+          "rate": 0.83618548473081
+        },
+        {
+          "age": 91,
+          "rate": 0.839609185940096
+        },
+        {
+          "age": 92,
+          "rate": 0.843992381611876
+        },
+        {
+          "age": 93,
+          "rate": 0.84952187143194
+        },
+        {
+          "age": 94,
+          "rate": 0.856303690601452
+        },
+        {
+          "age": 95,
+          "rate": 0.864100190348083
+        },
+        {
+          "age": 96,
+          "rate": 0.870460341820713
+        },
+        {
+          "age": 97,
+          "rate": 0.877039274384601
+        },
+        {
+          "age": 98,
+          "rate": 0.883482266753077
+        },
+        {
+          "age": 99,
+          "rate": 0.889966292525805
+        },
+        {
+          "age": 100,
+          "rate": 0.896401147471887
+        },
+        {
+          "age": 101,
+          "rate": 0.903059146572757
+        },
+        {
+          "age": 102,
+          "rate": 0.909668339109923
+        },
+        {
+          "age": 103,
+          "rate": 0.916319269126933
+        },
+        {
+          "age": 104,
+          "rate": 0.923199277808869
+        },
+        {
+          "age": 105,
+          "rate": 0.929936303967853
+        },
+        {
+          "age": 106,
+          "rate": 0.936527689253661
+        },
+        {
+          "age": 107,
+          "rate": 0.943634508894091
+        },
+        {
+          "age": 108,
+          "rate": 0.950501406918035
+        },
+        {
+          "age": 109,
+          "rate": 0.957411677598301
+        },
+        {
+          "age": 110,
+          "rate": 0.964462523724927
+        },
+        {
+          "age": 111,
+          "rate": 0.971461118906295
+        },
+        {
+          "age": 112,
+          "rate": 0.978504089708588
+        },
+        {
+          "age": 113,
+          "rate": 0.985492534679456
+        },
+        {
+          "age": 114,
+          "rate": 0.992921931353367
+        },
+        {
+          "age": 115,
+          "rate": 1
+        },
+        {
+          "age": 116,
+          "rate": 1
+        },
+        {
+          "age": 117,
+          "rate": 1
+        },
+        {
+          "age": 118,
+          "rate": 1
+        },
+        {
+          "age": 119,
+          "rate": 1
+        },
+        {
+          "age": 120,
+          "rate": 1
+        }
+      ]
+    }
+  ]
+}

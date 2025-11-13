@@ -1,0 +1,394 @@
+{
+  "identifier": "1974_medical_expense_tables_200_maximum_misc_hospital_benefit_female",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2848",
+    "providerDomain": "soa.org",
+    "providerName": "Susie Lee",
+    "tableReference": "Anthony J. Houghton and Ronald M. Wolf, \"Development of the 1974 Medical Expense Tables\", Transactions of the Society of Actuaries, Vol. 30 (1978) Accessed: July, 2014 from https://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1978/January/tsa78v303.pdf",
+    "contentType": {
+      "code": "50",
+      "label": "Claim Cost (in Disability)"
+    },
+    "tableName": "1974 Medical Expense Tables: $200 Maximum Misc. Hospital Benefit - Female",
+    "tableDescription": "1974 Medical Expense Tables: $200 Maximum Misc. Hospital Benefit - Female. Minimum Age: 15. Maximum Age: 99",
+    "comments": "Study Data: The sources of hospital frequency rates used in the 1974 Medical Expense Tables are the crude frequencies of hospitalization for individually underwritten lives for a daily hospital benefit with a 90-day maximum benefit period and no deductible. These frequencies, displayed in Transactions of the Society of Actuaries 1972 Reports and 1974 Reports, are based on the aggregate experience for all durations combined. Methodology: In order to eliminate the effects of selection and to bring the frequencies to an ultimate level of experience, each set of the crude frequencies were divided by ratios of aggregate experience for all durations to ultimate experience for durations 3 and later with one exception. The ratio of 100% for females in the 1972 Reports appeared to be illogical and was adjusted empirically to 98%. The two sets of crude frequency rates, adjusted to reflect experience in durations 3 and later, were combined into one set of crude frequency rates by weighting the two sets by the respective amounts of daily hospital benefits in force on claims in the two reports. For male lives the graduation method that gives a satisfactory combination of smoothness and fidelity to the crude data is to interpolate separately the crude frequency rates for every tenth attained age. Interpolations were then performed by passing a different cubic polynomial through each pair of consecutive points and then fitting these curves together to produce one smooth, continuous curve. The curve between each pair of consecutive points is determined by the three points on each side of the interval of interpolation. The exact method employed is taken from a paper written by Hiroshi Akima for\nthe Environmental Science Services Administration of the United States Department of Commerce, entitled \"A Method of Smooth Curve Fitting\". The results of these two interpolations were\nthen averaged to produce final graduated frequency rates. The resulting frequency rates at attained ages below 22 are lowered empirically by requiring that the rate at attained age 17 be 125 percent of the rate at attained age 22. For female lives, it was decided to modify these patterns in order to produce more conservative net premiums and reserves. A graphic graduation of the combined crude frequency rates was made, producing a smooth set of almost continuously increasing frequency rates. Hospital frequency rates above attained age 77 developed by formula. For ages 77 to 87 inclusive, F(x) = F(77) * (1 + 0.03 *(x - 77)) and for ages 87 to 99 inclusive, F(x) = F(87) * (1 + 0.02 *(x - 87)).Data Transcription Errors: None. Data Certified: 07/2014.",
+    "keywords": [
+      "Aggregate",
+      "Claim Cost",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1974 Medical Expense Tables: $200 Maximum Misc. Hospital Benefit - Female. Minimum Age: 15. Maximum Age: 99",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "99",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 18.45
+        },
+        {
+          "age": 16,
+          "rate": 18.45
+        },
+        {
+          "age": 17,
+          "rate": 18.45
+        },
+        {
+          "age": 18,
+          "rate": 18.74
+        },
+        {
+          "age": 19,
+          "rate": 19.02
+        },
+        {
+          "age": 20,
+          "rate": 19.29
+        },
+        {
+          "age": 21,
+          "rate": 19.56
+        },
+        {
+          "age": 22,
+          "rate": 19.82
+        },
+        {
+          "age": 23,
+          "rate": 20.08
+        },
+        {
+          "age": 24,
+          "rate": 20.33
+        },
+        {
+          "age": 25,
+          "rate": 20.59
+        },
+        {
+          "age": 26,
+          "rate": 20.85
+        },
+        {
+          "age": 27,
+          "rate": 21.14
+        },
+        {
+          "age": 28,
+          "rate": 21.43
+        },
+        {
+          "age": 29,
+          "rate": 21.73
+        },
+        {
+          "age": 30,
+          "rate": 22.05
+        },
+        {
+          "age": 31,
+          "rate": 22.4
+        },
+        {
+          "age": 32,
+          "rate": 22.75
+        },
+        {
+          "age": 33,
+          "rate": 23.14
+        },
+        {
+          "age": 34,
+          "rate": 23.56
+        },
+        {
+          "age": 35,
+          "rate": 23.98
+        },
+        {
+          "age": 36,
+          "rate": 24.4
+        },
+        {
+          "age": 37,
+          "rate": 24.82
+        },
+        {
+          "age": 38,
+          "rate": 25.24
+        },
+        {
+          "age": 39,
+          "rate": 25.64
+        },
+        {
+          "age": 40,
+          "rate": 26.05
+        },
+        {
+          "age": 41,
+          "rate": 26.45
+        },
+        {
+          "age": 42,
+          "rate": 26.84
+        },
+        {
+          "age": 43,
+          "rate": 27.24
+        },
+        {
+          "age": 44,
+          "rate": 27.64
+        },
+        {
+          "age": 45,
+          "rate": 28.02
+        },
+        {
+          "age": 46,
+          "rate": 28.42
+        },
+        {
+          "age": 47,
+          "rate": 28.81
+        },
+        {
+          "age": 48,
+          "rate": 29.22
+        },
+        {
+          "age": 49,
+          "rate": 29.61
+        },
+        {
+          "age": 50,
+          "rate": 29.99
+        },
+        {
+          "age": 51,
+          "rate": 30.38
+        },
+        {
+          "age": 52,
+          "rate": 30.8
+        },
+        {
+          "age": 53,
+          "rate": 31.23
+        },
+        {
+          "age": 54,
+          "rate": 31.64
+        },
+        {
+          "age": 55,
+          "rate": 32.09
+        },
+        {
+          "age": 56,
+          "rate": 32.53
+        },
+        {
+          "age": 57,
+          "rate": 32.98
+        },
+        {
+          "age": 58,
+          "rate": 33.45
+        },
+        {
+          "age": 59,
+          "rate": 33.92
+        },
+        {
+          "age": 60,
+          "rate": 34.4
+        },
+        {
+          "age": 61,
+          "rate": 34.91
+        },
+        {
+          "age": 62,
+          "rate": 35.41
+        },
+        {
+          "age": 63,
+          "rate": 35.92
+        },
+        {
+          "age": 64,
+          "rate": 36.42
+        },
+        {
+          "age": 65,
+          "rate": 36.92
+        },
+        {
+          "age": 66,
+          "rate": 37.48
+        },
+        {
+          "age": 67,
+          "rate": 38.03
+        },
+        {
+          "age": 68,
+          "rate": 38.58
+        },
+        {
+          "age": 69,
+          "rate": 39.08
+        },
+        {
+          "age": 70,
+          "rate": 39.69
+        },
+        {
+          "age": 71,
+          "rate": 40.43
+        },
+        {
+          "age": 72,
+          "rate": 41.43
+        },
+        {
+          "age": 73,
+          "rate": 42.73
+        },
+        {
+          "age": 74,
+          "rate": 44.26
+        },
+        {
+          "age": 75,
+          "rate": 45.91
+        },
+        {
+          "age": 76,
+          "rate": 47.54
+        },
+        {
+          "age": 77,
+          "rate": 49.1
+        },
+        {
+          "age": 78,
+          "rate": 50.57
+        },
+        {
+          "age": 79,
+          "rate": 52.04
+        },
+        {
+          "age": 80,
+          "rate": 53.51
+        },
+        {
+          "age": 81,
+          "rate": 54.99
+        },
+        {
+          "age": 82,
+          "rate": 56.46
+        },
+        {
+          "age": 83,
+          "rate": 57.93
+        },
+        {
+          "age": 84,
+          "rate": 59.4
+        },
+        {
+          "age": 85,
+          "rate": 60.87
+        },
+        {
+          "age": 86,
+          "rate": 62.34
+        },
+        {
+          "age": 87,
+          "rate": 63.83
+        },
+        {
+          "age": 88,
+          "rate": 65.11
+        },
+        {
+          "age": 89,
+          "rate": 66.38
+        },
+        {
+          "age": 90,
+          "rate": 67.66
+        },
+        {
+          "age": 91,
+          "rate": 68.95
+        },
+        {
+          "age": 92,
+          "rate": 70.22
+        },
+        {
+          "age": 93,
+          "rate": 71.5
+        },
+        {
+          "age": 94,
+          "rate": 72.77
+        },
+        {
+          "age": 95,
+          "rate": 74.05
+        },
+        {
+          "age": 96,
+          "rate": 75.32
+        },
+        {
+          "age": 97,
+          "rate": 76.59
+        },
+        {
+          "age": 98,
+          "rate": 77.89
+        },
+        {
+          "age": 99,
+          "rate": 79.16
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "identifier": "sarason_t_tables_t_11",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1936",
+    "providerDomain": "http://babel/hathitrust.org",
+    "providerName": "Susie Lee",
+    "tableReference": "Thoam F. Crocker, Jr., Harry M Sarason, and Byron W. Straight. “The Actuary’s Pension Handbook”, Pension Publications (1955). Accessed: March, 2014 from  http://catalog.hathitrust.org/Record/001741014",
+    "contentType": {
+      "code": "5",
+      "label": "Termination Voluntary"
+    },
+    "tableName": "Sarason T-tables (T-11)",
+    "tableDescription": "Sarason T-tables (T-11). Minimum Age: 25. Maximum Age: 75.",
+    "comments": "Study Data: Termination rates represent termination from all causes except retirement, i.e. withdrawal, transfer, death and disability. Eleven termination tables and six salary scale tables (S-tables) have been developed in order for the actuary to construct continuance tables to provide pension actuaries with range of choices. The S-tables varied the pay increase by age, not like the flat salary rates seen in later pension work Mortality tables recommended for use with the T-tables to account for both death and turnover are the 1951 Group Annuity Mortality Table (See SOA Table Identity 809), the 1937 Standard Annuity Table (See SOA Table Identity 806), and United States White Male 1949-51 Table (See SOA Table Identity 531). In the years when valuations were done with no vesting rules (pre-ERISA), the publication of books containing commutation functions utilizing a specific mortality table, interest rate and combination of T-tables and S-tables were a valid way to ascertain plan costs by simply looking up table values. Methodology: There are slight differences in the slopes and ending ages of the T-tables. Higher table numbers usually resulted in higher probability of termination. Data Transcription Errors: None. Data Certified: 03/2014.",
+    "keywords": [
+      "Aggregate",
+      "Termination Voluntary",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "Sarason T-tables (T-11). Minimum Age: 25. Maximum Age: 75",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "25",
+            "maxValue": "75",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 25,
+          "rate": 0.25
+        },
+        {
+          "age": 26,
+          "rate": 0.24716
+        },
+        {
+          "age": 27,
+          "rate": 0.244036
+        },
+        {
+          "age": 28,
+          "rate": 0.240627
+        },
+        {
+          "age": 29,
+          "rate": 0.236933
+        },
+        {
+          "age": 30,
+          "rate": 0.232957
+        },
+        {
+          "age": 31,
+          "rate": 0.228702
+        },
+        {
+          "age": 32,
+          "rate": 0.224176
+        },
+        {
+          "age": 33,
+          "rate": 0.219385
+        },
+        {
+          "age": 34,
+          "rate": 0.214338
+        },
+        {
+          "age": 35,
+          "rate": 0.209043
+        },
+        {
+          "age": 36,
+          "rate": 0.203503
+        },
+        {
+          "age": 37,
+          "rate": 0.197717
+        },
+        {
+          "age": 38,
+          "rate": 0.191683
+        },
+        {
+          "age": 39,
+          "rate": 0.1854
+        },
+        {
+          "age": 40,
+          "rate": 0.178871
+        },
+        {
+          "age": 41,
+          "rate": 0.17211
+        },
+        {
+          "age": 42,
+          "rate": 0.165138
+        },
+        {
+          "age": 43,
+          "rate": 0.157982
+        },
+        {
+          "age": 44,
+          "rate": 0.150667
+        },
+        {
+          "age": 45,
+          "rate": 0.143215
+        },
+        {
+          "age": 46,
+          "rate": 0.135614
+        },
+        {
+          "age": 47,
+          "rate": 0.127836
+        },
+        {
+          "age": 48,
+          "rate": 0.119849
+        },
+        {
+          "age": 49,
+          "rate": 0.111632
+        },
+        {
+          "age": 50,
+          "rate": 0.103187
+        },
+        {
+          "age": 51,
+          "rate": 0.094549
+        },
+        {
+          "age": 52,
+          "rate": 0.085788
+        },
+        {
+          "age": 53,
+          "rate": 0.077015
+        },
+        {
+          "age": 54,
+          "rate": 0.068369
+        },
+        {
+          "age": 55,
+          "rate": 0.060008
+        },
+        {
+          "age": 56,
+          "rate": 0.052093
+        },
+        {
+          "age": 57,
+          "rate": 0.044781
+        },
+        {
+          "age": 58,
+          "rate": 0.03822
+        },
+        {
+          "age": 59,
+          "rate": 0.032551
+        },
+        {
+          "age": 60,
+          "rate": 0.027903
+        },
+        {
+          "age": 61,
+          "rate": 0.024405
+        },
+        {
+          "age": 62,
+          "rate": 0.022184
+        },
+        {
+          "age": 63,
+          "rate": 0.021363
+        },
+        {
+          "age": 64,
+          "rate": 0.022067
+        },
+        {
+          "age": 65,
+          "rate": 0.024418
+        },
+        {
+          "age": 66,
+          "rate": 0.027193
+        },
+        {
+          "age": 67,
+          "rate": 0.030112
+        },
+        {
+          "age": 68,
+          "rate": 0.032986
+        },
+        {
+          "age": 69,
+          "rate": 0.035943
+        },
+        {
+          "age": 70,
+          "rate": 0.039303
+        },
+        {
+          "age": 71,
+          "rate": 0.043183
+        },
+        {
+          "age": 72,
+          "rate": 0.047476
+        },
+        {
+          "age": 73,
+          "rate": 0.052084
+        },
+        {
+          "age": 74,
+          "rate": 0.057077
+        },
+        {
+          "age": 75,
+          "rate": 0.062427
+        }
+      ]
+    }
+  ]
+}

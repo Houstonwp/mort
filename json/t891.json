@@ -1,0 +1,250 @@
+{
+  "identifier": "1980_93_california_ccrc_male_alb",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "891",
+    "providerDomain": "soa.org",
+    "providerName": "Roger Scott Lumsden",
+    "tableReference": "Harold L. Barney “Continuing Care Retirement Community Resident Mortality and Life Expectancies”, Transactions of the Society of Actuaries, 1995-96 Reports     (1995) Table 5. Accessed: June, 2013 from http://www.soa.org/library/research/transactions-reports-of-mortality-moribidity-and-experience/1990-99/1995/january/tsr957.aspx",
+    "contentType": {
+      "code": "84",
+      "label": "Population Mortality"
+    },
+    "tableName": "1980-93 California CCRC – Male, ALB",
+    "tableDescription": "1980-93 California Continuing Care Retirement Community (CCRC) Mortality Table – Male. Basis: Age Last Birthday. Minimum Age: 62. Maximum Age: 110.",
+    "comments": "Study Data: In the state of California continuing care retirement communities (CCRCs), offer retirees residential living and services ranging from the provision of housing with guaranteed access to skilled nursing, to the all inclusive delivery of health care and personal care in exchange for an entry fee followed by monthly payments. To detect financial problems before they emerge and to assure the financial viability of each continuing care retirement community in the state of California, the State of California Health and Safety Code statutes require annual reporting and maintenance of certain reserves. The statutory method of estimating the reserves is based on the life expectancy of each resident. The California Department ofSocial Services, Continuing Care Contracts Branch, has maintained data on continuing care contract holders from 83 CCRCs since 1973. Utilizing records for 29,251 different residents who lived in the facilities at some time during the 1980-93 time period, Actuarial Forecasting \u0026 Research developed new tables of life expectancies. Methodology: Three steps were involved to develop the mortality rates underlying the life expectancy tables recommended in this study: 1) Calculation of initial (raw) mortality rates based on the corrected database, 2) Analyses of the raw mortality rates, and 3) Smoothing of the raw mortality rates to eliminate random fluctuations. A Whittaker-Henderson method was used to smooth the mortality curve for the middle ages. At the low ages, Gompertz curves were used to smooth the raw q(x)’s. At the higher ages, techniques used in construction of the Social Security Area Life Table (See SOA Table Identities 552 and 553) were employed with a cap on mortality rates at 50%. Though perceptible in the data, the state’s life expectancy tables and reserving process do not reflect the effect of selection as such would require more complex software on the state’s part. Data Transcription Errors: None. Data Certified: 06/2013",
+    "keywords": [
+      "Aggregate",
+      "Population mortality",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1980-93 California Continuing Care Retirement Community (CCRC) Mortality Table – Male. Basis: Age Last Birthday. Minimum Age: 62. Maximum Age: 110.",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "62",
+            "maxValue": "110",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 62,
+          "rate": 0.0168
+        },
+        {
+          "age": 63,
+          "rate": 0.0181
+        },
+        {
+          "age": 64,
+          "rate": 0.0196
+        },
+        {
+          "age": 65,
+          "rate": 0.0212
+        },
+        {
+          "age": 66,
+          "rate": 0.0229
+        },
+        {
+          "age": 67,
+          "rate": 0.0247
+        },
+        {
+          "age": 68,
+          "rate": 0.0267
+        },
+        {
+          "age": 69,
+          "rate": 0.0289
+        },
+        {
+          "age": 70,
+          "rate": 0.031
+        },
+        {
+          "age": 71,
+          "rate": 0.0315
+        },
+        {
+          "age": 72,
+          "rate": 0.0312
+        },
+        {
+          "age": 73,
+          "rate": 0.034
+        },
+        {
+          "age": 74,
+          "rate": 0.0384
+        },
+        {
+          "age": 75,
+          "rate": 0.0423
+        },
+        {
+          "age": 76,
+          "rate": 0.0484
+        },
+        {
+          "age": 77,
+          "rate": 0.0549
+        },
+        {
+          "age": 78,
+          "rate": 0.0598
+        },
+        {
+          "age": 79,
+          "rate": 0.0628
+        },
+        {
+          "age": 80,
+          "rate": 0.0671
+        },
+        {
+          "age": 81,
+          "rate": 0.0735
+        },
+        {
+          "age": 82,
+          "rate": 0.0813
+        },
+        {
+          "age": 83,
+          "rate": 0.0921
+        },
+        {
+          "age": 84,
+          "rate": 0.104
+        },
+        {
+          "age": 85,
+          "rate": 0.1154
+        },
+        {
+          "age": 86,
+          "rate": 0.1284
+        },
+        {
+          "age": 87,
+          "rate": 0.1411
+        },
+        {
+          "age": 88,
+          "rate": 0.1525
+        },
+        {
+          "age": 89,
+          "rate": 0.1618
+        },
+        {
+          "age": 90,
+          "rate": 0.1712
+        },
+        {
+          "age": 91,
+          "rate": 0.1847
+        },
+        {
+          "age": 92,
+          "rate": 0.2041
+        },
+        {
+          "age": 93,
+          "rate": 0.2273
+        },
+        {
+          "age": 94,
+          "rate": 0.2503
+        },
+        {
+          "age": 95,
+          "rate": 0.2731
+        },
+        {
+          "age": 96,
+          "rate": 0.2951
+        },
+        {
+          "age": 97,
+          "rate": 0.3159
+        },
+        {
+          "age": 98,
+          "rate": 0.335
+        },
+        {
+          "age": 99,
+          "rate": 0.3517
+        },
+        {
+          "age": 100,
+          "rate": 0.3693
+        },
+        {
+          "age": 101,
+          "rate": 0.3878
+        },
+        {
+          "age": 102,
+          "rate": 0.4072
+        },
+        {
+          "age": 103,
+          "rate": 0.4275
+        },
+        {
+          "age": 104,
+          "rate": 0.4489
+        },
+        {
+          "age": 105,
+          "rate": 0.4714
+        },
+        {
+          "age": 106,
+          "rate": 0.4949
+        },
+        {
+          "age": 107,
+          "rate": 0.5
+        },
+        {
+          "age": 108,
+          "rate": 0.5
+        },
+        {
+          "age": 109,
+          "rate": 0.5
+        },
+        {
+          "age": 110,
+          "rate": 0.5
+        }
+      ]
+    }
+  ]
+}

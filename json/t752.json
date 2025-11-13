@@ -1,0 +1,174 @@
+{
+  "identifier": "1960_moorhead_lapse_table_s",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "752",
+    "providerDomain": "soa.org",
+    "providerName": "Roger Scott Lumsden",
+    "tableReference": "Ernest J. Moorhead, “The Construction of Persistency Tables”, Transactions of the Society of Actuaries, Vol. XII, No. 34, (1960) Exhibit I. Accessed: April, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1960/January/tsa60v12n3464.pdf",
+    "contentType": {
+      "code": "5",
+      "label": "Termination Voluntary"
+    },
+    "tableName": "1960 Moorhead Lapse Table S",
+    "tableDescription": "1960 Moorhead Lapse Table S.  Minimum Policy Year: 1 Maximum Policy Year: 30",
+    "comments": "Study Data: First 9 policy year data based on sales of individual insurance in 1949 as published in \"Persistency 1949-1958\" by the Compensation Committee of Life Insurance Agency Management Association. Contributions from 49 companies for the year 1959, and contributions from 41 companies for the year 1956 were used in construction of values at later policy durations. Volume of data: 12,000 policies sold in May 1949 Observation period: 1949 to 1958. Companies were grouped into 3 categories: good, average and poor persistency. Table R (See SOA Table Identity 751) is for the good persistency (low lapse) companies, Table S is for the moderate persistency companies and Table T (See SOA Table Identity 753) for those companies demonstrating high lapses. Methodology: Differs slightly from Linton Table (See SOA Table Identity 750) construction with respect to recognition of fractional premium business and to incorporate mortality rates that are blended from various issue ages rather than based upon a single average issue age. For withdrawals during the first policy year, the need for assumptions arises only on quarterly premium and monthly premium policies. On quarterly payment of premium policies, the distribution of the withdrawals is assumed to be in the proportions 75:15:10 for the three remaining premium due dates involved. On monthly pay business, the corresponding eleven factors are 40:20:20:5:3:2:2:2:2:2:2. For the second and later policy years 50% of the withdrawals under each fractional mode of payment are assumed to occur on the policy anniversary, while the other 50% are evenly distributed over the remaining premium due dates. To collapse the ages at issue, weighted death rates were used. Mortality rates used in conjunction with these withdrawal rates were 125% of the select rates for issue ages 5, 30 and 50 respectively from Mr. Norman F. Buck's Ordinary Select 1950-54 Mortality Table (See SOA Table Identity 1700). The added 25% was to allow for a proportion of substandard business. Three \"R\" tables for ages 5, 30 and 50, respectively, were constructed, and these were combined in the proportions: 5% at age 5, 65% at age 30, and 30% at age 50. Likewise three \"S\" and three \"T\" tables, and combinations thereof in the same proportions as for the \"R\" tables, were constructed. The mortality rates actually used to construct the combined-age tables were the averages of the three sets of rates that emerged, since these differed slightly from each other because of the limited size of the radix that was adopted. Data Transcription Errors: None. Data Certified: 04/2013",
+    "keywords": [
+      "Duration",
+      "Premium Persistency",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1960 Moorhead Lapse Table S.  Minimum Policy Year: 1 Maximum Policy Year: 30",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "30",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.125
+        },
+        {
+          "age": 2,
+          "rate": 0.1
+        },
+        {
+          "age": 3,
+          "rate": 0.045
+        },
+        {
+          "age": 4,
+          "rate": 0.035
+        },
+        {
+          "age": 5,
+          "rate": 0.03
+        },
+        {
+          "age": 6,
+          "rate": 0.0275
+        },
+        {
+          "age": 7,
+          "rate": 0.026
+        },
+        {
+          "age": 8,
+          "rate": 0.025
+        },
+        {
+          "age": 9,
+          "rate": 0.0245
+        },
+        {
+          "age": 10,
+          "rate": 0.024
+        },
+        {
+          "age": 11,
+          "rate": 0.0235
+        },
+        {
+          "age": 12,
+          "rate": 0.023
+        },
+        {
+          "age": 13,
+          "rate": 0.0225
+        },
+        {
+          "age": 14,
+          "rate": 0.022
+        },
+        {
+          "age": 15,
+          "rate": 0.0215
+        },
+        {
+          "age": 16,
+          "rate": 0.021
+        },
+        {
+          "age": 17,
+          "rate": 0.0205
+        },
+        {
+          "age": 18,
+          "rate": 0.02
+        },
+        {
+          "age": 19,
+          "rate": 0.019
+        },
+        {
+          "age": 20,
+          "rate": 0.018
+        },
+        {
+          "age": 21,
+          "rate": 0.017
+        },
+        {
+          "age": 22,
+          "rate": 0.016
+        },
+        {
+          "age": 23,
+          "rate": 0.015
+        },
+        {
+          "age": 24,
+          "rate": 0.015
+        },
+        {
+          "age": 25,
+          "rate": 0.015
+        },
+        {
+          "age": 26,
+          "rate": 0.0154
+        },
+        {
+          "age": 27,
+          "rate": 0.0174
+        },
+        {
+          "age": 28,
+          "rate": 0.0193
+        },
+        {
+          "age": 29,
+          "rate": 0.0212
+        },
+        {
+          "age": 30,
+          "rate": 0.023
+        }
+      ]
+    }
+  ]
+}

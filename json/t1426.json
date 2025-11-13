@@ -1,0 +1,238 @@
+{
+  "identifier": "1985_cida_incidence_rates_female_occ_cl_4_acc_only_91_day_ep",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1426",
+    "providerDomain": "soa.org",
+    "providerName": "Robert W. Beal",
+    "tableReference": "W. Duane Kidwell and William J. Taylor, et all, “Report of the Committee to Recommend New Disability Tables for Valuation”, Transactions of the Society of Actuaries, Vol. XXXVII (1985). Accessed: December, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1985/January/tsa85v3713.pdf",
+    "contentType": {
+      "code": "80",
+      "label": "Claim Incidence"
+    },
+    "tableName": "1985 CIDA Incidence Rates, Female, Occ Cl 4, Acc Only, 91 day EP",
+    "tableDescription": "1985 Commissioner's Individual Disability Tables A (CIDA) Incidence Rates – Female. Occupation Class: 4. Basis: Accident Only. Elimination Period: 91 Days. Minimum Age: 20. Maximum Age: 65",
+    "comments": "Study Data: Industry experience from exposures of the mid to late 1970’s. At that time, the industry was going through a period of claims deterioration, to about 1976, and the beginning of a claims improvement trend thereafter. The table is, therefore, on the conservative side, relative to the good claims, experience of the early 1980s. Twenty companies participated, submitting usable experience data on 133,936 closed claims. Group long-term disability (LTD) experience was the primary influence for rates from the latter part of the second year through the tenth year. During the second year of disablement, the termination rates were graduated from the level indicated in loss-of-time (LOT) experience to the level indicated by LTD. The rates are then based upon LTD experience for the third through the sixth years and graded into the ultimate rates of the eleventh year. An experience based table was first developed and then loaded to get the valuation table. NOTE: In the interest of flexibility, two diskettes containing data files and a Fortran program were made available by the Society of Actuaries (SOA). The program and data files comprise a reference from which values can be extracted. Methodology: Factors for calculation of weekly termination rates were published as Exhibit 3a. Rates in this file were developed by Robert W. Beal from those factors. An example calculation would be as follows: the Week 2 Duration Rate (0.114) would be multiplied by the corresponding “variable” factors: age 35 factor (0.961), 7 day elimination period factor (0.934), occupation class factor (0.999), male gender factor (1.190),  and accident basis factor (1.044) to result in a value of 0.127. Data Transcription Errors: None. Data Certified: 01/2014.",
+    "keywords": [
+      "Aggregate",
+      "Claim Incidence",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1985 Commissioner's Individual Disability Tables A (CIDA) Incidence Rates – Female. Occupation Class: 4. Basis: Accident Only. Elimination Period: 91 Days. Minimum Age: 20. Maximum Age: 65",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "20",
+            "maxValue": "65",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 20,
+          "rate": 0.00774
+        },
+        {
+          "age": 21,
+          "rate": 0.00774
+        },
+        {
+          "age": 22,
+          "rate": 0.00774
+        },
+        {
+          "age": 23,
+          "rate": 0.00774
+        },
+        {
+          "age": 24,
+          "rate": 0.00774
+        },
+        {
+          "age": 25,
+          "rate": 0.00774
+        },
+        {
+          "age": 26,
+          "rate": 0.00781
+        },
+        {
+          "age": 27,
+          "rate": 0.00787
+        },
+        {
+          "age": 28,
+          "rate": 0.00792
+        },
+        {
+          "age": 29,
+          "rate": 0.00797
+        },
+        {
+          "age": 30,
+          "rate": 0.00801
+        },
+        {
+          "age": 31,
+          "rate": 0.00805
+        },
+        {
+          "age": 32,
+          "rate": 0.00808
+        },
+        {
+          "age": 33,
+          "rate": 0.00812
+        },
+        {
+          "age": 34,
+          "rate": 0.00815
+        },
+        {
+          "age": 35,
+          "rate": 0.00817
+        },
+        {
+          "age": 36,
+          "rate": 0.0082
+        },
+        {
+          "age": 37,
+          "rate": 0.00822
+        },
+        {
+          "age": 38,
+          "rate": 0.00825
+        },
+        {
+          "age": 39,
+          "rate": 0.00827
+        },
+        {
+          "age": 40,
+          "rate": 0.0083
+        },
+        {
+          "age": 41,
+          "rate": 0.00833
+        },
+        {
+          "age": 42,
+          "rate": 0.00835
+        },
+        {
+          "age": 43,
+          "rate": 0.00838
+        },
+        {
+          "age": 44,
+          "rate": 0.00842
+        },
+        {
+          "age": 45,
+          "rate": 0.00845
+        },
+        {
+          "age": 46,
+          "rate": 0.00849
+        },
+        {
+          "age": 47,
+          "rate": 0.00852
+        },
+        {
+          "age": 48,
+          "rate": 0.00856
+        },
+        {
+          "age": 49,
+          "rate": 0.0086
+        },
+        {
+          "age": 50,
+          "rate": 0.00864
+        },
+        {
+          "age": 51,
+          "rate": 0.00868
+        },
+        {
+          "age": 52,
+          "rate": 0.00873
+        },
+        {
+          "age": 53,
+          "rate": 0.00876
+        },
+        {
+          "age": 54,
+          "rate": 0.00881
+        },
+        {
+          "age": 55,
+          "rate": 0.00885
+        },
+        {
+          "age": 56,
+          "rate": 0.00889
+        },
+        {
+          "age": 57,
+          "rate": 0.00893
+        },
+        {
+          "age": 58,
+          "rate": 0.00897
+        },
+        {
+          "age": 59,
+          "rate": 0.009
+        },
+        {
+          "age": 60,
+          "rate": 0.00903
+        },
+        {
+          "age": 61,
+          "rate": 0.00906
+        },
+        {
+          "age": 62,
+          "rate": 0.00908
+        },
+        {
+          "age": 63,
+          "rate": 0.0091
+        },
+        {
+          "age": 64,
+          "rate": 0.00913
+        },
+        {
+          "age": 65,
+          "rate": 0.00914
+        }
+      ]
+    }
+  ]
+}

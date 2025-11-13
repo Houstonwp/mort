@@ -1,0 +1,294 @@
+{
+  "identifier": "2006_group_term_life_mortality_tables",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1489",
+    "providerDomain": "soa.org",
+    "providerName": "Society of Actuaries",
+    "tableReference": "The Society of Actuaries, \"Report of the Society of Actuaries Group Life Insurance Experience Committee\", Tables 2A, 2B, and 3, pages 6-8, https://www.soa.org/Files/Research/Exp-Study/GLMortalityStudyReport_final.pdf",
+    "contentType": {
+      "code": "83",
+      "label": "Group Life"
+    },
+    "tableName": "2006 Group Term Life Mortality Tables",
+    "tableDescription": "2006 Group Term Life Mortality Table, Mortality Rates by Central Age Based on Lives, Monthly Mortality Rates per Thousand (Lives)",
+    "comments": "This study was based on data collected on policies in force during the study period of 1999-2001. Data Certified: 07/2018.",
+    "keywords": [
+      "Aggregate",
+      "Group Life",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2006 Group Term Life Mortality Table, Mortality Rates by Central Age Based on Lives, Monthly Mortality Rates per Thousand (Lives), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "87",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 17,
+          "rate": 0.00005
+        },
+        {
+          "age": 22,
+          "rate": 0.000019
+        },
+        {
+          "age": 27,
+          "rate": 0.000017
+        },
+        {
+          "age": 32,
+          "rate": 0.000024
+        },
+        {
+          "age": 37,
+          "rate": 0.000037
+        },
+        {
+          "age": 42,
+          "rate": 0.000052
+        },
+        {
+          "age": 47,
+          "rate": 0.000083
+        },
+        {
+          "age": 52,
+          "rate": 0.000134
+        },
+        {
+          "age": 57,
+          "rate": 0.000205
+        },
+        {
+          "age": 62,
+          "rate": 0.000326
+        },
+        {
+          "age": 67,
+          "rate": 0.000507
+        },
+        {
+          "age": 72,
+          "rate": 0.001022
+        },
+        {
+          "age": 77,
+          "rate": 0.002148
+        },
+        {
+          "age": 82,
+          "rate": 0.003895
+        },
+        {
+          "age": 87,
+          "rate": 0.007951
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2006 Group Term Life Mortality Table, Mortality Rates by Central Age Based on Amount in Millions ($), Monthly Mortality Rates per Thousand (Amount), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "87",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 17,
+          "rate": 0.000043
+        },
+        {
+          "age": 22,
+          "rate": 0.000018
+        },
+        {
+          "age": 27,
+          "rate": 0.000016
+        },
+        {
+          "age": 32,
+          "rate": 0.00002
+        },
+        {
+          "age": 37,
+          "rate": 0.000032
+        },
+        {
+          "age": 42,
+          "rate": 0.000047
+        },
+        {
+          "age": 47,
+          "rate": 0.000078
+        },
+        {
+          "age": 52,
+          "rate": 0.000124
+        },
+        {
+          "age": 57,
+          "rate": 0.000184
+        },
+        {
+          "age": 62,
+          "rate": 0.000285
+        },
+        {
+          "age": 67,
+          "rate": 0.000457
+        },
+        {
+          "age": 72,
+          "rate": 0.000783
+        },
+        {
+          "age": 77,
+          "rate": 0.00146
+        },
+        {
+          "age": 82,
+          "rate": 0.003108
+        },
+        {
+          "age": 87,
+          "rate": 0.005822
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2006 Group Term Life Mortality Table, Waiver Incidence Rates by Central Age Based on Lives, Monthly Waiver Incidence Rates (Lives), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "87",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 17,
+          "rate": 0.003
+        },
+        {
+          "age": 22,
+          "rate": 0.007
+        },
+        {
+          "age": 27,
+          "rate": 0.011
+        },
+        {
+          "age": 32,
+          "rate": 0.019
+        },
+        {
+          "age": 37,
+          "rate": 0.029
+        },
+        {
+          "age": 42,
+          "rate": 0.041
+        },
+        {
+          "age": 47,
+          "rate": 0.055
+        },
+        {
+          "age": 52,
+          "rate": 0.079
+        },
+        {
+          "age": 57,
+          "rate": 0.122
+        },
+        {
+          "age": 62,
+          "rate": 0.056
+        },
+        {
+          "age": 67,
+          "rate": null
+        },
+        {
+          "age": 72,
+          "rate": null
+        },
+        {
+          "age": 77,
+          "rate": null
+        },
+        {
+          "age": 82,
+          "rate": null
+        },
+        {
+          "age": 87,
+          "rate": null
+        }
+      ]
+    }
+  ]
+}

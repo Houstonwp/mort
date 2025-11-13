@@ -1,0 +1,394 @@
+{
+  "identifier": "1980_cso_basic_table_female_smoker_anb",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "19",
+    "providerDomain": "soa.org",
+    "providerName": "Roger Scott Lumsden",
+    "tableReference": "“Report of the Task Force on Smoker/Nonsmoker Mortality”, Transactions Society of Actuaries - 1982 Reports, Society of Actuaries (1982) p. 374-375. Accessed: February, 2013 from http://www.soa.org/library/research/transactions-reports-of-mortality-moribidity-and-experience/1980-89/1982/january/tsr8210.pdf,  p. 32-33",
+    "contentType": {
+      "code": "85",
+      "label": "CSO/CET"
+    },
+    "tableName": "1980 CSO Basic Table - Female Smoker, ANB",
+    "tableDescription": "1980 Commissioners Standard Ordinary (CSO) Basic Table - Female Smoker. Basis: Age Nearest Birthday. Minimum Age: 15. Maximum Age: 99",
+    "comments": "Study Data: Information regarding the mortality experience of smoker and nonsmoker insured lives consists primarily of mortality experience of five companies (State Mutual, Mutual Security Life. Phoenix Mutual, Home Life, and Sun Life of Canada) who published their nonsmoker mortality experience from 1973 thru 1978 either in The Record of the Society of Actuaries or the Transactions of the Society of Actuaries (TSA). There are significant differences from company to company in the characteristics of the lives included in the \"smoker\" group. Data is limited by none of the companies having published experience beyond the fifteenth policy year. This experience was supplemented by data from the 1979 Report of the Surgeon General, which is based on general population studies. The Task Force also received some unpublished data developed by the American Cancer Society for ages 65 and above. Methodology: The procedure used by the Task Force to divide each of the 1980 CSO Basic Male and Female Tables (SOA Table Identities 17 and 20) into its smoker and nonsmoker component tables is the same as that used in the paper by Michael J. Cowell and Brian L. Hirst (“Mortality Differences Between Smokers and Nonsmokers”, TSA Vol. XXXII, 1980). The distinction between smokers and nonsmokers at ages 14 and under was considered negligible for insurance purposes. As the definition of smoker varied considerably by company, the ratio of smoker mortality to aggregate mortality was calculated for each company. An assumed proportion of smokers in each company's experience was used to combine the data and remove the effect of different definitions of “smoker”. There was inadequate data to develop ratios for females, thus an analysis of 1979 Surgeon Generals Report was relied upon. Accordingly, the excess mortality among female smokers was set equal to 0.60 times the excess mortality among male smokers at all ages. The proportions of smokers and the ratios of the level of smoker mortality to nonsmoker mortality were then applied to produce the division of the 1980 CSO Basic Tables into smoker and nonsmoker components. Data Transcription Errors: None. Data Certified: 02/2013",
+    "keywords": [
+      "Aggregate",
+      "CSO/CET",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1980 Commissioners Standard Ordinary (CSO) Basic Table - Female Smoker. Basis: Age Nearest Birthday. Minimum Age: 15. Maximum Age: 99",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "99",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 0.00042
+        },
+        {
+          "age": 16,
+          "rate": 0.00046
+        },
+        {
+          "age": 17,
+          "rate": 0.0005
+        },
+        {
+          "age": 18,
+          "rate": 0.00055
+        },
+        {
+          "age": 19,
+          "rate": 0.00058
+        },
+        {
+          "age": 20,
+          "rate": 0.00059
+        },
+        {
+          "age": 21,
+          "rate": 0.0006
+        },
+        {
+          "age": 22,
+          "rate": 0.00062
+        },
+        {
+          "age": 23,
+          "rate": 0.00063
+        },
+        {
+          "age": 24,
+          "rate": 0.00065
+        },
+        {
+          "age": 25,
+          "rate": 0.00066
+        },
+        {
+          "age": 26,
+          "rate": 0.00069
+        },
+        {
+          "age": 27,
+          "rate": 0.00072
+        },
+        {
+          "age": 28,
+          "rate": 0.00074
+        },
+        {
+          "age": 29,
+          "rate": 0.00078
+        },
+        {
+          "age": 30,
+          "rate": 0.00083
+        },
+        {
+          "age": 31,
+          "rate": 0.00087
+        },
+        {
+          "age": 32,
+          "rate": 0.00092
+        },
+        {
+          "age": 33,
+          "rate": 0.00097
+        },
+        {
+          "age": 34,
+          "rate": 0.00105
+        },
+        {
+          "age": 35,
+          "rate": 0.00111
+        },
+        {
+          "age": 36,
+          "rate": 0.00123
+        },
+        {
+          "age": 37,
+          "rate": 0.00139
+        },
+        {
+          "age": 38,
+          "rate": 0.00157
+        },
+        {
+          "age": 39,
+          "rate": 0.00178
+        },
+        {
+          "age": 40,
+          "rate": 0.00202
+        },
+        {
+          "age": 41,
+          "rate": 0.00231
+        },
+        {
+          "age": 42,
+          "rate": 0.00258
+        },
+        {
+          "age": 43,
+          "rate": 0.00286
+        },
+        {
+          "age": 44,
+          "rate": 0.00314
+        },
+        {
+          "age": 45,
+          "rate": 0.00342
+        },
+        {
+          "age": 46,
+          "rate": 0.00372
+        },
+        {
+          "age": 47,
+          "rate": 0.00403
+        },
+        {
+          "age": 48,
+          "rate": 0.00434
+        },
+        {
+          "age": 49,
+          "rate": 0.00468
+        },
+        {
+          "age": 50,
+          "rate": 0.00508
+        },
+        {
+          "age": 51,
+          "rate": 0.00548
+        },
+        {
+          "age": 52,
+          "rate": 0.00593
+        },
+        {
+          "age": 53,
+          "rate": 0.00646
+        },
+        {
+          "age": 54,
+          "rate": 0.007
+        },
+        {
+          "age": 55,
+          "rate": 0.00757
+        },
+        {
+          "age": 56,
+          "rate": 0.00813
+        },
+        {
+          "age": 57,
+          "rate": 0.00865
+        },
+        {
+          "age": 58,
+          "rate": 0.00913
+        },
+        {
+          "age": 59,
+          "rate": 0.00961
+        },
+        {
+          "age": 60,
+          "rate": 0.01015
+        },
+        {
+          "age": 61,
+          "rate": 0.01087
+        },
+        {
+          "age": 62,
+          "rate": 0.01176
+        },
+        {
+          "age": 63,
+          "rate": 0.01299
+        },
+        {
+          "age": 64,
+          "rate": 0.01437
+        },
+        {
+          "age": 65,
+          "rate": 0.01593
+        },
+        {
+          "age": 66,
+          "rate": 0.01746
+        },
+        {
+          "age": 67,
+          "rate": 0.01903
+        },
+        {
+          "age": 68,
+          "rate": 0.02042
+        },
+        {
+          "age": 69,
+          "rate": 0.02198
+        },
+        {
+          "age": 70,
+          "rate": 0.02363
+        },
+        {
+          "age": 71,
+          "rate": 0.02582
+        },
+        {
+          "age": 72,
+          "rate": 0.02857
+        },
+        {
+          "age": 73,
+          "rate": 0.03197
+        },
+        {
+          "age": 74,
+          "rate": 0.03596
+        },
+        {
+          "age": 75,
+          "rate": 0.04039
+        },
+        {
+          "age": 76,
+          "rate": 0.04516
+        },
+        {
+          "age": 77,
+          "rate": 0.05014
+        },
+        {
+          "age": 78,
+          "rate": 0.05528
+        },
+        {
+          "age": 79,
+          "rate": 0.06076
+        },
+        {
+          "age": 80,
+          "rate": 0.06683
+        },
+        {
+          "age": 81,
+          "rate": 0.07369
+        },
+        {
+          "age": 82,
+          "rate": 0.08155
+        },
+        {
+          "age": 83,
+          "rate": 0.09048
+        },
+        {
+          "age": 84,
+          "rate": 0.10103
+        },
+        {
+          "age": 85,
+          "rate": 0.11142
+        },
+        {
+          "age": 86,
+          "rate": 0.12326
+        },
+        {
+          "age": 87,
+          "rate": 0.13442
+        },
+        {
+          "age": 88,
+          "rate": 0.14705
+        },
+        {
+          "age": 89,
+          "rate": 0.15868
+        },
+        {
+          "age": 90,
+          "rate": 0.17206
+        },
+        {
+          "age": 91,
+          "rate": 0.18604
+        },
+        {
+          "age": 92,
+          "rate": 0.20093
+        },
+        {
+          "age": 93,
+          "rate": 0.21735
+        },
+        {
+          "age": 94,
+          "rate": 0.23652
+        },
+        {
+          "age": 95,
+          "rate": 0.26338
+        },
+        {
+          "age": 96,
+          "rate": 0.30101
+        },
+        {
+          "age": 97,
+          "rate": 0.35966
+        },
+        {
+          "age": 98,
+          "rate": 0.46234
+        },
+        {
+          "age": 99,
+          "rate": 0.64743
+        }
+      ]
+    }
+  ]
+}

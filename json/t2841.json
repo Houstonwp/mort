@@ -1,0 +1,394 @@
+{
+  "identifier": "1974_medical_expense_tables_cancer_expense_benefit_male",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2841",
+    "providerDomain": "soa.org",
+    "providerName": "Susie Lee",
+    "tableReference": "Anthony J. Houghton and Ronald M. Wolf, \"Development of the 1974 Medical Expense Tables\", Transactions of the Society of Actuaries, Vol. 30 (1978) Accessed: July, 2014 from https://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1978/January/tsa78v303.pdf",
+    "contentType": {
+      "code": "50",
+      "label": "Claim Cost"
+    },
+    "tableName": "1974 Medical Expense Tables: Cancer Expense Benefit - Male",
+    "tableDescription": "1974 Medical Expense Tables: Cancer Expense Benefit - Male. Minimum Age: 15. Maximum Age: 99",
+    "comments": "Study Data: Four major sources of data are used in the construction of the cancer benefit values: (1) National Cancer Institute study of the number of cancer cases and of cancer incidence rates among a large segment of the general population for the period 1969-1971; (2) a study of the number of days spent in a hospital by type of illness, as prepared by a large midwestern  hospital service insurer; (3) the experience of several insurance companies that write a relatively large volume of cancer insurance; and (4) the all-cause experience for underwritten medical expense policies for several types of benefits from the Transactions of the Society of Actuaries, 1972 and 1974 Reports. Methodology: The standard cancer plan net annual claim costs are developed in two distinct steps. First, theoretical claim costs are developed for each of the standard plan benefits (excluding radiotherapy and chemotherapy and the extended benefits) for all causes of injuries and sicknesses except for obstetrical. These claim costs for all causes then are multiplied by independently developed ratios of cancer hospital utilization to hospital utilization for all causes. These calculations are made at each of the attained ages 22, 27, . . . , 77, separately for male and female lives. The pivotal-attained-age results are graduated using a curve-fitting process by passing a different cubic polynomial through each pair of consecutive points and then fitting these curves together to produce one smooth, continuous curve. The curve between each pair of consecutive points is determined by the three points on each side of the interval of interpolation. The results of these two interpolations are then averaged to produce final graduated frequency rates. The exact method of curve-fitting employed is taken from a paper written by Hiroshi Akima for the Environmental Science Services Administration of the United States Department of Commerce, entitled \"A Method of Smooth Curve Fitting\". Next, the resulting frequency rates at attained ages below 22 are lowered empirically by requiring that the rate at attained age 17 be 125 percent of the rate at attained age 22. These claim costs are extended beyond attained age 77 by means of a linear extrapolation formula.  It has been suggested that one might build into the tables an assumption that claim costs will increase, not only with advancing age but also with the secular increases in charges that are likely to occur. Such a technique has not been used in the construction of the 1974 Medical Expense Tables however. Furthermore, as the industry today is offering a wide variety of cancer plans with varying component benefits and inside limits. To deal with this diversity, a standard set of benefits is identified. Then a method is constructed whereby the benefits and reserves of a particular plan can be evaluated in terms of the corresponding values from the standard plan. NOTE: A typical cancer plan consists of a series of specific benefits for such expense such as hospital charges, in hospital drugs and medicine,surgery, and radiotherapy and chemotherapy. The standard plan is assumed to contain an extended hospital benefit that pays actual charges up to $5,000 per month following 90 days of continuous, uninterrupted hospital confinement due to cancerData Transcription Errors: None. Data Certified: 07/2014.",
+    "keywords": [
+      "Aggregate",
+      "Claim Cost",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1974 Medical Expense Tables: Cancer Expense Benefit - Male. Minimum Age: 15. Maximum Age: 99",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "99",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 1.54
+        },
+        {
+          "age": 16,
+          "rate": 1.54
+        },
+        {
+          "age": 17,
+          "rate": 1.54
+        },
+        {
+          "age": 18,
+          "rate": 1.54
+        },
+        {
+          "age": 19,
+          "rate": 1.54
+        },
+        {
+          "age": 20,
+          "rate": 1.54
+        },
+        {
+          "age": 21,
+          "rate": 1.54
+        },
+        {
+          "age": 22,
+          "rate": 1.54
+        },
+        {
+          "age": 23,
+          "rate": 1.59
+        },
+        {
+          "age": 24,
+          "rate": 1.64
+        },
+        {
+          "age": 25,
+          "rate": 1.7
+        },
+        {
+          "age": 26,
+          "rate": 1.76
+        },
+        {
+          "age": 27,
+          "rate": 1.83
+        },
+        {
+          "age": 28,
+          "rate": 1.9
+        },
+        {
+          "age": 29,
+          "rate": 1.97
+        },
+        {
+          "age": 30,
+          "rate": 2.05
+        },
+        {
+          "age": 31,
+          "rate": 2.14
+        },
+        {
+          "age": 32,
+          "rate": 2.26
+        },
+        {
+          "age": 33,
+          "rate": 2.41
+        },
+        {
+          "age": 34,
+          "rate": 2.59
+        },
+        {
+          "age": 35,
+          "rate": 2.81
+        },
+        {
+          "age": 36,
+          "rate": 3.06
+        },
+        {
+          "age": 37,
+          "rate": 3.34
+        },
+        {
+          "age": 38,
+          "rate": 3.64
+        },
+        {
+          "age": 39,
+          "rate": 3.97
+        },
+        {
+          "age": 40,
+          "rate": 4.34
+        },
+        {
+          "age": 41,
+          "rate": 4.79
+        },
+        {
+          "age": 42,
+          "rate": 5.33
+        },
+        {
+          "age": 43,
+          "rate": 5.99
+        },
+        {
+          "age": 44,
+          "rate": 6.74
+        },
+        {
+          "age": 45,
+          "rate": 7.58
+        },
+        {
+          "age": 46,
+          "rate": 8.47
+        },
+        {
+          "age": 47,
+          "rate": 9.39
+        },
+        {
+          "age": 48,
+          "rate": 10.31
+        },
+        {
+          "age": 49,
+          "rate": 11.26
+        },
+        {
+          "age": 50,
+          "rate": 12.26
+        },
+        {
+          "age": 51,
+          "rate": 13.37
+        },
+        {
+          "age": 52,
+          "rate": 14.63
+        },
+        {
+          "age": 53,
+          "rate": 16.05
+        },
+        {
+          "age": 54,
+          "rate": 17.58
+        },
+        {
+          "age": 55,
+          "rate": 19.2
+        },
+        {
+          "age": 56,
+          "rate": 20.88
+        },
+        {
+          "age": 57,
+          "rate": 22.57
+        },
+        {
+          "age": 58,
+          "rate": 24.27
+        },
+        {
+          "age": 59,
+          "rate": 25.99
+        },
+        {
+          "age": 60,
+          "rate": 27.71
+        },
+        {
+          "age": 61,
+          "rate": 29.44
+        },
+        {
+          "age": 62,
+          "rate": 31.17
+        },
+        {
+          "age": 63,
+          "rate": 32.92
+        },
+        {
+          "age": 64,
+          "rate": 34.69
+        },
+        {
+          "age": 65,
+          "rate": 36.45
+        },
+        {
+          "age": 66,
+          "rate": 38.16
+        },
+        {
+          "age": 67,
+          "rate": 39.81
+        },
+        {
+          "age": 68,
+          "rate": 41.29
+        },
+        {
+          "age": 69,
+          "rate": 42.61
+        },
+        {
+          "age": 70,
+          "rate": 43.82
+        },
+        {
+          "age": 71,
+          "rate": 45.02
+        },
+        {
+          "age": 72,
+          "rate": 46.28
+        },
+        {
+          "age": 73,
+          "rate": 47.56
+        },
+        {
+          "age": 74,
+          "rate": 48.81
+        },
+        {
+          "age": 75,
+          "rate": 50.09
+        },
+        {
+          "age": 76,
+          "rate": 51.45
+        },
+        {
+          "age": 77,
+          "rate": 52.95
+        },
+        {
+          "age": 78,
+          "rate": 54.54
+        },
+        {
+          "age": 79,
+          "rate": 56.13
+        },
+        {
+          "age": 80,
+          "rate": 57.72
+        },
+        {
+          "age": 81,
+          "rate": 59.3
+        },
+        {
+          "age": 82,
+          "rate": 60.89
+        },
+        {
+          "age": 83,
+          "rate": 62.48
+        },
+        {
+          "age": 84,
+          "rate": 64.07
+        },
+        {
+          "age": 85,
+          "rate": 65.66
+        },
+        {
+          "age": 86,
+          "rate": 67.25
+        },
+        {
+          "age": 87,
+          "rate": 68.84
+        },
+        {
+          "age": 88,
+          "rate": 70.42
+        },
+        {
+          "age": 89,
+          "rate": 72.01
+        },
+        {
+          "age": 90,
+          "rate": 73.6
+        },
+        {
+          "age": 91,
+          "rate": 75.19
+        },
+        {
+          "age": 92,
+          "rate": 76.78
+        },
+        {
+          "age": 93,
+          "rate": 78.37
+        },
+        {
+          "age": 94,
+          "rate": 79.95
+        },
+        {
+          "age": 95,
+          "rate": 81.54
+        },
+        {
+          "age": 96,
+          "rate": 83.13
+        },
+        {
+          "age": 97,
+          "rate": 84.72
+        },
+        {
+          "age": 98,
+          "rate": 86.31
+        },
+        {
+          "age": 99,
+          "rate": 87.9
+        }
+      ]
+    }
+  ]
+}

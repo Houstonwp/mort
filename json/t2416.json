@@ -1,0 +1,324 @@
+{
+  "identifier": "2004_2005_individual_life_persistency_study_whole_life_preferred",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2416",
+    "providerDomain": "limra.com",
+    "providerName": "LIMRA International, Inc.",
+    "tableReference": "Cathy Ho and Nancy S. Muise, “U.S. Individual Life Persistency: A Joint Study Sponsored by the Society of Actuaries and LIMRA”, SOA and LL Global, Inc., (2009). Accessed: September, 2013 from https://www.soa.org/resources/experience-studies/2005-2009/2004-2005-ind-life-persistency/",
+    "contentType": {
+      "code": "5",
+      "label": "Termination Voluntary"
+    },
+    "tableName": "2004-2005 Individual Life Persistency Study – Whole Life Preferred",
+    "tableDescription": "2004-2005 Individual Life Persistency Study – Whole Life by Number of Policies AND by Face Amounts. Basis: Preferred Risk Class. Minimum Policy Duration: 1. Maximum Policy Duration: 30 and over",
+    "comments": "Study Data: The observation year for the study is 2004 with partial data for 2005. The study is based on data provided by 39 individual life insurance writers and presents lapse experience for whole life, term life, universal life, and variable universal life plans issued between 1901 and 2005. For consistency with prior studies, lapse is defined as termination for nonpayment of premium, insufficient cash value or full surrender of a policy, transfer to reduced paid-up or extended term status, and terminations for unknown reason. The number of policies exposed to lapse is based on the length of time the policy is exposed to the risk of lapse during the year. Lapses contribute exposure for the full 12 months. Terminations due to death, expiry, maturity, or conversion are not included in the amounts lapsing and contribute to exposure for only the fraction of the policy year they were in-force. For lapse by face amount, data collected represented just under $11 trillion in face amount exposed; the average face amount exposed was $37,000. Methodology: Lapse rates calculated by the following formula: Annualized Policy Lapse Rate = 100% * (Number of Policies Lapsed During the Year / Number of Policies Exposed to Lapse During the Year). Industry lapse rates are calculated as a weighted average of the experience of all contributing companies; companies with larger in-force blocks will affect the overall results more than companies with smaller in-force blocks. Thus, results for each policy factor analyzed are also examined at the company level to ensure that reported experience is not overly affected by one or more large participant blocks. Lapse rates are not reported for any data cell for which there were fewer than three companies or less than 1,000 policies exposed. Experience was reported exactly as calculated. No attempts were made to level or smooth results. Lapse rates for policy durations 26-29 are the same while rates for policy years 30 and above were all set to the same rate. Data Transcription Errors: None. Data Certified: 11/2013",
+    "keywords": [
+      "Duration",
+      "Termination Voluntary",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 Individual Life Persistency Study – Whole Life by Number of Policies. Basis: Preferred Risk Class. Minimum Policy Duration: 1. Maximum Policy Duration: 30 and over",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "30",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.054
+        },
+        {
+          "age": 2,
+          "rate": 0.072
+        },
+        {
+          "age": 3,
+          "rate": 0.055
+        },
+        {
+          "age": 4,
+          "rate": 0.041
+        },
+        {
+          "age": 5,
+          "rate": 0.048
+        },
+        {
+          "age": 6,
+          "rate": 0.046
+        },
+        {
+          "age": 7,
+          "rate": 0.048
+        },
+        {
+          "age": 8,
+          "rate": 0.046
+        },
+        {
+          "age": 9,
+          "rate": 0.048
+        },
+        {
+          "age": 10,
+          "rate": 0.05
+        },
+        {
+          "age": 11,
+          "rate": 0.052
+        },
+        {
+          "age": 12,
+          "rate": 0.053
+        },
+        {
+          "age": 13,
+          "rate": 0.05
+        },
+        {
+          "age": 14,
+          "rate": 0.048
+        },
+        {
+          "age": 15,
+          "rate": 0.049
+        },
+        {
+          "age": 16,
+          "rate": 0.046
+        },
+        {
+          "age": 17,
+          "rate": 0.049
+        },
+        {
+          "age": 18,
+          "rate": 0.054
+        },
+        {
+          "age": 19,
+          "rate": 0.039
+        },
+        {
+          "age": 20,
+          "rate": 0.037
+        },
+        {
+          "age": 21,
+          "rate": 0.037
+        },
+        {
+          "age": 22,
+          "rate": 0.036
+        },
+        {
+          "age": 23,
+          "rate": 0.039
+        },
+        {
+          "age": 24,
+          "rate": 0.042
+        },
+        {
+          "age": 25,
+          "rate": 0.056
+        },
+        {
+          "age": 26,
+          "rate": 0.069
+        },
+        {
+          "age": 27,
+          "rate": 0.069
+        },
+        {
+          "age": 28,
+          "rate": 0.069
+        },
+        {
+          "age": 29,
+          "rate": 0.069
+        },
+        {
+          "age": 30,
+          "rate": 0.075
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 Individual Life Persistency Study – Whole Life by Face Amounts. Basis: Preferred Risk Class. Minimum Policy Duration: 1. Maximum Policy Duration: 30 and over",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "30",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.049
+        },
+        {
+          "age": 2,
+          "rate": 0.066
+        },
+        {
+          "age": 3,
+          "rate": 0.05
+        },
+        {
+          "age": 4,
+          "rate": 0.038
+        },
+        {
+          "age": 5,
+          "rate": 0.059
+        },
+        {
+          "age": 6,
+          "rate": 0.054
+        },
+        {
+          "age": 7,
+          "rate": 0.059
+        },
+        {
+          "age": 8,
+          "rate": 0.055
+        },
+        {
+          "age": 9,
+          "rate": 0.06
+        },
+        {
+          "age": 10,
+          "rate": 0.055
+        },
+        {
+          "age": 11,
+          "rate": 0.06
+        },
+        {
+          "age": 12,
+          "rate": 0.057
+        },
+        {
+          "age": 13,
+          "rate": 0.059
+        },
+        {
+          "age": 14,
+          "rate": 0.06
+        },
+        {
+          "age": 15,
+          "rate": 0.044
+        },
+        {
+          "age": 16,
+          "rate": 0.04
+        },
+        {
+          "age": 17,
+          "rate": 0.042
+        },
+        {
+          "age": 18,
+          "rate": 0.04
+        },
+        {
+          "age": 19,
+          "rate": 0.033
+        },
+        {
+          "age": 20,
+          "rate": 0.037
+        },
+        {
+          "age": 21,
+          "rate": 0.038
+        },
+        {
+          "age": 22,
+          "rate": 0.035
+        },
+        {
+          "age": 23,
+          "rate": 0.037
+        },
+        {
+          "age": 24,
+          "rate": 0.038
+        },
+        {
+          "age": 25,
+          "rate": 0.05
+        },
+        {
+          "age": 26,
+          "rate": 0.043
+        },
+        {
+          "age": 27,
+          "rate": 0.043
+        },
+        {
+          "age": 28,
+          "rate": 0.043
+        },
+        {
+          "age": 29,
+          "rate": 0.043
+        },
+        {
+          "age": 30,
+          "rate": 0.053
+        }
+      ]
+    }
+  ]
+}

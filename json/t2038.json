@@ -1,0 +1,346 @@
+{
+  "identifier": "2005_group_term_life_waiver_study_ultimate_probability_of_death_following_disability_male",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2038",
+    "providerDomain": "www.soa.org",
+    "providerName": "Society of Actuaries",
+    "tableReference": "Group Life Insurance Experience Committee, “Report of the Society of Actuaries Group Life Insurance Experience Committee”, Society of Actuaries (2006). Accessed: July, 2013 from http://www.soa.org/files/research/exp-study/research-05-gl-waiver.pdf",
+    "contentType": {
+      "code": "2",
+      "label": "Disabled Lives Mortality"
+    },
+    "tableName": "2005 Group Term Life Waiver Study – Ultimate Probability of Death Following Disability - Male",
+    "tableDescription": "2005 Group Term Life Waiver Study - Ultimate Probability of Death Following Disability – Male. Years 11 and over (Exhibit 6). Rates by Attained Age. Minimum Age: 27. Maximum Age: 99",
+    "comments": "Study Data: Twenty-four companies contributed to the Society of Actuaries study, but the Committee had to exclude data from six for various reasons. Covers waiver claims open at some point during the 10-year period of January 1, 1993 through December 31, 2002. Exposure starts after a 9-month elimination period, which remains the most common elimination period used within the industry. The last such study was done in 1970 and produced the Intercompany Group Life Disability Experience Table, also known as the Krieger Table (See SOA Table Identity 1585). The 2005 Table uses the same structure as the 1970 Table, namely separate “Select” and “Ultimate” tables. Claims in the first ten years form the Select Table, which is constructed using two variables: age at disability and duration of disability. Claims in durations beyond the first ten years form the Ultimate Table, which is based on one variable: attained age. Because there was relatively little female exposure (Krieger estimated 15%), the 1970 study results were presented on a unisex basis. In contrast, female composition for the 2005 study was 39%, and the Committee was able to present results separately for males and females. Methodology: The Committee reviewed raw experience rates and smoothed them to develop graduated experience values. After the results were smoothed, the Committee developed margins to create a valuation table. The Committee selected margins of 25% for deaths and 35% for recoveries, i.e., death rates are multiplied by 125% and recoveries are multiplied by 65%. There is a higher margin for recoveries because there was more variance among companies for recoveries than for deaths. The Committee reviewed raw experience rates and smoothed them to develop graduated experience values, using 2nd degree polynomial trend lines and other spreadsheet application tools in Excel, as well as some manual adjustments. Data Transcription Errors: None. Data Certified: 07/2018",
+    "keywords": [
+      "Ultimate",
+      "Claim Death",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2005 Group Term Life Waiver Study - Ultimate Probability of Death Following Disability – Male. Years 11 and over (Exhibit 6). Rates by Attained Age. Minimum Age: 27. Maximum Age: 99",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "27",
+            "maxValue": "99",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 27,
+          "rate": 0.01
+        },
+        {
+          "age": 28,
+          "rate": 0.01
+        },
+        {
+          "age": 29,
+          "rate": 0.01
+        },
+        {
+          "age": 30,
+          "rate": 0.011
+        },
+        {
+          "age": 31,
+          "rate": 0.011
+        },
+        {
+          "age": 32,
+          "rate": 0.011
+        },
+        {
+          "age": 33,
+          "rate": 0.011
+        },
+        {
+          "age": 34,
+          "rate": 0.011
+        },
+        {
+          "age": 35,
+          "rate": 0.012
+        },
+        {
+          "age": 36,
+          "rate": 0.012
+        },
+        {
+          "age": 37,
+          "rate": 0.012
+        },
+        {
+          "age": 38,
+          "rate": 0.012
+        },
+        {
+          "age": 39,
+          "rate": 0.013
+        },
+        {
+          "age": 40,
+          "rate": 0.014
+        },
+        {
+          "age": 41,
+          "rate": 0.015
+        },
+        {
+          "age": 42,
+          "rate": 0.015
+        },
+        {
+          "age": 43,
+          "rate": 0.015
+        },
+        {
+          "age": 44,
+          "rate": 0.016
+        },
+        {
+          "age": 45,
+          "rate": 0.016
+        },
+        {
+          "age": 46,
+          "rate": 0.017
+        },
+        {
+          "age": 47,
+          "rate": 0.017
+        },
+        {
+          "age": 48,
+          "rate": 0.018
+        },
+        {
+          "age": 49,
+          "rate": 0.019
+        },
+        {
+          "age": 50,
+          "rate": 0.02
+        },
+        {
+          "age": 51,
+          "rate": 0.021
+        },
+        {
+          "age": 52,
+          "rate": 0.022
+        },
+        {
+          "age": 53,
+          "rate": 0.024
+        },
+        {
+          "age": 54,
+          "rate": 0.025
+        },
+        {
+          "age": 55,
+          "rate": 0.026
+        },
+        {
+          "age": 56,
+          "rate": 0.028
+        },
+        {
+          "age": 57,
+          "rate": 0.029
+        },
+        {
+          "age": 58,
+          "rate": 0.031
+        },
+        {
+          "age": 59,
+          "rate": 0.033
+        },
+        {
+          "age": 60,
+          "rate": 0.034
+        },
+        {
+          "age": 61,
+          "rate": 0.035
+        },
+        {
+          "age": 62,
+          "rate": 0.037
+        },
+        {
+          "age": 63,
+          "rate": 0.039
+        },
+        {
+          "age": 64,
+          "rate": 0.04
+        },
+        {
+          "age": 65,
+          "rate": 0.042
+        },
+        {
+          "age": 66,
+          "rate": 0.044
+        },
+        {
+          "age": 67,
+          "rate": 0.045
+        },
+        {
+          "age": 68,
+          "rate": 0.047
+        },
+        {
+          "age": 69,
+          "rate": 0.048
+        },
+        {
+          "age": 70,
+          "rate": 0.051
+        },
+        {
+          "age": 71,
+          "rate": 0.052
+        },
+        {
+          "age": 72,
+          "rate": 0.053
+        },
+        {
+          "age": 73,
+          "rate": 0.058
+        },
+        {
+          "age": 74,
+          "rate": 0.062
+        },
+        {
+          "age": 75,
+          "rate": 0.066
+        },
+        {
+          "age": 76,
+          "rate": 0.07
+        },
+        {
+          "age": 77,
+          "rate": 0.074
+        },
+        {
+          "age": 78,
+          "rate": 0.076
+        },
+        {
+          "age": 79,
+          "rate": 0.079
+        },
+        {
+          "age": 80,
+          "rate": 0.08
+        },
+        {
+          "age": 81,
+          "rate": 0.083
+        },
+        {
+          "age": 82,
+          "rate": 0.086
+        },
+        {
+          "age": 83,
+          "rate": 0.091
+        },
+        {
+          "age": 84,
+          "rate": 0.097
+        },
+        {
+          "age": 85,
+          "rate": 0.103
+        },
+        {
+          "age": 86,
+          "rate": 0.109
+        },
+        {
+          "age": 87,
+          "rate": 0.115
+        },
+        {
+          "age": 88,
+          "rate": 0.122
+        },
+        {
+          "age": 89,
+          "rate": 0.129
+        },
+        {
+          "age": 90,
+          "rate": 0.137
+        },
+        {
+          "age": 91,
+          "rate": 0.146
+        },
+        {
+          "age": 92,
+          "rate": 0.156
+        },
+        {
+          "age": 93,
+          "rate": 0.168
+        },
+        {
+          "age": 94,
+          "rate": 0.182
+        },
+        {
+          "age": 95,
+          "rate": 0.199
+        },
+        {
+          "age": 96,
+          "rate": 0.224
+        },
+        {
+          "age": 97,
+          "rate": 0.268
+        },
+        {
+          "age": 98,
+          "rate": 0.359
+        },
+        {
+          "age": 99,
+          "rate": 1
+        }
+      ]
+    }
+  ]
+}

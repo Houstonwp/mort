@@ -1,0 +1,279 @@
+{
+  "identifier": "1970_75_adb_experience_by_amount_of_claims_paid_female_anb",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "707",
+    "providerDomain": "soa.org",
+    "providerName": "Roger Scott Lumsden",
+    "tableReference": "Society of Actuaries, “II. Experience Under Accidental Death Benefit Provisions in Ordinary  Insurance Policies Between 1970 and 1975 Anniversaries”, Transactions of the Society of Actuaries – Reports (1977) Table 13. Accessed: July, 2013 from http://www.soa.org/Library/Research/Transactions-Reports-Of-Mortality-Moribidity-And-Experience/1970-79/1977/January/TSR773.aspx",
+    "contentType": {
+      "code": "77",
+      "label": "ADB, AD\u0026D"
+    },
+    "tableName": "1970-75 ADB Experience by Amount of Claims Paid - Female, ANB",
+    "tableDescription": "1970-75 Accidental Death Benefits (ADB) by Amount of Claims Paid - Male, Basis: Age Nearest Birthday. Minimum Age: 10 Maximum Age: 65",
+    "comments": "Study Data: All fifteen contributing companies to the 1970-75 ADB Study (See SOA Table Identity 705) were able to subdivide their experience by gender. Methodology: Graduated values were developed for each attained age from 10 through 65 by application of the Whittaker-Henderson third-difference A formula with K = 8. The formula was not applied to attained ages below 10 or above 65 since each of these ages involved less than 20 claims. NOTE: A prior generation of this table had rates for ages above 65. As these rates were not part of the published table and the source of the data used to extend the table could not be determined, they have been removed. Data Transcription Errors Detected: 07/2013. Data Corrected and Certified: 07/2013",
+    "keywords": [
+      "Aggregate",
+      "ADB",
+      "AD\u0026D",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1970-75 Accidental Death Benefits (ADB) by Amount of Claims Paid - Male, Basis: Age Nearest Birthday. Minimum Age: 10 Maximum Age: 65",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "10",
+            "maxValue": "65",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 10,
+          "rate": 0.000064
+        },
+        {
+          "age": 11,
+          "rate": 0.000065
+        },
+        {
+          "age": 12,
+          "rate": 0.000076
+        },
+        {
+          "age": 13,
+          "rate": 0.000096
+        },
+        {
+          "age": 14,
+          "rate": 0.000128
+        },
+        {
+          "age": 15,
+          "rate": 0.000167
+        },
+        {
+          "age": 16,
+          "rate": 0.000204
+        },
+        {
+          "age": 17,
+          "rate": 0.000234
+        },
+        {
+          "age": 18,
+          "rate": 0.000253
+        },
+        {
+          "age": 19,
+          "rate": 0.000257
+        },
+        {
+          "age": 20,
+          "rate": 0.000247
+        },
+        {
+          "age": 21,
+          "rate": 0.000228
+        },
+        {
+          "age": 22,
+          "rate": 0.000204
+        },
+        {
+          "age": 23,
+          "rate": 0.000181
+        },
+        {
+          "age": 24,
+          "rate": 0.000159
+        },
+        {
+          "age": 25,
+          "rate": 0.000142
+        },
+        {
+          "age": 26,
+          "rate": 0.000132
+        },
+        {
+          "age": 27,
+          "rate": 0.000131
+        },
+        {
+          "age": 28,
+          "rate": 0.00014
+        },
+        {
+          "age": 29,
+          "rate": 0.000155
+        },
+        {
+          "age": 30,
+          "rate": 0.000172
+        },
+        {
+          "age": 31,
+          "rate": 0.000184
+        },
+        {
+          "age": 32,
+          "rate": 0.000191
+        },
+        {
+          "age": 33,
+          "rate": 0.000191
+        },
+        {
+          "age": 34,
+          "rate": 0.000186
+        },
+        {
+          "age": 35,
+          "rate": 0.000178
+        },
+        {
+          "age": 36,
+          "rate": 0.00017
+        },
+        {
+          "age": 37,
+          "rate": 0.000164
+        },
+        {
+          "age": 38,
+          "rate": 0.000161
+        },
+        {
+          "age": 39,
+          "rate": 0.00016
+        },
+        {
+          "age": 40,
+          "rate": 0.000161
+        },
+        {
+          "age": 41,
+          "rate": 0.000165
+        },
+        {
+          "age": 42,
+          "rate": 0.000172
+        },
+        {
+          "age": 43,
+          "rate": 0.000183
+        },
+        {
+          "age": 44,
+          "rate": 0.000197
+        },
+        {
+          "age": 45,
+          "rate": 0.000208
+        },
+        {
+          "age": 46,
+          "rate": 0.000212
+        },
+        {
+          "age": 47,
+          "rate": 0.000209
+        },
+        {
+          "age": 48,
+          "rate": 0.000203
+        },
+        {
+          "age": 49,
+          "rate": 0.0002
+        },
+        {
+          "age": 50,
+          "rate": 0.000198
+        },
+        {
+          "age": 51,
+          "rate": 0.000197
+        },
+        {
+          "age": 52,
+          "rate": 0.000197
+        },
+        {
+          "age": 53,
+          "rate": 0.000194
+        },
+        {
+          "age": 54,
+          "rate": 0.000186
+        },
+        {
+          "age": 55,
+          "rate": 0.000172
+        },
+        {
+          "age": 56,
+          "rate": 0.000158
+        },
+        {
+          "age": 57,
+          "rate": 0.000155
+        },
+        {
+          "age": 58,
+          "rate": 0.000167
+        },
+        {
+          "age": 59,
+          "rate": 0.000193
+        },
+        {
+          "age": 60,
+          "rate": 0.00022
+        },
+        {
+          "age": 61,
+          "rate": 0.00024
+        },
+        {
+          "age": 62,
+          "rate": 0.000246
+        },
+        {
+          "age": 63,
+          "rate": 0.000237
+        },
+        {
+          "age": 64,
+          "rate": 0.00022
+        },
+        {
+          "age": 65,
+          "rate": 0.000201
+        }
+      ]
+    }
+  ]
+}

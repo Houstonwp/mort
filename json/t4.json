@@ -1,0 +1,454 @@
+{
+  "identifier": "1941_cso_table_with_davis_extension_for_age_0_alb",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "4",
+    "providerDomain": "soa.org",
+    "providerName": "Stephen J. Strommen.",
+    "tableReference": "Charles Greeley, “Tabulation of the 1941 CSO Mortality Table on the Basis of Age Last Birthday”, Transactions Society of Actuaries Vol. XII, No. 33 (1960). Accessed  9/2012 from www.soa.org/library/research/transactions-of-society-of-actuaries/1960/january/tsa60v12n3333.pdf, p. 3",
+    "contentType": {
+      "code": "85",
+      "label": "CSO / CET"
+    },
+    "tableName": "1941 CSO Table with Davis’ Extension for Age 0, ALB",
+    "tableDescription": "1941 Commissioners Standard Ordinary (CSO) Table with Davis’ Extension for Age 0. Male \u0026 Female Combined. Basis: Age Last Birthday. Minimum Age: 0 Maximum Age: 99",
+    "comments": "Study Data:  In 1960 the Metropolitan Life Insurance Company began issuing Ordinary policies on an age last birthday basis. As the 1941 CSO Table (SOA Table Identity 3) was prescribed for valuation purposes by many states and that table was based on an age nearest birthday basis, Mr. Greeley and other actuaries from Metropolitan computed and published a table based on an age last birthday basis. Methodology: A uniform distribution of deaths over the year of age is generally assumed to obtain the number dying over any subinterval of a year of age. For business written on an age last birthday basis, the number living halfway between an exact age and the next is therefore used as representing the average number for that age. The elementary functions were thus tabulated directly from those already available by simple interpolation on the lx column. Transcription Errors: None. Data Certified: 01/2013",
+    "keywords": [
+      "Aggregate",
+      "CSO/CET",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1941 Commissioners Standard Ordinary (CSO) Experience Table with Davis’ Extension for Age 0. Male \u0026 Female Combined. Basis: Age Last Birthday. Minimum Age: 0 Maximum Age: 99",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "0",
+            "maxValue": "99",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 0,
+          "rate": 0.01427
+        },
+        {
+          "age": 1,
+          "rate": 0.00496
+        },
+        {
+          "age": 2,
+          "rate": 0.00376
+        },
+        {
+          "age": 3,
+          "rate": 0.00318
+        },
+        {
+          "age": 4,
+          "rate": 0.00287
+        },
+        {
+          "age": 5,
+          "rate": 0.00269
+        },
+        {
+          "age": 6,
+          "rate": 0.00254
+        },
+        {
+          "age": 7,
+          "rate": 0.00239
+        },
+        {
+          "age": 8,
+          "rate": 0.00222
+        },
+        {
+          "age": 9,
+          "rate": 0.00204
+        },
+        {
+          "age": 10,
+          "rate": 0.00194
+        },
+        {
+          "age": 11,
+          "rate": 0.00192
+        },
+        {
+          "age": 12,
+          "rate": 0.00195
+        },
+        {
+          "age": 13,
+          "rate": 0.00202
+        },
+        {
+          "age": 14,
+          "rate": 0.00211
+        },
+        {
+          "age": 15,
+          "rate": 0.00217
+        },
+        {
+          "age": 16,
+          "rate": 0.00222
+        },
+        {
+          "age": 17,
+          "rate": 0.00228
+        },
+        {
+          "age": 18,
+          "rate": 0.00233
+        },
+        {
+          "age": 19,
+          "rate": 0.0024
+        },
+        {
+          "age": 20,
+          "rate": 0.00247
+        },
+        {
+          "age": 21,
+          "rate": 0.00255
+        },
+        {
+          "age": 22,
+          "rate": 0.00263
+        },
+        {
+          "age": 23,
+          "rate": 0.00273
+        },
+        {
+          "age": 24,
+          "rate": 0.00283
+        },
+        {
+          "age": 25,
+          "rate": 0.00293
+        },
+        {
+          "age": 26,
+          "rate": 0.00305
+        },
+        {
+          "age": 27,
+          "rate": 0.00318
+        },
+        {
+          "age": 28,
+          "rate": 0.00333
+        },
+        {
+          "age": 29,
+          "rate": 0.00348
+        },
+        {
+          "age": 30,
+          "rate": 0.00365
+        },
+        {
+          "age": 31,
+          "rate": 0.00382
+        },
+        {
+          "age": 32,
+          "rate": 0.00402
+        },
+        {
+          "age": 33,
+          "rate": 0.00423
+        },
+        {
+          "age": 34,
+          "rate": 0.00447
+        },
+        {
+          "age": 35,
+          "rate": 0.00473
+        },
+        {
+          "age": 36,
+          "rate": 0.00501
+        },
+        {
+          "age": 37,
+          "rate": 0.0053
+        },
+        {
+          "age": 38,
+          "rate": 0.00563
+        },
+        {
+          "age": 39,
+          "rate": 0.00599
+        },
+        {
+          "age": 40,
+          "rate": 0.00638
+        },
+        {
+          "age": 41,
+          "rate": 0.00681
+        },
+        {
+          "age": 42,
+          "rate": 0.00727
+        },
+        {
+          "age": 43,
+          "rate": 0.00777
+        },
+        {
+          "age": 44,
+          "rate": 0.00832
+        },
+        {
+          "age": 45,
+          "rate": 0.00892
+        },
+        {
+          "age": 46,
+          "rate": 0.00957
+        },
+        {
+          "age": 47,
+          "rate": 0.01027
+        },
+        {
+          "age": 48,
+          "rate": 0.01104
+        },
+        {
+          "age": 49,
+          "rate": 0.01188
+        },
+        {
+          "age": 50,
+          "rate": 0.01279
+        },
+        {
+          "age": 51,
+          "rate": 0.01378
+        },
+        {
+          "age": 52,
+          "rate": 0.01486
+        },
+        {
+          "age": 53,
+          "rate": 0.01604
+        },
+        {
+          "age": 54,
+          "rate": 0.01731
+        },
+        {
+          "age": 55,
+          "rate": 0.0187
+        },
+        {
+          "age": 56,
+          "rate": 0.02021
+        },
+        {
+          "age": 57,
+          "rate": 0.02185
+        },
+        {
+          "age": 58,
+          "rate": 0.02363
+        },
+        {
+          "age": 59,
+          "rate": 0.02557
+        },
+        {
+          "age": 60,
+          "rate": 0.02767
+        },
+        {
+          "age": 61,
+          "rate": 0.02996
+        },
+        {
+          "age": 62,
+          "rate": 0.03245
+        },
+        {
+          "age": 63,
+          "rate": 0.03515
+        },
+        {
+          "age": 64,
+          "rate": 0.03808
+        },
+        {
+          "age": 65,
+          "rate": 0.04127
+        },
+        {
+          "age": 66,
+          "rate": 0.04472
+        },
+        {
+          "age": 67,
+          "rate": 0.04846
+        },
+        {
+          "age": 68,
+          "rate": 0.05252
+        },
+        {
+          "age": 69,
+          "rate": 0.05694
+        },
+        {
+          "age": 70,
+          "rate": 0.06171
+        },
+        {
+          "age": 71,
+          "rate": 0.06687
+        },
+        {
+          "age": 72,
+          "rate": 0.07247
+        },
+        {
+          "age": 73,
+          "rate": 0.07853
+        },
+        {
+          "age": 74,
+          "rate": 0.08508
+        },
+        {
+          "age": 75,
+          "rate": 0.09216
+        },
+        {
+          "age": 76,
+          "rate": 0.09981
+        },
+        {
+          "age": 77,
+          "rate": 0.10805
+        },
+        {
+          "age": 78,
+          "rate": 0.11695
+        },
+        {
+          "age": 79,
+          "rate": 0.12653
+        },
+        {
+          "age": 80,
+          "rate": 0.13685
+        },
+        {
+          "age": 81,
+          "rate": 0.14794
+        },
+        {
+          "age": 82,
+          "rate": 0.15984
+        },
+        {
+          "age": 83,
+          "rate": 0.17262
+        },
+        {
+          "age": 84,
+          "rate": 0.18631
+        },
+        {
+          "age": 85,
+          "rate": 0.20093
+        },
+        {
+          "age": 86,
+          "rate": 0.21654
+        },
+        {
+          "age": 87,
+          "rate": 0.23322
+        },
+        {
+          "age": 88,
+          "rate": 0.25094
+        },
+        {
+          "age": 89,
+          "rate": 0.26973
+        },
+        {
+          "age": 90,
+          "rate": 0.28966
+        },
+        {
+          "age": 91,
+          "rate": 0.31076
+        },
+        {
+          "age": 92,
+          "rate": 0.33293
+        },
+        {
+          "age": 93,
+          "rate": 0.35628
+        },
+        {
+          "age": 94,
+          "rate": 0.38087
+        },
+        {
+          "age": 95,
+          "rate": 0.41508
+        },
+        {
+          "age": 96,
+          "rate": 0.483
+        },
+        {
+          "age": 97,
+          "rate": 0.60274
+        },
+        {
+          "age": 98,
+          "rate": 0.78621
+        },
+        {
+          "age": 99,
+          "rate": 1.00008
+        }
+      ]
+    }
+  ]
+}

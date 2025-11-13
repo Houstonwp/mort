@@ -1,0 +1,772 @@
+{
+  "identifier": "2004_2005_us_individual_life_persistency_study_vul_on_an_attained_age_basis",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2507",
+    "providerDomain": "limra.com",
+    "providerName": "LIMRA International, Inc.",
+    "tableReference": "Cathy Ho and Nancy Muise, “U.S. Individual Life Insurance Persistency, A Joint Study Sponsored by LIMRA International and the Society of Actuaries”, Society of Actuaries and LIMRA (2009) Accessed: October, 2013 from https://www.soa.org/resources/experience-studies/2005-2009/2004-2005-ind-life-persistency/",
+    "contentType": {
+      "code": "5",
+      "label": "Termination Voluntary"
+    },
+    "tableName": "2004-2005 U.S.   Individual Life Persistency Study – VUL on an Attained Age Basis",
+    "tableDescription": "2004-2005 Individual Life Persistency Study – Variable Universal Life (VUL) by Number of Policies AND by Face Amounts. Basis: Attained Age. Minimum Age: 0. Maximum Age: 85",
+    "comments": "Study Data: The observation period for the study is calendar years 2004 and 2005. The study is based on data provided by 39 individual life insurance writers and it presents lapse experience for whole life, term life, universal life, and variable universal life plans issued between 1902 and 2004. Of these participants, 33 provided whole life data, 36 provided term data, 32 provided universal life data, and 18 provided variable universal life data. Lapse includes termination for nonpayment of premium, insufficient cash value, or full surrender of a policy, transfer to reduced paid-up or extended term status, and in most cases, terminations for unknown reason. Methodology: Lapse rates are calculated as follows: Annualized Policy Lapse Rate = 100 x Number of Policies Lapsed During the Year / Number of Policies Exposed to Lapse During the Year. The number of policies exposed to lapse is based on the length of time the policy is exposed to the risk of lapsation during the year. Lapses contribute exposure for the full 12 months. Terminations due to death, expiry, maturity or conversion are not included in the amounts lapsing and contribute to exposure for only the fraction of the year they were in force. Experience is reported exactly as calculated. No attempt was made to graduate or smooth results. Data Transcription Errors: None. Data Certified: 11/2013",
+    "keywords": [
+      "Duration",
+      "Termination Voluntary",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 Individual Life Persistency Study – Variable Universal Life (VUL) by Number of Policies. Basis: Attained Age. Minimum Age: 0. Maximum Age: 85",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "0",
+            "maxValue": "85",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 0,
+          "rate": 0.022
+        },
+        {
+          "age": 1,
+          "rate": 0.035
+        },
+        {
+          "age": 2,
+          "rate": 0.039
+        },
+        {
+          "age": 3,
+          "rate": 0.05
+        },
+        {
+          "age": 4,
+          "rate": 0.052
+        },
+        {
+          "age": 5,
+          "rate": 0.047
+        },
+        {
+          "age": 6,
+          "rate": 0.05
+        },
+        {
+          "age": 7,
+          "rate": 0.049
+        },
+        {
+          "age": 8,
+          "rate": 0.046
+        },
+        {
+          "age": 9,
+          "rate": 0.046
+        },
+        {
+          "age": 10,
+          "rate": 0.044
+        },
+        {
+          "age": 11,
+          "rate": 0.044
+        },
+        {
+          "age": 12,
+          "rate": 0.043
+        },
+        {
+          "age": 13,
+          "rate": 0.044
+        },
+        {
+          "age": 14,
+          "rate": 0.039
+        },
+        {
+          "age": 15,
+          "rate": 0.04
+        },
+        {
+          "age": 16,
+          "rate": 0.037
+        },
+        {
+          "age": 17,
+          "rate": 0.037
+        },
+        {
+          "age": 18,
+          "rate": 0.047
+        },
+        {
+          "age": 19,
+          "rate": 0.047
+        },
+        {
+          "age": 20,
+          "rate": 0.047
+        },
+        {
+          "age": 21,
+          "rate": 0.048
+        },
+        {
+          "age": 22,
+          "rate": 0.05
+        },
+        {
+          "age": 23,
+          "rate": 0.055
+        },
+        {
+          "age": 24,
+          "rate": 0.059
+        },
+        {
+          "age": 25,
+          "rate": 0.06
+        },
+        {
+          "age": 26,
+          "rate": 0.064
+        },
+        {
+          "age": 27,
+          "rate": 0.064
+        },
+        {
+          "age": 28,
+          "rate": 0.071
+        },
+        {
+          "age": 29,
+          "rate": 0.068
+        },
+        {
+          "age": 30,
+          "rate": 0.067
+        },
+        {
+          "age": 31,
+          "rate": 0.068
+        },
+        {
+          "age": 32,
+          "rate": 0.068
+        },
+        {
+          "age": 33,
+          "rate": 0.069
+        },
+        {
+          "age": 34,
+          "rate": 0.066
+        },
+        {
+          "age": 35,
+          "rate": 0.065
+        },
+        {
+          "age": 36,
+          "rate": 0.063
+        },
+        {
+          "age": 37,
+          "rate": 0.06
+        },
+        {
+          "age": 38,
+          "rate": 0.061
+        },
+        {
+          "age": 39,
+          "rate": 0.058
+        },
+        {
+          "age": 40,
+          "rate": 0.055
+        },
+        {
+          "age": 41,
+          "rate": 0.055
+        },
+        {
+          "age": 42,
+          "rate": 0.052
+        },
+        {
+          "age": 43,
+          "rate": 0.052
+        },
+        {
+          "age": 44,
+          "rate": 0.052
+        },
+        {
+          "age": 45,
+          "rate": 0.051
+        },
+        {
+          "age": 46,
+          "rate": 0.05
+        },
+        {
+          "age": 47,
+          "rate": 0.049
+        },
+        {
+          "age": 48,
+          "rate": 0.048
+        },
+        {
+          "age": 49,
+          "rate": 0.048
+        },
+        {
+          "age": 50,
+          "rate": 0.048
+        },
+        {
+          "age": 51,
+          "rate": 0.046
+        },
+        {
+          "age": 52,
+          "rate": 0.044
+        },
+        {
+          "age": 53,
+          "rate": 0.045
+        },
+        {
+          "age": 54,
+          "rate": 0.047
+        },
+        {
+          "age": 55,
+          "rate": 0.045
+        },
+        {
+          "age": 56,
+          "rate": 0.047
+        },
+        {
+          "age": 57,
+          "rate": 0.045
+        },
+        {
+          "age": 58,
+          "rate": 0.046
+        },
+        {
+          "age": 59,
+          "rate": 0.047
+        },
+        {
+          "age": 60,
+          "rate": 0.049
+        },
+        {
+          "age": 61,
+          "rate": 0.048
+        },
+        {
+          "age": 62,
+          "rate": 0.05
+        },
+        {
+          "age": 63,
+          "rate": 0.05
+        },
+        {
+          "age": 64,
+          "rate": 0.05
+        },
+        {
+          "age": 65,
+          "rate": 0.059
+        },
+        {
+          "age": 66,
+          "rate": 0.061
+        },
+        {
+          "age": 67,
+          "rate": 0.052
+        },
+        {
+          "age": 68,
+          "rate": 0.051
+        },
+        {
+          "age": 69,
+          "rate": 0.046
+        },
+        {
+          "age": 70,
+          "rate": 0.047
+        },
+        {
+          "age": 71,
+          "rate": 0.044
+        },
+        {
+          "age": 72,
+          "rate": 0.047
+        },
+        {
+          "age": 73,
+          "rate": 0.044
+        },
+        {
+          "age": 74,
+          "rate": 0.051
+        },
+        {
+          "age": 75,
+          "rate": 0.049
+        },
+        {
+          "age": 76,
+          "rate": 0.052
+        },
+        {
+          "age": 77,
+          "rate": 0.048
+        },
+        {
+          "age": 78,
+          "rate": 0.045
+        },
+        {
+          "age": 79,
+          "rate": 0.045
+        },
+        {
+          "age": 80,
+          "rate": 0.051
+        },
+        {
+          "age": 81,
+          "rate": 0.049
+        },
+        {
+          "age": 82,
+          "rate": 0.052
+        },
+        {
+          "age": 83,
+          "rate": 0.047
+        },
+        {
+          "age": 84,
+          "rate": 0.054
+        },
+        {
+          "age": 85,
+          "rate": 0.056
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 Individual Life Persistency Study – Variable Universal Life (VUL) by Face Amounts. Basis: Attained Age. Minimum Age: 0. Maximum Age: 85",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "0",
+            "maxValue": "85",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 0,
+          "rate": 0.018
+        },
+        {
+          "age": 1,
+          "rate": 0.032
+        },
+        {
+          "age": 2,
+          "rate": 0.033
+        },
+        {
+          "age": 3,
+          "rate": 0.041
+        },
+        {
+          "age": 4,
+          "rate": 0.048
+        },
+        {
+          "age": 5,
+          "rate": 0.044
+        },
+        {
+          "age": 6,
+          "rate": 0.048
+        },
+        {
+          "age": 7,
+          "rate": 0.046
+        },
+        {
+          "age": 8,
+          "rate": 0.048
+        },
+        {
+          "age": 9,
+          "rate": 0.047
+        },
+        {
+          "age": 10,
+          "rate": 0.043
+        },
+        {
+          "age": 11,
+          "rate": 0.043
+        },
+        {
+          "age": 12,
+          "rate": 0.039
+        },
+        {
+          "age": 13,
+          "rate": 0.04
+        },
+        {
+          "age": 14,
+          "rate": 0.041
+        },
+        {
+          "age": 15,
+          "rate": 0.038
+        },
+        {
+          "age": 16,
+          "rate": 0.033
+        },
+        {
+          "age": 17,
+          "rate": 0.035
+        },
+        {
+          "age": 18,
+          "rate": 0.042
+        },
+        {
+          "age": 19,
+          "rate": 0.046
+        },
+        {
+          "age": 20,
+          "rate": 0.041
+        },
+        {
+          "age": 21,
+          "rate": 0.048
+        },
+        {
+          "age": 22,
+          "rate": 0.047
+        },
+        {
+          "age": 23,
+          "rate": 0.051
+        },
+        {
+          "age": 24,
+          "rate": 0.062
+        },
+        {
+          "age": 25,
+          "rate": 0.054
+        },
+        {
+          "age": 26,
+          "rate": 0.061
+        },
+        {
+          "age": 27,
+          "rate": 0.059
+        },
+        {
+          "age": 28,
+          "rate": 0.07
+        },
+        {
+          "age": 29,
+          "rate": 0.062
+        },
+        {
+          "age": 30,
+          "rate": 0.062
+        },
+        {
+          "age": 31,
+          "rate": 0.074
+        },
+        {
+          "age": 32,
+          "rate": 0.057
+        },
+        {
+          "age": 33,
+          "rate": 0.062
+        },
+        {
+          "age": 34,
+          "rate": 0.058
+        },
+        {
+          "age": 35,
+          "rate": 0.056
+        },
+        {
+          "age": 36,
+          "rate": 0.055
+        },
+        {
+          "age": 37,
+          "rate": 0.051
+        },
+        {
+          "age": 38,
+          "rate": 0.054
+        },
+        {
+          "age": 39,
+          "rate": 0.054
+        },
+        {
+          "age": 40,
+          "rate": 0.049
+        },
+        {
+          "age": 41,
+          "rate": 0.054
+        },
+        {
+          "age": 42,
+          "rate": 0.051
+        },
+        {
+          "age": 43,
+          "rate": 0.05
+        },
+        {
+          "age": 44,
+          "rate": 0.055
+        },
+        {
+          "age": 45,
+          "rate": 0.05
+        },
+        {
+          "age": 46,
+          "rate": 0.05
+        },
+        {
+          "age": 47,
+          "rate": 0.047
+        },
+        {
+          "age": 48,
+          "rate": 0.052
+        },
+        {
+          "age": 49,
+          "rate": 0.047
+        },
+        {
+          "age": 50,
+          "rate": 0.051
+        },
+        {
+          "age": 51,
+          "rate": 0.05
+        },
+        {
+          "age": 52,
+          "rate": 0.052
+        },
+        {
+          "age": 53,
+          "rate": 0.052
+        },
+        {
+          "age": 54,
+          "rate": 0.054
+        },
+        {
+          "age": 55,
+          "rate": 0.053
+        },
+        {
+          "age": 56,
+          "rate": 0.053
+        },
+        {
+          "age": 57,
+          "rate": 0.053
+        },
+        {
+          "age": 58,
+          "rate": 0.056
+        },
+        {
+          "age": 59,
+          "rate": 0.057
+        },
+        {
+          "age": 60,
+          "rate": 0.052
+        },
+        {
+          "age": 61,
+          "rate": 0.062
+        },
+        {
+          "age": 62,
+          "rate": 0.061
+        },
+        {
+          "age": 63,
+          "rate": 0.058
+        },
+        {
+          "age": 64,
+          "rate": 0.06
+        },
+        {
+          "age": 65,
+          "rate": 0.063
+        },
+        {
+          "age": 66,
+          "rate": 0.06
+        },
+        {
+          "age": 67,
+          "rate": 0.06
+        },
+        {
+          "age": 68,
+          "rate": 0.056
+        },
+        {
+          "age": 69,
+          "rate": 0.076
+        },
+        {
+          "age": 70,
+          "rate": 0.056
+        },
+        {
+          "age": 71,
+          "rate": 0.054
+        },
+        {
+          "age": 72,
+          "rate": 0.062
+        },
+        {
+          "age": 73,
+          "rate": 0.046
+        },
+        {
+          "age": 74,
+          "rate": 0.064
+        },
+        {
+          "age": 75,
+          "rate": 0.045
+        },
+        {
+          "age": 76,
+          "rate": 0.077
+        },
+        {
+          "age": 77,
+          "rate": 0.054
+        },
+        {
+          "age": 78,
+          "rate": 0.049
+        },
+        {
+          "age": 79,
+          "rate": 0.039
+        },
+        {
+          "age": 80,
+          "rate": 0.039
+        },
+        {
+          "age": 81,
+          "rate": 0.036
+        },
+        {
+          "age": 82,
+          "rate": 0.031
+        },
+        {
+          "age": 83,
+          "rate": 0.034
+        },
+        {
+          "age": 84,
+          "rate": 0.038
+        },
+        {
+          "age": 85,
+          "rate": 0.023
+        }
+      ]
+    }
+  ]
+}

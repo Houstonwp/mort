@@ -1,0 +1,138 @@
+{
+  "identifier": "2005_2007_ltc_persistency_study_total_termination_group_ltc_plans",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2564",
+    "providerDomain": "limra.com",
+    "providerName": "LIMRA International, Inc.",
+    "tableReference": "Cathy Ho and Nancy Muise, “Long Term Care Insurance Persistency, A Joint Study Sponsored by LIMRA and the Society of Actuaries”, Society of Actuaries and LL Global, Inc. (2010) Accessed: November, 2013 from http://www.soa.org/Files/Xls/research-05-07-ltc-ins-persistency-report.pdf",
+    "contentType": {
+      "code": "5",
+      "label": "Termination Voluntary"
+    },
+    "tableName": "2005-2007 LTC Persistency Study – Total Termination Group LTC Plans",
+    "tableDescription": "2005-2007 Long-Term Care Insurance Persistency Study – Group LTC Plans. Basis: Total Termination. Minimum Policy Year: 1. Maximum Policy Year: 21",
+    "comments": "Study Data: The data underlying the 2005–2007 experience study indicates that some companies may be incorrectly coding deaths as either lapses or termination for an unknown cause, thus it is important to examine total termination rates as well as voluntary lapse rates. Methodology: Termination rates are calculated as follows: Annualized Termination Rate = 100 x Number of Lives Terminated During the Year / Number of Lives Exposed to Termination During the Year. Hence terminations due to death, expiry, maturity or conversion are lumped together with voluntary lapses, that is, termination for non-payment of premium, expiration of benefits, conversion, and in most cases, terminations for an unknown reason. As voluntary lapse rates trend toward a decline, total termination rates begin to increase gradually as the impact of mortality is greater on total terminations. Experience is reported exactly as calculated. No attempt was made to graduate or smooth results. NOTE: The table database does not currently support a type of “total termination”, that is termination due to the combination of lapses and deaths. Hence “termination voluntary” was selected as the type given the source material is listed as a “persistency study”. Data Transcription Errors: None. Data Certified: 12/2013",
+    "keywords": [
+      "Duration",
+      "Termination Voluntary",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2005-2007 Long-Term Care Insurance Persistency Study – Group LTC Plans. Basis: Total Termination. Minimum Policy Year: 1. Maximum Policy Year: 21",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "21",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.137
+        },
+        {
+          "age": 2,
+          "rate": 0.108
+        },
+        {
+          "age": 3,
+          "rate": 0.084
+        },
+        {
+          "age": 4,
+          "rate": 0.068
+        },
+        {
+          "age": 5,
+          "rate": 0.051
+        },
+        {
+          "age": 6,
+          "rate": 0.043
+        },
+        {
+          "age": 7,
+          "rate": 0.04
+        },
+        {
+          "age": 8,
+          "rate": 0.036
+        },
+        {
+          "age": 9,
+          "rate": 0.037
+        },
+        {
+          "age": 10,
+          "rate": 0.036
+        },
+        {
+          "age": 11,
+          "rate": 0.026
+        },
+        {
+          "age": 12,
+          "rate": 0.026
+        },
+        {
+          "age": 13,
+          "rate": 0.021
+        },
+        {
+          "age": 14,
+          "rate": 0.023
+        },
+        {
+          "age": 15,
+          "rate": 0.041
+        },
+        {
+          "age": 16,
+          "rate": 0.021
+        },
+        {
+          "age": 17,
+          "rate": 0.024
+        },
+        {
+          "age": 18,
+          "rate": 0.055
+        },
+        {
+          "age": 19,
+          "rate": 0.074
+        },
+        {
+          "age": 20,
+          "rate": 0.077
+        },
+        {
+          "age": 21,
+          "rate": 0.082
+        }
+      ]
+    }
+  ]
+}

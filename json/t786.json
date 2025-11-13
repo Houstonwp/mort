@@ -1,0 +1,234 @@
+{
+  "identifier": "1952_graduated_rates_of_disablement_benefit_3_period_2_90_day_ep",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "786",
+    "providerDomain": "soa.org",
+    "providerName": "Susie Lee",
+    "tableReference": "Manuel R. Cueto, “Monetary Values for Ordinary Disability Benefits, Based on Period 2 of the 1952 Inter-Company Study of the Society’s Committee with Interest at 2½ %”, Transactions of the Society of Actuaries, Vol. VI, No. 14. (1954) Table 3b. Accessed: June, 2013 from   http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1954/January/tsa54v6n1410.pdf.",
+    "contentType": {
+      "code": "80",
+      "label": "Claim Incidence"
+    },
+    "tableName": "1952 Graduated Rates of Disablement - Benefit 3, Period 2, 90 day EP",
+    "tableDescription": "1952 Graduated Rates of Disablement - Benefit 3. Time Period: 2. Elimination Period: 90 days. Minimum Age: 15. Maximum Age: 59",
+    "comments": "Study Data: The Committee on Disability and Double Indemnity presented in 1952 the results of an intercompany study of the experience of eleven companies under certain ordinary disability benefits between 1930 and 1950 anniversaries. (“Experience Under Certain Ordinary Disability Benefits Between the 1930 and 1950 Anniversaries”, Reports of the Society of Actuaries (1952)). Benefit 3 represents claims under 90-day presumptive clause providing monthly income of $10 per thousand of life insurance and waiver of premiums, as in the case ofBenefit 2, but with income benefits retroactive to cover the first three months. Contracts of this type were issued chiefly from 1925 to early in 1930. Methodology: The rates of disablement were derived as the ratio of the amount of admissions to disability benefit with date of disablement in a particular policy year to the mean in force of active lives over such policy year, approximated in most cases as the December 31st valuation in force. While Period 2 rates of disablement (between 1935 and 1939 anniversaries) are not exactly midway between those for Period 1 (1930-1935) which are high, and Period 4 (1946--1950) which are low, they are believed to represent a reasonable approach to the problem of attempting to use what might be considered an average or \"long-term\" level of disability rates. The individual age disablement rates for Period 2 were graduated by the Whittaker-Henderson \"A\" formula minimizing third  differences, with a* = 4. At the youngest ages, rates based on exposures of less than $5 million of life insurance at a single age were excluded from the graduation. The Period 2 graduated rates of disablement for each of the Benefits 1 to 5, inclusive, were shown in the 1952 Disability Report for attained ages 18 to 59 inclusive. However, in the interest of making monetary values as complete as possible without serious inaccuracy, it was decided to extend the rates of disablement for Benefits 1 to 4 back to age 15 (the earliest age at which these benefits were generally issued) by arbitrarily using the rates at age 18 for ages below 18. Data Transcription Errors: None. Data Certified: 06/2013.",
+    "keywords": [
+      "Aggregate",
+      "Claim Incidence",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1952 Graduated Rates of Disablement - Benefit 3. Time Period: 2. Elimination Period: 90 days. Minimum Age: 15. Maximum Age: 59",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "59",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 0.00366
+        },
+        {
+          "age": 16,
+          "rate": 0.00366
+        },
+        {
+          "age": 17,
+          "rate": 0.00366
+        },
+        {
+          "age": 18,
+          "rate": 0.00366
+        },
+        {
+          "age": 19,
+          "rate": 0.00366
+        },
+        {
+          "age": 20,
+          "rate": 0.00366
+        },
+        {
+          "age": 21,
+          "rate": 0.00368
+        },
+        {
+          "age": 22,
+          "rate": 0.00371
+        },
+        {
+          "age": 23,
+          "rate": 0.00375
+        },
+        {
+          "age": 24,
+          "rate": 0.0038
+        },
+        {
+          "age": 25,
+          "rate": 0.00386
+        },
+        {
+          "age": 26,
+          "rate": 0.00393
+        },
+        {
+          "age": 27,
+          "rate": 0.00401
+        },
+        {
+          "age": 28,
+          "rate": 0.0041
+        },
+        {
+          "age": 29,
+          "rate": 0.00421
+        },
+        {
+          "age": 30,
+          "rate": 0.00433
+        },
+        {
+          "age": 31,
+          "rate": 0.00447
+        },
+        {
+          "age": 32,
+          "rate": 0.00463
+        },
+        {
+          "age": 33,
+          "rate": 0.0048
+        },
+        {
+          "age": 34,
+          "rate": 0.00512
+        },
+        {
+          "age": 35,
+          "rate": 0.00549
+        },
+        {
+          "age": 36,
+          "rate": 0.0059
+        },
+        {
+          "age": 37,
+          "rate": 0.00634
+        },
+        {
+          "age": 38,
+          "rate": 0.00683
+        },
+        {
+          "age": 39,
+          "rate": 0.00734
+        },
+        {
+          "age": 40,
+          "rate": 0.00788
+        },
+        {
+          "age": 41,
+          "rate": 0.00843
+        },
+        {
+          "age": 42,
+          "rate": 0.00899
+        },
+        {
+          "age": 43,
+          "rate": 0.00955
+        },
+        {
+          "age": 44,
+          "rate": 0.0101
+        },
+        {
+          "age": 45,
+          "rate": 0.01066
+        },
+        {
+          "age": 46,
+          "rate": 0.01123
+        },
+        {
+          "age": 47,
+          "rate": 0.01185
+        },
+        {
+          "age": 48,
+          "rate": 0.01255
+        },
+        {
+          "age": 49,
+          "rate": 0.01336
+        },
+        {
+          "age": 50,
+          "rate": 0.01433
+        },
+        {
+          "age": 51,
+          "rate": 0.01548
+        },
+        {
+          "age": 52,
+          "rate": 0.01687
+        },
+        {
+          "age": 53,
+          "rate": 0.01852
+        },
+        {
+          "age": 54,
+          "rate": 0.02045
+        },
+        {
+          "age": 55,
+          "rate": 0.0227
+        },
+        {
+          "age": 56,
+          "rate": 0.02527
+        },
+        {
+          "age": 57,
+          "rate": 0.02817
+        },
+        {
+          "age": 58,
+          "rate": 0.0314
+        },
+        {
+          "age": 59,
+          "rate": 0.03497
+        }
+      ]
+    }
+  ]
+}

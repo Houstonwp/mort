@@ -1,0 +1,258 @@
+{
+  "identifier": "2012_idec_claim_incidence_table_male_occ_class_m_sick_360_day_ep",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1789",
+    "providerDomain": "soa.org",
+    "providerName": "Society of Actuaries",
+    "tableReference": "Individual Disability Experience Committee, “Development of the 2012 IDEC Claim Incidence Rate Table (Version 1.0)”, Society of Actuaries (2012). Accessed: May, 2013 from http://www.soa.org/files/research/exp-study/2012_idec_claim_incidence_rate_table.pdf AND Individual Disability Experience Committee, “SOA IDEC 2012 Tables Workbook Version 1.0 Excel File”, Society of Actuaries (2012) Accessed: May, 2013 from http://www.soa.org/Files/Research/Exp-Study/soa_idec_2012_tables_workbook_excel.xls",
+    "contentType": {
+      "code": "80",
+      "label": "Claim Incidence"
+    },
+    "tableName": "2012 IDEC Claim Incidence Table - Male, Occ Class M, Sick, 360 day EP",
+    "tableDescription": "2012 Individual Disability Experience Committee (IDEC) Claim Incidence Table – Male. Occupation Class: M. Basis: Sickness. Elimination Period: 360 days",
+    "comments": "Study Data: Data represents Version 1.0 and should be considered work in progress. Based on individual disability income (IDI) experience from 1990 to 2007 and contain no explicit margins for adverse deviations. One company’s policy and claim data was scaled down so as to represent only 40% of total exposure over the study period. Claim experience for attained ages over 64 was excluded since experience at these ages was mainly conditionally renewable, i.e., the insured had to be employed during the year of exposure. Methodology: Expected claims for each policy and exposure year were first derived using occupation class 1 claim incidence rates from the 1985 Commissioners Individual Disability Table A (CIDA) table (See SOA Table Identities 1230-1437), regardless of the IDEC occupation class. This allowed Actual-to-Expected (A/E) incidence ratios that reflect differences by occupation. The A/E experience for elimination periods 180, 360 and 720 days was combined because of the lack of data. A manual smoothing was first performed on the raw A/E ratios prior to the graduation process to ensure reasonable relationships among the occupation classes. Care was taken to preserve the overall A/E ratios for each combination of cause, gender, occupation class, and elimination period. The smoothed A/E ratios were then applied to the corresponding 1985 CIDA occupation class 1 incidence rates at pivotal ages 27, 32, 37, 42, 47, 52, 57 and 62. The resulting incidence rates were graduated using Whittaker-Henderson Type B. The graduated claim incidence rates were then used to recalculate the expected claims and new A/E ratios were derived for all of the policies and exposure years. The A/E ratios by count and monthly indemnity were then calculated for subsets based on gender, occupation class and elimination period. NOTE: The various claim incidence tables (SOA Table Identities 1706-1875) were published along with suggested adjustments to the rates to distinguish the experience among various business segments. Accordingly, the Excel workbook referenced above should be consulted. Data Transcription Errors: None. Data Certified: 05/2013",
+    "keywords": [
+      "Aggregate",
+      "Claim Incidence",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2012 Individual Disability Experience Committee (IDEC) Claim Incidence Table – Male. Occupation Class: M. Basis: Sickness. Elimination Period: 360 days",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "20",
+            "maxValue": "70",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 20,
+          "rate": 0.000651
+        },
+        {
+          "age": 21,
+          "rate": 0.000651
+        },
+        {
+          "age": 22,
+          "rate": 0.000651
+        },
+        {
+          "age": 23,
+          "rate": 0.000651
+        },
+        {
+          "age": 24,
+          "rate": 0.000651
+        },
+        {
+          "age": 25,
+          "rate": 0.000651
+        },
+        {
+          "age": 26,
+          "rate": 0.000628
+        },
+        {
+          "age": 27,
+          "rate": 0.000605
+        },
+        {
+          "age": 28,
+          "rate": 0.000582
+        },
+        {
+          "age": 29,
+          "rate": 0.000559
+        },
+        {
+          "age": 30,
+          "rate": 0.000536
+        },
+        {
+          "age": 31,
+          "rate": 0.000513
+        },
+        {
+          "age": 32,
+          "rate": 0.00049
+        },
+        {
+          "age": 33,
+          "rate": 0.000523
+        },
+        {
+          "age": 34,
+          "rate": 0.000556
+        },
+        {
+          "age": 35,
+          "rate": 0.000589
+        },
+        {
+          "age": 36,
+          "rate": 0.000622
+        },
+        {
+          "age": 37,
+          "rate": 0.000655
+        },
+        {
+          "age": 38,
+          "rate": 0.000725
+        },
+        {
+          "age": 39,
+          "rate": 0.000809
+        },
+        {
+          "age": 40,
+          "rate": 0.000908
+        },
+        {
+          "age": 41,
+          "rate": 0.001023
+        },
+        {
+          "age": 42,
+          "rate": 0.001156
+        },
+        {
+          "age": 43,
+          "rate": 0.001307
+        },
+        {
+          "age": 44,
+          "rate": 0.001479
+        },
+        {
+          "age": 45,
+          "rate": 0.001671
+        },
+        {
+          "age": 46,
+          "rate": 0.001886
+        },
+        {
+          "age": 47,
+          "rate": 0.002124
+        },
+        {
+          "age": 48,
+          "rate": 0.002387
+        },
+        {
+          "age": 49,
+          "rate": 0.002676
+        },
+        {
+          "age": 50,
+          "rate": 0.002992
+        },
+        {
+          "age": 51,
+          "rate": 0.003336
+        },
+        {
+          "age": 52,
+          "rate": 0.003709
+        },
+        {
+          "age": 53,
+          "rate": 0.004112
+        },
+        {
+          "age": 54,
+          "rate": 0.004547
+        },
+        {
+          "age": 55,
+          "rate": 0.005013
+        },
+        {
+          "age": 56,
+          "rate": 0.005512
+        },
+        {
+          "age": 57,
+          "rate": 0.006044
+        },
+        {
+          "age": 58,
+          "rate": 0.006609
+        },
+        {
+          "age": 59,
+          "rate": 0.007207
+        },
+        {
+          "age": 60,
+          "rate": 0.007838
+        },
+        {
+          "age": 61,
+          "rate": 0.008501
+        },
+        {
+          "age": 62,
+          "rate": 0.009194
+        },
+        {
+          "age": 63,
+          "rate": 0.009887
+        },
+        {
+          "age": 64,
+          "rate": 0.01058
+        },
+        {
+          "age": 65,
+          "rate": 0.011273
+        },
+        {
+          "age": 66,
+          "rate": 0.011966
+        },
+        {
+          "age": 67,
+          "rate": 0.012659
+        },
+        {
+          "age": 68,
+          "rate": 0.013352
+        },
+        {
+          "age": 69,
+          "rate": 0.014045
+        },
+        {
+          "age": 70,
+          "rate": 0.014738
+        }
+      ]
+    }
+  ]
+}

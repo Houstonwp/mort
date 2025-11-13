@@ -1,0 +1,4000 @@
+{
+  "identifier": "2004_2005_us_individual_life_persistency_study",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1535",
+    "providerDomain": "limra.com",
+    "providerName": "LIMRA International, Inc.",
+    "tableReference": "Cathy Ho and Nancy S. Muise, “U.S. Individual Life Persistency: A Joint Study Sponsored by the Society of Actuaries and LIMRA”, SOA and LL Global, Inc., (2009). Accessed: July, 2018 from https://www.soa.org/resources/experience-studies/2005-2009/2004-2005-ind-life-persistency/",
+    "contentType": {
+      "code": "5",
+      "label": "Termination Voluntary"
+    },
+    "tableName": "2004-2005 U.S. Individual Life Persistency Study",
+    "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005)",
+    "comments": "Lapse experience for whole life, term life, universal life and variable universal life plans traced through 2005. Data Corrected and Certified: 07/2018.",
+    "keywords": [
+      "Duration",
+      "Termination Voluntary",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Risk Classification, Policy Lapse Rates, YRT, Preferred, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "23",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.035
+        },
+        {
+          "age": 2,
+          "rate": 0.1
+        },
+        {
+          "age": 3,
+          "rate": 0.091
+        },
+        {
+          "age": 4,
+          "rate": 0.096
+        },
+        {
+          "age": 5,
+          "rate": 0.104
+        },
+        {
+          "age": 6,
+          "rate": 0.096
+        },
+        {
+          "age": 7,
+          "rate": 0.09
+        },
+        {
+          "age": 8,
+          "rate": 0.096
+        },
+        {
+          "age": 9,
+          "rate": 0.095
+        },
+        {
+          "age": 10,
+          "rate": 0.092
+        },
+        {
+          "age": 11,
+          "rate": 0.1
+        },
+        {
+          "age": 12,
+          "rate": 0.087
+        },
+        {
+          "age": 13,
+          "rate": 0.09
+        },
+        {
+          "age": 14,
+          "rate": 0.086
+        },
+        {
+          "age": 15,
+          "rate": 0.087
+        },
+        {
+          "age": 16,
+          "rate": 0.083
+        },
+        {
+          "age": 17,
+          "rate": 0.08
+        },
+        {
+          "age": 18,
+          "rate": 0.084
+        },
+        {
+          "age": 19,
+          "rate": 0.081
+        },
+        {
+          "age": 20,
+          "rate": 0.083
+        },
+        {
+          "age": 21,
+          "rate": 0.088
+        },
+        {
+          "age": 22,
+          "rate": 0.123
+        },
+        {
+          "age": 23,
+          "rate": 0.117
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Risk Classification, Policy Lapse Rates, YRT, Standard, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "50",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.06
+        },
+        {
+          "age": 2,
+          "rate": 0.084
+        },
+        {
+          "age": 3,
+          "rate": 0.074
+        },
+        {
+          "age": 4,
+          "rate": 0.077
+        },
+        {
+          "age": 5,
+          "rate": 0.074
+        },
+        {
+          "age": 6,
+          "rate": 0.072
+        },
+        {
+          "age": 7,
+          "rate": 0.071
+        },
+        {
+          "age": 8,
+          "rate": 0.07
+        },
+        {
+          "age": 9,
+          "rate": 0.067
+        },
+        {
+          "age": 10,
+          "rate": 0.067
+        },
+        {
+          "age": 11,
+          "rate": 0.07
+        },
+        {
+          "age": 12,
+          "rate": 0.065
+        },
+        {
+          "age": 13,
+          "rate": 0.065
+        },
+        {
+          "age": 14,
+          "rate": 0.063
+        },
+        {
+          "age": 15,
+          "rate": 0.063
+        },
+        {
+          "age": 16,
+          "rate": 0.063
+        },
+        {
+          "age": 17,
+          "rate": 0.058
+        },
+        {
+          "age": 18,
+          "rate": 0.062
+        },
+        {
+          "age": 19,
+          "rate": 0.061
+        },
+        {
+          "age": 20,
+          "rate": 0.073
+        },
+        {
+          "age": 21,
+          "rate": 0.095
+        },
+        {
+          "age": 22,
+          "rate": 0.071
+        },
+        {
+          "age": 23,
+          "rate": 0.07
+        },
+        {
+          "age": 24,
+          "rate": 0.091
+        },
+        {
+          "age": 25,
+          "rate": 0.107
+        },
+        {
+          "age": 26,
+          "rate": 0.11
+        },
+        {
+          "age": 27,
+          "rate": 0.11
+        },
+        {
+          "age": 28,
+          "rate": 0.11
+        },
+        {
+          "age": 29,
+          "rate": 0.11
+        },
+        {
+          "age": 30,
+          "rate": 0.154
+        },
+        {
+          "age": 31,
+          "rate": 0.154
+        },
+        {
+          "age": 32,
+          "rate": 0.154
+        },
+        {
+          "age": 33,
+          "rate": 0.154
+        },
+        {
+          "age": 34,
+          "rate": 0.154
+        },
+        {
+          "age": 35,
+          "rate": 0.154
+        },
+        {
+          "age": 36,
+          "rate": 0.154
+        },
+        {
+          "age": 37,
+          "rate": 0.154
+        },
+        {
+          "age": 38,
+          "rate": 0.154
+        },
+        {
+          "age": 39,
+          "rate": 0.154
+        },
+        {
+          "age": 40,
+          "rate": 0.154
+        },
+        {
+          "age": 41,
+          "rate": 0.154
+        },
+        {
+          "age": 42,
+          "rate": 0.154
+        },
+        {
+          "age": 43,
+          "rate": 0.154
+        },
+        {
+          "age": 44,
+          "rate": 0.154
+        },
+        {
+          "age": 45,
+          "rate": 0.154
+        },
+        {
+          "age": 46,
+          "rate": 0.154
+        },
+        {
+          "age": 47,
+          "rate": 0.154
+        },
+        {
+          "age": 48,
+          "rate": 0.154
+        },
+        {
+          "age": 49,
+          "rate": 0.154
+        },
+        {
+          "age": 50,
+          "rate": 0.154
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Risk Classification, Policy Lapse Rates, YRT, Substandard, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "15",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.097
+        },
+        {
+          "age": 2,
+          "rate": 0.106
+        },
+        {
+          "age": 3,
+          "rate": 0.099
+        },
+        {
+          "age": 4,
+          "rate": 0.085
+        },
+        {
+          "age": 5,
+          "rate": 0.086
+        },
+        {
+          "age": 6,
+          "rate": 0.078
+        },
+        {
+          "age": 7,
+          "rate": 0.072
+        },
+        {
+          "age": 8,
+          "rate": 0.067
+        },
+        {
+          "age": 9,
+          "rate": 0.07
+        },
+        {
+          "age": 10,
+          "rate": 0.074
+        },
+        {
+          "age": 11,
+          "rate": 0.067
+        },
+        {
+          "age": 12,
+          "rate": 0.07
+        },
+        {
+          "age": 13,
+          "rate": 0.065
+        },
+        {
+          "age": 14,
+          "rate": 0.064
+        },
+        {
+          "age": 15,
+          "rate": 0.069
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Risk Classification, Policy Lapse Rates, 10 Year Term, Preferred, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "11",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.059
+        },
+        {
+          "age": 2,
+          "rate": 0.073
+        },
+        {
+          "age": 3,
+          "rate": 0.065
+        },
+        {
+          "age": 4,
+          "rate": 0.059
+        },
+        {
+          "age": 5,
+          "rate": 0.061
+        },
+        {
+          "age": 6,
+          "rate": 0.062
+        },
+        {
+          "age": 7,
+          "rate": 0.062
+        },
+        {
+          "age": 8,
+          "rate": 0.06
+        },
+        {
+          "age": 9,
+          "rate": 0.035
+        },
+        {
+          "age": 10,
+          "rate": 0.322
+        },
+        {
+          "age": 11,
+          "rate": 0.645
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Risk Classification, Policy Lapse Rates, 10 Year Term, Standard, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "17",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.068
+        },
+        {
+          "age": 2,
+          "rate": 0.093
+        },
+        {
+          "age": 3,
+          "rate": 0.083
+        },
+        {
+          "age": 4,
+          "rate": 0.076
+        },
+        {
+          "age": 5,
+          "rate": 0.082
+        },
+        {
+          "age": 6,
+          "rate": 0.089
+        },
+        {
+          "age": 7,
+          "rate": 0.075
+        },
+        {
+          "age": 8,
+          "rate": 0.073
+        },
+        {
+          "age": 9,
+          "rate": 0.047
+        },
+        {
+          "age": 10,
+          "rate": 0.159
+        },
+        {
+          "age": 11,
+          "rate": 0.222
+        },
+        {
+          "age": 12,
+          "rate": 0.079
+        },
+        {
+          "age": 13,
+          "rate": 0.054
+        },
+        {
+          "age": 14,
+          "rate": 0.046
+        },
+        {
+          "age": 15,
+          "rate": 0.037
+        },
+        {
+          "age": 16,
+          "rate": 0.037
+        },
+        {
+          "age": 17,
+          "rate": 0.03
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Risk Classification, Policy Lapse Rates, 10 Year Term, Substandard, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "8",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.131
+        },
+        {
+          "age": 2,
+          "rate": 0.114
+        },
+        {
+          "age": 3,
+          "rate": 0.093
+        },
+        {
+          "age": 4,
+          "rate": 0.084
+        },
+        {
+          "age": 5,
+          "rate": 0.08
+        },
+        {
+          "age": 6,
+          "rate": 0.085
+        },
+        {
+          "age": 7,
+          "rate": 0.068
+        },
+        {
+          "age": 8,
+          "rate": 0.064
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Risk Classification, Face Amount Lapse Rates, YRT, Preferred, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "23",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.021
+        },
+        {
+          "age": 2,
+          "rate": 0.088
+        },
+        {
+          "age": 3,
+          "rate": 0.078
+        },
+        {
+          "age": 4,
+          "rate": 0.089
+        },
+        {
+          "age": 5,
+          "rate": 0.098
+        },
+        {
+          "age": 6,
+          "rate": 0.095
+        },
+        {
+          "age": 7,
+          "rate": 0.081
+        },
+        {
+          "age": 8,
+          "rate": 0.092
+        },
+        {
+          "age": 9,
+          "rate": 0.081
+        },
+        {
+          "age": 10,
+          "rate": 0.079
+        },
+        {
+          "age": 11,
+          "rate": 0.092
+        },
+        {
+          "age": 12,
+          "rate": 0.083
+        },
+        {
+          "age": 13,
+          "rate": 0.094
+        },
+        {
+          "age": 14,
+          "rate": 0.09
+        },
+        {
+          "age": 15,
+          "rate": 0.098
+        },
+        {
+          "age": 16,
+          "rate": 0.081
+        },
+        {
+          "age": 17,
+          "rate": 0.081
+        },
+        {
+          "age": 18,
+          "rate": 0.085
+        },
+        {
+          "age": 19,
+          "rate": 0.086
+        },
+        {
+          "age": 20,
+          "rate": 0.091
+        },
+        {
+          "age": 21,
+          "rate": 0.093
+        },
+        {
+          "age": 22,
+          "rate": 0.111
+        },
+        {
+          "age": 23,
+          "rate": 0.128
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Risk Classification, Face Amount Lapse Rates, YRT, Standard, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "50",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.044
+        },
+        {
+          "age": 2,
+          "rate": 0.067
+        },
+        {
+          "age": 3,
+          "rate": 0.064
+        },
+        {
+          "age": 4,
+          "rate": 0.069
+        },
+        {
+          "age": 5,
+          "rate": 0.076
+        },
+        {
+          "age": 6,
+          "rate": 0.074
+        },
+        {
+          "age": 7,
+          "rate": 0.074
+        },
+        {
+          "age": 8,
+          "rate": 0.073
+        },
+        {
+          "age": 9,
+          "rate": 0.073
+        },
+        {
+          "age": 10,
+          "rate": 0.069
+        },
+        {
+          "age": 11,
+          "rate": 0.074
+        },
+        {
+          "age": 12,
+          "rate": 0.067
+        },
+        {
+          "age": 13,
+          "rate": 0.066
+        },
+        {
+          "age": 14,
+          "rate": 0.064
+        },
+        {
+          "age": 15,
+          "rate": 0.063
+        },
+        {
+          "age": 16,
+          "rate": 0.063
+        },
+        {
+          "age": 17,
+          "rate": 0.057
+        },
+        {
+          "age": 18,
+          "rate": 0.065
+        },
+        {
+          "age": 19,
+          "rate": 0.068
+        },
+        {
+          "age": 20,
+          "rate": 0.07
+        },
+        {
+          "age": 21,
+          "rate": 0.079
+        },
+        {
+          "age": 22,
+          "rate": 0.067
+        },
+        {
+          "age": 23,
+          "rate": 0.069
+        },
+        {
+          "age": 24,
+          "rate": 0.083
+        },
+        {
+          "age": 25,
+          "rate": 0.095
+        },
+        {
+          "age": 26,
+          "rate": 0.1
+        },
+        {
+          "age": 27,
+          "rate": 0.1
+        },
+        {
+          "age": 28,
+          "rate": 0.1
+        },
+        {
+          "age": 29,
+          "rate": 0.1
+        },
+        {
+          "age": 30,
+          "rate": 0.133
+        },
+        {
+          "age": 31,
+          "rate": 0.133
+        },
+        {
+          "age": 32,
+          "rate": 0.133
+        },
+        {
+          "age": 33,
+          "rate": 0.133
+        },
+        {
+          "age": 34,
+          "rate": 0.133
+        },
+        {
+          "age": 35,
+          "rate": 0.133
+        },
+        {
+          "age": 36,
+          "rate": 0.133
+        },
+        {
+          "age": 37,
+          "rate": 0.133
+        },
+        {
+          "age": 38,
+          "rate": 0.133
+        },
+        {
+          "age": 39,
+          "rate": 0.133
+        },
+        {
+          "age": 40,
+          "rate": 0.133
+        },
+        {
+          "age": 41,
+          "rate": 0.133
+        },
+        {
+          "age": 42,
+          "rate": 0.133
+        },
+        {
+          "age": 43,
+          "rate": 0.133
+        },
+        {
+          "age": 44,
+          "rate": 0.133
+        },
+        {
+          "age": 45,
+          "rate": 0.133
+        },
+        {
+          "age": 46,
+          "rate": 0.133
+        },
+        {
+          "age": 47,
+          "rate": 0.133
+        },
+        {
+          "age": 48,
+          "rate": 0.133
+        },
+        {
+          "age": 49,
+          "rate": 0.133
+        },
+        {
+          "age": 50,
+          "rate": 0.133
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Risk Classification, Face Amount Lapse Rates, YRT, Substandard, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "15",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.083
+        },
+        {
+          "age": 2,
+          "rate": 0.092
+        },
+        {
+          "age": 3,
+          "rate": 0.094
+        },
+        {
+          "age": 4,
+          "rate": 0.085
+        },
+        {
+          "age": 5,
+          "rate": 0.077
+        },
+        {
+          "age": 6,
+          "rate": 0.079
+        },
+        {
+          "age": 7,
+          "rate": 0.077
+        },
+        {
+          "age": 8,
+          "rate": 0.07
+        },
+        {
+          "age": 9,
+          "rate": 0.071
+        },
+        {
+          "age": 10,
+          "rate": 0.076
+        },
+        {
+          "age": 11,
+          "rate": 0.059
+        },
+        {
+          "age": 12,
+          "rate": 0.077
+        },
+        {
+          "age": 13,
+          "rate": 0.058
+        },
+        {
+          "age": 14,
+          "rate": 0.057
+        },
+        {
+          "age": 15,
+          "rate": 0.072
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Risk Classification, Face Amount Lapse Rates, 10 Year Term, Preferred, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "11",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.048
+        },
+        {
+          "age": 2,
+          "rate": 0.079
+        },
+        {
+          "age": 3,
+          "rate": 0.074
+        },
+        {
+          "age": 4,
+          "rate": 0.065
+        },
+        {
+          "age": 5,
+          "rate": 0.069
+        },
+        {
+          "age": 6,
+          "rate": 0.072
+        },
+        {
+          "age": 7,
+          "rate": 0.089
+        },
+        {
+          "age": 8,
+          "rate": 0.068
+        },
+        {
+          "age": 9,
+          "rate": 0.036
+        },
+        {
+          "age": 10,
+          "rate": 0.328
+        },
+        {
+          "age": 11,
+          "rate": 0.694
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Risk Classification, Face Amount Lapse Rates, 10 Year Term, Standard, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "17",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.06
+        },
+        {
+          "age": 2,
+          "rate": 0.076
+        },
+        {
+          "age": 3,
+          "rate": 0.073
+        },
+        {
+          "age": 4,
+          "rate": 0.082
+        },
+        {
+          "age": 5,
+          "rate": 0.074
+        },
+        {
+          "age": 6,
+          "rate": 0.099
+        },
+        {
+          "age": 7,
+          "rate": 0.07
+        },
+        {
+          "age": 8,
+          "rate": 0.08
+        },
+        {
+          "age": 9,
+          "rate": 0.049
+        },
+        {
+          "age": 10,
+          "rate": 0.196
+        },
+        {
+          "age": 11,
+          "rate": 0.296
+        },
+        {
+          "age": 12,
+          "rate": 0.097
+        },
+        {
+          "age": 13,
+          "rate": 0.07
+        },
+        {
+          "age": 14,
+          "rate": 0.058
+        },
+        {
+          "age": 15,
+          "rate": 0.045
+        },
+        {
+          "age": 16,
+          "rate": 0.034
+        },
+        {
+          "age": 17,
+          "rate": 0.028
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Risk Classification, Face Amount Lapse Rates, 10 Year Term, Substandard, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "8",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.108
+        },
+        {
+          "age": 2,
+          "rate": 0.13
+        },
+        {
+          "age": 3,
+          "rate": 0.105
+        },
+        {
+          "age": 4,
+          "rate": 0.106
+        },
+        {
+          "age": 5,
+          "rate": 0.086
+        },
+        {
+          "age": 6,
+          "rate": 0.109
+        },
+        {
+          "age": 7,
+          "rate": 0.094
+        },
+        {
+          "age": 8,
+          "rate": 0.056
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Policy Lapse Rates, YRT, Annual, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "50",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.112
+        },
+        {
+          "age": 2,
+          "rate": 0.101
+        },
+        {
+          "age": 3,
+          "rate": 0.109
+        },
+        {
+          "age": 4,
+          "rate": 0.089
+        },
+        {
+          "age": 5,
+          "rate": 0.104
+        },
+        {
+          "age": 6,
+          "rate": 0.097
+        },
+        {
+          "age": 7,
+          "rate": 0.089
+        },
+        {
+          "age": 8,
+          "rate": 0.088
+        },
+        {
+          "age": 9,
+          "rate": 0.089
+        },
+        {
+          "age": 10,
+          "rate": 0.107
+        },
+        {
+          "age": 11,
+          "rate": 0.095
+        },
+        {
+          "age": 12,
+          "rate": 0.099
+        },
+        {
+          "age": 13,
+          "rate": 0.099
+        },
+        {
+          "age": 14,
+          "rate": 0.093
+        },
+        {
+          "age": 15,
+          "rate": 0.095
+        },
+        {
+          "age": 16,
+          "rate": 0.098
+        },
+        {
+          "age": 17,
+          "rate": 0.095
+        },
+        {
+          "age": 18,
+          "rate": 0.09
+        },
+        {
+          "age": 19,
+          "rate": 0.092
+        },
+        {
+          "age": 20,
+          "rate": 0.096
+        },
+        {
+          "age": 21,
+          "rate": 0.113
+        },
+        {
+          "age": 22,
+          "rate": 0.103
+        },
+        {
+          "age": 23,
+          "rate": 0.101
+        },
+        {
+          "age": 24,
+          "rate": 0.111
+        },
+        {
+          "age": 25,
+          "rate": 0.111
+        },
+        {
+          "age": 26,
+          "rate": 0.099
+        },
+        {
+          "age": 27,
+          "rate": 0.099
+        },
+        {
+          "age": 28,
+          "rate": 0.099
+        },
+        {
+          "age": 29,
+          "rate": 0.099
+        },
+        {
+          "age": 30,
+          "rate": 0.086
+        },
+        {
+          "age": 31,
+          "rate": 0.086
+        },
+        {
+          "age": 32,
+          "rate": 0.086
+        },
+        {
+          "age": 33,
+          "rate": 0.086
+        },
+        {
+          "age": 34,
+          "rate": 0.086
+        },
+        {
+          "age": 35,
+          "rate": 0.086
+        },
+        {
+          "age": 36,
+          "rate": 0.086
+        },
+        {
+          "age": 37,
+          "rate": 0.086
+        },
+        {
+          "age": 38,
+          "rate": 0.086
+        },
+        {
+          "age": 39,
+          "rate": 0.086
+        },
+        {
+          "age": 40,
+          "rate": 0.086
+        },
+        {
+          "age": 41,
+          "rate": 0.086
+        },
+        {
+          "age": 42,
+          "rate": 0.086
+        },
+        {
+          "age": 43,
+          "rate": 0.086
+        },
+        {
+          "age": 44,
+          "rate": 0.086
+        },
+        {
+          "age": 45,
+          "rate": 0.086
+        },
+        {
+          "age": 46,
+          "rate": 0.086
+        },
+        {
+          "age": 47,
+          "rate": 0.086
+        },
+        {
+          "age": 48,
+          "rate": 0.086
+        },
+        {
+          "age": 49,
+          "rate": 0.086
+        },
+        {
+          "age": 50,
+          "rate": 0.086
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Policy Lapse Rates, YRT, Semiannual, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "50",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.136
+        },
+        {
+          "age": 2,
+          "rate": 0.089
+        },
+        {
+          "age": 3,
+          "rate": 0.089
+        },
+        {
+          "age": 4,
+          "rate": 0.069
+        },
+        {
+          "age": 5,
+          "rate": 0.086
+        },
+        {
+          "age": 6,
+          "rate": 0.085
+        },
+        {
+          "age": 7,
+          "rate": 0.065
+        },
+        {
+          "age": 8,
+          "rate": 0.053
+        },
+        {
+          "age": 9,
+          "rate": 0.052
+        },
+        {
+          "age": 10,
+          "rate": 0.073
+        },
+        {
+          "age": 11,
+          "rate": 0.063
+        },
+        {
+          "age": 12,
+          "rate": 0.066
+        },
+        {
+          "age": 13,
+          "rate": 0.072
+        },
+        {
+          "age": 14,
+          "rate": 0.067
+        },
+        {
+          "age": 15,
+          "rate": 0.072
+        },
+        {
+          "age": 16,
+          "rate": 0.066
+        },
+        {
+          "age": 17,
+          "rate": 0.079
+        },
+        {
+          "age": 18,
+          "rate": 0.086
+        },
+        {
+          "age": 19,
+          "rate": 0.081
+        },
+        {
+          "age": 20,
+          "rate": 0.089
+        },
+        {
+          "age": 21,
+          "rate": 0.145
+        },
+        {
+          "age": 22,
+          "rate": 0.099
+        },
+        {
+          "age": 23,
+          "rate": 0.105
+        },
+        {
+          "age": 24,
+          "rate": 0.097
+        },
+        {
+          "age": 25,
+          "rate": 0.119
+        },
+        {
+          "age": 26,
+          "rate": 0.097
+        },
+        {
+          "age": 27,
+          "rate": 0.097
+        },
+        {
+          "age": 28,
+          "rate": 0.097
+        },
+        {
+          "age": 29,
+          "rate": 0.097
+        },
+        {
+          "age": 30,
+          "rate": 0.081
+        },
+        {
+          "age": 31,
+          "rate": 0.081
+        },
+        {
+          "age": 32,
+          "rate": 0.081
+        },
+        {
+          "age": 33,
+          "rate": 0.081
+        },
+        {
+          "age": 34,
+          "rate": 0.081
+        },
+        {
+          "age": 35,
+          "rate": 0.081
+        },
+        {
+          "age": 36,
+          "rate": 0.081
+        },
+        {
+          "age": 37,
+          "rate": 0.081
+        },
+        {
+          "age": 38,
+          "rate": 0.081
+        },
+        {
+          "age": 39,
+          "rate": 0.081
+        },
+        {
+          "age": 40,
+          "rate": 0.081
+        },
+        {
+          "age": 41,
+          "rate": 0.081
+        },
+        {
+          "age": 42,
+          "rate": 0.081
+        },
+        {
+          "age": 43,
+          "rate": 0.081
+        },
+        {
+          "age": 44,
+          "rate": 0.081
+        },
+        {
+          "age": 45,
+          "rate": 0.081
+        },
+        {
+          "age": 46,
+          "rate": 0.081
+        },
+        {
+          "age": 47,
+          "rate": 0.081
+        },
+        {
+          "age": 48,
+          "rate": 0.081
+        },
+        {
+          "age": 49,
+          "rate": 0.081
+        },
+        {
+          "age": 50,
+          "rate": 0.081
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Policy Lapse Rates, YRT, Quarterly, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "50",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.208
+        },
+        {
+          "age": 2,
+          "rate": 0.191
+        },
+        {
+          "age": 3,
+          "rate": 0.172
+        },
+        {
+          "age": 4,
+          "rate": 0.172
+        },
+        {
+          "age": 5,
+          "rate": 0.165
+        },
+        {
+          "age": 6,
+          "rate": 0.148
+        },
+        {
+          "age": 7,
+          "rate": 0.128
+        },
+        {
+          "age": 8,
+          "rate": 0.124
+        },
+        {
+          "age": 9,
+          "rate": 0.117
+        },
+        {
+          "age": 10,
+          "rate": 0.13
+        },
+        {
+          "age": 11,
+          "rate": 0.124
+        },
+        {
+          "age": 12,
+          "rate": 0.12
+        },
+        {
+          "age": 13,
+          "rate": 0.111
+        },
+        {
+          "age": 14,
+          "rate": 0.105
+        },
+        {
+          "age": 15,
+          "rate": 0.104
+        },
+        {
+          "age": 16,
+          "rate": 0.101
+        },
+        {
+          "age": 17,
+          "rate": 0.106
+        },
+        {
+          "age": 18,
+          "rate": 0.102
+        },
+        {
+          "age": 19,
+          "rate": 0.093
+        },
+        {
+          "age": 20,
+          "rate": 0.1
+        },
+        {
+          "age": 21,
+          "rate": 0.116
+        },
+        {
+          "age": 22,
+          "rate": 0.103
+        },
+        {
+          "age": 23,
+          "rate": 0.118
+        },
+        {
+          "age": 24,
+          "rate": 0.112
+        },
+        {
+          "age": 25,
+          "rate": 0.11
+        },
+        {
+          "age": 26,
+          "rate": 0.108
+        },
+        {
+          "age": 27,
+          "rate": 0.108
+        },
+        {
+          "age": 28,
+          "rate": 0.108
+        },
+        {
+          "age": 29,
+          "rate": 0.108
+        },
+        {
+          "age": 30,
+          "rate": 0.09
+        },
+        {
+          "age": 31,
+          "rate": 0.09
+        },
+        {
+          "age": 32,
+          "rate": 0.09
+        },
+        {
+          "age": 33,
+          "rate": 0.09
+        },
+        {
+          "age": 34,
+          "rate": 0.09
+        },
+        {
+          "age": 35,
+          "rate": 0.09
+        },
+        {
+          "age": 36,
+          "rate": 0.09
+        },
+        {
+          "age": 37,
+          "rate": 0.09
+        },
+        {
+          "age": 38,
+          "rate": 0.09
+        },
+        {
+          "age": 39,
+          "rate": 0.09
+        },
+        {
+          "age": 40,
+          "rate": 0.09
+        },
+        {
+          "age": 41,
+          "rate": 0.09
+        },
+        {
+          "age": 42,
+          "rate": 0.09
+        },
+        {
+          "age": 43,
+          "rate": 0.09
+        },
+        {
+          "age": 44,
+          "rate": 0.09
+        },
+        {
+          "age": 45,
+          "rate": 0.09
+        },
+        {
+          "age": 46,
+          "rate": 0.09
+        },
+        {
+          "age": 47,
+          "rate": 0.09
+        },
+        {
+          "age": 48,
+          "rate": 0.09
+        },
+        {
+          "age": 49,
+          "rate": 0.09
+        },
+        {
+          "age": 50,
+          "rate": 0.09
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Policy Lapse Rates, YRT, Monthly, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "50",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.062
+        },
+        {
+          "age": 2,
+          "rate": 0.062
+        },
+        {
+          "age": 3,
+          "rate": 0.061
+        },
+        {
+          "age": 4,
+          "rate": 0.055
+        },
+        {
+          "age": 5,
+          "rate": 0.057
+        },
+        {
+          "age": 6,
+          "rate": 0.059
+        },
+        {
+          "age": 7,
+          "rate": 0.057
+        },
+        {
+          "age": 8,
+          "rate": 0.058
+        },
+        {
+          "age": 9,
+          "rate": 0.06
+        },
+        {
+          "age": 10,
+          "rate": 0.065
+        },
+        {
+          "age": 11,
+          "rate": 0.067
+        },
+        {
+          "age": 12,
+          "rate": 0.067
+        },
+        {
+          "age": 13,
+          "rate": 0.069
+        },
+        {
+          "age": 14,
+          "rate": 0.067
+        },
+        {
+          "age": 15,
+          "rate": 0.064
+        },
+        {
+          "age": 16,
+          "rate": 0.064
+        },
+        {
+          "age": 17,
+          "rate": 0.058
+        },
+        {
+          "age": 18,
+          "rate": 0.058
+        },
+        {
+          "age": 19,
+          "rate": 0.057
+        },
+        {
+          "age": 20,
+          "rate": 0.066
+        },
+        {
+          "age": 21,
+          "rate": 0.075
+        },
+        {
+          "age": 22,
+          "rate": 0.056
+        },
+        {
+          "age": 23,
+          "rate": 0.059
+        },
+        {
+          "age": 24,
+          "rate": 0.079
+        },
+        {
+          "age": 25,
+          "rate": 0.083
+        },
+        {
+          "age": 26,
+          "rate": 0.085
+        },
+        {
+          "age": 27,
+          "rate": 0.085
+        },
+        {
+          "age": 28,
+          "rate": 0.085
+        },
+        {
+          "age": 29,
+          "rate": 0.085
+        },
+        {
+          "age": 30,
+          "rate": 0.124
+        },
+        {
+          "age": 31,
+          "rate": 0.124
+        },
+        {
+          "age": 32,
+          "rate": 0.124
+        },
+        {
+          "age": 33,
+          "rate": 0.124
+        },
+        {
+          "age": 34,
+          "rate": 0.124
+        },
+        {
+          "age": 35,
+          "rate": 0.124
+        },
+        {
+          "age": 36,
+          "rate": 0.124
+        },
+        {
+          "age": 37,
+          "rate": 0.124
+        },
+        {
+          "age": 38,
+          "rate": 0.124
+        },
+        {
+          "age": 39,
+          "rate": 0.124
+        },
+        {
+          "age": 40,
+          "rate": 0.124
+        },
+        {
+          "age": 41,
+          "rate": 0.124
+        },
+        {
+          "age": 42,
+          "rate": 0.124
+        },
+        {
+          "age": 43,
+          "rate": 0.124
+        },
+        {
+          "age": 44,
+          "rate": 0.124
+        },
+        {
+          "age": 45,
+          "rate": 0.124
+        },
+        {
+          "age": 46,
+          "rate": 0.124
+        },
+        {
+          "age": 47,
+          "rate": 0.124
+        },
+        {
+          "age": 48,
+          "rate": 0.124
+        },
+        {
+          "age": 49,
+          "rate": 0.124
+        },
+        {
+          "age": 50,
+          "rate": 0.124
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Face Amount Lapse Rates, YRT, Annual, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "50",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.073
+        },
+        {
+          "age": 2,
+          "rate": 0.079
+        },
+        {
+          "age": 3,
+          "rate": 0.073
+        },
+        {
+          "age": 4,
+          "rate": 0.075
+        },
+        {
+          "age": 5,
+          "rate": 0.087
+        },
+        {
+          "age": 6,
+          "rate": 0.084
+        },
+        {
+          "age": 7,
+          "rate": 0.079
+        },
+        {
+          "age": 8,
+          "rate": 0.082
+        },
+        {
+          "age": 9,
+          "rate": 0.086
+        },
+        {
+          "age": 10,
+          "rate": 0.099
+        },
+        {
+          "age": 11,
+          "rate": 0.097
+        },
+        {
+          "age": 12,
+          "rate": 0.095
+        },
+        {
+          "age": 13,
+          "rate": 0.099
+        },
+        {
+          "age": 14,
+          "rate": 0.095
+        },
+        {
+          "age": 15,
+          "rate": 0.105
+        },
+        {
+          "age": 16,
+          "rate": 0.094
+        },
+        {
+          "age": 17,
+          "rate": 0.09
+        },
+        {
+          "age": 18,
+          "rate": 0.09
+        },
+        {
+          "age": 19,
+          "rate": 0.091
+        },
+        {
+          "age": 20,
+          "rate": 0.095
+        },
+        {
+          "age": 21,
+          "rate": 0.105
+        },
+        {
+          "age": 22,
+          "rate": 0.096
+        },
+        {
+          "age": 23,
+          "rate": 0.103
+        },
+        {
+          "age": 24,
+          "rate": 0.107
+        },
+        {
+          "age": 25,
+          "rate": 0.109
+        },
+        {
+          "age": 26,
+          "rate": 0.106
+        },
+        {
+          "age": 27,
+          "rate": 0.106
+        },
+        {
+          "age": 28,
+          "rate": 0.106
+        },
+        {
+          "age": 29,
+          "rate": 0.106
+        },
+        {
+          "age": 30,
+          "rate": 0.105
+        },
+        {
+          "age": 31,
+          "rate": 0.105
+        },
+        {
+          "age": 32,
+          "rate": 0.105
+        },
+        {
+          "age": 33,
+          "rate": 0.105
+        },
+        {
+          "age": 34,
+          "rate": 0.105
+        },
+        {
+          "age": 35,
+          "rate": 0.105
+        },
+        {
+          "age": 36,
+          "rate": 0.105
+        },
+        {
+          "age": 37,
+          "rate": 0.105
+        },
+        {
+          "age": 38,
+          "rate": 0.105
+        },
+        {
+          "age": 39,
+          "rate": 0.105
+        },
+        {
+          "age": 40,
+          "rate": 0.105
+        },
+        {
+          "age": 41,
+          "rate": 0.105
+        },
+        {
+          "age": 42,
+          "rate": 0.105
+        },
+        {
+          "age": 43,
+          "rate": 0.105
+        },
+        {
+          "age": 44,
+          "rate": 0.105
+        },
+        {
+          "age": 45,
+          "rate": 0.105
+        },
+        {
+          "age": 46,
+          "rate": 0.105
+        },
+        {
+          "age": 47,
+          "rate": 0.105
+        },
+        {
+          "age": 48,
+          "rate": 0.105
+        },
+        {
+          "age": 49,
+          "rate": 0.105
+        },
+        {
+          "age": 50,
+          "rate": 0.105
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Face Amount Lapse Rates, YRT, Semiannual, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "50",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.087
+        },
+        {
+          "age": 2,
+          "rate": 0.065
+        },
+        {
+          "age": 3,
+          "rate": 0.059
+        },
+        {
+          "age": 4,
+          "rate": 0.047
+        },
+        {
+          "age": 5,
+          "rate": 0.067
+        },
+        {
+          "age": 6,
+          "rate": 0.079
+        },
+        {
+          "age": 7,
+          "rate": 0.055
+        },
+        {
+          "age": 8,
+          "rate": 0.047
+        },
+        {
+          "age": 9,
+          "rate": 0.043
+        },
+        {
+          "age": 10,
+          "rate": 0.061
+        },
+        {
+          "age": 11,
+          "rate": 0.056
+        },
+        {
+          "age": 12,
+          "rate": 0.063
+        },
+        {
+          "age": 13,
+          "rate": 0.076
+        },
+        {
+          "age": 14,
+          "rate": 0.078
+        },
+        {
+          "age": 15,
+          "rate": 0.074
+        },
+        {
+          "age": 16,
+          "rate": 0.071
+        },
+        {
+          "age": 17,
+          "rate": 0.083
+        },
+        {
+          "age": 18,
+          "rate": 0.093
+        },
+        {
+          "age": 19,
+          "rate": 0.079
+        },
+        {
+          "age": 20,
+          "rate": 0.087
+        },
+        {
+          "age": 21,
+          "rate": 0.135
+        },
+        {
+          "age": 22,
+          "rate": 0.095
+        },
+        {
+          "age": 23,
+          "rate": 0.109
+        },
+        {
+          "age": 24,
+          "rate": 0.097
+        },
+        {
+          "age": 25,
+          "rate": 0.137
+        },
+        {
+          "age": 26,
+          "rate": 0.115
+        },
+        {
+          "age": 27,
+          "rate": 0.115
+        },
+        {
+          "age": 28,
+          "rate": 0.115
+        },
+        {
+          "age": 29,
+          "rate": 0.115
+        },
+        {
+          "age": 30,
+          "rate": 0.104
+        },
+        {
+          "age": 31,
+          "rate": 0.104
+        },
+        {
+          "age": 32,
+          "rate": 0.104
+        },
+        {
+          "age": 33,
+          "rate": 0.104
+        },
+        {
+          "age": 34,
+          "rate": 0.104
+        },
+        {
+          "age": 35,
+          "rate": 0.104
+        },
+        {
+          "age": 36,
+          "rate": 0.104
+        },
+        {
+          "age": 37,
+          "rate": 0.104
+        },
+        {
+          "age": 38,
+          "rate": 0.104
+        },
+        {
+          "age": 39,
+          "rate": 0.104
+        },
+        {
+          "age": 40,
+          "rate": 0.104
+        },
+        {
+          "age": 41,
+          "rate": 0.104
+        },
+        {
+          "age": 42,
+          "rate": 0.104
+        },
+        {
+          "age": 43,
+          "rate": 0.104
+        },
+        {
+          "age": 44,
+          "rate": 0.104
+        },
+        {
+          "age": 45,
+          "rate": 0.104
+        },
+        {
+          "age": 46,
+          "rate": 0.104
+        },
+        {
+          "age": 47,
+          "rate": 0.104
+        },
+        {
+          "age": 48,
+          "rate": 0.104
+        },
+        {
+          "age": 49,
+          "rate": 0.104
+        },
+        {
+          "age": 50,
+          "rate": 0.104
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Face Amount Lapse Rates, YRT, Quarterly, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "50",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.14
+        },
+        {
+          "age": 2,
+          "rate": 0.143
+        },
+        {
+          "age": 3,
+          "rate": 0.12
+        },
+        {
+          "age": 4,
+          "rate": 0.129
+        },
+        {
+          "age": 5,
+          "rate": 0.138
+        },
+        {
+          "age": 6,
+          "rate": 0.118
+        },
+        {
+          "age": 7,
+          "rate": 0.117
+        },
+        {
+          "age": 8,
+          "rate": 0.112
+        },
+        {
+          "age": 9,
+          "rate": 0.116
+        },
+        {
+          "age": 10,
+          "rate": 0.11
+        },
+        {
+          "age": 11,
+          "rate": 0.107
+        },
+        {
+          "age": 12,
+          "rate": 0.108
+        },
+        {
+          "age": 13,
+          "rate": 0.102
+        },
+        {
+          "age": 14,
+          "rate": 0.103
+        },
+        {
+          "age": 15,
+          "rate": 0.094
+        },
+        {
+          "age": 16,
+          "rate": 0.092
+        },
+        {
+          "age": 17,
+          "rate": 0.1
+        },
+        {
+          "age": 18,
+          "rate": 0.094
+        },
+        {
+          "age": 19,
+          "rate": 0.087
+        },
+        {
+          "age": 20,
+          "rate": 0.099
+        },
+        {
+          "age": 21,
+          "rate": 0.099
+        },
+        {
+          "age": 22,
+          "rate": 0.093
+        },
+        {
+          "age": 23,
+          "rate": 0.112
+        },
+        {
+          "age": 24,
+          "rate": 0.112
+        },
+        {
+          "age": 25,
+          "rate": 0.107
+        },
+        {
+          "age": 26,
+          "rate": 0.124
+        },
+        {
+          "age": 27,
+          "rate": 0.124
+        },
+        {
+          "age": 28,
+          "rate": 0.124
+        },
+        {
+          "age": 29,
+          "rate": 0.124
+        },
+        {
+          "age": 30,
+          "rate": 0.099
+        },
+        {
+          "age": 31,
+          "rate": 0.099
+        },
+        {
+          "age": 32,
+          "rate": 0.099
+        },
+        {
+          "age": 33,
+          "rate": 0.099
+        },
+        {
+          "age": 34,
+          "rate": 0.099
+        },
+        {
+          "age": 35,
+          "rate": 0.099
+        },
+        {
+          "age": 36,
+          "rate": 0.099
+        },
+        {
+          "age": 37,
+          "rate": 0.099
+        },
+        {
+          "age": 38,
+          "rate": 0.099
+        },
+        {
+          "age": 39,
+          "rate": 0.099
+        },
+        {
+          "age": 40,
+          "rate": 0.099
+        },
+        {
+          "age": 41,
+          "rate": 0.099
+        },
+        {
+          "age": 42,
+          "rate": 0.099
+        },
+        {
+          "age": 43,
+          "rate": 0.099
+        },
+        {
+          "age": 44,
+          "rate": 0.099
+        },
+        {
+          "age": 45,
+          "rate": 0.099
+        },
+        {
+          "age": 46,
+          "rate": 0.099
+        },
+        {
+          "age": 47,
+          "rate": 0.099
+        },
+        {
+          "age": 48,
+          "rate": 0.099
+        },
+        {
+          "age": 49,
+          "rate": 0.099
+        },
+        {
+          "age": 50,
+          "rate": 0.099
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Face Amount Lapse Rates, YRT, Monthly, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "50",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.048
+        },
+        {
+          "age": 2,
+          "rate": 0.052
+        },
+        {
+          "age": 3,
+          "rate": 0.05
+        },
+        {
+          "age": 4,
+          "rate": 0.049
+        },
+        {
+          "age": 5,
+          "rate": 0.055
+        },
+        {
+          "age": 6,
+          "rate": 0.059
+        },
+        {
+          "age": 7,
+          "rate": 0.056
+        },
+        {
+          "age": 8,
+          "rate": 0.061
+        },
+        {
+          "age": 9,
+          "rate": 0.061
+        },
+        {
+          "age": 10,
+          "rate": 0.065
+        },
+        {
+          "age": 11,
+          "rate": 0.068
+        },
+        {
+          "age": 12,
+          "rate": 0.069
+        },
+        {
+          "age": 13,
+          "rate": 0.072
+        },
+        {
+          "age": 14,
+          "rate": 0.07
+        },
+        {
+          "age": 15,
+          "rate": 0.07
+        },
+        {
+          "age": 16,
+          "rate": 0.068
+        },
+        {
+          "age": 17,
+          "rate": 0.06
+        },
+        {
+          "age": 18,
+          "rate": 0.064
+        },
+        {
+          "age": 19,
+          "rate": 0.068
+        },
+        {
+          "age": 20,
+          "rate": 0.064
+        },
+        {
+          "age": 21,
+          "rate": 0.069
+        },
+        {
+          "age": 22,
+          "rate": 0.058
+        },
+        {
+          "age": 23,
+          "rate": 0.062
+        },
+        {
+          "age": 24,
+          "rate": 0.081
+        },
+        {
+          "age": 25,
+          "rate": 0.077
+        },
+        {
+          "age": 26,
+          "rate": 0.076
+        },
+        {
+          "age": 27,
+          "rate": 0.076
+        },
+        {
+          "age": 28,
+          "rate": 0.076
+        },
+        {
+          "age": 29,
+          "rate": 0.076
+        },
+        {
+          "age": 30,
+          "rate": 0.11
+        },
+        {
+          "age": 31,
+          "rate": 0.11
+        },
+        {
+          "age": 32,
+          "rate": 0.11
+        },
+        {
+          "age": 33,
+          "rate": 0.11
+        },
+        {
+          "age": 34,
+          "rate": 0.11
+        },
+        {
+          "age": 35,
+          "rate": 0.11
+        },
+        {
+          "age": 36,
+          "rate": 0.11
+        },
+        {
+          "age": 37,
+          "rate": 0.11
+        },
+        {
+          "age": 38,
+          "rate": 0.11
+        },
+        {
+          "age": 39,
+          "rate": 0.11
+        },
+        {
+          "age": 40,
+          "rate": 0.11
+        },
+        {
+          "age": 41,
+          "rate": 0.11
+        },
+        {
+          "age": 42,
+          "rate": 0.11
+        },
+        {
+          "age": 43,
+          "rate": 0.11
+        },
+        {
+          "age": 44,
+          "rate": 0.11
+        },
+        {
+          "age": 45,
+          "rate": 0.11
+        },
+        {
+          "age": 46,
+          "rate": 0.11
+        },
+        {
+          "age": 47,
+          "rate": 0.11
+        },
+        {
+          "age": 48,
+          "rate": 0.11
+        },
+        {
+          "age": 49,
+          "rate": 0.11
+        },
+        {
+          "age": 50,
+          "rate": 0.11
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Policy Lapse Rates, 10 Year Term, Annual, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "17",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.075
+        },
+        {
+          "age": 2,
+          "rate": 0.09
+        },
+        {
+          "age": 3,
+          "rate": 0.075
+        },
+        {
+          "age": 4,
+          "rate": 0.066
+        },
+        {
+          "age": 5,
+          "rate": 0.075
+        },
+        {
+          "age": 6,
+          "rate": 0.073
+        },
+        {
+          "age": 7,
+          "rate": 0.07
+        },
+        {
+          "age": 8,
+          "rate": 0.067
+        },
+        {
+          "age": 9,
+          "rate": 0.048
+        },
+        {
+          "age": 10,
+          "rate": 0.456
+        },
+        {
+          "age": 11,
+          "rate": 0.61
+        },
+        {
+          "age": 12,
+          "rate": 0.281
+        },
+        {
+          "age": 13,
+          "rate": 0.166
+        },
+        {
+          "age": 14,
+          "rate": 0.143
+        },
+        {
+          "age": 15,
+          "rate": 0.124
+        },
+        {
+          "age": 16,
+          "rate": 0.104
+        },
+        {
+          "age": 17,
+          "rate": 0.079
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Policy Lapse Rates, 10 Year Term, Semiannual, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "17",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.081
+        },
+        {
+          "age": 2,
+          "rate": 0.101
+        },
+        {
+          "age": 3,
+          "rate": 0.081
+        },
+        {
+          "age": 4,
+          "rate": 0.075
+        },
+        {
+          "age": 5,
+          "rate": 0.08
+        },
+        {
+          "age": 6,
+          "rate": 0.09
+        },
+        {
+          "age": 7,
+          "rate": 0.081
+        },
+        {
+          "age": 8,
+          "rate": 0.078
+        },
+        {
+          "age": 9,
+          "rate": 0.049
+        },
+        {
+          "age": 10,
+          "rate": 0.406
+        },
+        {
+          "age": 11,
+          "rate": 0.578
+        },
+        {
+          "age": 12,
+          "rate": 0.282
+        },
+        {
+          "age": 13,
+          "rate": 0.137
+        },
+        {
+          "age": 14,
+          "rate": 0.125
+        },
+        {
+          "age": 15,
+          "rate": 0.108
+        },
+        {
+          "age": 16,
+          "rate": 0.078
+        },
+        {
+          "age": 17,
+          "rate": 0.068
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Policy Lapse Rates, 10 Year Term, Quarterly, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "17",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.198
+        },
+        {
+          "age": 2,
+          "rate": 0.184
+        },
+        {
+          "age": 3,
+          "rate": 0.148
+        },
+        {
+          "age": 4,
+          "rate": 0.15
+        },
+        {
+          "age": 5,
+          "rate": 0.13
+        },
+        {
+          "age": 6,
+          "rate": 0.102
+        },
+        {
+          "age": 7,
+          "rate": 0.092
+        },
+        {
+          "age": 8,
+          "rate": 0.085
+        },
+        {
+          "age": 9,
+          "rate": 0.061
+        },
+        {
+          "age": 10,
+          "rate": 0.519
+        },
+        {
+          "age": 11,
+          "rate": 0.639
+        },
+        {
+          "age": 12,
+          "rate": 0.338
+        },
+        {
+          "age": 13,
+          "rate": 0.231
+        },
+        {
+          "age": 14,
+          "rate": 0.177
+        },
+        {
+          "age": 15,
+          "rate": 0.163
+        },
+        {
+          "age": 16,
+          "rate": 0.149
+        },
+        {
+          "age": 17,
+          "rate": 0.14
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Policy Lapse Rates, 10 Year Term, Monthly, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "17",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.054
+        },
+        {
+          "age": 2,
+          "rate": 0.089
+        },
+        {
+          "age": 3,
+          "rate": 0.08
+        },
+        {
+          "age": 4,
+          "rate": 0.064
+        },
+        {
+          "age": 5,
+          "rate": 0.075
+        },
+        {
+          "age": 6,
+          "rate": 0.112
+        },
+        {
+          "age": 7,
+          "rate": 0.088
+        },
+        {
+          "age": 8,
+          "rate": 0.082
+        },
+        {
+          "age": 9,
+          "rate": 0.055
+        },
+        {
+          "age": 10,
+          "rate": 0.277
+        },
+        {
+          "age": 11,
+          "rate": 0.537
+        },
+        {
+          "age": 12,
+          "rate": 0.196
+        },
+        {
+          "age": 13,
+          "rate": 0.059
+        },
+        {
+          "age": 14,
+          "rate": 0.024
+        },
+        {
+          "age": 15,
+          "rate": 0.024
+        },
+        {
+          "age": 16,
+          "rate": 0.025
+        },
+        {
+          "age": 17,
+          "rate": 0.022
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Face Amount Lapse Rates, 10 Year Term, Annual, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "17",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.055
+        },
+        {
+          "age": 2,
+          "rate": 0.085
+        },
+        {
+          "age": 3,
+          "rate": 0.074
+        },
+        {
+          "age": 4,
+          "rate": 0.077
+        },
+        {
+          "age": 5,
+          "rate": 0.073
+        },
+        {
+          "age": 6,
+          "rate": 0.077
+        },
+        {
+          "age": 7,
+          "rate": 0.083
+        },
+        {
+          "age": 8,
+          "rate": 0.067
+        },
+        {
+          "age": 9,
+          "rate": 0.048
+        },
+        {
+          "age": 10,
+          "rate": 0.435
+        },
+        {
+          "age": 11,
+          "rate": 0.624
+        },
+        {
+          "age": 12,
+          "rate": 0.189
+        },
+        {
+          "age": 13,
+          "rate": 0.148
+        },
+        {
+          "age": 14,
+          "rate": 0.161
+        },
+        {
+          "age": 15,
+          "rate": 0.136
+        },
+        {
+          "age": 16,
+          "rate": 0.107
+        },
+        {
+          "age": 17,
+          "rate": 0.084
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Face Amount Lapse Rates, 10 Year Term, Semiannual, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "17",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.053
+        },
+        {
+          "age": 2,
+          "rate": 0.088
+        },
+        {
+          "age": 3,
+          "rate": 0.084
+        },
+        {
+          "age": 4,
+          "rate": 0.082
+        },
+        {
+          "age": 5,
+          "rate": 0.073
+        },
+        {
+          "age": 6,
+          "rate": 0.13
+        },
+        {
+          "age": 7,
+          "rate": 0.117
+        },
+        {
+          "age": 8,
+          "rate": 0.083
+        },
+        {
+          "age": 9,
+          "rate": 0.048
+        },
+        {
+          "age": 10,
+          "rate": 0.401
+        },
+        {
+          "age": 11,
+          "rate": 0.564
+        },
+        {
+          "age": 12,
+          "rate": 0.218
+        },
+        {
+          "age": 13,
+          "rate": 0.121
+        },
+        {
+          "age": 14,
+          "rate": 0.13
+        },
+        {
+          "age": 15,
+          "rate": 0.122
+        },
+        {
+          "age": 16,
+          "rate": 0.079
+        },
+        {
+          "age": 17,
+          "rate": 0.07
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Face Amount Lapse Rates, 10 Year Term, Quarterly, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "17",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.135
+        },
+        {
+          "age": 2,
+          "rate": 0.153
+        },
+        {
+          "age": 3,
+          "rate": 0.123
+        },
+        {
+          "age": 4,
+          "rate": 0.148
+        },
+        {
+          "age": 5,
+          "rate": 0.126
+        },
+        {
+          "age": 6,
+          "rate": 0.111
+        },
+        {
+          "age": 7,
+          "rate": 0.104
+        },
+        {
+          "age": 8,
+          "rate": 0.091
+        },
+        {
+          "age": 9,
+          "rate": 0.066
+        },
+        {
+          "age": 10,
+          "rate": 0.527
+        },
+        {
+          "age": 11,
+          "rate": 0.665
+        },
+        {
+          "age": 12,
+          "rate": 0.332
+        },
+        {
+          "age": 13,
+          "rate": 0.249
+        },
+        {
+          "age": 14,
+          "rate": 0.188
+        },
+        {
+          "age": 15,
+          "rate": 0.171
+        },
+        {
+          "age": 16,
+          "rate": 0.157
+        },
+        {
+          "age": 17,
+          "rate": 0.149
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance by Premium Payment Mode, Face Amount Lapse Rates, 10 Year Term, Monthly, Duration",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "17",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.037
+        },
+        {
+          "age": 2,
+          "rate": 0.057
+        },
+        {
+          "age": 3,
+          "rate": 0.052
+        },
+        {
+          "age": 4,
+          "rate": 0.051
+        },
+        {
+          "age": 5,
+          "rate": 0.058
+        },
+        {
+          "age": 6,
+          "rate": 0.096
+        },
+        {
+          "age": 7,
+          "rate": 0.084
+        },
+        {
+          "age": 8,
+          "rate": 0.072
+        },
+        {
+          "age": 9,
+          "rate": 0.046
+        },
+        {
+          "age": 10,
+          "rate": 0.221
+        },
+        {
+          "age": 11,
+          "rate": 0.489
+        },
+        {
+          "age": 12,
+          "rate": 0.126
+        },
+        {
+          "age": 13,
+          "rate": 0.032
+        },
+        {
+          "age": 14,
+          "rate": 0.015
+        },
+        {
+          "age": 15,
+          "rate": 0.019
+        },
+        {
+          "age": 16,
+          "rate": 0.022
+        },
+        {
+          "age": 17,
+          "rate": 0.016
+        }
+      ]
+    }
+  ]
+}

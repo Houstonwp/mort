@@ -1,0 +1,220 @@
+{
+  "identifier": "2004_2005_individual_life_persistency_study_10_ylt_monthly",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2474",
+    "providerDomain": "limra.com",
+    "providerName": "LIMRA International, Inc.",
+    "tableReference": "Cathy Ho and Nancy Muise, “U.S. Individual Life Insurance Persistency, A Joint Study Sponsored by LIMRA International and the Society of Actuaries”, Society of Actuaries and LIMRA (2009) Accessed: October, 2013 from https://www.soa.org/resources/experience-studies/2005-2009/2004-2005-ind-life-persistency/",
+    "contentType": {
+      "code": "5",
+      "label": "Termination Voluntary"
+    },
+    "tableName": "2004-2005 Individual Life Persistency Study – 10 YLT Monthly",
+    "tableDescription": "2004-2005 Individual Life Persistency Study – 10 Year Level Term (YLT) Insurance by Number of Policies AND by Face Amounts. Basis: Monthly Payment of Premiums. Minimum Policy Duration: 1. Maximum Policy Duration: 17",
+    "comments": "Study Data: The observation period for the study is calendar years 2004 and 2005. The study is based on data provided by 39 individual life insurance writers and it presents lapse experience for whole life, term life, universal life, and variable universal life plans issued between 1902 and 2004. Of these participants, 33 provided whole life data, 36 provided term data,32 provided universal life data, and 18 provided variable universal life data. Lapse includes termination for nonpayment of premium, insufficient cash value, or full surrender of a policy, transfer to reduced paid-up or extended term status, and in most cases, terminations for unknown reason. Methodology: Lapse rates are calculated as follows: Annualized Policy Lapse Rate = 100 x Number of Policies Lapsed During the Year / Number of Policies Exposed to Lapse During the Year. The number of policies exposed to lapse is based on the length of time the policy is exposed to the risk of lapsation during the year. Lapses contribute exposure for the full 12 months. Terminations due to death, expiry, maturity or conversion are not included in the amounts lapsing and contribute to exposure for only the fraction of the year they were in force. Experience is reported exactly as calculated. No attempt was made to graduate or smooth results. Data Transcription Errors: None. Data Certified: 11/2013",
+    "keywords": [
+      "Duration",
+      "Termination Voluntary",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 Individual Life Persistency Study – 10 Year Level Term (YLT) Insurance by Number of Policies. Basis: Monthly Payment of Premiums. Minimum Policy Duration: 1. Maximum Policy Duration: 17",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "17",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.054
+        },
+        {
+          "age": 2,
+          "rate": 0.089
+        },
+        {
+          "age": 3,
+          "rate": 0.08
+        },
+        {
+          "age": 4,
+          "rate": 0.064
+        },
+        {
+          "age": 5,
+          "rate": 0.075
+        },
+        {
+          "age": 6,
+          "rate": 0.112
+        },
+        {
+          "age": 7,
+          "rate": 0.088
+        },
+        {
+          "age": 8,
+          "rate": 0.082
+        },
+        {
+          "age": 9,
+          "rate": 0.055
+        },
+        {
+          "age": 10,
+          "rate": 0.277
+        },
+        {
+          "age": 11,
+          "rate": 0.537
+        },
+        {
+          "age": 12,
+          "rate": 0.196
+        },
+        {
+          "age": 13,
+          "rate": 0.059
+        },
+        {
+          "age": 14,
+          "rate": 0.024
+        },
+        {
+          "age": 15,
+          "rate": 0.024
+        },
+        {
+          "age": 16,
+          "rate": 0.025
+        },
+        {
+          "age": 17,
+          "rate": 0.022
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2004-2005 Individual Life Persistency Study – 10 Year Level Term (YLT) Insurance by Face Amounts. Basis: Monthly Payment of Premiums. Minimum Policy Duration: 1. Maximum Policy Duration: 17",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "17",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.037
+        },
+        {
+          "age": 2,
+          "rate": 0.057
+        },
+        {
+          "age": 3,
+          "rate": 0.052
+        },
+        {
+          "age": 4,
+          "rate": 0.051
+        },
+        {
+          "age": 5,
+          "rate": 0.058
+        },
+        {
+          "age": 6,
+          "rate": 0.096
+        },
+        {
+          "age": 7,
+          "rate": 0.084
+        },
+        {
+          "age": 8,
+          "rate": 0.072
+        },
+        {
+          "age": 9,
+          "rate": 0.046
+        },
+        {
+          "age": 10,
+          "rate": 0.221
+        },
+        {
+          "age": 11,
+          "rate": 0.489
+        },
+        {
+          "age": 12,
+          "rate": 0.126
+        },
+        {
+          "age": 13,
+          "rate": 0.032
+        },
+        {
+          "age": 14,
+          "rate": 0.015
+        },
+        {
+          "age": 15,
+          "rate": 0.019
+        },
+        {
+          "age": 16,
+          "rate": 0.022
+        },
+        {
+          "age": 17,
+          "rate": 0.016
+        }
+      ]
+    }
+  ]
+}

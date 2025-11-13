@@ -1,0 +1,458 @@
+{
+  "identifier": "interim_mortality_improvement_scale_bb_female",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1512",
+    "providerDomain": "soa.org",
+    "providerName": "Society of Actuaries",
+    "tableReference": "The Society of Actuaries’ Retirement Plans Experience Committee, “Mortality Improvement Scale BB Report”, Society of Actuaries, (Chicago, 2012) p. 28. Accessed: 09/2012 from https://www.soa.org/resources/experience-studies/2012/research-mortality-improve-bb/ p. 28",
+    "contentType": {
+      "code": "22",
+      "label": "Projection Scale"
+    },
+    "tableName": "Interim Mortality Improvement Scale BB - Female",
+    "tableDescription": "Interim Mortality Improvement Scale BB – Female. Minimum Age: 20. Maximum Age: 120",
+    "comments": "Study Data: In 2010 it was noted that mortality improvement experience in the U. S. since 2000 differed from that anticipated by Scale AA (SOA Table Identities 923 and 924).  Three sources provided data that Retirement Plans Experience Committee (RPEC) considered large enough and consistent enough to develop US mortality improvement trends: (1) The Social Security Administration (SSA) provided tables of gender-specific US general population mortality rates for all ages and for all calendar years from 1900 through 2007 (2) The Office of Personnel Management (OPM) provided data covering 1984 through 2009 for retirees covered by the Civil Service Retirement System (CSRS) and Federal Employees Retirement System (FERS), and (3) The California Public Employee Retirement System (CalPERS) provided data on active and retired participants covering the period 1997 through 2007. Although an “interim” table, Scale BB may be used by pension actuaries until work on a formal successor to Scale AA is complete. Methodology:  There were two major phases in the development of Scale BB: (1) the creation of “transitional” two-dimensional arrays of future mortality improvement rates (See SOA Table Identities 1608 and 1609); and (2) the conversion of those two-dimensional rates into gender-specific, age-only rates. The Society of Actuaries’ publication is very detailed with respect to the construction techniques employed and should be consulted for further methodology details. Data Transcription Errors: None. Data Certified: 01/2013.",
+    "keywords": [
+      "Aggregate",
+      "Projection Scale",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "Interim Mortality Improvement Scale BB – Female. Minimum Age: 20. Maximum Age: 120",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "20",
+            "maxValue": "120",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 20,
+          "rate": 0.003
+        },
+        {
+          "age": 21,
+          "rate": 0.003
+        },
+        {
+          "age": 22,
+          "rate": 0.003
+        },
+        {
+          "age": 23,
+          "rate": 0.003
+        },
+        {
+          "age": 24,
+          "rate": 0.003
+        },
+        {
+          "age": 25,
+          "rate": 0.003
+        },
+        {
+          "age": 26,
+          "rate": 0.003
+        },
+        {
+          "age": 27,
+          "rate": 0.003
+        },
+        {
+          "age": 28,
+          "rate": 0.003
+        },
+        {
+          "age": 29,
+          "rate": 0.003
+        },
+        {
+          "age": 30,
+          "rate": 0.003
+        },
+        {
+          "age": 31,
+          "rate": 0.003
+        },
+        {
+          "age": 32,
+          "rate": 0.003
+        },
+        {
+          "age": 33,
+          "rate": 0.003
+        },
+        {
+          "age": 34,
+          "rate": 0.003
+        },
+        {
+          "age": 35,
+          "rate": 0.003
+        },
+        {
+          "age": 36,
+          "rate": 0.003
+        },
+        {
+          "age": 37,
+          "rate": 0.003
+        },
+        {
+          "age": 38,
+          "rate": 0.003
+        },
+        {
+          "age": 39,
+          "rate": 0.003
+        },
+        {
+          "age": 40,
+          "rate": 0.003
+        },
+        {
+          "age": 41,
+          "rate": 0.003
+        },
+        {
+          "age": 42,
+          "rate": 0.003
+        },
+        {
+          "age": 43,
+          "rate": 0.003
+        },
+        {
+          "age": 44,
+          "rate": 0.003
+        },
+        {
+          "age": 45,
+          "rate": 0.003
+        },
+        {
+          "age": 46,
+          "rate": 0.003
+        },
+        {
+          "age": 47,
+          "rate": 0.003
+        },
+        {
+          "age": 48,
+          "rate": 0.003
+        },
+        {
+          "age": 49,
+          "rate": 0.003
+        },
+        {
+          "age": 50,
+          "rate": 0.003
+        },
+        {
+          "age": 51,
+          "rate": 0.003
+        },
+        {
+          "age": 52,
+          "rate": 0.003
+        },
+        {
+          "age": 53,
+          "rate": 0.003
+        },
+        {
+          "age": 54,
+          "rate": 0.004
+        },
+        {
+          "age": 55,
+          "rate": 0.005
+        },
+        {
+          "age": 56,
+          "rate": 0.00600000000000001
+        },
+        {
+          "age": 57,
+          "rate": 0.00700000000000001
+        },
+        {
+          "age": 58,
+          "rate": 0.00800000000000001
+        },
+        {
+          "age": 59,
+          "rate": 0.00900000000000001
+        },
+        {
+          "age": 60,
+          "rate": 0.01
+        },
+        {
+          "age": 61,
+          "rate": 0.011
+        },
+        {
+          "age": 62,
+          "rate": 0.012
+        },
+        {
+          "age": 63,
+          "rate": 0.012
+        },
+        {
+          "age": 64,
+          "rate": 0.012
+        },
+        {
+          "age": 65,
+          "rate": 0.012
+        },
+        {
+          "age": 66,
+          "rate": 0.012
+        },
+        {
+          "age": 67,
+          "rate": 0.012
+        },
+        {
+          "age": 68,
+          "rate": 0.012
+        },
+        {
+          "age": 69,
+          "rate": 0.012
+        },
+        {
+          "age": 70,
+          "rate": 0.012
+        },
+        {
+          "age": 71,
+          "rate": 0.012
+        },
+        {
+          "age": 72,
+          "rate": 0.012
+        },
+        {
+          "age": 73,
+          "rate": 0.012
+        },
+        {
+          "age": 74,
+          "rate": 0.012
+        },
+        {
+          "age": 75,
+          "rate": 0.012
+        },
+        {
+          "age": 76,
+          "rate": 0.012
+        },
+        {
+          "age": 77,
+          "rate": 0.012
+        },
+        {
+          "age": 78,
+          "rate": 0.012
+        },
+        {
+          "age": 79,
+          "rate": 0.012
+        },
+        {
+          "age": 80,
+          "rate": 0.012
+        },
+        {
+          "age": 81,
+          "rate": 0.012
+        },
+        {
+          "age": 82,
+          "rate": 0.012
+        },
+        {
+          "age": 83,
+          "rate": 0.012
+        },
+        {
+          "age": 84,
+          "rate": 0.012
+        },
+        {
+          "age": 85,
+          "rate": 0.012
+        },
+        {
+          "age": 86,
+          "rate": 0.012
+        },
+        {
+          "age": 87,
+          "rate": 0.012
+        },
+        {
+          "age": 88,
+          "rate": 0.012
+        },
+        {
+          "age": 89,
+          "rate": 0.012
+        },
+        {
+          "age": 90,
+          "rate": 0.011
+        },
+        {
+          "age": 91,
+          "rate": 0.01
+        },
+        {
+          "age": 92,
+          "rate": 0.00900000000000001
+        },
+        {
+          "age": 93,
+          "rate": 0.00800000000000001
+        },
+        {
+          "age": 94,
+          "rate": 0.00700000000000001
+        },
+        {
+          "age": 95,
+          "rate": 0.00600000000000001
+        },
+        {
+          "age": 96,
+          "rate": 0.005
+        },
+        {
+          "age": 97,
+          "rate": 0.004
+        },
+        {
+          "age": 98,
+          "rate": 0.004
+        },
+        {
+          "age": 99,
+          "rate": 0.003
+        },
+        {
+          "age": 100,
+          "rate": 0.003
+        },
+        {
+          "age": 101,
+          "rate": 0.002
+        },
+        {
+          "age": 102,
+          "rate": 0.002
+        },
+        {
+          "age": 103,
+          "rate": 0.001
+        },
+        {
+          "age": 104,
+          "rate": 0.001
+        },
+        {
+          "age": 105,
+          "rate": 0
+        },
+        {
+          "age": 106,
+          "rate": 0
+        },
+        {
+          "age": 107,
+          "rate": 0
+        },
+        {
+          "age": 108,
+          "rate": 0
+        },
+        {
+          "age": 109,
+          "rate": 0
+        },
+        {
+          "age": 110,
+          "rate": 0
+        },
+        {
+          "age": 111,
+          "rate": 0
+        },
+        {
+          "age": 112,
+          "rate": 0
+        },
+        {
+          "age": 113,
+          "rate": 0
+        },
+        {
+          "age": 114,
+          "rate": 0
+        },
+        {
+          "age": 115,
+          "rate": 0
+        },
+        {
+          "age": 116,
+          "rate": 0
+        },
+        {
+          "age": 117,
+          "rate": 0
+        },
+        {
+          "age": 118,
+          "rate": 0
+        },
+        {
+          "age": 119,
+          "rate": 0
+        },
+        {
+          "age": 120,
+          "rate": 0
+        }
+      ]
+    }
+  ]
+}

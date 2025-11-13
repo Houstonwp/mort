@@ -1,0 +1,526 @@
+{
+  "identifier": "ssa_1940_male_anb",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "542",
+    "providerDomain": "soa.org",
+    "providerName": "Roger Scott Lumsden",
+    "tableReference": "U.S. Department of Health and Human Services, “Life Tables for the United States Social Security Area 1900-2080 - Actuarial Study No. 107”, Social Security Administration Office of the Actuary (Baltimore, 1992) p. 24-25. SSA Pub. No. 11-11536",
+    "contentType": {
+      "code": "84",
+      "label": "Population Mortality"
+    },
+    "tableName": "SSA 1940 – Male, ANB",
+    "tableDescription": "Social Security Area (SSA) Period Life Table for the Calendar Year 1940 – Male. Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 117",
+    "comments": "Study Data: Based on historical and projected mortality in the United States. Projected mortality is that used in estimating the future costs for the Old-Age, Survivors, and Disability Insurance (OASDI) program included in the 1992 Report of the OASDI Board of Trustees to Congress. Social Security Area (SSA) tables differ from official tables published in conjunction with the U.S. decennial census. Annual tabulations of numbers of deaths by age and sex are made by the National Center for Health Statistics (NCHS) based on information provided by the states published in “Vital Statistics of the United States”. Annual estimates of the U.S. resident population by single year of age and sex are made by the Bureau of the Census and published in “Current Population Reports”. Errors of undercounting and misclassification are considered together as a net undercount. For the period 1968-1989, data was supplemented by records of the Medicare program. Methodology: For ages 0-4, probabilities of death were calculated from monthly tabulations of births and deaths and by utilizing population central death rates. For ages 5-95, data was grouped in 5-year age bands which were  then interpolated by applying Beers 4th degree osculatory formula to natural logs of complements of quinquennial qx's. The process was then iterated until 5-year expected deaths reproduced actual. For ages over 95, mortality for men assumed to increase at 5% per year; females set equal to male rates. Data Transcription Errors: None. Data Certified: 03/2013",
+    "keywords": [
+      "Aggregate",
+      "Population mortality",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "Social Security Area (SSA) Period Life Table for the Calendar Year 1940 – Male. Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 117",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "0",
+            "maxValue": "117",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 0,
+          "rate": 0.05286
+        },
+        {
+          "age": 1,
+          "rate": 0.005785
+        },
+        {
+          "age": 2,
+          "rate": 0.003007
+        },
+        {
+          "age": 3,
+          "rate": 0.002003
+        },
+        {
+          "age": 4,
+          "rate": 0.001669
+        },
+        {
+          "age": 5,
+          "rate": 0.001473
+        },
+        {
+          "age": 6,
+          "rate": 0.00132
+        },
+        {
+          "age": 7,
+          "rate": 0.001203
+        },
+        {
+          "age": 8,
+          "rate": 0.001114
+        },
+        {
+          "age": 9,
+          "rate": 0.001051
+        },
+        {
+          "age": 10,
+          "rate": 0.001019
+        },
+        {
+          "age": 11,
+          "rate": 0.001027
+        },
+        {
+          "age": 12,
+          "rate": 0.001085
+        },
+        {
+          "age": 13,
+          "rate": 0.001198
+        },
+        {
+          "age": 14,
+          "rate": 0.001355
+        },
+        {
+          "age": 15,
+          "rate": 0.001535
+        },
+        {
+          "age": 16,
+          "rate": 0.001722
+        },
+        {
+          "age": 17,
+          "rate": 0.00191
+        },
+        {
+          "age": 18,
+          "rate": 0.002089
+        },
+        {
+          "age": 19,
+          "rate": 0.00226
+        },
+        {
+          "age": 20,
+          "rate": 0.002442
+        },
+        {
+          "age": 21,
+          "rate": 0.002621
+        },
+        {
+          "age": 22,
+          "rate": 0.00276
+        },
+        {
+          "age": 23,
+          "rate": 0.002843
+        },
+        {
+          "age": 24,
+          "rate": 0.002887
+        },
+        {
+          "age": 25,
+          "rate": 0.002921
+        },
+        {
+          "age": 26,
+          "rate": 0.00297
+        },
+        {
+          "age": 27,
+          "rate": 0.003038
+        },
+        {
+          "age": 28,
+          "rate": 0.003135
+        },
+        {
+          "age": 29,
+          "rate": 0.003257
+        },
+        {
+          "age": 30,
+          "rate": 0.003397
+        },
+        {
+          "age": 31,
+          "rate": 0.003546
+        },
+        {
+          "age": 32,
+          "rate": 0.003707
+        },
+        {
+          "age": 33,
+          "rate": 0.003878
+        },
+        {
+          "age": 34,
+          "rate": 0.004066
+        },
+        {
+          "age": 35,
+          "rate": 0.004276
+        },
+        {
+          "age": 36,
+          "rate": 0.004521
+        },
+        {
+          "age": 37,
+          "rate": 0.004807
+        },
+        {
+          "age": 38,
+          "rate": 0.005142
+        },
+        {
+          "age": 39,
+          "rate": 0.005523
+        },
+        {
+          "age": 40,
+          "rate": 0.005951
+        },
+        {
+          "age": 41,
+          "rate": 0.006418
+        },
+        {
+          "age": 42,
+          "rate": 0.006915
+        },
+        {
+          "age": 43,
+          "rate": 0.007436
+        },
+        {
+          "age": 44,
+          "rate": 0.007994
+        },
+        {
+          "age": 45,
+          "rate": 0.008599
+        },
+        {
+          "age": 46,
+          "rate": 0.009269
+        },
+        {
+          "age": 47,
+          "rate": 0.010022
+        },
+        {
+          "age": 48,
+          "rate": 0.010867
+        },
+        {
+          "age": 49,
+          "rate": 0.011799
+        },
+        {
+          "age": 50,
+          "rate": 0.012809
+        },
+        {
+          "age": 51,
+          "rate": 0.013881
+        },
+        {
+          "age": 52,
+          "rate": 0.015011
+        },
+        {
+          "age": 53,
+          "rate": 0.016191
+        },
+        {
+          "age": 54,
+          "rate": 0.017433
+        },
+        {
+          "age": 55,
+          "rate": 0.018782
+        },
+        {
+          "age": 56,
+          "rate": 0.020231
+        },
+        {
+          "age": 57,
+          "rate": 0.021729
+        },
+        {
+          "age": 58,
+          "rate": 0.023263
+        },
+        {
+          "age": 59,
+          "rate": 0.024871
+        },
+        {
+          "age": 60,
+          "rate": 0.026633
+        },
+        {
+          "age": 61,
+          "rate": 0.028577
+        },
+        {
+          "age": 62,
+          "rate": 0.030673
+        },
+        {
+          "age": 63,
+          "rate": 0.032933
+        },
+        {
+          "age": 64,
+          "rate": 0.035392
+        },
+        {
+          "age": 65,
+          "rate": 0.038116
+        },
+        {
+          "age": 66,
+          "rate": 0.041129
+        },
+        {
+          "age": 67,
+          "rate": 0.044408
+        },
+        {
+          "age": 68,
+          "rate": 0.047966
+        },
+        {
+          "age": 69,
+          "rate": 0.051851
+        },
+        {
+          "age": 70,
+          "rate": 0.056114
+        },
+        {
+          "age": 71,
+          "rate": 0.060814
+        },
+        {
+          "age": 72,
+          "rate": 0.065987
+        },
+        {
+          "age": 73,
+          "rate": 0.071671
+        },
+        {
+          "age": 74,
+          "rate": 0.077878
+        },
+        {
+          "age": 75,
+          "rate": 0.084494
+        },
+        {
+          "age": 76,
+          "rate": 0.091612
+        },
+        {
+          "age": 77,
+          "rate": 0.099449
+        },
+        {
+          "age": 78,
+          "rate": 0.10808
+        },
+        {
+          "age": 79,
+          "rate": 0.117382
+        },
+        {
+          "age": 80,
+          "rate": 0.127494
+        },
+        {
+          "age": 81,
+          "rate": 0.137986
+        },
+        {
+          "age": 82,
+          "rate": 0.148244
+        },
+        {
+          "age": 83,
+          "rate": 0.158015
+        },
+        {
+          "age": 84,
+          "rate": 0.16772
+        },
+        {
+          "age": 85,
+          "rate": 0.177982
+        },
+        {
+          "age": 86,
+          "rate": 0.189317
+        },
+        {
+          "age": 87,
+          "rate": 0.202027
+        },
+        {
+          "age": 88,
+          "rate": 0.21619
+        },
+        {
+          "age": 89,
+          "rate": 0.231679
+        },
+        {
+          "age": 90,
+          "rate": 0.248306
+        },
+        {
+          "age": 91,
+          "rate": 0.265851
+        },
+        {
+          "age": 92,
+          "rate": 0.284091
+        },
+        {
+          "age": 93,
+          "rate": 0.302828
+        },
+        {
+          "age": 94,
+          "rate": 0.321875
+        },
+        {
+          "age": 95,
+          "rate": 0.34129
+        },
+        {
+          "age": 96,
+          "rate": 0.360995
+        },
+        {
+          "age": 97,
+          "rate": 0.380907
+        },
+        {
+          "age": 98,
+          "rate": 0.400935
+        },
+        {
+          "age": 99,
+          "rate": 0.420982
+        },
+        {
+          "age": 100,
+          "rate": 0.442031
+        },
+        {
+          "age": 101,
+          "rate": 0.464133
+        },
+        {
+          "age": 102,
+          "rate": 0.487339
+        },
+        {
+          "age": 103,
+          "rate": 0.511706
+        },
+        {
+          "age": 104,
+          "rate": 0.537291
+        },
+        {
+          "age": 105,
+          "rate": 0.564156
+        },
+        {
+          "age": 106,
+          "rate": 0.592364
+        },
+        {
+          "age": 107,
+          "rate": 0.621982
+        },
+        {
+          "age": 108,
+          "rate": 0.653081
+        },
+        {
+          "age": 109,
+          "rate": 0.685735
+        },
+        {
+          "age": 110,
+          "rate": 0.720022
+        },
+        {
+          "age": 111,
+          "rate": 0.756023
+        },
+        {
+          "age": 112,
+          "rate": 0.793824
+        },
+        {
+          "age": 113,
+          "rate": 0.833515
+        },
+        {
+          "age": 114,
+          "rate": 0.875191
+        },
+        {
+          "age": 115,
+          "rate": 0.91895
+        },
+        {
+          "age": 116,
+          "rate": 0.964897
+        },
+        {
+          "age": 117,
+          "rate": 1
+        }
+      ]
+    }
+  ]
+}

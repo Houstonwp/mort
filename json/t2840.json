@@ -1,0 +1,182 @@
+{
+  "identifier": "1956_intercompany_hospital_maternity_benefit",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2840",
+    "providerDomain": "soa.org",
+    "providerName": "Susie Lee",
+    "tableReference": "Edwin L. Bartleson and James J. Olsen, \"Reserves for Individual Hospital and Surgical Expense Insurance”, Transactions of the Society of Actuaries, Vol. IX, No. 25 (1957). Accessed: June, 2014 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1957/January/tsa57v9n2532.pdf",
+    "contentType": {
+      "code": "50",
+      "label": "Claim Cost (in Disability)"
+    },
+    "tableName": "1956 Intercompany Hospital - Maternity Benefit",
+    "tableDescription": "1956 Intercompany Hospital Table - $1 Maternity Benefit - Net Annual Claim Cost. Minimum Age: 15. Maximum Age: 46",
+    "comments": "Study Data: Task Force 4, appointed by the Joint Committee on Health Insurance, was assigned the task of studying reserves for accident and health insurance. The basic tables for hospital and surgical expense insurance were adopted by the National Association of Insurance Commissioners (NAIC) in December, 1956. Maternity benefits were kept separate from other hospital stays. The net annual claim cost is the product of the annual rate of claim from this table and then the average claim value. Methodology: Task Force 4 prepared tables with a minimum age of 20 and maximum age of 46 for maternity benefits. In order to cover all pregnancy ages, the table was extended by the authors. There are relatively few contracts issued at age 15 to 19 thus extension was simply to use the same cost as for age 20. Transcription Errors: None. Data Certified: 07/2014.",
+    "keywords": [
+      "Aggregate",
+      "Claim Cost",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1956 Intercompany Hospital Table - $1 Maternity Benefit - Net Annual Claim Cost. Minimum Age: 15. Maximum Age: 46",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "46",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 0.3284
+        },
+        {
+          "age": 16,
+          "rate": 0.3284
+        },
+        {
+          "age": 17,
+          "rate": 0.3284
+        },
+        {
+          "age": 18,
+          "rate": 0.3284
+        },
+        {
+          "age": 19,
+          "rate": 0.3284
+        },
+        {
+          "age": 20,
+          "rate": 0.3284
+        },
+        {
+          "age": 21,
+          "rate": 0.3062
+        },
+        {
+          "age": 22,
+          "rate": 0.285
+        },
+        {
+          "age": 23,
+          "rate": 0.2652
+        },
+        {
+          "age": 24,
+          "rate": 0.2469
+        },
+        {
+          "age": 25,
+          "rate": 0.2295
+        },
+        {
+          "age": 26,
+          "rate": 0.2127
+        },
+        {
+          "age": 27,
+          "rate": 0.196
+        },
+        {
+          "age": 28,
+          "rate": 0.1792
+        },
+        {
+          "age": 29,
+          "rate": 0.1626
+        },
+        {
+          "age": 30,
+          "rate": 0.1465
+        },
+        {
+          "age": 31,
+          "rate": 0.1312
+        },
+        {
+          "age": 32,
+          "rate": 0.117
+        },
+        {
+          "age": 33,
+          "rate": 0.104
+        },
+        {
+          "age": 34,
+          "rate": 0.092
+        },
+        {
+          "age": 35,
+          "rate": 0.0808
+        },
+        {
+          "age": 36,
+          "rate": 0.0702
+        },
+        {
+          "age": 37,
+          "rate": 0.06
+        },
+        {
+          "age": 38,
+          "rate": 0.0499
+        },
+        {
+          "age": 39,
+          "rate": 0.0401
+        },
+        {
+          "age": 40,
+          "rate": 0.031
+        },
+        {
+          "age": 41,
+          "rate": 0.0228
+        },
+        {
+          "age": 42,
+          "rate": 0.016
+        },
+        {
+          "age": 43,
+          "rate": 0.0108
+        },
+        {
+          "age": 44,
+          "rate": 0.0068
+        },
+        {
+          "age": 45,
+          "rate": 0.0039
+        },
+        {
+          "age": 46,
+          "rate": 0.0017
+        }
+      ]
+    }
+  ]
+}

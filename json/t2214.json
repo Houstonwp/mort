@@ -1,0 +1,324 @@
+{
+  "identifier": "2003_2004_individual_life_persistency_study_whole_life_insurance_issue_ages_60_69",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2214",
+    "providerDomain": "limra.com",
+    "providerName": "LIMRA International, Inc.",
+    "tableReference": "LIMRA and The Society of Actuaries “U.S. Individual Life Insurance Persistency Update”, LIMRA and The Society of Actuaries, (2008). Accessed: August, 2013 from https://www.soa.org/resources/experience-studies/2005-2009/2003-us-life-update/",
+    "contentType": {
+      "code": "5",
+      "label": "Termination Voluntary"
+    },
+    "tableName": "2003-2004 Individual Life Persistency Study - Whole Life Insurance, Issue Ages 60-69",
+    "tableDescription": "2003-2004 Individual Life Persistency Study – Whole Life Insurance by Number of Policies AND by Face Amounts. Basis: Issue Ages 60-69. Minimum Policy Duration: 1. Maximum Policy Duration: 30 and over",
+    "comments": "Study Data: The observation period for the study is calendar years 2003 and 2004. The study is based on data provided by 43 individual life insurance writers and it presents lapse experience for whole life, term life, universal life, and variable universal life plans issued between 1902 and 2004. Lapse includes termination for nonpayment of premium, insufficient cashvalue, or full surrender of a policy, transfer to reduced paid-up or extended term status, and in most cases, terminations for unknown reason. Methodology: Lapse rates are calculated as follows:Annualized Policy Lapse Rate = 100 x Number of Policies Lapsed During the Year / Number of Policies Exposed to Lapse During the Year. The number of policies exposed to lapse is based on the length of time the policy is exposed to the risk of lapsation during the year. Lapses contribute exposure for the full 12 months. Terminations due to death, expiry, maturity or conversion are not included in the amounts lapsing and contribute to exposure for only the fraction of the year they were in force. Experience is reported exactly as calculated. No attempt was made to graduate or smooth results. Rates for policy years 30 and above were all set to the same rate. Data Transcription Errors: None. Data Certified: 09/2013",
+    "keywords": [
+      "Duration",
+      "Termination Voluntary",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2003-2004 Individual Life Persistency Study – Whole Life Insurance by Number of Policies. Basis: Issue Ages 60-69. Minimum Policy Duration: 1. Maximum Policy Duration: 30 and over",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "30",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.098
+        },
+        {
+          "age": 2,
+          "rate": 0.053
+        },
+        {
+          "age": 3,
+          "rate": 0.036
+        },
+        {
+          "age": 4,
+          "rate": 0.032
+        },
+        {
+          "age": 5,
+          "rate": 0.031
+        },
+        {
+          "age": 6,
+          "rate": 0.031
+        },
+        {
+          "age": 7,
+          "rate": 0.03
+        },
+        {
+          "age": 8,
+          "rate": 0.026
+        },
+        {
+          "age": 9,
+          "rate": 0.028
+        },
+        {
+          "age": 10,
+          "rate": 0.031
+        },
+        {
+          "age": 11,
+          "rate": 0.029
+        },
+        {
+          "age": 12,
+          "rate": 0.029
+        },
+        {
+          "age": 13,
+          "rate": 0.028
+        },
+        {
+          "age": 14,
+          "rate": 0.03
+        },
+        {
+          "age": 15,
+          "rate": 0.027
+        },
+        {
+          "age": 16,
+          "rate": 0.026
+        },
+        {
+          "age": 17,
+          "rate": 0.026
+        },
+        {
+          "age": 18,
+          "rate": 0.027
+        },
+        {
+          "age": 19,
+          "rate": 0.028
+        },
+        {
+          "age": 20,
+          "rate": 0.03
+        },
+        {
+          "age": 21,
+          "rate": 0.03
+        },
+        {
+          "age": 22,
+          "rate": 0.033
+        },
+        {
+          "age": 23,
+          "rate": 0.036
+        },
+        {
+          "age": 24,
+          "rate": 0.037
+        },
+        {
+          "age": 25,
+          "rate": 0.037
+        },
+        {
+          "age": 26,
+          "rate": 0.038
+        },
+        {
+          "age": 27,
+          "rate": 0.038
+        },
+        {
+          "age": 28,
+          "rate": 0.038
+        },
+        {
+          "age": 29,
+          "rate": 0.038
+        },
+        {
+          "age": 30,
+          "rate": 0.049
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2003-2004 Individual Life Persistency Study – Whole Life Insurance by Face Amounts. Basis: Issue Ages 60-69. Minimum Policy Duration: 1. Maximum Policy Duration: 30 and over",
+        "axes": [
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "30",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.075
+        },
+        {
+          "age": 2,
+          "rate": 0.048
+        },
+        {
+          "age": 3,
+          "rate": 0.042
+        },
+        {
+          "age": 4,
+          "rate": 0.05
+        },
+        {
+          "age": 5,
+          "rate": 0.052
+        },
+        {
+          "age": 6,
+          "rate": 0.087
+        },
+        {
+          "age": 7,
+          "rate": 0.061
+        },
+        {
+          "age": 8,
+          "rate": 0.058
+        },
+        {
+          "age": 9,
+          "rate": 0.074
+        },
+        {
+          "age": 10,
+          "rate": 0.06
+        },
+        {
+          "age": 11,
+          "rate": 0.051
+        },
+        {
+          "age": 12,
+          "rate": 0.065
+        },
+        {
+          "age": 13,
+          "rate": 0.043
+        },
+        {
+          "age": 14,
+          "rate": 0.037
+        },
+        {
+          "age": 15,
+          "rate": 0.031
+        },
+        {
+          "age": 16,
+          "rate": 0.03
+        },
+        {
+          "age": 17,
+          "rate": 0.023
+        },
+        {
+          "age": 18,
+          "rate": 0.019
+        },
+        {
+          "age": 19,
+          "rate": 0.022
+        },
+        {
+          "age": 20,
+          "rate": 0.032
+        },
+        {
+          "age": 21,
+          "rate": 0.024
+        },
+        {
+          "age": 22,
+          "rate": 0.034
+        },
+        {
+          "age": 23,
+          "rate": 0.027
+        },
+        {
+          "age": 24,
+          "rate": 0.022
+        },
+        {
+          "age": 25,
+          "rate": 0.026
+        },
+        {
+          "age": 26,
+          "rate": 0.026
+        },
+        {
+          "age": 27,
+          "rate": 0.026
+        },
+        {
+          "age": 28,
+          "rate": 0.026
+        },
+        {
+          "age": 29,
+          "rate": 0.026
+        },
+        {
+          "age": 30,
+          "rate": 0.031
+        }
+      ]
+    }
+  ]
+}

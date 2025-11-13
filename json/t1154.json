@@ -1,0 +1,406 @@
+{
+  "identifier": "pbgc_table_va_mortality_rates_for_disabled_participants_receiving_social_security_disability_benefit_payments_male",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1154",
+    "providerDomain": "www.pbgc.gov",
+    "providerName": "Eric Gary and Bill Meldrum",
+    "tableReference": "Office of the Federal Register National Archives and Records Administration, “The Code of Federal Regulations of the United States of America, Part 2619 App. C”, U.S. Government Printing Office, (Washington, 1981) p. 715-716. Accessed: 01/2013 from http://books.google.com/books?id=Ho06AAAAIAAJ\u0026pg=PA713#v=onepage\u0026q\u0026f=false",
+    "contentType": {
+      "code": "2",
+      "label": "Disabled Lives Mortality"
+    },
+    "tableName": "PBGC Table Va - Mortality Rates for Disabled Participants Receiving Social Security Disability Benefit Payments - Male",
+    "tableDescription": "Pension Benefit Guaranty Corporation (PBGC) Table Va - Mortality Rates for Disabled Participants Receiving Social Security Disability Benefit Payments – Male. For use with plans that terminate on or after Dec. 1, 1980 and before Nov. 1, 1993. Minimum Age: 20. Maximum Age: 107.",
+    "comments": "Study Data:  The Pension Benefit Guaranty Corporation (PBGC) was created by the Employee Retirement Income Security Act of 1974 (ERISA) in order to provide pension benefits in the case where defined benefit pension plans require financial assistance to meet their obligations. ERISA Section 430(h)(3)(D) provides for the use of mortality tables with respect to certain individuals who are entitled to benefits on account of disability. For Social Security disabled participants, regulations call for the use of prescribed tables developed by the Internal Revenue Service (IRS) published in Internal Revenue Bulletins. Updates to the mortality tables to be used by PBGC for both disabled and non-disabled individuals occur as deemed warranted by the IRS. Methodology:  Not prescribed in the publication containing the data. Data Transcription Errors Detected: 01/2013.  Data Corrected and Certified: 01/2013",
+    "keywords": [
+      "Aggregate",
+      "Disabled Lives Mortality",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "Pension Benefit Guaranty Corporation (PBGC) Table Va - Mortality Rates for Disabled Participants Receiving Social Security Disability Benefit Payments – Male. For use with plans that terminate on or after Dec. 1, 1980 and before Nov. 1, 1993. Minimum Age: 20. Maximum Age: 107",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "20",
+            "maxValue": "107",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 20,
+          "rate": 0.0483
+        },
+        {
+          "age": 21,
+          "rate": 0.0483
+        },
+        {
+          "age": 22,
+          "rate": 0.0483
+        },
+        {
+          "age": 23,
+          "rate": 0.0483
+        },
+        {
+          "age": 24,
+          "rate": 0.0483
+        },
+        {
+          "age": 25,
+          "rate": 0.0483
+        },
+        {
+          "age": 26,
+          "rate": 0.0461
+        },
+        {
+          "age": 27,
+          "rate": 0.0436
+        },
+        {
+          "age": 28,
+          "rate": 0.0411
+        },
+        {
+          "age": 29,
+          "rate": 0.0386
+        },
+        {
+          "age": 30,
+          "rate": 0.0362
+        },
+        {
+          "age": 31,
+          "rate": 0.0339
+        },
+        {
+          "age": 32,
+          "rate": 0.032
+        },
+        {
+          "age": 33,
+          "rate": 0.0302
+        },
+        {
+          "age": 34,
+          "rate": 0.0288
+        },
+        {
+          "age": 35,
+          "rate": 0.0278
+        },
+        {
+          "age": 36,
+          "rate": 0.0272
+        },
+        {
+          "age": 37,
+          "rate": 0.0271
+        },
+        {
+          "age": 38,
+          "rate": 0.0273
+        },
+        {
+          "age": 39,
+          "rate": 0.0276
+        },
+        {
+          "age": 40,
+          "rate": 0.0282
+        },
+        {
+          "age": 41,
+          "rate": 0.0288
+        },
+        {
+          "age": 42,
+          "rate": 0.0297
+        },
+        {
+          "age": 43,
+          "rate": 0.0305
+        },
+        {
+          "age": 44,
+          "rate": 0.0314
+        },
+        {
+          "age": 45,
+          "rate": 0.0322
+        },
+        {
+          "age": 46,
+          "rate": 0.033
+        },
+        {
+          "age": 47,
+          "rate": 0.034
+        },
+        {
+          "age": 48,
+          "rate": 0.0353
+        },
+        {
+          "age": 49,
+          "rate": 0.0367
+        },
+        {
+          "age": 50,
+          "rate": 0.0383
+        },
+        {
+          "age": 51,
+          "rate": 0.0401
+        },
+        {
+          "age": 52,
+          "rate": 0.042
+        },
+        {
+          "age": 53,
+          "rate": 0.0439
+        },
+        {
+          "age": 54,
+          "rate": 0.046
+        },
+        {
+          "age": 55,
+          "rate": 0.0482
+        },
+        {
+          "age": 56,
+          "rate": 0.0506
+        },
+        {
+          "age": 57,
+          "rate": 0.0531
+        },
+        {
+          "age": 58,
+          "rate": 0.0555
+        },
+        {
+          "age": 59,
+          "rate": 0.0581
+        },
+        {
+          "age": 60,
+          "rate": 0.0603
+        },
+        {
+          "age": 61,
+          "rate": 0.0624
+        },
+        {
+          "age": 62,
+          "rate": 0.0643
+        },
+        {
+          "age": 63,
+          "rate": 0.0657
+        },
+        {
+          "age": 64,
+          "rate": 0.0668
+        },
+        {
+          "age": 65,
+          "rate": 0.0678
+        },
+        {
+          "age": 66,
+          "rate": 0.0687
+        },
+        {
+          "age": 67,
+          "rate": 0.0697
+        },
+        {
+          "age": 68,
+          "rate": 0.0709
+        },
+        {
+          "age": 69,
+          "rate": 0.0723
+        },
+        {
+          "age": 70,
+          "rate": 0.0739
+        },
+        {
+          "age": 71,
+          "rate": 0.0757
+        },
+        {
+          "age": 72,
+          "rate": 0.0776
+        },
+        {
+          "age": 73,
+          "rate": 0.0796
+        },
+        {
+          "age": 74,
+          "rate": 0.0818
+        },
+        {
+          "age": 75,
+          "rate": 0.0842
+        },
+        {
+          "age": 76,
+          "rate": 0.0869
+        },
+        {
+          "age": 77,
+          "rate": 0.0908
+        },
+        {
+          "age": 78,
+          "rate": 0.0962
+        },
+        {
+          "age": 79,
+          "rate": 0.1043
+        },
+        {
+          "age": 80,
+          "rate": 0.1128
+        },
+        {
+          "age": 81,
+          "rate": 0.1221
+        },
+        {
+          "age": 82,
+          "rate": 0.1322
+        },
+        {
+          "age": 83,
+          "rate": 0.1432
+        },
+        {
+          "age": 84,
+          "rate": 0.1551
+        },
+        {
+          "age": 85,
+          "rate": 0.1682
+        },
+        {
+          "age": 86,
+          "rate": 0.1825
+        },
+        {
+          "age": 87,
+          "rate": 0.198
+        },
+        {
+          "age": 88,
+          "rate": 0.215
+        },
+        {
+          "age": 89,
+          "rate": 0.233
+        },
+        {
+          "age": 90,
+          "rate": 0.2525
+        },
+        {
+          "age": 91,
+          "rate": 0.2739
+        },
+        {
+          "age": 92,
+          "rate": 0.2972
+        },
+        {
+          "age": 93,
+          "rate": 0.3226
+        },
+        {
+          "age": 94,
+          "rate": 0.3495
+        },
+        {
+          "age": 95,
+          "rate": 0.3789
+        },
+        {
+          "age": 96,
+          "rate": 0.4109
+        },
+        {
+          "age": 97,
+          "rate": 0.4458
+        },
+        {
+          "age": 98,
+          "rate": 0.4838
+        },
+        {
+          "age": 99,
+          "rate": 0.5243
+        },
+        {
+          "age": 100,
+          "rate": 0.5684
+        },
+        {
+          "age": 101,
+          "rate": 0.6164
+        },
+        {
+          "age": 102,
+          "rate": 0.6687
+        },
+        {
+          "age": 103,
+          "rate": 0.7257
+        },
+        {
+          "age": 104,
+          "rate": 0.7865
+        },
+        {
+          "age": 105,
+          "rate": 0.8527
+        },
+        {
+          "age": 106,
+          "rate": 0.9247
+        },
+        {
+          "age": 107,
+          "rate": 1
+        }
+      ]
+    }
+  ]
+}

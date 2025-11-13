@@ -1,0 +1,406 @@
+{
+  "identifier": "2012_idec_ultimate_graduated_claim_termination_rates_female",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1684",
+    "providerDomain": "soa.org",
+    "providerName": "Society of Actuaries",
+    "tableReference": "Individual Disability Experience Committee, “Development of the 2012 IDEC Claim Termination Rate Table (Version 1.0)”, Society of Actuaries (2012). Accessed: May, 2013 from http://www.soa.org/files/research/exp-study/2012_idec_claim_termination_rate_table.pdf AND Individual Disability Experience Committee, “SOA IDEC 2012 Tables Workbook Version 1.0 Excel File”, Society of Actuaries (2012) Accessed: May, 2013 from http://www.soa.org/Files/Research/Exp-Study/soa_idec_2012_tables_workbook_excel.xls",
+    "contentType": {
+      "code": "82",
+      "label": "Claim Termination"
+    },
+    "tableName": "2012 IDEC Ultimate Graduated Claim Termination Rates - Female",
+    "tableDescription": "2012 Individual Disability Experience Committee (IDEC) Claim Termination Table – Female. Basis: Ultimate. Minimum Attained Age: 32. Maximum Attained Age: 119",
+    "comments": "Study Data: Data represents Version 1.0 and should be considered work in progress. Based on individual disability income (IDI) experience from 1990 to 2007 and contain no explicit margins for adverse deviations. One company’s policy and claim data was scaled down so as to represent only 40% of total exposure over the study period. Only Accident \u0026 Sickness (A\u0026S) policies were included in the database used to calculate termination rates. Since not all of the contributors were able to split CTR’s between deaths and recoveries, the CTR’s in the\n2012 IDEC CTR Table combine deaths and recoveries. The 85 CIDA CTR’s combine deaths and recoveries, as well. Methodology: Experience in the ultimate durations of disablement was grouped by attained age and gender. All occupation classes and elimination periods were combined. In order to increase the exposure and terminations in the ultimate durations, experience for all benefit periods and COL benefits was included. The following describes the steps then taken to develop the ultimate CTR’s: a) Raw male and female CTR’s at pivotal ages 35, 45, 55, 62, 67, 72, 77 were derived by applying the adjusted A/E ratios to the corresponding 85 CIDA ultimate male and female CTR’s; b). The raw rates were then graduated using Whittaker‐Henderson Type B; c) Linear interpolation was used to calculate the ultimate CTR’s at the non‐pivotal ages; d). The ultimate CTR’s at ages less than 35 were derived by applying the ratio of the graduated CTR to 85 CIDA at age 35 to the 85 CIDA CTR’s below age 35; e) The ultimate CTR’s at ages over 77 were derived by applying the ratio of the graduated CTR to\n85 CIDA at age 77 to the 85 CIDA CTR’s over age 77. f) Since the claim terminations at the ultimate durations were assumed to be mainly from death, the ultimate CTR’s were set as the larger of (1) the ultimate CTR’s developed from steps (a)‐(e) and 125% of the 2001 Valuation Basic Table (2001 VBT) ultimate mortality rates. The 2001 VBT mortality rates used in step(f) were derived by taking a weighted average of the 2001 Nonsmoker and Smoker VBT ultimate mortality rates. The weightings were 94% nonsmoker and 6% smoker, which approximate the distribution of nonsmokers and smokers in the claim database. As a result of comparing the ultimate CTR’s to the 2001 VBT, the attained ages in the ultimate CTR table\nare extended to age 119. Data Transcription Errors: None. Data Certified: 01/2014",
+    "keywords": [
+      "Ultimate",
+      "Claim Termination",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2012 Individual Disability Experience Committee (IDEC) Claim Termination Table – Female. Basis: Ultimate. Minimum Attained Age: 32. Maximum Attained Age: 119",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "32",
+            "maxValue": "119",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 32,
+          "rate": 0.02025
+        },
+        {
+          "age": 33,
+          "rate": 0.020375
+        },
+        {
+          "age": 34,
+          "rate": 0.020625
+        },
+        {
+          "age": 35,
+          "rate": 0.020875
+        },
+        {
+          "age": 36,
+          "rate": 0.02016
+        },
+        {
+          "age": 37,
+          "rate": 0.01955
+        },
+        {
+          "age": 38,
+          "rate": 0.01903
+        },
+        {
+          "age": 39,
+          "rate": 0.018375
+        },
+        {
+          "age": 40,
+          "rate": 0.0178
+        },
+        {
+          "age": 41,
+          "rate": 0.017557
+        },
+        {
+          "age": 42,
+          "rate": 0.017296
+        },
+        {
+          "age": 43,
+          "rate": 0.017108
+        },
+        {
+          "age": 44,
+          "rate": 0.016896
+        },
+        {
+          "age": 45,
+          "rate": 0.01666
+        },
+        {
+          "age": 46,
+          "rate": 0.0161666666666667
+        },
+        {
+          "age": 47,
+          "rate": 0.0157166666666667
+        },
+        {
+          "age": 48,
+          "rate": 0.015825
+        },
+        {
+          "age": 49,
+          "rate": 0.0159133333333333
+        },
+        {
+          "age": 50,
+          "rate": 0.0160533333333333
+        },
+        {
+          "age": 51,
+          "rate": 0.01617
+        },
+        {
+          "age": 52,
+          "rate": 0.0163316666666667
+        },
+        {
+          "age": 53,
+          "rate": 0.0162577777777778
+        },
+        {
+          "age": 54,
+          "rate": 0.0161338888888889
+        },
+        {
+          "age": 55,
+          "rate": 0.01608
+        },
+        {
+          "age": 56,
+          "rate": 0.01569375
+        },
+        {
+          "age": 57,
+          "rate": 0.01533
+        },
+        {
+          "age": 58,
+          "rate": 0.015606
+        },
+        {
+          "age": 59,
+          "rate": 0.0158895
+        },
+        {
+          "age": 60,
+          "rate": 0.016176
+        },
+        {
+          "age": 61,
+          "rate": 0.0165075
+        },
+        {
+          "age": 62,
+          "rate": 0.016875
+        },
+        {
+          "age": 63,
+          "rate": 0.0171504
+        },
+        {
+          "age": 64,
+          "rate": 0.017388
+        },
+        {
+          "age": 65,
+          "rate": 0.0176616
+        },
+        {
+          "age": 66,
+          "rate": 0.0179172
+        },
+        {
+          "age": 67,
+          "rate": 0.018144
+        },
+        {
+          "age": 68,
+          "rate": 0.0185072
+        },
+        {
+          "age": 69,
+          "rate": 0.0188272
+        },
+        {
+          "age": 70,
+          "rate": 0.0191568
+        },
+        {
+          "age": 71,
+          "rate": 0.0194472
+        },
+        {
+          "age": 72,
+          "rate": 0.01987
+        },
+        {
+          "age": 73,
+          "rate": 0.02178
+        },
+        {
+          "age": 74,
+          "rate": 0.02387
+        },
+        {
+          "age": 75,
+          "rate": 0.02615
+        },
+        {
+          "age": 76,
+          "rate": 0.02865
+        },
+        {
+          "age": 77,
+          "rate": 0.0314
+        },
+        {
+          "age": 78,
+          "rate": 0.03441
+        },
+        {
+          "age": 79,
+          "rate": 0.0377
+        },
+        {
+          "age": 80,
+          "rate": 0.04184
+        },
+        {
+          "age": 81,
+          "rate": 0.04696
+        },
+        {
+          "age": 82,
+          "rate": 0.05235
+        },
+        {
+          "age": 83,
+          "rate": 0.05799
+        },
+        {
+          "age": 84,
+          "rate": 0.06424
+        },
+        {
+          "age": 85,
+          "rate": 0.07049
+        },
+        {
+          "age": 86,
+          "rate": 0.07791
+        },
+        {
+          "age": 87,
+          "rate": 0.08716
+        },
+        {
+          "age": 88,
+          "rate": 0.09691
+        },
+        {
+          "age": 89,
+          "rate": 0.10643
+        },
+        {
+          "age": 90,
+          "rate": 0.11299
+        },
+        {
+          "age": 91,
+          "rate": 0.11917
+        },
+        {
+          "age": 92,
+          "rate": 0.13002
+        },
+        {
+          "age": 93,
+          "rate": 0.14497
+        },
+        {
+          "age": 94,
+          "rate": 0.16393
+        },
+        {
+          "age": 95,
+          "rate": 0.18466
+        },
+        {
+          "age": 96,
+          "rate": 0.20497
+        },
+        {
+          "age": 97,
+          "rate": 0.21732
+        },
+        {
+          "age": 98,
+          "rate": 0.22293
+        },
+        {
+          "age": 99,
+          "rate": 0.23635
+        },
+        {
+          "age": 100,
+          "rate": 0.25624
+        },
+        {
+          "age": 101,
+          "rate": 0.2806
+        },
+        {
+          "age": 102,
+          "rate": 0.30725
+        },
+        {
+          "age": 103,
+          "rate": 0.33639
+        },
+        {
+          "age": 104,
+          "rate": 0.36802
+        },
+        {
+          "age": 105,
+          "rate": 0.40134
+        },
+        {
+          "age": 106,
+          "rate": 0.43542
+        },
+        {
+          "age": 107,
+          "rate": 0.47002
+        },
+        {
+          "age": 108,
+          "rate": 0.5052
+        },
+        {
+          "age": 109,
+          "rate": 0.54149
+        },
+        {
+          "age": 110,
+          "rate": 0.57784
+        },
+        {
+          "age": 111,
+          "rate": 0.61295
+        },
+        {
+          "age": 112,
+          "rate": 0.64651
+        },
+        {
+          "age": 113,
+          "rate": 0.68104
+        },
+        {
+          "age": 114,
+          "rate": 0.72372
+        },
+        {
+          "age": 115,
+          "rate": 0.76443
+        },
+        {
+          "age": 116,
+          "rate": 0.80687
+        },
+        {
+          "age": 117,
+          "rate": 0.8518
+        },
+        {
+          "age": 118,
+          "rate": 0.89387
+        },
+        {
+          "age": 119,
+          "rate": 0.93776
+        }
+      ]
+    }
+  ]
+}

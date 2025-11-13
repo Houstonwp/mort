@@ -1,0 +1,234 @@
+{
+  "identifier": "1952_graduated_rates_of_disablement_benefit_4_period_2_360_day_ep",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "777",
+    "providerDomain": "soa.org",
+    "providerName": "Roger Scott Lumsden",
+    "tableReference": "Society of Actuaries, “II. Extension and Modification of Certain Basic Disability Values”, Transactions of the Society of Actuaries, Vol. XIII, No. 37 (1961) Table 8. Accessed: June, 2013 from http://www.soa.org/library/research/transactions-of-society-of-actuaries/1961/january/tsa61v13pt1n37ab32.pdf",
+    "contentType": {
+      "code": "80",
+      "label": "Claim Incidence"
+    },
+    "tableName": "1952 Graduated Rates of Disablement - Benefit 4, Period 2, 360 day EP",
+    "tableDescription": "1952 Graduated Rates of Disablement -  Benefit 4. Time Period: 2. Elimination Period: 360 days. Minimum Age: 15. Maximum Age: 59",
+    "comments": "Study Data: The rates of disablement developed in the 1952 Disability Study of the Society of Actuaries (SOA) for Benefit 4 provided for a 120-day waiting period clause (See SOA Table Identity 778). However, by the 1960’s, policies providing disability income benefits were generally based on a 6-month waiting period, thus it was felt that Benefit 4 values should be based on a 6-month waiting period, thereby eliminating the need for subsequent adjustments in net premiums and other values where such waiting period is used. Methodology: Rates developed by formula: rate (6-month) = rate(4-month) * l([x+½]+6/12) /  l([x+½]+4/12). In order to eliminate anomalies in results, slight adjustments were made in the figures produced by the aforementioned formula. Data Transcription Errors: None. Data Certified: 06/2013.",
+    "keywords": [
+      "Aggregate",
+      "Claim Incidence",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1952 Claim Incidence Rates - Benefit 4. Time Period: 2. Elimination Period: 360 days. Minimum Age: 15. Maximum Age: 59.",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "59",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 0.00209
+        },
+        {
+          "age": 16,
+          "rate": 0.00209
+        },
+        {
+          "age": 17,
+          "rate": 0.00209
+        },
+        {
+          "age": 18,
+          "rate": 0.00209
+        },
+        {
+          "age": 19,
+          "rate": 0.00209
+        },
+        {
+          "age": 20,
+          "rate": 0.00209
+        },
+        {
+          "age": 21,
+          "rate": 0.00209
+        },
+        {
+          "age": 22,
+          "rate": 0.00209
+        },
+        {
+          "age": 23,
+          "rate": 0.00209
+        },
+        {
+          "age": 24,
+          "rate": 0.00209
+        },
+        {
+          "age": 25,
+          "rate": 0.00209
+        },
+        {
+          "age": 26,
+          "rate": 0.00209
+        },
+        {
+          "age": 27,
+          "rate": 0.00209
+        },
+        {
+          "age": 28,
+          "rate": 0.00209
+        },
+        {
+          "age": 29,
+          "rate": 0.00218
+        },
+        {
+          "age": 30,
+          "rate": 0.00229
+        },
+        {
+          "age": 31,
+          "rate": 0.00241
+        },
+        {
+          "age": 32,
+          "rate": 0.00254
+        },
+        {
+          "age": 33,
+          "rate": 0.00268
+        },
+        {
+          "age": 34,
+          "rate": 0.00283
+        },
+        {
+          "age": 35,
+          "rate": 0.00299
+        },
+        {
+          "age": 36,
+          "rate": 0.00316
+        },
+        {
+          "age": 37,
+          "rate": 0.00334
+        },
+        {
+          "age": 38,
+          "rate": 0.00354
+        },
+        {
+          "age": 39,
+          "rate": 0.00379
+        },
+        {
+          "age": 40,
+          "rate": 0.00406
+        },
+        {
+          "age": 41,
+          "rate": 0.00439
+        },
+        {
+          "age": 42,
+          "rate": 0.00476
+        },
+        {
+          "age": 43,
+          "rate": 0.00519
+        },
+        {
+          "age": 44,
+          "rate": 0.00564
+        },
+        {
+          "age": 45,
+          "rate": 0.00615
+        },
+        {
+          "age": 46,
+          "rate": 0.00669
+        },
+        {
+          "age": 47,
+          "rate": 0.00727
+        },
+        {
+          "age": 48,
+          "rate": 0.00788
+        },
+        {
+          "age": 49,
+          "rate": 0.00855
+        },
+        {
+          "age": 50,
+          "rate": 0.00928
+        },
+        {
+          "age": 51,
+          "rate": 0.01027
+        },
+        {
+          "age": 52,
+          "rate": 0.01141
+        },
+        {
+          "age": 53,
+          "rate": 0.01276
+        },
+        {
+          "age": 54,
+          "rate": 0.0143
+        },
+        {
+          "age": 55,
+          "rate": 0.01601
+        },
+        {
+          "age": 56,
+          "rate": 0.0179
+        },
+        {
+          "age": 57,
+          "rate": 0.02002
+        },
+        {
+          "age": 58,
+          "rate": 0.02243
+        },
+        {
+          "age": 59,
+          "rate": 0.02518
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "identifier": "1964_cdt_accident_factors_anb",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2809",
+    "providerDomain": "soa.org",
+    "providerName": "Jack Luff",
+    "tableReference": "Industry Advisory Committee of the National Association of Insurance Commissioners, \"1964 Commissioners Disability Table, Volume 3\", Heath Insurance Association of America (Chicago, 1965) Table B2",
+    "contentType": {
+      "code": "80",
+      "label": "Claim Incidence"
+    },
+    "tableName": "1964 CDT Accident Factors, ANB",
+    "tableDescription": "1964 Commissioners Disability Table (CDT) Accident Factors. Basis: Age Nearest Birthday. Minimum Age: 22 Maximum Age: 72",
+    "comments": "Study Data: Based on data on the first year of total disability for claims incurred in the years 1958-1961, contributed by 17 companies to the Society of Actuaries Committee on Experience under Individual Health Insurance. In addition, data published in the 1961 and 1962 Reports of the Society of Actuaries pertaining to the first 52 weeks of disability, were utilized. The data represent a cross-section of the insured population, that is, includes individuals with and without occupational and other special hazards. Given this is an average table, it is usually not necessary to make special provision in the valuation of liabilities for policies involving special hazards. However, it should be emphasized that adequate reserves should be established by the insurer in any case where experience indicates that such minimum standards do not place a sound value on the liabilities. As two-year coverages accounted for the bulk of the business sold prior to 1960, recent data were sought from several larger companies. The data showed there had been no great departures from the 1930-1950 disabled life termination rates for Benefits 2 and 3 combined in the 1952 Disability Study of the Society of Actuaries and that data was hence used. Methodology:  Particular attention was given to age, sex and occupation however the Committee concluded separate reserve tables, even for broad occupational groups, were neither necessary nor warranted. Judicious underwriting of loss-of-time policies and use of impairment riders seems a contributing factor to this situation. Likewise, the Committee recommends that the 1964 Commissioners Disability Table (CDT) be used without adjustment for women. The nature of the disability rather than occupation or gender determines the ability to return to gainful employment. The combined experience for accident and sickness was graduated as a continuance table for quinquennial ages and extended for the second and later years of disability by use of the termination rates from the 1952 Disability Study. The Committee then analyzed the underlying data to determine the portion of the claims due to accident and factors for both accident and sickness developed (See SOA Table Identity 2807 for the 1964 CDT). Hence the factors of the Accident Only table when added to the factors of the Sickness Only table will equal 1.0 for each age. Data Transcription Errors: None. Data Certified: 06/2014",
+    "keywords": [
+      "Aggregate",
+      "United States of America",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1964 Commissioners Disability Table (CDT) Accident Factors. Basis: Age Nearest Birthday. Minimum Age: 22 Maximum Age: 72",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "22",
+            "maxValue": "72",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 22,
+          "rate": 0.515
+        },
+        {
+          "age": 23,
+          "rate": 0.504
+        },
+        {
+          "age": 24,
+          "rate": 0.494
+        },
+        {
+          "age": 25,
+          "rate": 0.483
+        },
+        {
+          "age": 26,
+          "rate": 0.472
+        },
+        {
+          "age": 27,
+          "rate": 0.461
+        },
+        {
+          "age": 28,
+          "rate": 0.45
+        },
+        {
+          "age": 29,
+          "rate": 0.439
+        },
+        {
+          "age": 30,
+          "rate": 0.428
+        },
+        {
+          "age": 31,
+          "rate": 0.417
+        },
+        {
+          "age": 32,
+          "rate": 0.406
+        },
+        {
+          "age": 33,
+          "rate": 0.396
+        },
+        {
+          "age": 34,
+          "rate": 0.386
+        },
+        {
+          "age": 35,
+          "rate": 0.376
+        },
+        {
+          "age": 36,
+          "rate": 0.366
+        },
+        {
+          "age": 37,
+          "rate": 0.357
+        },
+        {
+          "age": 38,
+          "rate": 0.348
+        },
+        {
+          "age": 39,
+          "rate": 0.339
+        },
+        {
+          "age": 40,
+          "rate": 0.33
+        },
+        {
+          "age": 41,
+          "rate": 0.322
+        },
+        {
+          "age": 42,
+          "rate": 0.313
+        },
+        {
+          "age": 43,
+          "rate": 0.304
+        },
+        {
+          "age": 44,
+          "rate": 0.295
+        },
+        {
+          "age": 45,
+          "rate": 0.287
+        },
+        {
+          "age": 46,
+          "rate": 0.278
+        },
+        {
+          "age": 47,
+          "rate": 0.269
+        },
+        {
+          "age": 48,
+          "rate": 0.26
+        },
+        {
+          "age": 49,
+          "rate": 0.251
+        },
+        {
+          "age": 50,
+          "rate": 0.243
+        },
+        {
+          "age": 51,
+          "rate": 0.234
+        },
+        {
+          "age": 52,
+          "rate": 0.225
+        },
+        {
+          "age": 53,
+          "rate": 0.216
+        },
+        {
+          "age": 54,
+          "rate": 0.207
+        },
+        {
+          "age": 55,
+          "rate": 0.197
+        },
+        {
+          "age": 56,
+          "rate": 0.189
+        },
+        {
+          "age": 57,
+          "rate": 0.181
+        },
+        {
+          "age": 58,
+          "rate": 0.174
+        },
+        {
+          "age": 59,
+          "rate": 0.168
+        },
+        {
+          "age": 60,
+          "rate": 0.163
+        },
+        {
+          "age": 61,
+          "rate": 0.158
+        },
+        {
+          "age": 62,
+          "rate": 0.154
+        },
+        {
+          "age": 63,
+          "rate": 0.15
+        },
+        {
+          "age": 64,
+          "rate": 0.146
+        },
+        {
+          "age": 65,
+          "rate": 0.143
+        },
+        {
+          "age": 66,
+          "rate": 0.14
+        },
+        {
+          "age": 67,
+          "rate": 0.137
+        },
+        {
+          "age": 68,
+          "rate": 0.135
+        },
+        {
+          "age": 69,
+          "rate": 0.133
+        },
+        {
+          "age": 70,
+          "rate": 0.132
+        },
+        {
+          "age": 71,
+          "rate": 0.131
+        },
+        {
+          "age": 72,
+          "rate": 0.13
+        }
+      ]
+    }
+  ]
+}

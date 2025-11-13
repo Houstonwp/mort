@@ -1,0 +1,394 @@
+{
+  "identifier": "1985_naic_cancer_claim_cost_table_first_occurrence_benefit_female",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1488",
+    "providerDomain": "naic.org",
+    "providerName": "NAIC",
+    "tableReference": "National Association of Insurance Commissioners, \"1985 NAIC Cancer Claim Cost Tables\", Proceedings of the National Association of Insurance Commissioners, Vol. I. (Kansas City, Mo. 1986)",
+    "contentType": {
+      "code": "80",
+      "label": "Claim Incidence"
+    },
+    "tableName": "1985 NAIC Cancer Claim Cost Table First Occurrence Benefit - Female",
+    "tableDescription": "1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table – Female. Basis: First Occurrence Benefit (Per $100 Benefit). Minimum Attained Age: 15. Maximum Attained Age: 99",
+    "comments": "Study Data: Based on lives insured under cancer expense policies. Claim information includes payments during 1978 and 1979. It is believed 80% of all applicable experience is included in the study. First occurrence claim costs are considered appropriate for valuing lump sum benefits for first occurrence of internal cancers. When a covered individual is diagnosed with cancer, benefits may be provided for hospital confinement, radiation, chemotherapy and surgery, among others.  A cancer policy also helps by providing benefits to help with the many non-medical expenses associated with cancer (See SOA Table identities 1460-1475, 1483-1485, and 2587-2596). Benefits may be paid as expense incurred, per diem or a lump sum. Cancer policies may also pay an optional Initial Diagnosis benefit or First Occurrence benefit when a covered individual is first diagnosed as having internal cancer. This table represents the costs associated with the latter. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 12/2012.",
+    "keywords": [
+      "Aggregate",
+      "Claim Incidence",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table – Female. Basis: First Occurrence Benefit (Per $100 Benefit). Minimum Attained Age: 15. Maximum Attained Age: 99",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "99",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 0.0645
+        },
+        {
+          "age": 16,
+          "rate": 0.0645
+        },
+        {
+          "age": 17,
+          "rate": 0.0645
+        },
+        {
+          "age": 18,
+          "rate": 0.0645
+        },
+        {
+          "age": 19,
+          "rate": 0.0645
+        },
+        {
+          "age": 20,
+          "rate": 0.0645
+        },
+        {
+          "age": 21,
+          "rate": 0.0645
+        },
+        {
+          "age": 22,
+          "rate": 0.0786
+        },
+        {
+          "age": 23,
+          "rate": 0.0967
+        },
+        {
+          "age": 24,
+          "rate": 0.1216
+        },
+        {
+          "age": 25,
+          "rate": 0.1488
+        },
+        {
+          "age": 26,
+          "rate": 0.1743
+        },
+        {
+          "age": 27,
+          "rate": 0.1939
+        },
+        {
+          "age": 28,
+          "rate": 0.2058
+        },
+        {
+          "age": 29,
+          "rate": 0.2127
+        },
+        {
+          "age": 30,
+          "rate": 0.2175
+        },
+        {
+          "age": 31,
+          "rate": 0.2225
+        },
+        {
+          "age": 32,
+          "rate": 0.2307
+        },
+        {
+          "age": 33,
+          "rate": 0.2422
+        },
+        {
+          "age": 34,
+          "rate": 0.2553
+        },
+        {
+          "age": 35,
+          "rate": 0.2695
+        },
+        {
+          "age": 36,
+          "rate": 0.2844
+        },
+        {
+          "age": 37,
+          "rate": 0.2996
+        },
+        {
+          "age": 38,
+          "rate": 0.3144
+        },
+        {
+          "age": 39,
+          "rate": 0.3292
+        },
+        {
+          "age": 40,
+          "rate": 0.3448
+        },
+        {
+          "age": 41,
+          "rate": 0.362
+        },
+        {
+          "age": 42,
+          "rate": 0.3818
+        },
+        {
+          "age": 43,
+          "rate": 0.4044
+        },
+        {
+          "age": 44,
+          "rate": 0.429
+        },
+        {
+          "age": 45,
+          "rate": 0.4556
+        },
+        {
+          "age": 46,
+          "rate": 0.4834
+        },
+        {
+          "age": 47,
+          "rate": 0.5122
+        },
+        {
+          "age": 48,
+          "rate": 0.5419
+        },
+        {
+          "age": 49,
+          "rate": 0.5729
+        },
+        {
+          "age": 50,
+          "rate": 0.605
+        },
+        {
+          "age": 51,
+          "rate": 0.6382
+        },
+        {
+          "age": 52,
+          "rate": 0.6722
+        },
+        {
+          "age": 53,
+          "rate": 0.7072
+        },
+        {
+          "age": 54,
+          "rate": 0.743
+        },
+        {
+          "age": 55,
+          "rate": 0.7799
+        },
+        {
+          "age": 56,
+          "rate": 0.818
+        },
+        {
+          "age": 57,
+          "rate": 0.8571
+        },
+        {
+          "age": 58,
+          "rate": 0.8992
+        },
+        {
+          "age": 59,
+          "rate": 0.9442
+        },
+        {
+          "age": 60,
+          "rate": 0.9894
+        },
+        {
+          "age": 61,
+          "rate": 1.0325
+        },
+        {
+          "age": 62,
+          "rate": 1.0707
+        },
+        {
+          "age": 63,
+          "rate": 1.103
+        },
+        {
+          "age": 64,
+          "rate": 1.1313
+        },
+        {
+          "age": 65,
+          "rate": 1.157
+        },
+        {
+          "age": 66,
+          "rate": 1.1818
+        },
+        {
+          "age": 67,
+          "rate": 1.2074
+        },
+        {
+          "age": 68,
+          "rate": 1.2336
+        },
+        {
+          "age": 69,
+          "rate": 1.2594
+        },
+        {
+          "age": 70,
+          "rate": 1.2848
+        },
+        {
+          "age": 71,
+          "rate": 1.3104
+        },
+        {
+          "age": 72,
+          "rate": 1.3362
+        },
+        {
+          "age": 73,
+          "rate": 1.3632
+        },
+        {
+          "age": 74,
+          "rate": 1.391
+        },
+        {
+          "age": 75,
+          "rate": 1.4188
+        },
+        {
+          "age": 76,
+          "rate": 1.445
+        },
+        {
+          "age": 77,
+          "rate": 1.4687
+        },
+        {
+          "age": 78,
+          "rate": 1.488
+        },
+        {
+          "age": 79,
+          "rate": 1.5036
+        },
+        {
+          "age": 80,
+          "rate": 1.5183
+        },
+        {
+          "age": 81,
+          "rate": 1.5352
+        },
+        {
+          "age": 82,
+          "rate": 1.5572
+        },
+        {
+          "age": 83,
+          "rate": 1.59
+        },
+        {
+          "age": 84,
+          "rate": 1.6319
+        },
+        {
+          "age": 85,
+          "rate": 1.6739
+        },
+        {
+          "age": 86,
+          "rate": 1.7072
+        },
+        {
+          "age": 87,
+          "rate": 1.7232
+        },
+        {
+          "age": 88,
+          "rate": 1.7229
+        },
+        {
+          "age": 89,
+          "rate": 1.7126
+        },
+        {
+          "age": 90,
+          "rate": 1.6899
+        },
+        {
+          "age": 91,
+          "rate": 1.6529
+        },
+        {
+          "age": 92,
+          "rate": 1.5997
+        },
+        {
+          "age": 93,
+          "rate": 1.5314
+        },
+        {
+          "age": 94,
+          "rate": 1.4495
+        },
+        {
+          "age": 95,
+          "rate": 1.352
+        },
+        {
+          "age": 96,
+          "rate": 1.2368
+        },
+        {
+          "age": 97,
+          "rate": 1.1019
+        },
+        {
+          "age": 98,
+          "rate": 1.1019
+        },
+        {
+          "age": 99,
+          "rate": 1.1019
+        }
+      ]
+    }
+  ]
+}

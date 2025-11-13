@@ -1,0 +1,1134 @@
+{
+  "identifier": "1985_naic_cancer_claim_cost_tables_hospital_benefit_of_100_per_day_female",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1484",
+    "providerDomain": "naic.org",
+    "providerName": "NAIC",
+    "tableReference": "National Association of Insurance Commissioners, \"1985 NAIC Cancer Claim Cost Tables\", Proceedings of the National Association of Insurance Commissioners, Vol. I. (Kansas City, Mo. 1986)",
+    "contentType": {
+      "code": "80",
+      "label": "Claim Incidence"
+    },
+    "tableName": "1985 NAIC Cancer Claim Cost Tables, Hospital Benefit of $100 per Day - Female",
+    "tableDescription": "1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table, Hospital Benefit of $100 per Day – Female. Basis: Benefit Confinement Bands. Minimum Age: 15. Maximum Age: 99",
+    "comments": "Study Data: Based on lives insured under cancer expense policies. Claim information includes payments during 1978 and 1979. It is believed 80% of all applicable experience is included in the study. Claim costs are separated by gender and confinement continuance. Methodology: Tables loaded at a uniform 5% (applied to the incidence rate elements) plus a small amount believed to be 1-2% with regard to the continuance element. Data Transcription Errors: None. Data Certified: 12/2012.",
+    "keywords": [
+      "Aggregate",
+      "Claim Incidence",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table, Hospital Benefit of $100 per Day – Female. Basis: No Limit on Confinement. Minimum Age: 15. Maximum Age: 99",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "99",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 2.1615
+        },
+        {
+          "age": 16,
+          "rate": 2.1615
+        },
+        {
+          "age": 17,
+          "rate": 2.1615
+        },
+        {
+          "age": 18,
+          "rate": 2.1664
+        },
+        {
+          "age": 19,
+          "rate": 2.1718
+        },
+        {
+          "age": 20,
+          "rate": 2.1772
+        },
+        {
+          "age": 21,
+          "rate": 2.1835
+        },
+        {
+          "age": 22,
+          "rate": 2.1899
+        },
+        {
+          "age": 23,
+          "rate": 2.1968
+        },
+        {
+          "age": 24,
+          "rate": 2.2056
+        },
+        {
+          "age": 25,
+          "rate": 2.7104
+        },
+        {
+          "age": 26,
+          "rate": 3.1969
+        },
+        {
+          "age": 27,
+          "rate": 3.5802
+        },
+        {
+          "age": 28,
+          "rate": 3.8131
+        },
+        {
+          "age": 29,
+          "rate": 3.9404
+        },
+        {
+          "age": 30,
+          "rate": 4.0263
+        },
+        {
+          "age": 31,
+          "rate": 4.1372
+        },
+        {
+          "age": 32,
+          "rate": 4.3402
+        },
+        {
+          "age": 33,
+          "rate": 4.6508
+        },
+        {
+          "age": 34,
+          "rate": 5.025
+        },
+        {
+          "age": 35,
+          "rate": 5.483
+        },
+        {
+          "age": 36,
+          "rate": 6.0141
+        },
+        {
+          "age": 37,
+          "rate": 6.5707
+        },
+        {
+          "age": 38,
+          "rate": 7.1281
+        },
+        {
+          "age": 39,
+          "rate": 7.699
+        },
+        {
+          "age": 40,
+          "rate": 8.3197
+        },
+        {
+          "age": 41,
+          "rate": 9.0265
+        },
+        {
+          "age": 42,
+          "rate": 9.8648
+        },
+        {
+          "age": 43,
+          "rate": 10.874
+        },
+        {
+          "age": 44,
+          "rate": 12.0353
+        },
+        {
+          "age": 45,
+          "rate": 13.3039
+        },
+        {
+          "age": 46,
+          "rate": 14.6206
+        },
+        {
+          "age": 47,
+          "rate": 15.9344
+        },
+        {
+          "age": 48,
+          "rate": 17.2169
+        },
+        {
+          "age": 49,
+          "rate": 18.5068
+        },
+        {
+          "age": 50,
+          "rate": 19.8361
+        },
+        {
+          "age": 51,
+          "rate": 21.238
+        },
+        {
+          "age": 52,
+          "rate": 22.7514
+        },
+        {
+          "age": 53,
+          "rate": 24.377
+        },
+        {
+          "age": 54,
+          "rate": 26.0977
+        },
+        {
+          "age": 55,
+          "rate": 27.7025
+        },
+        {
+          "age": 56,
+          "rate": 29.1624
+        },
+        {
+          "age": 57,
+          "rate": 30.6746
+        },
+        {
+          "age": 58,
+          "rate": 32.3363
+        },
+        {
+          "age": 59,
+          "rate": 34.1457
+        },
+        {
+          "age": 60,
+          "rate": 35.9629
+        },
+        {
+          "age": 61,
+          "rate": 37.6439
+        },
+        {
+          "age": 62,
+          "rate": 39.052
+        },
+        {
+          "age": 63,
+          "rate": 40.1129
+        },
+        {
+          "age": 64,
+          "rate": 40.9245
+        },
+        {
+          "age": 65,
+          "rate": 41.5878
+        },
+        {
+          "age": 66,
+          "rate": 42.2118
+        },
+        {
+          "age": 67,
+          "rate": 42.8973
+        },
+        {
+          "age": 68,
+          "rate": 43.6789
+        },
+        {
+          "age": 69,
+          "rate": 44.4849
+        },
+        {
+          "age": 70,
+          "rate": 45.2711
+        },
+        {
+          "age": 71,
+          "rate": 45.9812
+        },
+        {
+          "age": 72,
+          "rate": 46.571
+        },
+        {
+          "age": 73,
+          "rate": 46.9763
+        },
+        {
+          "age": 74,
+          "rate": 47.2266
+        },
+        {
+          "age": 75,
+          "rate": 47.4222
+        },
+        {
+          "age": 76,
+          "rate": 47.6564
+        },
+        {
+          "age": 77,
+          "rate": 48.0241
+        },
+        {
+          "age": 78,
+          "rate": 48.541
+        },
+        {
+          "age": 79,
+          "rate": 49.1455
+        },
+        {
+          "age": 80,
+          "rate": 49.8118
+        },
+        {
+          "age": 81,
+          "rate": 50.5148
+        },
+        {
+          "age": 82,
+          "rate": 51.2348
+        },
+        {
+          "age": 83,
+          "rate": 52.0723
+        },
+        {
+          "age": 84,
+          "rate": 53.0447
+        },
+        {
+          "age": 85,
+          "rate": 53.995
+        },
+        {
+          "age": 86,
+          "rate": 54.766
+        },
+        {
+          "age": 87,
+          "rate": 55.2013
+        },
+        {
+          "age": 88,
+          "rate": 55.3845
+        },
+        {
+          "age": 89,
+          "rate": 55.417
+        },
+        {
+          "age": 90,
+          "rate": 55.1794
+        },
+        {
+          "age": 91,
+          "rate": 54.54
+        },
+        {
+          "age": 92,
+          "rate": 53.3784
+        },
+        {
+          "age": 93,
+          "rate": 51.7739
+        },
+        {
+          "age": 94,
+          "rate": 49.8132
+        },
+        {
+          "age": 95,
+          "rate": 47.3707
+        },
+        {
+          "age": 96,
+          "rate": 44.3194
+        },
+        {
+          "age": 97,
+          "rate": 40.5352
+        },
+        {
+          "age": 98,
+          "rate": 40.5352
+        },
+        {
+          "age": 99,
+          "rate": 40.5352
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table, Hospital Benefit of $100 per Day – Female. Basis: Covers Only First 7 Days of Confinement. Minimum Age: 15. Maximum Age: 99",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "99",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 1.2978
+        },
+        {
+          "age": 16,
+          "rate": 1.2978
+        },
+        {
+          "age": 17,
+          "rate": 1.2978
+        },
+        {
+          "age": 18,
+          "rate": 1.3007
+        },
+        {
+          "age": 19,
+          "rate": 1.3038
+        },
+        {
+          "age": 20,
+          "rate": 1.307
+        },
+        {
+          "age": 21,
+          "rate": 1.3107
+        },
+        {
+          "age": 22,
+          "rate": 1.3145
+        },
+        {
+          "age": 23,
+          "rate": 1.3185
+        },
+        {
+          "age": 24,
+          "rate": 1.3237
+        },
+        {
+          "age": 25,
+          "rate": 1.6188
+        },
+        {
+          "age": 26,
+          "rate": 1.8911
+        },
+        {
+          "age": 27,
+          "rate": 2.0979
+        },
+        {
+          "age": 28,
+          "rate": 2.2137
+        },
+        {
+          "age": 29,
+          "rate": 2.2662
+        },
+        {
+          "age": 30,
+          "rate": 2.2946
+        },
+        {
+          "age": 31,
+          "rate": 2.3364
+        },
+        {
+          "age": 32,
+          "rate": 2.4291
+        },
+        {
+          "age": 33,
+          "rate": 2.5799
+        },
+        {
+          "age": 34,
+          "rate": 2.7626
+        },
+        {
+          "age": 35,
+          "rate": 2.9688
+        },
+        {
+          "age": 36,
+          "rate": 3.1878
+        },
+        {
+          "age": 37,
+          "rate": 3.4113
+        },
+        {
+          "age": 38,
+          "rate": 3.6264
+        },
+        {
+          "age": 39,
+          "rate": 3.8402
+        },
+        {
+          "age": 40,
+          "rate": 4.1602
+        },
+        {
+          "age": 41,
+          "rate": 4.5233
+        },
+        {
+          "age": 42,
+          "rate": 4.9542
+        },
+        {
+          "age": 43,
+          "rate": 5.4722
+        },
+        {
+          "age": 44,
+          "rate": 6.0681
+        },
+        {
+          "age": 45,
+          "rate": 6.6595
+        },
+        {
+          "age": 46,
+          "rate": 7.2031
+        },
+        {
+          "age": 47,
+          "rate": 7.7286
+        },
+        {
+          "age": 48,
+          "rate": 8.2219
+        },
+        {
+          "age": 49,
+          "rate": 8.705
+        },
+        {
+          "age": 50,
+          "rate": 9.1924
+        },
+        {
+          "age": 51,
+          "rate": 9.6995
+        },
+        {
+          "age": 52,
+          "rate": 10.2436
+        },
+        {
+          "age": 53,
+          "rate": 10.8222
+        },
+        {
+          "age": 54,
+          "rate": 11.4297
+        },
+        {
+          "age": 55,
+          "rate": 12.0661
+        },
+        {
+          "age": 56,
+          "rate": 12.733
+        },
+        {
+          "age": 57,
+          "rate": 13.4254
+        },
+        {
+          "age": 58,
+          "rate": 14.1863
+        },
+        {
+          "age": 59,
+          "rate": 15.0158
+        },
+        {
+          "age": 60,
+          "rate": 15.8547
+        },
+        {
+          "age": 61,
+          "rate": 16.6341
+        },
+        {
+          "age": 62,
+          "rate": 17.2957
+        },
+        {
+          "age": 63,
+          "rate": 17.8053
+        },
+        {
+          "age": 64,
+          "rate": 18.2055
+        },
+        {
+          "age": 65,
+          "rate": 18.5674
+        },
+        {
+          "age": 66,
+          "rate": 18.9438
+        },
+        {
+          "age": 67,
+          "rate": 19.3508
+        },
+        {
+          "age": 68,
+          "rate": 19.8043
+        },
+        {
+          "age": 69,
+          "rate": 20.2721
+        },
+        {
+          "age": 70,
+          "rate": 20.7348
+        },
+        {
+          "age": 71,
+          "rate": 21.0593
+        },
+        {
+          "age": 72,
+          "rate": 21.3298
+        },
+        {
+          "age": 73,
+          "rate": 21.5174
+        },
+        {
+          "age": 74,
+          "rate": 21.6351
+        },
+        {
+          "age": 75,
+          "rate": 21.7284
+        },
+        {
+          "age": 76,
+          "rate": 21.84
+        },
+        {
+          "age": 77,
+          "rate": 22.0132
+        },
+        {
+          "age": 78,
+          "rate": 22.2549
+        },
+        {
+          "age": 79,
+          "rate": 22.5374
+        },
+        {
+          "age": 80,
+          "rate": 22.8487
+        },
+        {
+          "age": 81,
+          "rate": 23.1771
+        },
+        {
+          "age": 82,
+          "rate": 23.5137
+        },
+        {
+          "age": 83,
+          "rate": 23.9044
+        },
+        {
+          "age": 84,
+          "rate": 24.3574
+        },
+        {
+          "age": 85,
+          "rate": 24.8005
+        },
+        {
+          "age": 86,
+          "rate": 25.162
+        },
+        {
+          "age": 87,
+          "rate": 25.3703
+        },
+        {
+          "age": 88,
+          "rate": 25.4636
+        },
+        {
+          "age": 89,
+          "rate": 25.4883
+        },
+        {
+          "age": 90,
+          "rate": 25.39
+        },
+        {
+          "age": 91,
+          "rate": 25.1081
+        },
+        {
+          "age": 92,
+          "rate": 24.5881
+        },
+        {
+          "age": 93,
+          "rate": 23.8659
+        },
+        {
+          "age": 94,
+          "rate": 22.9813
+        },
+        {
+          "age": 95,
+          "rate": 21.8769
+        },
+        {
+          "age": 96,
+          "rate": 20.4946
+        },
+        {
+          "age": 97,
+          "rate": 18.7777
+        },
+        {
+          "age": 98,
+          "rate": 18.7777
+        },
+        {
+          "age": 99,
+          "rate": 18.7777
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table, Hospital Benefit of $100 per Day – Female. Basis: Covers Only First 14 Days of Confinement. Minimum Age: 15. Maximum Age: 99",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "99",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 1.7917
+        },
+        {
+          "age": 16,
+          "rate": 1.7917
+        },
+        {
+          "age": 17,
+          "rate": 1.7917
+        },
+        {
+          "age": 18,
+          "rate": 1.7952
+        },
+        {
+          "age": 19,
+          "rate": 1.799
+        },
+        {
+          "age": 20,
+          "rate": 1.8028
+        },
+        {
+          "age": 21,
+          "rate": 1.8073
+        },
+        {
+          "age": 22,
+          "rate": 1.8118
+        },
+        {
+          "age": 23,
+          "rate": 1.8166
+        },
+        {
+          "age": 24,
+          "rate": 1.8229
+        },
+        {
+          "age": 25,
+          "rate": 2.2293
+        },
+        {
+          "age": 26,
+          "rate": 2.6043
+        },
+        {
+          "age": 27,
+          "rate": 2.8889
+        },
+        {
+          "age": 28,
+          "rate": 3.0478
+        },
+        {
+          "age": 29,
+          "rate": 3.1198
+        },
+        {
+          "age": 30,
+          "rate": 3.1584
+        },
+        {
+          "age": 31,
+          "rate": 3.2154
+        },
+        {
+          "age": 32,
+          "rate": 3.3429
+        },
+        {
+          "age": 33,
+          "rate": 3.5504
+        },
+        {
+          "age": 34,
+          "rate": 3.8022
+        },
+        {
+          "age": 35,
+          "rate": 4.0863
+        },
+        {
+          "age": 36,
+          "rate": 4.3881
+        },
+        {
+          "age": 37,
+          "rate": 4.6956
+        },
+        {
+          "age": 38,
+          "rate": 4.9913
+        },
+        {
+          "age": 39,
+          "rate": 5.2848
+        },
+        {
+          "age": 40,
+          "rate": 5.8127
+        },
+        {
+          "age": 41,
+          "rate": 6.4135
+        },
+        {
+          "age": 42,
+          "rate": 7.1208
+        },
+        {
+          "age": 43,
+          "rate": 7.9679
+        },
+        {
+          "age": 44,
+          "rate": 8.9454
+        },
+        {
+          "age": 45,
+          "rate": 9.897
+        },
+        {
+          "age": 46,
+          "rate": 10.7491
+        },
+        {
+          "age": 47,
+          "rate": 11.5792
+        },
+        {
+          "age": 48,
+          "rate": 12.3695
+        },
+        {
+          "age": 49,
+          "rate": 13.1501
+        },
+        {
+          "age": 50,
+          "rate": 13.9415
+        },
+        {
+          "age": 51,
+          "rate": 14.7694
+        },
+        {
+          "age": 52,
+          "rate": 15.6569
+        },
+        {
+          "age": 53,
+          "rate": 16.6045
+        },
+        {
+          "age": 54,
+          "rate": 17.6011
+        },
+        {
+          "age": 55,
+          "rate": 18.6245
+        },
+        {
+          "age": 56,
+          "rate": 19.6769
+        },
+        {
+          "age": 57,
+          "rate": 20.7694
+        },
+        {
+          "age": 58,
+          "rate": 21.9727
+        },
+        {
+          "age": 59,
+          "rate": 23.2848
+        },
+        {
+          "age": 60,
+          "rate": 24.6084
+        },
+        {
+          "age": 61,
+          "rate": 25.8495
+        },
+        {
+          "age": 62,
+          "rate": 26.9106
+        },
+        {
+          "age": 63,
+          "rate": 27.7355
+        },
+        {
+          "age": 64,
+          "rate": 28.3951
+        },
+        {
+          "age": 65,
+          "rate": 29.1382
+        },
+        {
+          "age": 66,
+          "rate": 30.0482
+        },
+        {
+          "age": 67,
+          "rate": 31.0167
+        },
+        {
+          "age": 68,
+          "rate": 32.0714
+        },
+        {
+          "age": 69,
+          "rate": 33.1621
+        },
+        {
+          "age": 70,
+          "rate": 34.2561
+        },
+        {
+          "age": 71,
+          "rate": 34.7937
+        },
+        {
+          "age": 72,
+          "rate": 35.2398
+        },
+        {
+          "age": 73,
+          "rate": 35.5458
+        },
+        {
+          "age": 74,
+          "rate": 35.7341
+        },
+        {
+          "age": 75,
+          "rate": 35.8806
+        },
+        {
+          "age": 76,
+          "rate": 36.0561
+        },
+        {
+          "age": 77,
+          "rate": 36.3324
+        },
+        {
+          "age": 78,
+          "rate": 36.7216
+        },
+        {
+          "age": 79,
+          "rate": 37.1768
+        },
+        {
+          "age": 80,
+          "rate": 37.6786
+        },
+        {
+          "age": 81,
+          "rate": 38.2081
+        },
+        {
+          "age": 82,
+          "rate": 38.7501
+        },
+        {
+          "age": 83,
+          "rate": 39.381
+        },
+        {
+          "age": 84,
+          "rate": 40.1139
+        },
+        {
+          "age": 85,
+          "rate": 40.8299
+        },
+        {
+          "age": 86,
+          "rate": 41.41
+        },
+        {
+          "age": 87,
+          "rate": 41.7359
+        },
+        {
+          "age": 88,
+          "rate": 41.8708
+        },
+        {
+          "age": 89,
+          "rate": 41.8915
+        },
+        {
+          "age": 90,
+          "rate": 41.7077
+        },
+        {
+          "age": 91,
+          "rate": 41.2195
+        },
+        {
+          "age": 92,
+          "rate": 40.3359
+        },
+        {
+          "age": 93,
+          "rate": 39.1167
+        },
+        {
+          "age": 94,
+          "rate": 37.6278
+        },
+        {
+          "age": 95,
+          "rate": 35.7739
+        },
+        {
+          "age": 96,
+          "rate": 33.4592
+        },
+        {
+          "age": 97,
+          "rate": 30.5893
+        },
+        {
+          "age": 98,
+          "rate": 30.5893
+        },
+        {
+          "age": 99,
+          "rate": 30.5893
+        }
+      ]
+    }
+  ]
+}

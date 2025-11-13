@@ -1,0 +1,1204 @@
+{
+  "identifier": "2016_group_term_life_mortality_table",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "3721",
+    "providerDomain": "soa.org",
+    "providerName": "Society of Actuaries",
+    "tableReference": "The Society of Actuaries, \"2016 Group Life Insurance Experience Committee Report\", https://www.soa.org/4937f3/globalassets/assets/files/research/exp-study/research-2016-group-life-committee.pdf",
+    "contentType": {
+      "code": "83",
+      "label": "Group Life"
+    },
+    "tableName": "2016 Group Term Life Mortality Table",
+    "tableDescription": "2016 Group Term Life Mortality Table",
+    "comments": "This study was based on data collected on policies in force during the study period of 2010-2013. Data Certified: .",
+    "keywords": [
+      "Aggregate",
+      "Group Life",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2016 Group Term Life Mortality Table, Basic Life Rates by Central Age Based on Lives, Mortality Rates per Thousand (Lives), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "22",
+            "maxValue": "97",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 22,
+          "rate": 0.150179
+        },
+        {
+          "age": 27,
+          "rate": 0.147037
+        },
+        {
+          "age": 32,
+          "rate": 0.218791
+        },
+        {
+          "age": 37,
+          "rate": 0.305066
+        },
+        {
+          "age": 42,
+          "rate": 0.4844
+        },
+        {
+          "age": 47,
+          "rate": 0.732838
+        },
+        {
+          "age": 52,
+          "rate": 1.117709
+        },
+        {
+          "age": 57,
+          "rate": 1.630939
+        },
+        {
+          "age": 62,
+          "rate": 2.553285
+        },
+        {
+          "age": 67,
+          "rate": 4.318034
+        },
+        {
+          "age": 72,
+          "rate": 8.546038
+        },
+        {
+          "age": 77,
+          "rate": 20.484584
+        },
+        {
+          "age": 82,
+          "rate": 40.13456
+        },
+        {
+          "age": 87,
+          "rate": 86.975578
+        },
+        {
+          "age": 92,
+          "rate": 137.00001
+        },
+        {
+          "age": 97,
+          "rate": 197.689383
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2016 Group Term Life Mortality Table, Basic Life Rates by Central Age Based on Amount in Millions ($), Mortality Rates per Thousand (Amount), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "22",
+            "maxValue": "97",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 22,
+          "rate": 0.126591
+        },
+        {
+          "age": 27,
+          "rate": 0.121976
+        },
+        {
+          "age": 32,
+          "rate": 0.169312
+        },
+        {
+          "age": 37,
+          "rate": 0.252789
+        },
+        {
+          "age": 42,
+          "rate": 0.404685
+        },
+        {
+          "age": 47,
+          "rate": 0.648374
+        },
+        {
+          "age": 52,
+          "rate": 0.898621
+        },
+        {
+          "age": 57,
+          "rate": 1.389466
+        },
+        {
+          "age": 62,
+          "rate": 2.106901
+        },
+        {
+          "age": 67,
+          "rate": 3.520402
+        },
+        {
+          "age": 72,
+          "rate": 6.302196
+        },
+        {
+          "age": 77,
+          "rate": 13.824952
+        },
+        {
+          "age": 82,
+          "rate": 29.082175
+        },
+        {
+          "age": 87,
+          "rate": 62.940844
+        },
+        {
+          "age": 92,
+          "rate": 105.512789
+        },
+        {
+          "age": 97,
+          "rate": 165.732533
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2016 Group Term Life Mortality Table, Basic Disability Rates by Central Age Based on Lives, Disability Rates per Thousand (Lives), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "22",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 22,
+          "rate": 0.088433
+        },
+        {
+          "age": 27,
+          "rate": 0.13358
+        },
+        {
+          "age": 32,
+          "rate": 0.270391
+        },
+        {
+          "age": 37,
+          "rate": 0.383539
+        },
+        {
+          "age": 42,
+          "rate": 0.603516
+        },
+        {
+          "age": 47,
+          "rate": 0.817848
+        },
+        {
+          "age": 52,
+          "rate": 1.169315
+        },
+        {
+          "age": 57,
+          "rate": 1.553154
+        },
+        {
+          "age": 62,
+          "rate": 0.444685
+        },
+        {
+          "age": 67,
+          "rate": 0.163413
+        },
+        {
+          "age": 72,
+          "rate": 0.24829
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2016 Group Term Life Mortality Table, Basic Disability Rates by Central Age Based on Amount in Millions ($), Disability Rates per Thousand (Amount), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "22",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 22,
+          "rate": 0.086743
+        },
+        {
+          "age": 27,
+          "rate": 0.143819
+        },
+        {
+          "age": 32,
+          "rate": 0.271555
+        },
+        {
+          "age": 37,
+          "rate": 0.383421
+        },
+        {
+          "age": 42,
+          "rate": 0.608732
+        },
+        {
+          "age": 47,
+          "rate": 0.823544
+        },
+        {
+          "age": 52,
+          "rate": 1.230945
+        },
+        {
+          "age": 57,
+          "rate": 1.693736
+        },
+        {
+          "age": 62,
+          "rate": 0.393857
+        },
+        {
+          "age": 67,
+          "rate": 0.168827
+        },
+        {
+          "age": 72,
+          "rate": 0.269896
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2016 Group Term Life Mortality Table, Basic AD\u0026D Rates by Central Age Based on Lives, AD\u0026D Rates per Thousand (Lives), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "22",
+            "maxValue": "62",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 22,
+          "rate": 0.062
+        },
+        {
+          "age": 27,
+          "rate": 0.044
+        },
+        {
+          "age": 32,
+          "rate": 0.05
+        },
+        {
+          "age": 37,
+          "rate": 0.049
+        },
+        {
+          "age": 42,
+          "rate": 0.05
+        },
+        {
+          "age": 47,
+          "rate": 0.047
+        },
+        {
+          "age": 52,
+          "rate": 0.055
+        },
+        {
+          "age": 57,
+          "rate": 0.064
+        },
+        {
+          "age": 62,
+          "rate": 0.067
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2016 Group Term Life Mortality Table, Basic AD\u0026D Rates by Central Age Based on Amount in Millions ($), AD\u0026D Rates per Thousand (Amount), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "22",
+            "maxValue": "62",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 22,
+          "rate": 0.049
+        },
+        {
+          "age": 27,
+          "rate": 0.038
+        },
+        {
+          "age": 32,
+          "rate": 0.039
+        },
+        {
+          "age": 37,
+          "rate": 0.044
+        },
+        {
+          "age": 42,
+          "rate": 0.042
+        },
+        {
+          "age": 47,
+          "rate": 0.046
+        },
+        {
+          "age": 52,
+          "rate": 0.051
+        },
+        {
+          "age": 57,
+          "rate": 0.055
+        },
+        {
+          "age": 62,
+          "rate": 0.054
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2016 Group Term Life Mortality Table, Supplemental Life Rates by Central Age Based on Lives, Mortality Rates per Thousand (Lives), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "97",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 17,
+          "rate": 0.914368
+        },
+        {
+          "age": 22,
+          "rate": 0.16113
+        },
+        {
+          "age": 27,
+          "rate": 0.175052
+        },
+        {
+          "age": 32,
+          "rate": 0.235187
+        },
+        {
+          "age": 37,
+          "rate": 0.297545
+        },
+        {
+          "age": 42,
+          "rate": 0.524995
+        },
+        {
+          "age": 47,
+          "rate": 0.848926
+        },
+        {
+          "age": 52,
+          "rate": 1.355076
+        },
+        {
+          "age": 57,
+          "rate": 2.020622
+        },
+        {
+          "age": 62,
+          "rate": 3.637296
+        },
+        {
+          "age": 67,
+          "rate": 7.162827
+        },
+        {
+          "age": 72,
+          "rate": 13.876998
+        },
+        {
+          "age": 77,
+          "rate": 24.024325
+        },
+        {
+          "age": 82,
+          "rate": 45.704265
+        },
+        {
+          "age": 87,
+          "rate": 89.057849
+        },
+        {
+          "age": 92,
+          "rate": 165.412758
+        },
+        {
+          "age": 97,
+          "rate": 208.541575
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2016 Group Term Life Mortality Table, Supplemental Life Rates by Central Age Based on Amount in Millions ($), Mortality Rates per Thousand (Amount), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "97",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 17,
+          "rate": 0.487563
+        },
+        {
+          "age": 22,
+          "rate": 0.149378
+        },
+        {
+          "age": 27,
+          "rate": 0.165822
+        },
+        {
+          "age": 32,
+          "rate": 0.202262
+        },
+        {
+          "age": 37,
+          "rate": 0.261708
+        },
+        {
+          "age": 42,
+          "rate": 0.426273
+        },
+        {
+          "age": 47,
+          "rate": 0.718383
+        },
+        {
+          "age": 52,
+          "rate": 1.137644
+        },
+        {
+          "age": 57,
+          "rate": 1.836045
+        },
+        {
+          "age": 62,
+          "rate": 3.32399
+        },
+        {
+          "age": 67,
+          "rate": 6.69257
+        },
+        {
+          "age": 72,
+          "rate": 11.271289
+        },
+        {
+          "age": 77,
+          "rate": 21.950299
+        },
+        {
+          "age": 82,
+          "rate": 39.444022
+        },
+        {
+          "age": 87,
+          "rate": 76.145824
+        },
+        {
+          "age": 92,
+          "rate": 120.460318
+        },
+        {
+          "age": 97,
+          "rate": 158.73685
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2016 Group Term Life Mortality Table, Supplemental Disability Rates by Central Age Based on Lives, Disability Rates per Thousand (Lives), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 17,
+          "rate": 0
+        },
+        {
+          "age": 22,
+          "rate": 0.101453
+        },
+        {
+          "age": 27,
+          "rate": 0.176209
+        },
+        {
+          "age": 32,
+          "rate": 0.36865
+        },
+        {
+          "age": 37,
+          "rate": 0.509058
+        },
+        {
+          "age": 42,
+          "rate": 0.742217
+        },
+        {
+          "age": 47,
+          "rate": 0.994694
+        },
+        {
+          "age": 52,
+          "rate": 1.43304
+        },
+        {
+          "age": 57,
+          "rate": 1.906073
+        },
+        {
+          "age": 62,
+          "rate": 0.519962
+        },
+        {
+          "age": 67,
+          "rate": 0.136893
+        },
+        {
+          "age": 72,
+          "rate": 0
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2016 Group Term Life Mortality Table, Supplemental Disability Rates by Central Age Based on Amount in Millions ($), Monthly Disability Rates per Thousand (Amount), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 17,
+          "rate": 0
+        },
+        {
+          "age": 22,
+          "rate": 0.134556
+        },
+        {
+          "age": 27,
+          "rate": 0.175247
+        },
+        {
+          "age": 32,
+          "rate": 0.346476
+        },
+        {
+          "age": 37,
+          "rate": 0.510755
+        },
+        {
+          "age": 42,
+          "rate": 0.679777
+        },
+        {
+          "age": 47,
+          "rate": 0.917528
+        },
+        {
+          "age": 52,
+          "rate": 1.37133
+        },
+        {
+          "age": 57,
+          "rate": 1.844699
+        },
+        {
+          "age": 62,
+          "rate": 0.512549
+        },
+        {
+          "age": 67,
+          "rate": 0.155554
+        },
+        {
+          "age": 72,
+          "rate": 0
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2016 Group Term Life Mortality Table, Supplemental AD\u0026D Rates by Central Age Based on Lives, AD\u0026D Rates per Thousand (Lives), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "77",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 17,
+          "rate": 0.65
+        },
+        {
+          "age": 22,
+          "rate": 0.036
+        },
+        {
+          "age": 27,
+          "rate": 0.061
+        },
+        {
+          "age": 32,
+          "rate": 0.035
+        },
+        {
+          "age": 37,
+          "rate": 0.066
+        },
+        {
+          "age": 42,
+          "rate": 0.045
+        },
+        {
+          "age": 47,
+          "rate": 0.059
+        },
+        {
+          "age": 52,
+          "rate": 0.074
+        },
+        {
+          "age": 57,
+          "rate": 0.042
+        },
+        {
+          "age": 62,
+          "rate": 0.07
+        },
+        {
+          "age": 67,
+          "rate": 0.126
+        },
+        {
+          "age": 72,
+          "rate": 0.404
+        },
+        {
+          "age": 77,
+          "rate": 0.306
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2016 Group Term Life Mortality Table, Supplemental AD\u0026D Rates by Central Age Based on Amount in Millions ($), Monthly Mortality Rates per Thousand (Amount), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "77",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 17,
+          "rate": 0.116
+        },
+        {
+          "age": 22,
+          "rate": 0.011
+        },
+        {
+          "age": 27,
+          "rate": 0.056
+        },
+        {
+          "age": 32,
+          "rate": 0.029
+        },
+        {
+          "age": 37,
+          "rate": 0.062
+        },
+        {
+          "age": 42,
+          "rate": 0.05
+        },
+        {
+          "age": 47,
+          "rate": 0.055
+        },
+        {
+          "age": 52,
+          "rate": 0.082
+        },
+        {
+          "age": 57,
+          "rate": 0.033
+        },
+        {
+          "age": 62,
+          "rate": 0.083
+        },
+        {
+          "age": 67,
+          "rate": 0.019
+        },
+        {
+          "age": 72,
+          "rate": 0.086
+        },
+        {
+          "age": 77,
+          "rate": 0.747
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2016 Group Term Life Mortality Table, Portability Life Rates by Central Age Based on Lives, Portability Rates per Thousand (Lives), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "97",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 17,
+          "rate": 0
+        },
+        {
+          "age": 22,
+          "rate": 0
+        },
+        {
+          "age": 27,
+          "rate": 1.703779
+        },
+        {
+          "age": 32,
+          "rate": 1.193814
+        },
+        {
+          "age": 37,
+          "rate": 2.325036
+        },
+        {
+          "age": 42,
+          "rate": 2.913737
+        },
+        {
+          "age": 47,
+          "rate": 4.534991
+        },
+        {
+          "age": 52,
+          "rate": 7.004329
+        },
+        {
+          "age": 57,
+          "rate": 8.105802
+        },
+        {
+          "age": 62,
+          "rate": 12.495497
+        },
+        {
+          "age": 67,
+          "rate": 16.111008
+        },
+        {
+          "age": 72,
+          "rate": 23.06997
+        },
+        {
+          "age": 77,
+          "rate": 35.607214
+        },
+        {
+          "age": 82,
+          "rate": 46.251206
+        },
+        {
+          "age": 87,
+          "rate": 163.234316
+        },
+        {
+          "age": 92,
+          "rate": 118.026982
+        },
+        {
+          "age": 97,
+          "rate": 96.280677
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2016 Group Term Life Mortality Table, Portability Life Rates by Central Age Based on Amount in Millions ($), Portability Rates per Thousand (Amount), Female",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "97",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 17,
+          "rate": 0
+        },
+        {
+          "age": 22,
+          "rate": 0
+        },
+        {
+          "age": 27,
+          "rate": 1.729217
+        },
+        {
+          "age": 32,
+          "rate": 0.854716
+        },
+        {
+          "age": 37,
+          "rate": 1.988466
+        },
+        {
+          "age": 42,
+          "rate": 1.858676
+        },
+        {
+          "age": 47,
+          "rate": 3.722847
+        },
+        {
+          "age": 52,
+          "rate": 5.778039
+        },
+        {
+          "age": 57,
+          "rate": 8.105782
+        },
+        {
+          "age": 62,
+          "rate": 11.84662
+        },
+        {
+          "age": 67,
+          "rate": 17.500286
+        },
+        {
+          "age": 72,
+          "rate": 26.565112
+        },
+        {
+          "age": 77,
+          "rate": 31.876499
+        },
+        {
+          "age": 82,
+          "rate": 34.362278
+        },
+        {
+          "age": 87,
+          "rate": 115.581861
+        },
+        {
+          "age": 92,
+          "rate": 100.50236
+        },
+        {
+          "age": 97,
+          "rate": 31.597507
+        }
+      ]
+    }
+  ]
+}

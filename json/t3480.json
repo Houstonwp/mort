@@ -1,0 +1,126 @@
+{
+  "identifier": "pub_2010_male_juvenile",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "3480",
+    "providerDomain": "soa.org",
+    "providerName": "Retirement Plans Experience Committee",
+    "tableReference": "Society of Actuaries, public-pension-headcount-exposure.xlsx, Sheet 'Juvenile', https://www.soa.org/resources/experience-studies/2018/public-pension-headcount-exposure.xlsx",
+    "contentType": {
+      "code": "78",
+      "label": "Annuitant Mortality"
+    },
+    "tableName": "Pub-2010 Male Juvenile",
+    "tableDescription": "Pub-2010 Mortality Table - Male Juvenile. Ages 0-17. Base Year July 1, 2010 - June 30, 2011.",
+    "comments": "Study Data: The primary focus of this study was a comprehensive review of recent mortality experience of public retirement plans in the United States. The final dataset upon which this study has been based includes approximately 46 million life-years of exposure and 580 thousand deaths from public pension systems across the United States. Data certified: 09/2018.",
+    "keywords": [
+      "Aggregate",
+      "Annuitant Mortality",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "Pub-2010 Mortality Table - Male Juvenile. Ages 0-17. Base Year July 1, 2010 - June 30, 2011.",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "0",
+            "maxValue": "17",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 0,
+          "rate": 0.00026
+        },
+        {
+          "age": 1,
+          "rate": 0.00015
+        },
+        {
+          "age": 2,
+          "rate": 0.00013
+        },
+        {
+          "age": 3,
+          "rate": 0.00011
+        },
+        {
+          "age": 4,
+          "rate": 0.0001
+        },
+        {
+          "age": 5,
+          "rate": 0.0001
+        },
+        {
+          "age": 6,
+          "rate": 0.00009
+        },
+        {
+          "age": 7,
+          "rate": 0.00009
+        },
+        {
+          "age": 8,
+          "rate": 0.00009
+        },
+        {
+          "age": 9,
+          "rate": 0.00008
+        },
+        {
+          "age": 10,
+          "rate": 0.00009
+        },
+        {
+          "age": 11,
+          "rate": 0.00009
+        },
+        {
+          "age": 12,
+          "rate": 0.00011
+        },
+        {
+          "age": 13,
+          "rate": 0.00012
+        },
+        {
+          "age": 14,
+          "rate": 0.00014
+        },
+        {
+          "age": 15,
+          "rate": 0.00017
+        },
+        {
+          "age": 16,
+          "rate": 0.00023
+        },
+        {
+          "age": 17,
+          "rate": 0.00031
+        }
+      ]
+    }
+  ]
+}

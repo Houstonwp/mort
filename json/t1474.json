@@ -1,0 +1,258 @@
+{
+  "identifier": "table_s_1_2007_rrb_railway_non_disabled_annuitants_anb",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1474",
+    "providerDomain": "rrb.gov",
+    "providerName": "U.S. Railroad Retirement Board",
+    "tableReference": "Frank J. Buzzi, “Twenty-Fourth Actuarial Valuation of the Assets and Liabilities Under the Railroad Retirement Acts as of December 31, 2007 with Technical Supplement”, U.S. Railroad Retirement Board, Bureau of the Actuary, (2007): Table S-1, p. 43 Accessed September, 2012 from:   http://www.rrb.gov/pdf/act/valuation24.pdf, p. 54",
+    "contentType": {
+      "code": "78",
+      "label": "Annuitant Mortality"
+    },
+    "tableName": "Table S-1: 2007 RRB Railway Non-Disabled Annuitants, ANB",
+    "tableDescription": "Table S-1: 2007 Railroad Retirement Board (RRB) Railway Non-disabled Annuitant Mortality. Age Nearest Birthday. Minimum Age: 60.  Maximum Age: 110.",
+    "comments": "Study Data: Section 502 of the Railroad Retirement Solvency Act of 1983 requires the Railroad Retirement Board to prepare an annual report on the actuarial status of the railroad retirement system and to submit the report to the Congress by July 1. As warranted, the Railroad Board updates assumptions used for this report; this table is a reflection of one such update. Methodology: All data concerning current beneficiaries were derived from a “universe” file compiled as of December 21, 2007 for observation period 2003-2006.  Information needed to derive terminations for mortality studies were obtained from a similar universe file created at an earlier date (date not available). Data Transcription Errors:  None.  Data Certified: 09/2012.",
+    "keywords": [
+      "Aggregate",
+      "Annuitant Mortality",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "Table S-1: 2007 Railroad Retirement Board (RRB) Railway Non-disabled Annuitant Mortality. Age Nearest Birthday. Minimum Age: 60.  Maximum Age: 110",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "60",
+            "maxValue": "110",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 60,
+          "rate": 0.00624
+        },
+        {
+          "age": 61,
+          "rate": 0.00707
+        },
+        {
+          "age": 62,
+          "rate": 0.00801
+        },
+        {
+          "age": 63,
+          "rate": 0.00906
+        },
+        {
+          "age": 64,
+          "rate": 0.01024
+        },
+        {
+          "age": 65,
+          "rate": 0.01157
+        },
+        {
+          "age": 66,
+          "rate": 0.01305
+        },
+        {
+          "age": 67,
+          "rate": 0.01472
+        },
+        {
+          "age": 68,
+          "rate": 0.01658
+        },
+        {
+          "age": 69,
+          "rate": 0.01866
+        },
+        {
+          "age": 70,
+          "rate": 0.02098
+        },
+        {
+          "age": 71,
+          "rate": 0.02357
+        },
+        {
+          "age": 72,
+          "rate": 0.02645
+        },
+        {
+          "age": 73,
+          "rate": 0.02966
+        },
+        {
+          "age": 74,
+          "rate": 0.03322
+        },
+        {
+          "age": 75,
+          "rate": 0.03717
+        },
+        {
+          "age": 76,
+          "rate": 0.04155
+        },
+        {
+          "age": 77,
+          "rate": 0.0464
+        },
+        {
+          "age": 78,
+          "rate": 0.05176
+        },
+        {
+          "age": 79,
+          "rate": 0.05766
+        },
+        {
+          "age": 80,
+          "rate": 0.06417
+        },
+        {
+          "age": 81,
+          "rate": 0.07133
+        },
+        {
+          "age": 82,
+          "rate": 0.07919
+        },
+        {
+          "age": 83,
+          "rate": 0.08781
+        },
+        {
+          "age": 84,
+          "rate": 0.09724
+        },
+        {
+          "age": 85,
+          "rate": 0.10753
+        },
+        {
+          "age": 86,
+          "rate": 0.11874
+        },
+        {
+          "age": 87,
+          "rate": 0.13093
+        },
+        {
+          "age": 88,
+          "rate": 0.14416
+        },
+        {
+          "age": 89,
+          "rate": 0.15847
+        },
+        {
+          "age": 90,
+          "rate": 0.17391
+        },
+        {
+          "age": 91,
+          "rate": 0.19053
+        },
+        {
+          "age": 92,
+          "rate": 0.20836
+        },
+        {
+          "age": 93,
+          "rate": 0.22744
+        },
+        {
+          "age": 94,
+          "rate": 0.24779
+        },
+        {
+          "age": 95,
+          "rate": 0.26871
+        },
+        {
+          "age": 96,
+          "rate": 0.28917
+        },
+        {
+          "age": 97,
+          "rate": 0.3087
+        },
+        {
+          "age": 98,
+          "rate": 0.32687
+        },
+        {
+          "age": 99,
+          "rate": 0.34332
+        },
+        {
+          "age": 100,
+          "rate": 0.35771
+        },
+        {
+          "age": 101,
+          "rate": 0.36973
+        },
+        {
+          "age": 102,
+          "rate": 0.3791
+        },
+        {
+          "age": 103,
+          "rate": 0.38552
+        },
+        {
+          "age": 104,
+          "rate": 0.38866
+        },
+        {
+          "age": 105,
+          "rate": 0.39005
+        },
+        {
+          "age": 106,
+          "rate": 0.39143
+        },
+        {
+          "age": 107,
+          "rate": 0.39281
+        },
+        {
+          "age": 108,
+          "rate": 0.39418
+        },
+        {
+          "age": 109,
+          "rate": 0.39555
+        },
+        {
+          "age": 110,
+          "rate": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "identifier": "1952_graduated_rates_of_disablement_benefit_5_period_2_360_day_ep",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "779",
+    "providerDomain": "soa.org",
+    "providerName": "Roger Scott Lumsden",
+    "tableReference": "Society of Actuaries, “II. Extension and Modification of Certain Basic Disability Values”, Transactions of the Society of Actuaries, Vol. XIII, No. 37 (1961) Table 2. Accessed: June, 2013 from http://www.soa.org/library/research/transactions-of-society-of-actuaries/1961/january/tsa61v13pt1n37ab32.pdf and Manuel R. Cueto, “Monetary Values for Ordinary Disability Benefits, Based on Period 2 of the 1952 Inter-Company Study of the Society’s Committee with Interest at 2½ %”, Transactions of the Society of Actuaries, Vol. VI, No. 14. (1954) Table 5b. Accessed: June, 2013 from   http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1954/January/tsa54v6n1410.pdf",
+    "contentType": {
+      "code": "80",
+      "label": "Claim Incidence"
+    },
+    "tableName": "1952 Graduated Rates of Disablement - Benefit 5, Period 2, 360 day EP",
+    "tableDescription": "1952 Graduated Rates of Disablement- Benefit 5. Time Period: 2. Elimination Period: 360 days. Minimum Age: 5. Maximum Age: 65",
+    "comments": "Study Data: The rates of disablement developed in the 1952 Disability Study of the Society of Actuaries (SOA) for Benefit 5 (See SOA Table Identity 780) were extended at the younger ages down to age 5 and at the older ages from age 59 to age 64 in order to permit the preparation of monetary tables for disability benefits that would be as complete as possible. Methodology:  The rate of disablement for age 10 was used for ages 5 to 9, inclusive. The data available in the 1952 Disability Study was not sufficient to produce reliable results and there are presently no other statistics at young ages that are deemed acceptable for this purpose. Because of these facts, and also because the rates of disablement at the young ages are relatively low, so that any changes in rates would have only a minor effect on the net premiums, its was considered desirable to use the age 10 rate. With respect to the extension of the Benefit 5, Period 2, rates of disablement at the older ages 60 to 64, inclusive, it was decided to use a previously prepared extension of the Benefit 1, Period 2, rates of disablement as a guide in determining the Benefit 5 rate of disablement at age 64. Based on ratios of the Benefit 5 rates to the Benefit 1 rates at ages 55 through 59, it was deemed reasonable to assume that the Benefit 5 rate of disablement at age 64 would be equal to 50% of the Benefit 1 rate. Then for attained ages 60 to 63, a third degree formula, which reproduced the published Benefit 5 rate of disablement at attained age 59 and the ratio-based rate for attained age 64, was developed. Data Transcription Errors: None. Data Certified: 06/2013",
+    "keywords": [
+      "Aggregate",
+      "Claim Incidence",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1952 Graduated Rates of Disablement- Benefit 5. Time Period: 2. Elimination Period: 360 days. Minimum Age: 5. Maximum Age: 65",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "5",
+            "maxValue": "65",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 5,
+          "rate": 0.00052
+        },
+        {
+          "age": 6,
+          "rate": 0.00052
+        },
+        {
+          "age": 7,
+          "rate": 0.00052
+        },
+        {
+          "age": 8,
+          "rate": 0.00052
+        },
+        {
+          "age": 9,
+          "rate": 0.00052
+        },
+        {
+          "age": 10,
+          "rate": 0.00052
+        },
+        {
+          "age": 11,
+          "rate": 0.00052
+        },
+        {
+          "age": 12,
+          "rate": 0.00052
+        },
+        {
+          "age": 13,
+          "rate": 0.00052
+        },
+        {
+          "age": 14,
+          "rate": 0.00052
+        },
+        {
+          "age": 15,
+          "rate": 0.00052
+        },
+        {
+          "age": 16,
+          "rate": 0.00052
+        },
+        {
+          "age": 17,
+          "rate": 0.00052
+        },
+        {
+          "age": 18,
+          "rate": 0.00061
+        },
+        {
+          "age": 19,
+          "rate": 0.00069
+        },
+        {
+          "age": 20,
+          "rate": 0.00076
+        },
+        {
+          "age": 21,
+          "rate": 0.00082
+        },
+        {
+          "age": 22,
+          "rate": 0.00088
+        },
+        {
+          "age": 23,
+          "rate": 0.00092
+        },
+        {
+          "age": 24,
+          "rate": 0.00096
+        },
+        {
+          "age": 25,
+          "rate": 0.001
+        },
+        {
+          "age": 26,
+          "rate": 0.00102
+        },
+        {
+          "age": 27,
+          "rate": 0.00105
+        },
+        {
+          "age": 28,
+          "rate": 0.00107
+        },
+        {
+          "age": 29,
+          "rate": 0.0011
+        },
+        {
+          "age": 30,
+          "rate": 0.00112
+        },
+        {
+          "age": 31,
+          "rate": 0.00115
+        },
+        {
+          "age": 32,
+          "rate": 0.00118
+        },
+        {
+          "age": 33,
+          "rate": 0.00121
+        },
+        {
+          "age": 34,
+          "rate": 0.00124
+        },
+        {
+          "age": 35,
+          "rate": 0.00129
+        },
+        {
+          "age": 36,
+          "rate": 0.00134
+        },
+        {
+          "age": 37,
+          "rate": 0.0014
+        },
+        {
+          "age": 38,
+          "rate": 0.00147
+        },
+        {
+          "age": 39,
+          "rate": 0.00155
+        },
+        {
+          "age": 40,
+          "rate": 0.00164
+        },
+        {
+          "age": 41,
+          "rate": 0.00173
+        },
+        {
+          "age": 42,
+          "rate": 0.00184
+        },
+        {
+          "age": 43,
+          "rate": 0.00195
+        },
+        {
+          "age": 44,
+          "rate": 0.00207
+        },
+        {
+          "age": 45,
+          "rate": 0.00221
+        },
+        {
+          "age": 46,
+          "rate": 0.00236
+        },
+        {
+          "age": 47,
+          "rate": 0.00256
+        },
+        {
+          "age": 48,
+          "rate": 0.00279
+        },
+        {
+          "age": 49,
+          "rate": 0.00309
+        },
+        {
+          "age": 50,
+          "rate": 0.00347
+        },
+        {
+          "age": 51,
+          "rate": 0.00395
+        },
+        {
+          "age": 52,
+          "rate": 0.00454
+        },
+        {
+          "age": 53,
+          "rate": 0.00525
+        },
+        {
+          "age": 54,
+          "rate": 0.00611
+        },
+        {
+          "age": 55,
+          "rate": 0.00712
+        },
+        {
+          "age": 56,
+          "rate": 0.00838
+        },
+        {
+          "age": 57,
+          "rate": 0.00933
+        },
+        {
+          "age": 58,
+          "rate": 0.01035
+        },
+        {
+          "age": 59,
+          "rate": 0.01144
+        },
+        {
+          "age": 60,
+          "rate": 0.01264
+        },
+        {
+          "age": 61,
+          "rate": 0.01415
+        },
+        {
+          "age": 62,
+          "rate": 0.01621
+        },
+        {
+          "age": 63,
+          "rate": 0.01907
+        },
+        {
+          "age": 64,
+          "rate": 0.02295
+        }
+      ]
+    }
+  ]
+}

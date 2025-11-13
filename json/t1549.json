@@ -1,0 +1,970 @@
+{
+  "identifier": "2003_pension_plan_turnover_probabilities_anb",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1549",
+    "providerDomain": "https://docs.google.com/a/wisc.edu",
+    "providerName": "Jed Frees",
+    "tableReference": "Edward W. Frees, “Pension Plan Termination and Retirement Study”, University of Wisconsin (2003). Accessed October, 2013 from: https://www.soa.org/resources/experience-studies/2000-2004/research-2003-soa-pension-plan-turnover-study/",
+    "contentType": {
+      "code": "5",
+      "label": "Termination Voluntary"
+    },
+    "tableName": "2003 Pension Plan Turnover Probabilities, ANB",
+    "tableDescription": "2003 Pension Plan Turnover Probabilities by Service Year Cohorts. Basis: Age Nearest Birthday. Minimum Age: 18. Maximum Age: 60.",
+    "comments": "Study Data: The Society of Actuaries’ Non-Mortality Decrement Task Force organized a data collection effort from which thirty-two contributors provided over 1.7 million life years of pension plan turnover data for years 1994-2000. For purposes of the study, turnover encompasses the following ways of exiting employment: termination, retirement, disability, death, and transfers. Termination includes voluntary and non-voluntary (dismissals, lay-offs, plant closures, etc.). Male and females combined. For consistency with common pension vesting rules, data grouped into four categories: less than 2 (new hires, 0 and 1 year of completed service), 2-4 years of service, 5-9 and 10 and over. Methodology: To assess the effects of plan characteristics while controlling for age, service and gender, a multinomial logit analysis, a regression methodology suitable for categorical outcomes, was used. Multinomial logit is an extension of (ordinary) linear regression modeling that allows for discrete (non-Gaussian) outcomes. The aggregate data was graduated using traditional smoothing methods, specifically Whittaker-Henderson Type B graduation. Each service category was then individually smoothed so that there remain some small anomalies at the beginning and the end of the data. NOTE: A table structure does not currently exist in this database to accommodate the nature of this data. The “Select and Ultimate” format was chosen as it most closely aligns with the data. The experience of recently insured individuals is called \"select\" experience while the experience of individuals insured many years ago is called \"ultimate\" experience. The ultimate section of this table does not represent rates for a stage following a period associated with “selection” but rather is the probability of termination from all service year lengths combined. In a similar fashion, there is not a single value specifying the period over which selection wears off and after which time rates taper into ultimate rates; select period herein refers to service years. Data Transcription Errors: None. Data Certified: 11/2013.",
+    "keywords": [
+      "Select",
+      "Termination Voluntary",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2003 Pension Plan Turnover Probabilities. Length of Service: Less than 2 Years. Basis: Age Nearest Birthday. Minimum Age: 18. Maximum Age: 60",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "18",
+            "maxValue": "60",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 18,
+          "rate": 0.3964
+        },
+        {
+          "age": 19,
+          "rate": 0.2023
+        },
+        {
+          "age": 20,
+          "rate": 0.1799
+        },
+        {
+          "age": 21,
+          "rate": 0.2238
+        },
+        {
+          "age": 22,
+          "rate": 0.2407
+        },
+        {
+          "age": 23,
+          "rate": 0.2385
+        },
+        {
+          "age": 24,
+          "rate": 0.227
+        },
+        {
+          "age": 25,
+          "rate": 0.2174
+        },
+        {
+          "age": 26,
+          "rate": 0.2095
+        },
+        {
+          "age": 27,
+          "rate": 0.2041
+        },
+        {
+          "age": 28,
+          "rate": 0.1942
+        },
+        {
+          "age": 29,
+          "rate": 0.1873
+        },
+        {
+          "age": 30,
+          "rate": 0.1861
+        },
+        {
+          "age": 31,
+          "rate": 0.1883
+        },
+        {
+          "age": 32,
+          "rate": 0.1832
+        },
+        {
+          "age": 33,
+          "rate": 0.1739
+        },
+        {
+          "age": 34,
+          "rate": 0.1694
+        },
+        {
+          "age": 35,
+          "rate": 0.1678
+        },
+        {
+          "age": 36,
+          "rate": 0.1669
+        },
+        {
+          "age": 37,
+          "rate": 0.1629
+        },
+        {
+          "age": 38,
+          "rate": 0.16
+        },
+        {
+          "age": 39,
+          "rate": 0.1536
+        },
+        {
+          "age": 40,
+          "rate": 0.1591
+        },
+        {
+          "age": 41,
+          "rate": 0.1594
+        },
+        {
+          "age": 42,
+          "rate": 0.1605
+        },
+        {
+          "age": 43,
+          "rate": 0.1598
+        },
+        {
+          "age": 44,
+          "rate": 0.1588
+        },
+        {
+          "age": 45,
+          "rate": 0.1548
+        },
+        {
+          "age": 46,
+          "rate": 0.1561
+        },
+        {
+          "age": 47,
+          "rate": 0.153
+        },
+        {
+          "age": 48,
+          "rate": 0.1515
+        },
+        {
+          "age": 49,
+          "rate": 0.1553
+        },
+        {
+          "age": 50,
+          "rate": 0.156
+        },
+        {
+          "age": 51,
+          "rate": 0.1535
+        },
+        {
+          "age": 52,
+          "rate": 0.1435
+        },
+        {
+          "age": 53,
+          "rate": 0.1434
+        },
+        {
+          "age": 54,
+          "rate": 0.1417
+        },
+        {
+          "age": 55,
+          "rate": 0.1352
+        },
+        {
+          "age": 56,
+          "rate": 0.1284
+        },
+        {
+          "age": 57,
+          "rate": 0.1266
+        },
+        {
+          "age": 58,
+          "rate": 0.1274
+        },
+        {
+          "age": 59,
+          "rate": 0.135
+        },
+        {
+          "age": 60,
+          "rate": 0.1363
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2003 Pension Plan Turnover Probabilities. Length of Service: 2, 3 and 4 Years. Basis: Age Nearest Birthday. Minimum Age: 20. Maximum Age: 60",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "20",
+            "maxValue": "60",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 20,
+          "rate": 0.1419
+        },
+        {
+          "age": 21,
+          "rate": 0.1819
+        },
+        {
+          "age": 22,
+          "rate": 0.196
+        },
+        {
+          "age": 23,
+          "rate": 0.1958
+        },
+        {
+          "age": 24,
+          "rate": 0.1832
+        },
+        {
+          "age": 25,
+          "rate": 0.1714
+        },
+        {
+          "age": 26,
+          "rate": 0.1627
+        },
+        {
+          "age": 27,
+          "rate": 0.1529
+        },
+        {
+          "age": 28,
+          "rate": 0.1452
+        },
+        {
+          "age": 29,
+          "rate": 0.1393
+        },
+        {
+          "age": 30,
+          "rate": 0.1358
+        },
+        {
+          "age": 31,
+          "rate": 0.1309
+        },
+        {
+          "age": 32,
+          "rate": 0.126
+        },
+        {
+          "age": 33,
+          "rate": 0.1197
+        },
+        {
+          "age": 34,
+          "rate": 0.1133
+        },
+        {
+          "age": 35,
+          "rate": 0.1102
+        },
+        {
+          "age": 36,
+          "rate": 0.1098
+        },
+        {
+          "age": 37,
+          "rate": 0.1099
+        },
+        {
+          "age": 38,
+          "rate": 0.1077
+        },
+        {
+          "age": 39,
+          "rate": 0.1059
+        },
+        {
+          "age": 40,
+          "rate": 0.1035
+        },
+        {
+          "age": 41,
+          "rate": 0.1001
+        },
+        {
+          "age": 42,
+          "rate": 0.0972
+        },
+        {
+          "age": 43,
+          "rate": 0.0971
+        },
+        {
+          "age": 44,
+          "rate": 0.0962
+        },
+        {
+          "age": 45,
+          "rate": 0.0947
+        },
+        {
+          "age": 46,
+          "rate": 0.0954
+        },
+        {
+          "age": 47,
+          "rate": 0.0947
+        },
+        {
+          "age": 48,
+          "rate": 0.0937
+        },
+        {
+          "age": 49,
+          "rate": 0.0902
+        },
+        {
+          "age": 50,
+          "rate": 0.089
+        },
+        {
+          "age": 51,
+          "rate": 0.0932
+        },
+        {
+          "age": 52,
+          "rate": 0.0952
+        },
+        {
+          "age": 53,
+          "rate": 0.0924
+        },
+        {
+          "age": 54,
+          "rate": 0.088
+        },
+        {
+          "age": 55,
+          "rate": 0.0782
+        },
+        {
+          "age": 56,
+          "rate": 0.0749
+        },
+        {
+          "age": 57,
+          "rate": 0.0767
+        },
+        {
+          "age": 58,
+          "rate": 0.0768
+        },
+        {
+          "age": 59,
+          "rate": 0.0794
+        },
+        {
+          "age": 60,
+          "rate": 0.0784
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2003 Pension Plan Turnover Probabilities. Length of Service: 5-9 Years. Basis: Age Nearest Birthday. Minimum Age: 22. Maximum Age: 60",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "22",
+            "maxValue": "60",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 22,
+          "rate": 0.15
+        },
+        {
+          "age": 23,
+          "rate": 0.1509
+        },
+        {
+          "age": 24,
+          "rate": 0.1425
+        },
+        {
+          "age": 25,
+          "rate": 0.1296
+        },
+        {
+          "age": 26,
+          "rate": 0.1129
+        },
+        {
+          "age": 27,
+          "rate": 0.0997
+        },
+        {
+          "age": 28,
+          "rate": 0.0915
+        },
+        {
+          "age": 29,
+          "rate": 0.0869
+        },
+        {
+          "age": 30,
+          "rate": 0.0839
+        },
+        {
+          "age": 31,
+          "rate": 0.0802
+        },
+        {
+          "age": 32,
+          "rate": 0.0776
+        },
+        {
+          "age": 33,
+          "rate": 0.0756
+        },
+        {
+          "age": 34,
+          "rate": 0.0737
+        },
+        {
+          "age": 35,
+          "rate": 0.0715
+        },
+        {
+          "age": 36,
+          "rate": 0.0685
+        },
+        {
+          "age": 37,
+          "rate": 0.0668
+        },
+        {
+          "age": 38,
+          "rate": 0.0644
+        },
+        {
+          "age": 39,
+          "rate": 0.0627
+        },
+        {
+          "age": 40,
+          "rate": 0.0601
+        },
+        {
+          "age": 41,
+          "rate": 0.0589
+        },
+        {
+          "age": 42,
+          "rate": 0.0584
+        },
+        {
+          "age": 43,
+          "rate": 0.0575
+        },
+        {
+          "age": 44,
+          "rate": 0.0577
+        },
+        {
+          "age": 45,
+          "rate": 0.0582
+        },
+        {
+          "age": 46,
+          "rate": 0.0581
+        },
+        {
+          "age": 47,
+          "rate": 0.0561
+        },
+        {
+          "age": 48,
+          "rate": 0.0552
+        },
+        {
+          "age": 49,
+          "rate": 0.056
+        },
+        {
+          "age": 50,
+          "rate": 0.0532
+        },
+        {
+          "age": 51,
+          "rate": 0.0513
+        },
+        {
+          "age": 52,
+          "rate": 0.0499
+        },
+        {
+          "age": 53,
+          "rate": 0.047
+        },
+        {
+          "age": 54,
+          "rate": 0.0412
+        },
+        {
+          "age": 55,
+          "rate": 0.0259
+        },
+        {
+          "age": 56,
+          "rate": 0.0184
+        },
+        {
+          "age": 57,
+          "rate": 0.0154
+        },
+        {
+          "age": 58,
+          "rate": 0.0158
+        },
+        {
+          "age": 59,
+          "rate": 0.0192
+        },
+        {
+          "age": 60,
+          "rate": 0.0212
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2003 Pension Plan Turnover Probabilities. Length of Service: 10 or More Years. Basis: Age Nearest Birthday. Minimum Age: 28. Maximum Age: 60",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "28",
+            "maxValue": "60",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 28,
+          "rate": 0.0875
+        },
+        {
+          "age": 29,
+          "rate": 0.0521
+        },
+        {
+          "age": 30,
+          "rate": 0.0484
+        },
+        {
+          "age": 31,
+          "rate": 0.0539
+        },
+        {
+          "age": 32,
+          "rate": 0.0547
+        },
+        {
+          "age": 33,
+          "rate": 0.053
+        },
+        {
+          "age": 34,
+          "rate": 0.0515
+        },
+        {
+          "age": 35,
+          "rate": 0.0502
+        },
+        {
+          "age": 36,
+          "rate": 0.0487
+        },
+        {
+          "age": 37,
+          "rate": 0.0468
+        },
+        {
+          "age": 38,
+          "rate": 0.0443
+        },
+        {
+          "age": 39,
+          "rate": 0.0432
+        },
+        {
+          "age": 40,
+          "rate": 0.0415
+        },
+        {
+          "age": 41,
+          "rate": 0.0393
+        },
+        {
+          "age": 42,
+          "rate": 0.0386
+        },
+        {
+          "age": 43,
+          "rate": 0.0381
+        },
+        {
+          "age": 44,
+          "rate": 0.0379
+        },
+        {
+          "age": 45,
+          "rate": 0.0373
+        },
+        {
+          "age": 46,
+          "rate": 0.0364
+        },
+        {
+          "age": 47,
+          "rate": 0.0366
+        },
+        {
+          "age": 48,
+          "rate": 0.037
+        },
+        {
+          "age": 49,
+          "rate": 0.0365
+        },
+        {
+          "age": 50,
+          "rate": 0.0349
+        },
+        {
+          "age": 51,
+          "rate": 0.0338
+        },
+        {
+          "age": 52,
+          "rate": 0.0335
+        },
+        {
+          "age": 53,
+          "rate": 0.0322
+        },
+        {
+          "age": 54,
+          "rate": 0.0237
+        },
+        {
+          "age": 55,
+          "rate": 0.0088
+        },
+        {
+          "age": 56,
+          "rate": 0.0023
+        },
+        {
+          "age": 57,
+          "rate": 0.0011
+        },
+        {
+          "age": 58,
+          "rate": 0.0022
+        },
+        {
+          "age": 59,
+          "rate": 0.0031
+        },
+        {
+          "age": 60,
+          "rate": 0.002
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2003 Pension Plan Turnover Probabilities. All Service Lengths Combined. Basis: Age Nearest Birthday. Minimum Age: 18. Maximum Age: 60",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "18",
+            "maxValue": "60",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 18,
+          "rate": 0.3572
+        },
+        {
+          "age": 19,
+          "rate": 0.1971
+        },
+        {
+          "age": 20,
+          "rate": 0.1746
+        },
+        {
+          "age": 21,
+          "rate": 0.2123
+        },
+        {
+          "age": 22,
+          "rate": 0.2225
+        },
+        {
+          "age": 23,
+          "rate": 0.2182
+        },
+        {
+          "age": 24,
+          "rate": 0.2019
+        },
+        {
+          "age": 25,
+          "rate": 0.1851
+        },
+        {
+          "age": 26,
+          "rate": 0.1699
+        },
+        {
+          "age": 27,
+          "rate": 0.1553
+        },
+        {
+          "age": 28,
+          "rate": 0.1415
+        },
+        {
+          "age": 29,
+          "rate": 0.1302
+        },
+        {
+          "age": 30,
+          "rate": 0.1219
+        },
+        {
+          "age": 31,
+          "rate": 0.1144
+        },
+        {
+          "age": 32,
+          "rate": 0.107
+        },
+        {
+          "age": 33,
+          "rate": 0.0991
+        },
+        {
+          "age": 34,
+          "rate": 0.0925
+        },
+        {
+          "age": 35,
+          "rate": 0.0878
+        },
+        {
+          "age": 36,
+          "rate": 0.0837
+        },
+        {
+          "age": 37,
+          "rate": 0.08
+        },
+        {
+          "age": 38,
+          "rate": 0.0758
+        },
+        {
+          "age": 39,
+          "rate": 0.0723
+        },
+        {
+          "age": 40,
+          "rate": 0.07
+        },
+        {
+          "age": 41,
+          "rate": 0.0672
+        },
+        {
+          "age": 42,
+          "rate": 0.0654
+        },
+        {
+          "age": 43,
+          "rate": 0.0643
+        },
+        {
+          "age": 44,
+          "rate": 0.0633
+        },
+        {
+          "age": 45,
+          "rate": 0.0621
+        },
+        {
+          "age": 46,
+          "rate": 0.061
+        },
+        {
+          "age": 47,
+          "rate": 0.0598
+        },
+        {
+          "age": 48,
+          "rate": 0.0592
+        },
+        {
+          "age": 49,
+          "rate": 0.0585
+        },
+        {
+          "age": 50,
+          "rate": 0.0563
+        },
+        {
+          "age": 51,
+          "rate": 0.0548
+        },
+        {
+          "age": 52,
+          "rate": 0.0535
+        },
+        {
+          "age": 53,
+          "rate": 0.051
+        },
+        {
+          "age": 54,
+          "rate": 0.0432
+        },
+        {
+          "age": 55,
+          "rate": 0.0292
+        },
+        {
+          "age": 56,
+          "rate": 0.0225
+        },
+        {
+          "age": 57,
+          "rate": 0.0206
+        },
+        {
+          "age": 58,
+          "rate": 0.0212
+        },
+        {
+          "age": 59,
+          "rate": 0.0227
+        },
+        {
+          "age": 60,
+          "rate": 0.022
+        }
+      ]
+    }
+  ]
+}

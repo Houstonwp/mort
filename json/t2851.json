@@ -1,0 +1,182 @@
+{
+  "identifier": "1974_medical_expense_tables_100_maternity_benefit",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2851",
+    "providerDomain": "soa.org",
+    "providerName": "Susie Lee",
+    "tableReference": "Anthony J. Houghton and Ronald M. Wolf, \"Development of the 1974 Medical Expense Tables\", Transactions of the Society of Actuaries, Vol. 30 (1978) Accessed: July, 2014 from https://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1978/January/tsa78v303.pdf",
+    "contentType": {
+      "code": "50",
+      "label": "Claim Cost (in Disability)"
+    },
+    "tableName": "1974 Medical Expense Tables: $100 Maternity Benefit",
+    "tableDescription": "1974 Medical Expense Tables: $100 Maternity Benefit. Minimum Age: 15. Maximum Age: 46",
+    "comments": "Study Data: Based on the crude net annual claim costs shown in the 1972 Transactions of the Society of Actuaries Reports and the 1974 Transactions of the Society of Actuaries Reports. Methodology: Separate data are given for durations 1, 2, 3, 4, and 5 and later and for all durations combined. The experience from the Reports used in constructing the 1974 Medical\nExpense Tables (See SOA Table Identites 2843-2848) is the experience for durations 3 and later. In order to make the maternity values consistent with this treatment, maternity\nfrequency rates for durations 3 and later are developed from the experience for durations 3, 4, and 5 and later. These three separate groups of frequency rates are combined into one set of frequency, rates for durations 3 and later by dividing the total number of claims by the total number of exposures underlying these claims. Then the two sets of frequency rates are\ncombined into one set by a weighting process that uses as weights the aggregate number of maternity claims from each of the two experience periods. The resulting combined nlaternity frequency rates at pivotal ages were then graduated by using the curve-fitting interpolation technique used in construction of the Hospital Expense Tables (See SOA Table Identities 2843-2848). Data Transcription Errors: None. Data Certified: 07/2014.",
+    "keywords": [
+      "Aggregate",
+      "Claim Cost",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1974 Medical Expense Tables: $100 Maternity Benefit. Minimum Age: 15. Maximum Age: 46",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "46",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 30.38
+        },
+        {
+          "age": 16,
+          "rate": 30.38
+        },
+        {
+          "age": 17,
+          "rate": 30.38
+        },
+        {
+          "age": 18,
+          "rate": 30.38
+        },
+        {
+          "age": 19,
+          "rate": 30.38
+        },
+        {
+          "age": 20,
+          "rate": 30.38
+        },
+        {
+          "age": 21,
+          "rate": 28.74
+        },
+        {
+          "age": 22,
+          "rate": 27.1
+        },
+        {
+          "age": 23,
+          "rate": 25.46
+        },
+        {
+          "age": 24,
+          "rate": 23.78
+        },
+        {
+          "age": 25,
+          "rate": 22.05
+        },
+        {
+          "age": 26,
+          "rate": 20.29
+        },
+        {
+          "age": 27,
+          "rate": 18.5
+        },
+        {
+          "age": 28,
+          "rate": 16.57
+        },
+        {
+          "age": 29,
+          "rate": 14.49
+        },
+        {
+          "age": 30,
+          "rate": 12.41
+        },
+        {
+          "age": 31,
+          "rate": 10.46
+        },
+        {
+          "age": 32,
+          "rate": 8.8
+        },
+        {
+          "age": 33,
+          "rate": 7.46
+        },
+        {
+          "age": 34,
+          "rate": 6.34
+        },
+        {
+          "age": 35,
+          "rate": 5.4
+        },
+        {
+          "age": 36,
+          "rate": 4.57
+        },
+        {
+          "age": 37,
+          "rate": 3.8
+        },
+        {
+          "age": 38,
+          "rate": 3.08
+        },
+        {
+          "age": 39,
+          "rate": 2.44
+        },
+        {
+          "age": 40,
+          "rate": 1.89
+        },
+        {
+          "age": 41,
+          "rate": 1.4
+        },
+        {
+          "age": 42,
+          "rate": 1
+        },
+        {
+          "age": 43,
+          "rate": 0.67
+        },
+        {
+          "age": 44,
+          "rate": 0.41
+        },
+        {
+          "age": 45,
+          "rate": 0.23
+        },
+        {
+          "age": 46,
+          "rate": 0.13
+        }
+      ]
+    }
+  ]
+}

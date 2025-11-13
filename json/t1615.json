@@ -1,0 +1,7047 @@
+{
+  "identifier": "1975_80_modified_basic_table_with_milliman_extension_male_anb",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1615",
+    "providerDomain": "soa.org",
+    "providerName": "Susie Lee",
+    "tableReference": "Milliman, “Milliman Extension of 1975-80 Select \u0026 Ultimate Tables to Issue Age 87 and Ultimate Attained Age of 102”, Society of Actuaries, (2004).  Accessed: April, 2013 from http://www.soa.org/Files/Xls/research-02-04-ind-life-milliman.xls",
+    "contentType": {
+      "code": "4",
+      "label": "Insured Lives Mortality"
+    },
+    "tableName": "1975-80 Modified Basic Table with Milliman Extension - Male, ANB",
+    "tableDescription": "1975-80 Modified Basic Table with Milliman Extension – Male. Basis: Age Nearest Birthday. Minimum Select Age: 0. Maximum Select Age: 87. Minimum Ultimate Age: 15. Maximum Ultimate Age: 102",
+    "comments": "Study Data:  Derived from the age grouping rates presented in the “1982 Reports of the Transactions of the Society of Actuaries” as the 1975-80 Select and Ultimate Basic Tables. Those tables were based on the intercompany mortality experience under Standard Ordinary insurance observed between 1975 and 1980 policy anniversaries. Based on medical, paramedical and nonmedical issues combined. Methodology: Ultimate rates extrapolated to attained age 102 by keeping second differences constant with those of the original tables. Select rates derived from central death rates. The mortality rates calculated in this manner through the 11th policy year were not modified. After the 11th policy year however, rates were graded into ultimate rates. For the 12th policy year the mortality rate was 80% of the calculated select rate plus 20% of the ultimate rate. For the 13th policy year, the mix was 60% and 40%, 14th year used 40% and 60% and then 15th year utilized 20% and 80% mix respectively. Hence the 16th policy year was 100% of the ultimate rate. Select mortality rates for age 0, 1, 2, 7 and 12 were taken directly from the table of graduated select rates of the original report. Thus a select 15-year table was constructed for issue ages 0, and 1 and then every fifth age from 2 through 87. Intervening issue ages were interpolated by using a polynomial interpolation program. Data Transcription Errors: None. Data Certified: 04/2013",
+    "keywords": [
+      "Select",
+      "Insured Lives Mortality",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1975-80 Modified Basic Table with Milliman Extension – Male. Basis: Age Nearest Birthday. Minimum Select Age: 0. Maximum Select Age: 87.",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "0",
+            "maxValue": "87",
+            "increment": "1"
+          },
+          {
+            "id": "Duration",
+            "scaleType": {
+              "code": "2",
+              "label": "Ordinal Date"
+            },
+            "axisName": "Duration",
+            "minValue": "1",
+            "maxValue": "15",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 0,
+          "duration": 1,
+          "rate": 0.00123
+        },
+        {
+          "age": 0,
+          "duration": 2,
+          "rate": 0.00074
+        },
+        {
+          "age": 0,
+          "duration": 3,
+          "rate": 0.00048
+        },
+        {
+          "age": 0,
+          "duration": 4,
+          "rate": 0.00043
+        },
+        {
+          "age": 0,
+          "duration": 5,
+          "rate": 0.00038
+        },
+        {
+          "age": 0,
+          "duration": 6,
+          "rate": 0.00034
+        },
+        {
+          "age": 0,
+          "duration": 7,
+          "rate": 0.00033
+        },
+        {
+          "age": 0,
+          "duration": 8,
+          "rate": 0.00029
+        },
+        {
+          "age": 0,
+          "duration": 9,
+          "rate": 0.00027
+        },
+        {
+          "age": 0,
+          "duration": 10,
+          "rate": 0.00027
+        },
+        {
+          "age": 0,
+          "duration": 11,
+          "rate": 0.00025
+        },
+        {
+          "age": 0,
+          "duration": 12,
+          "rate": 0.00028
+        },
+        {
+          "age": 0,
+          "duration": 13,
+          "rate": 0.00031
+        },
+        {
+          "age": 0,
+          "duration": 14,
+          "rate": 0.00038
+        },
+        {
+          "age": 0,
+          "duration": 15,
+          "rate": 0.00054
+        },
+        {
+          "age": 1,
+          "duration": 1,
+          "rate": 0.00049
+        },
+        {
+          "age": 1,
+          "duration": 2,
+          "rate": 0.00047
+        },
+        {
+          "age": 1,
+          "duration": 3,
+          "rate": 0.00042
+        },
+        {
+          "age": 1,
+          "duration": 4,
+          "rate": 0.00036
+        },
+        {
+          "age": 1,
+          "duration": 5,
+          "rate": 0.00028
+        },
+        {
+          "age": 1,
+          "duration": 6,
+          "rate": 0.00023
+        },
+        {
+          "age": 1,
+          "duration": 7,
+          "rate": 0.00022
+        },
+        {
+          "age": 1,
+          "duration": 8,
+          "rate": 0.00022
+        },
+        {
+          "age": 1,
+          "duration": 9,
+          "rate": 0.00024
+        },
+        {
+          "age": 1,
+          "duration": 10,
+          "rate": 0.00024
+        },
+        {
+          "age": 1,
+          "duration": 11,
+          "rate": 0.00027
+        },
+        {
+          "age": 1,
+          "duration": 12,
+          "rate": 0.0003
+        },
+        {
+          "age": 1,
+          "duration": 13,
+          "rate": 0.00038
+        },
+        {
+          "age": 1,
+          "duration": 14,
+          "rate": 0.00054
+        },
+        {
+          "age": 1,
+          "duration": 15,
+          "rate": 0.00068
+        },
+        {
+          "age": 2,
+          "duration": 1,
+          "rate": 0.00035
+        },
+        {
+          "age": 2,
+          "duration": 2,
+          "rate": 0.00037
+        },
+        {
+          "age": 2,
+          "duration": 3,
+          "rate": 0.00033
+        },
+        {
+          "age": 2,
+          "duration": 4,
+          "rate": 0.00028
+        },
+        {
+          "age": 2,
+          "duration": 5,
+          "rate": 0.00023
+        },
+        {
+          "age": 2,
+          "duration": 6,
+          "rate": 0.00022
+        },
+        {
+          "age": 2,
+          "duration": 7,
+          "rate": 0.00021
+        },
+        {
+          "age": 2,
+          "duration": 8,
+          "rate": 0.00024
+        },
+        {
+          "age": 2,
+          "duration": 9,
+          "rate": 0.00024
+        },
+        {
+          "age": 2,
+          "duration": 10,
+          "rate": 0.00027
+        },
+        {
+          "age": 2,
+          "duration": 11,
+          "rate": 0.0003
+        },
+        {
+          "age": 2,
+          "duration": 12,
+          "rate": 0.00037
+        },
+        {
+          "age": 2,
+          "duration": 13,
+          "rate": 0.00054
+        },
+        {
+          "age": 2,
+          "duration": 14,
+          "rate": 0.00068
+        },
+        {
+          "age": 2,
+          "duration": 15,
+          "rate": 0.00101
+        },
+        {
+          "age": 3,
+          "duration": 1,
+          "rate": 0.00035
+        },
+        {
+          "age": 3,
+          "duration": 2,
+          "rate": 0.00029
+        },
+        {
+          "age": 3,
+          "duration": 3,
+          "rate": 0.00025
+        },
+        {
+          "age": 3,
+          "duration": 4,
+          "rate": 0.00023
+        },
+        {
+          "age": 3,
+          "duration": 5,
+          "rate": 0.00022
+        },
+        {
+          "age": 3,
+          "duration": 6,
+          "rate": 0.0002
+        },
+        {
+          "age": 3,
+          "duration": 7,
+          "rate": 0.00022
+        },
+        {
+          "age": 3,
+          "duration": 8,
+          "rate": 0.00024
+        },
+        {
+          "age": 3,
+          "duration": 9,
+          "rate": 0.00027
+        },
+        {
+          "age": 3,
+          "duration": 10,
+          "rate": 0.0003
+        },
+        {
+          "age": 3,
+          "duration": 11,
+          "rate": 0.00037
+        },
+        {
+          "age": 3,
+          "duration": 12,
+          "rate": 0.00053
+        },
+        {
+          "age": 3,
+          "duration": 13,
+          "rate": 0.00068
+        },
+        {
+          "age": 3,
+          "duration": 14,
+          "rate": 0.00101
+        },
+        {
+          "age": 3,
+          "duration": 15,
+          "rate": 0.00114
+        },
+        {
+          "age": 4,
+          "duration": 1,
+          "rate": 0.00029
+        },
+        {
+          "age": 4,
+          "duration": 2,
+          "rate": 0.00025
+        },
+        {
+          "age": 4,
+          "duration": 3,
+          "rate": 0.00023
+        },
+        {
+          "age": 4,
+          "duration": 4,
+          "rate": 0.00022
+        },
+        {
+          "age": 4,
+          "duration": 5,
+          "rate": 0.0002
+        },
+        {
+          "age": 4,
+          "duration": 6,
+          "rate": 0.00022
+        },
+        {
+          "age": 4,
+          "duration": 7,
+          "rate": 0.00024
+        },
+        {
+          "age": 4,
+          "duration": 8,
+          "rate": 0.00027
+        },
+        {
+          "age": 4,
+          "duration": 9,
+          "rate": 0.0003
+        },
+        {
+          "age": 4,
+          "duration": 10,
+          "rate": 0.00036
+        },
+        {
+          "age": 4,
+          "duration": 11,
+          "rate": 0.00052
+        },
+        {
+          "age": 4,
+          "duration": 12,
+          "rate": 0.00066
+        },
+        {
+          "age": 4,
+          "duration": 13,
+          "rate": 0.00099
+        },
+        {
+          "age": 4,
+          "duration": 14,
+          "rate": 0.00111
+        },
+        {
+          "age": 4,
+          "duration": 15,
+          "rate": 0.00122
+        },
+        {
+          "age": 5,
+          "duration": 1,
+          "rate": 0.00025
+        },
+        {
+          "age": 5,
+          "duration": 2,
+          "rate": 0.00023
+        },
+        {
+          "age": 5,
+          "duration": 3,
+          "rate": 0.00022
+        },
+        {
+          "age": 5,
+          "duration": 4,
+          "rate": 0.0002
+        },
+        {
+          "age": 5,
+          "duration": 5,
+          "rate": 0.00022
+        },
+        {
+          "age": 5,
+          "duration": 6,
+          "rate": 0.00024
+        },
+        {
+          "age": 5,
+          "duration": 7,
+          "rate": 0.00027
+        },
+        {
+          "age": 5,
+          "duration": 8,
+          "rate": 0.0003
+        },
+        {
+          "age": 5,
+          "duration": 9,
+          "rate": 0.00036
+        },
+        {
+          "age": 5,
+          "duration": 10,
+          "rate": 0.0005
+        },
+        {
+          "age": 5,
+          "duration": 11,
+          "rate": 0.00066
+        },
+        {
+          "age": 5,
+          "duration": 12,
+          "rate": 0.00096
+        },
+        {
+          "age": 5,
+          "duration": 13,
+          "rate": 0.00109
+        },
+        {
+          "age": 5,
+          "duration": 14,
+          "rate": 0.00116
+        },
+        {
+          "age": 5,
+          "duration": 15,
+          "rate": 0.00131
+        },
+        {
+          "age": 6,
+          "duration": 1,
+          "rate": 0.00023
+        },
+        {
+          "age": 6,
+          "duration": 2,
+          "rate": 0.00022
+        },
+        {
+          "age": 6,
+          "duration": 3,
+          "rate": 0.0002
+        },
+        {
+          "age": 6,
+          "duration": 4,
+          "rate": 0.00022
+        },
+        {
+          "age": 6,
+          "duration": 5,
+          "rate": 0.00024
+        },
+        {
+          "age": 6,
+          "duration": 6,
+          "rate": 0.00027
+        },
+        {
+          "age": 6,
+          "duration": 7,
+          "rate": 0.0003
+        },
+        {
+          "age": 6,
+          "duration": 8,
+          "rate": 0.00036
+        },
+        {
+          "age": 6,
+          "duration": 9,
+          "rate": 0.0005
+        },
+        {
+          "age": 6,
+          "duration": 10,
+          "rate": 0.00066
+        },
+        {
+          "age": 6,
+          "duration": 11,
+          "rate": 0.00094
+        },
+        {
+          "age": 6,
+          "duration": 12,
+          "rate": 0.00107
+        },
+        {
+          "age": 6,
+          "duration": 13,
+          "rate": 0.00114
+        },
+        {
+          "age": 6,
+          "duration": 14,
+          "rate": 0.00121
+        },
+        {
+          "age": 6,
+          "duration": 15,
+          "rate": 0.00137
+        },
+        {
+          "age": 7,
+          "duration": 1,
+          "rate": 0.00019
+        },
+        {
+          "age": 7,
+          "duration": 2,
+          "rate": 0.0002
+        },
+        {
+          "age": 7,
+          "duration": 3,
+          "rate": 0.00022
+        },
+        {
+          "age": 7,
+          "duration": 4,
+          "rate": 0.00024
+        },
+        {
+          "age": 7,
+          "duration": 5,
+          "rate": 0.00027
+        },
+        {
+          "age": 7,
+          "duration": 6,
+          "rate": 0.0003
+        },
+        {
+          "age": 7,
+          "duration": 7,
+          "rate": 0.00035
+        },
+        {
+          "age": 7,
+          "duration": 8,
+          "rate": 0.0005
+        },
+        {
+          "age": 7,
+          "duration": 9,
+          "rate": 0.00066
+        },
+        {
+          "age": 7,
+          "duration": 10,
+          "rate": 0.00087
+        },
+        {
+          "age": 7,
+          "duration": 11,
+          "rate": 0.00105
+        },
+        {
+          "age": 7,
+          "duration": 12,
+          "rate": 0.00113
+        },
+        {
+          "age": 7,
+          "duration": 13,
+          "rate": 0.00119
+        },
+        {
+          "age": 7,
+          "duration": 14,
+          "rate": 0.00123
+        },
+        {
+          "age": 7,
+          "duration": 15,
+          "rate": 0.0014
+        },
+        {
+          "age": 8,
+          "duration": 1,
+          "rate": 0.00018
+        },
+        {
+          "age": 8,
+          "duration": 2,
+          "rate": 0.00021
+        },
+        {
+          "age": 8,
+          "duration": 3,
+          "rate": 0.00021
+        },
+        {
+          "age": 8,
+          "duration": 4,
+          "rate": 0.00027
+        },
+        {
+          "age": 8,
+          "duration": 5,
+          "rate": 0.00029
+        },
+        {
+          "age": 8,
+          "duration": 6,
+          "rate": 0.00035
+        },
+        {
+          "age": 8,
+          "duration": 7,
+          "rate": 0.0005
+        },
+        {
+          "age": 8,
+          "duration": 8,
+          "rate": 0.00066
+        },
+        {
+          "age": 8,
+          "duration": 9,
+          "rate": 0.00087
+        },
+        {
+          "age": 8,
+          "duration": 10,
+          "rate": 0.00105
+        },
+        {
+          "age": 8,
+          "duration": 11,
+          "rate": 0.00113
+        },
+        {
+          "age": 8,
+          "duration": 12,
+          "rate": 0.00119
+        },
+        {
+          "age": 8,
+          "duration": 13,
+          "rate": 0.00123
+        },
+        {
+          "age": 8,
+          "duration": 14,
+          "rate": 0.0013
+        },
+        {
+          "age": 8,
+          "duration": 15,
+          "rate": 0.00139
+        },
+        {
+          "age": 9,
+          "duration": 1,
+          "rate": 0.00019
+        },
+        {
+          "age": 9,
+          "duration": 2,
+          "rate": 0.0002
+        },
+        {
+          "age": 9,
+          "duration": 3,
+          "rate": 0.00024
+        },
+        {
+          "age": 9,
+          "duration": 4,
+          "rate": 0.00029
+        },
+        {
+          "age": 9,
+          "duration": 5,
+          "rate": 0.00035
+        },
+        {
+          "age": 9,
+          "duration": 6,
+          "rate": 0.0005
+        },
+        {
+          "age": 9,
+          "duration": 7,
+          "rate": 0.00066
+        },
+        {
+          "age": 9,
+          "duration": 8,
+          "rate": 0.00087
+        },
+        {
+          "age": 9,
+          "duration": 9,
+          "rate": 0.00105
+        },
+        {
+          "age": 9,
+          "duration": 10,
+          "rate": 0.00113
+        },
+        {
+          "age": 9,
+          "duration": 11,
+          "rate": 0.00119
+        },
+        {
+          "age": 9,
+          "duration": 12,
+          "rate": 0.00123
+        },
+        {
+          "age": 9,
+          "duration": 13,
+          "rate": 0.0013
+        },
+        {
+          "age": 9,
+          "duration": 14,
+          "rate": 0.00135
+        },
+        {
+          "age": 9,
+          "duration": 15,
+          "rate": 0.00136
+        },
+        {
+          "age": 10,
+          "duration": 1,
+          "rate": 0.00018
+        },
+        {
+          "age": 10,
+          "duration": 2,
+          "rate": 0.00022
+        },
+        {
+          "age": 10,
+          "duration": 3,
+          "rate": 0.00027
+        },
+        {
+          "age": 10,
+          "duration": 4,
+          "rate": 0.00035
+        },
+        {
+          "age": 10,
+          "duration": 5,
+          "rate": 0.0005
+        },
+        {
+          "age": 10,
+          "duration": 6,
+          "rate": 0.00066
+        },
+        {
+          "age": 10,
+          "duration": 7,
+          "rate": 0.00087
+        },
+        {
+          "age": 10,
+          "duration": 8,
+          "rate": 0.00105
+        },
+        {
+          "age": 10,
+          "duration": 9,
+          "rate": 0.00113
+        },
+        {
+          "age": 10,
+          "duration": 10,
+          "rate": 0.00119
+        },
+        {
+          "age": 10,
+          "duration": 11,
+          "rate": 0.00123
+        },
+        {
+          "age": 10,
+          "duration": 12,
+          "rate": 0.0013
+        },
+        {
+          "age": 10,
+          "duration": 13,
+          "rate": 0.00135
+        },
+        {
+          "age": 10,
+          "duration": 14,
+          "rate": 0.00136
+        },
+        {
+          "age": 10,
+          "duration": 15,
+          "rate": 0.00132
+        },
+        {
+          "age": 11,
+          "duration": 1,
+          "rate": 0.0002
+        },
+        {
+          "age": 11,
+          "duration": 2,
+          "rate": 0.00025
+        },
+        {
+          "age": 11,
+          "duration": 3,
+          "rate": 0.00034
+        },
+        {
+          "age": 11,
+          "duration": 4,
+          "rate": 0.0005
+        },
+        {
+          "age": 11,
+          "duration": 5,
+          "rate": 0.00066
+        },
+        {
+          "age": 11,
+          "duration": 6,
+          "rate": 0.00087
+        },
+        {
+          "age": 11,
+          "duration": 7,
+          "rate": 0.00105
+        },
+        {
+          "age": 11,
+          "duration": 8,
+          "rate": 0.00113
+        },
+        {
+          "age": 11,
+          "duration": 9,
+          "rate": 0.00119
+        },
+        {
+          "age": 11,
+          "duration": 10,
+          "rate": 0.00123
+        },
+        {
+          "age": 11,
+          "duration": 11,
+          "rate": 0.0013
+        },
+        {
+          "age": 11,
+          "duration": 12,
+          "rate": 0.00135
+        },
+        {
+          "age": 11,
+          "duration": 13,
+          "rate": 0.00136
+        },
+        {
+          "age": 11,
+          "duration": 14,
+          "rate": 0.0013
+        },
+        {
+          "age": 11,
+          "duration": 15,
+          "rate": 0.00127
+        },
+        {
+          "age": 12,
+          "duration": 1,
+          "rate": 0.00023
+        },
+        {
+          "age": 12,
+          "duration": 2,
+          "rate": 0.00032
+        },
+        {
+          "age": 12,
+          "duration": 3,
+          "rate": 0.0005
+        },
+        {
+          "age": 12,
+          "duration": 4,
+          "rate": 0.00066
+        },
+        {
+          "age": 12,
+          "duration": 5,
+          "rate": 0.00087
+        },
+        {
+          "age": 12,
+          "duration": 6,
+          "rate": 0.00105
+        },
+        {
+          "age": 12,
+          "duration": 7,
+          "rate": 0.00113
+        },
+        {
+          "age": 12,
+          "duration": 8,
+          "rate": 0.00119
+        },
+        {
+          "age": 12,
+          "duration": 9,
+          "rate": 0.00123
+        },
+        {
+          "age": 12,
+          "duration": 10,
+          "rate": 0.0013
+        },
+        {
+          "age": 12,
+          "duration": 11,
+          "rate": 0.00135
+        },
+        {
+          "age": 12,
+          "duration": 12,
+          "rate": 0.00136
+        },
+        {
+          "age": 12,
+          "duration": 13,
+          "rate": 0.0013
+        },
+        {
+          "age": 12,
+          "duration": 14,
+          "rate": 0.00125
+        },
+        {
+          "age": 12,
+          "duration": 15,
+          "rate": 0.0012
+        },
+        {
+          "age": 13,
+          "duration": 1,
+          "rate": 0.0003
+        },
+        {
+          "age": 13,
+          "duration": 2,
+          "rate": 0.00046
+        },
+        {
+          "age": 13,
+          "duration": 3,
+          "rate": 0.00063
+        },
+        {
+          "age": 13,
+          "duration": 4,
+          "rate": 0.00087
+        },
+        {
+          "age": 13,
+          "duration": 5,
+          "rate": 0.00105
+        },
+        {
+          "age": 13,
+          "duration": 6,
+          "rate": 0.00112
+        },
+        {
+          "age": 13,
+          "duration": 7,
+          "rate": 0.00119
+        },
+        {
+          "age": 13,
+          "duration": 8,
+          "rate": 0.00122
+        },
+        {
+          "age": 13,
+          "duration": 9,
+          "rate": 0.00124
+        },
+        {
+          "age": 13,
+          "duration": 10,
+          "rate": 0.00128
+        },
+        {
+          "age": 13,
+          "duration": 11,
+          "rate": 0.00131
+        },
+        {
+          "age": 13,
+          "duration": 12,
+          "rate": 0.0013
+        },
+        {
+          "age": 13,
+          "duration": 13,
+          "rate": 0.00125
+        },
+        {
+          "age": 13,
+          "duration": 14,
+          "rate": 0.0012
+        },
+        {
+          "age": 13,
+          "duration": 15,
+          "rate": 0.00116
+        },
+        {
+          "age": 14,
+          "duration": 1,
+          "rate": 0.00044
+        },
+        {
+          "age": 14,
+          "duration": 2,
+          "rate": 0.00059
+        },
+        {
+          "age": 14,
+          "duration": 3,
+          "rate": 0.00087
+        },
+        {
+          "age": 14,
+          "duration": 4,
+          "rate": 0.00105
+        },
+        {
+          "age": 14,
+          "duration": 5,
+          "rate": 0.00112
+        },
+        {
+          "age": 14,
+          "duration": 6,
+          "rate": 0.00117
+        },
+        {
+          "age": 14,
+          "duration": 7,
+          "rate": 0.00122
+        },
+        {
+          "age": 14,
+          "duration": 8,
+          "rate": 0.00123
+        },
+        {
+          "age": 14,
+          "duration": 9,
+          "rate": 0.00123
+        },
+        {
+          "age": 14,
+          "duration": 10,
+          "rate": 0.00124
+        },
+        {
+          "age": 14,
+          "duration": 11,
+          "rate": 0.00126
+        },
+        {
+          "age": 14,
+          "duration": 12,
+          "rate": 0.00125
+        },
+        {
+          "age": 14,
+          "duration": 13,
+          "rate": 0.00119
+        },
+        {
+          "age": 14,
+          "duration": 14,
+          "rate": 0.00116
+        },
+        {
+          "age": 14,
+          "duration": 15,
+          "rate": 0.00113
+        },
+        {
+          "age": 15,
+          "duration": 1,
+          "rate": 0.00058
+        },
+        {
+          "age": 15,
+          "duration": 2,
+          "rate": 0.00087
+        },
+        {
+          "age": 15,
+          "duration": 3,
+          "rate": 0.00105
+        },
+        {
+          "age": 15,
+          "duration": 4,
+          "rate": 0.00112
+        },
+        {
+          "age": 15,
+          "duration": 5,
+          "rate": 0.00117
+        },
+        {
+          "age": 15,
+          "duration": 6,
+          "rate": 0.00121
+        },
+        {
+          "age": 15,
+          "duration": 7,
+          "rate": 0.00123
+        },
+        {
+          "age": 15,
+          "duration": 8,
+          "rate": 0.00122
+        },
+        {
+          "age": 15,
+          "duration": 9,
+          "rate": 0.0012
+        },
+        {
+          "age": 15,
+          "duration": 10,
+          "rate": 0.0012
+        },
+        {
+          "age": 15,
+          "duration": 11,
+          "rate": 0.00119
+        },
+        {
+          "age": 15,
+          "duration": 12,
+          "rate": 0.00118
+        },
+        {
+          "age": 15,
+          "duration": 13,
+          "rate": 0.00113
+        },
+        {
+          "age": 15,
+          "duration": 14,
+          "rate": 0.00112
+        },
+        {
+          "age": 15,
+          "duration": 15,
+          "rate": 0.00111
+        },
+        {
+          "age": 16,
+          "duration": 1,
+          "rate": 0.00087
+        },
+        {
+          "age": 16,
+          "duration": 2,
+          "rate": 0.00105
+        },
+        {
+          "age": 16,
+          "duration": 3,
+          "rate": 0.00112
+        },
+        {
+          "age": 16,
+          "duration": 4,
+          "rate": 0.00117
+        },
+        {
+          "age": 16,
+          "duration": 5,
+          "rate": 0.00121
+        },
+        {
+          "age": 16,
+          "duration": 6,
+          "rate": 0.0012
+        },
+        {
+          "age": 16,
+          "duration": 7,
+          "rate": 0.00121
+        },
+        {
+          "age": 16,
+          "duration": 8,
+          "rate": 0.00119
+        },
+        {
+          "age": 16,
+          "duration": 9,
+          "rate": 0.00116
+        },
+        {
+          "age": 16,
+          "duration": 10,
+          "rate": 0.00114
+        },
+        {
+          "age": 16,
+          "duration": 11,
+          "rate": 0.00112
+        },
+        {
+          "age": 16,
+          "duration": 12,
+          "rate": 0.00112
+        },
+        {
+          "age": 16,
+          "duration": 13,
+          "rate": 0.00109
+        },
+        {
+          "age": 16,
+          "duration": 14,
+          "rate": 0.00109
+        },
+        {
+          "age": 16,
+          "duration": 15,
+          "rate": 0.00109
+        },
+        {
+          "age": 17,
+          "duration": 1,
+          "rate": 0.00105
+        },
+        {
+          "age": 17,
+          "duration": 2,
+          "rate": 0.00112
+        },
+        {
+          "age": 17,
+          "duration": 3,
+          "rate": 0.00117
+        },
+        {
+          "age": 17,
+          "duration": 4,
+          "rate": 0.00121
+        },
+        {
+          "age": 17,
+          "duration": 5,
+          "rate": 0.0012
+        },
+        {
+          "age": 17,
+          "duration": 6,
+          "rate": 0.00118
+        },
+        {
+          "age": 17,
+          "duration": 7,
+          "rate": 0.00118
+        },
+        {
+          "age": 17,
+          "duration": 8,
+          "rate": 0.00115
+        },
+        {
+          "age": 17,
+          "duration": 9,
+          "rate": 0.00111
+        },
+        {
+          "age": 17,
+          "duration": 10,
+          "rate": 0.00107
+        },
+        {
+          "age": 17,
+          "duration": 11,
+          "rate": 0.00105
+        },
+        {
+          "age": 17,
+          "duration": 12,
+          "rate": 0.00106
+        },
+        {
+          "age": 17,
+          "duration": 13,
+          "rate": 0.00105
+        },
+        {
+          "age": 17,
+          "duration": 14,
+          "rate": 0.00106
+        },
+        {
+          "age": 17,
+          "duration": 15,
+          "rate": 0.00108
+        },
+        {
+          "age": 18,
+          "duration": 1,
+          "rate": 0.00103
+        },
+        {
+          "age": 18,
+          "duration": 2,
+          "rate": 0.0011
+        },
+        {
+          "age": 18,
+          "duration": 3,
+          "rate": 0.00113
+        },
+        {
+          "age": 18,
+          "duration": 4,
+          "rate": 0.00115
+        },
+        {
+          "age": 18,
+          "duration": 5,
+          "rate": 0.00114
+        },
+        {
+          "age": 18,
+          "duration": 6,
+          "rate": 0.00111
+        },
+        {
+          "age": 18,
+          "duration": 7,
+          "rate": 0.00111
+        },
+        {
+          "age": 18,
+          "duration": 8,
+          "rate": 0.00107
+        },
+        {
+          "age": 18,
+          "duration": 9,
+          "rate": 0.00104
+        },
+        {
+          "age": 18,
+          "duration": 10,
+          "rate": 0.00101
+        },
+        {
+          "age": 18,
+          "duration": 11,
+          "rate": 0.001
+        },
+        {
+          "age": 18,
+          "duration": 12,
+          "rate": 0.00102
+        },
+        {
+          "age": 18,
+          "duration": 13,
+          "rate": 0.00101
+        },
+        {
+          "age": 18,
+          "duration": 14,
+          "rate": 0.00103
+        },
+        {
+          "age": 18,
+          "duration": 15,
+          "rate": 0.00107
+        },
+        {
+          "age": 19,
+          "duration": 1,
+          "rate": 0.001
+        },
+        {
+          "age": 19,
+          "duration": 2,
+          "rate": 0.00105
+        },
+        {
+          "age": 19,
+          "duration": 3,
+          "rate": 0.00106
+        },
+        {
+          "age": 19,
+          "duration": 4,
+          "rate": 0.00107
+        },
+        {
+          "age": 19,
+          "duration": 5,
+          "rate": 0.00105
+        },
+        {
+          "age": 19,
+          "duration": 6,
+          "rate": 0.00104
+        },
+        {
+          "age": 19,
+          "duration": 7,
+          "rate": 0.00102
+        },
+        {
+          "age": 19,
+          "duration": 8,
+          "rate": 0.00098
+        },
+        {
+          "age": 19,
+          "duration": 9,
+          "rate": 0.00096
+        },
+        {
+          "age": 19,
+          "duration": 10,
+          "rate": 0.00095
+        },
+        {
+          "age": 19,
+          "duration": 11,
+          "rate": 0.00097
+        },
+        {
+          "age": 19,
+          "duration": 12,
+          "rate": 0.00097
+        },
+        {
+          "age": 19,
+          "duration": 13,
+          "rate": 0.00098
+        },
+        {
+          "age": 19,
+          "duration": 14,
+          "rate": 0.00101
+        },
+        {
+          "age": 19,
+          "duration": 15,
+          "rate": 0.00107
+        },
+        {
+          "age": 20,
+          "duration": 1,
+          "rate": 0.00093
+        },
+        {
+          "age": 20,
+          "duration": 2,
+          "rate": 0.00097
+        },
+        {
+          "age": 20,
+          "duration": 3,
+          "rate": 0.00097
+        },
+        {
+          "age": 20,
+          "duration": 4,
+          "rate": 0.00097
+        },
+        {
+          "age": 20,
+          "duration": 5,
+          "rate": 0.00097
+        },
+        {
+          "age": 20,
+          "duration": 6,
+          "rate": 0.00095
+        },
+        {
+          "age": 20,
+          "duration": 7,
+          "rate": 0.00093
+        },
+        {
+          "age": 20,
+          "duration": 8,
+          "rate": 0.0009
+        },
+        {
+          "age": 20,
+          "duration": 9,
+          "rate": 0.0009
+        },
+        {
+          "age": 20,
+          "duration": 10,
+          "rate": 0.00091
+        },
+        {
+          "age": 20,
+          "duration": 11,
+          "rate": 0.00093
+        },
+        {
+          "age": 20,
+          "duration": 12,
+          "rate": 0.00094
+        },
+        {
+          "age": 20,
+          "duration": 13,
+          "rate": 0.00096
+        },
+        {
+          "age": 20,
+          "duration": 14,
+          "rate": 0.00101
+        },
+        {
+          "age": 20,
+          "duration": 15,
+          "rate": 0.00108
+        },
+        {
+          "age": 21,
+          "duration": 1,
+          "rate": 0.00084
+        },
+        {
+          "age": 21,
+          "duration": 2,
+          "rate": 0.00087
+        },
+        {
+          "age": 21,
+          "duration": 3,
+          "rate": 0.00087
+        },
+        {
+          "age": 21,
+          "duration": 4,
+          "rate": 0.00087
+        },
+        {
+          "age": 21,
+          "duration": 5,
+          "rate": 0.00087
+        },
+        {
+          "age": 21,
+          "duration": 6,
+          "rate": 0.00086
+        },
+        {
+          "age": 21,
+          "duration": 7,
+          "rate": 0.00085
+        },
+        {
+          "age": 21,
+          "duration": 8,
+          "rate": 0.00083
+        },
+        {
+          "age": 21,
+          "duration": 9,
+          "rate": 0.00085
+        },
+        {
+          "age": 21,
+          "duration": 10,
+          "rate": 0.00086
+        },
+        {
+          "age": 21,
+          "duration": 11,
+          "rate": 0.0009
+        },
+        {
+          "age": 21,
+          "duration": 12,
+          "rate": 0.00092
+        },
+        {
+          "age": 21,
+          "duration": 13,
+          "rate": 0.00096
+        },
+        {
+          "age": 21,
+          "duration": 14,
+          "rate": 0.00102
+        },
+        {
+          "age": 21,
+          "duration": 15,
+          "rate": 0.00111
+        },
+        {
+          "age": 22,
+          "duration": 1,
+          "rate": 0.00073
+        },
+        {
+          "age": 22,
+          "duration": 2,
+          "rate": 0.00076
+        },
+        {
+          "age": 22,
+          "duration": 3,
+          "rate": 0.00076
+        },
+        {
+          "age": 22,
+          "duration": 4,
+          "rate": 0.00076
+        },
+        {
+          "age": 22,
+          "duration": 5,
+          "rate": 0.00077
+        },
+        {
+          "age": 22,
+          "duration": 6,
+          "rate": 0.00077
+        },
+        {
+          "age": 22,
+          "duration": 7,
+          "rate": 0.00077
+        },
+        {
+          "age": 22,
+          "duration": 8,
+          "rate": 0.00077
+        },
+        {
+          "age": 22,
+          "duration": 9,
+          "rate": 0.0008
+        },
+        {
+          "age": 22,
+          "duration": 10,
+          "rate": 0.00083
+        },
+        {
+          "age": 22,
+          "duration": 11,
+          "rate": 0.00088
+        },
+        {
+          "age": 22,
+          "duration": 12,
+          "rate": 0.00091
+        },
+        {
+          "age": 22,
+          "duration": 13,
+          "rate": 0.00096
+        },
+        {
+          "age": 22,
+          "duration": 14,
+          "rate": 0.00104
+        },
+        {
+          "age": 22,
+          "duration": 15,
+          "rate": 0.00115
+        },
+        {
+          "age": 23,
+          "duration": 1,
+          "rate": 0.00073
+        },
+        {
+          "age": 23,
+          "duration": 2,
+          "rate": 0.00076
+        },
+        {
+          "age": 23,
+          "duration": 3,
+          "rate": 0.00075
+        },
+        {
+          "age": 23,
+          "duration": 4,
+          "rate": 0.00075
+        },
+        {
+          "age": 23,
+          "duration": 5,
+          "rate": 0.00075
+        },
+        {
+          "age": 23,
+          "duration": 6,
+          "rate": 0.00076
+        },
+        {
+          "age": 23,
+          "duration": 7,
+          "rate": 0.00077
+        },
+        {
+          "age": 23,
+          "duration": 8,
+          "rate": 0.00077
+        },
+        {
+          "age": 23,
+          "duration": 9,
+          "rate": 0.0008
+        },
+        {
+          "age": 23,
+          "duration": 10,
+          "rate": 0.00084
+        },
+        {
+          "age": 23,
+          "duration": 11,
+          "rate": 0.0009
+        },
+        {
+          "age": 23,
+          "duration": 12,
+          "rate": 0.00094
+        },
+        {
+          "age": 23,
+          "duration": 13,
+          "rate": 0.001
+        },
+        {
+          "age": 23,
+          "duration": 14,
+          "rate": 0.0011
+        },
+        {
+          "age": 23,
+          "duration": 15,
+          "rate": 0.00121
+        },
+        {
+          "age": 24,
+          "duration": 1,
+          "rate": 0.00073
+        },
+        {
+          "age": 24,
+          "duration": 2,
+          "rate": 0.00074
+        },
+        {
+          "age": 24,
+          "duration": 3,
+          "rate": 0.00073
+        },
+        {
+          "age": 24,
+          "duration": 4,
+          "rate": 0.00073
+        },
+        {
+          "age": 24,
+          "duration": 5,
+          "rate": 0.00074
+        },
+        {
+          "age": 24,
+          "duration": 6,
+          "rate": 0.00076
+        },
+        {
+          "age": 24,
+          "duration": 7,
+          "rate": 0.00077
+        },
+        {
+          "age": 24,
+          "duration": 8,
+          "rate": 0.00078
+        },
+        {
+          "age": 24,
+          "duration": 9,
+          "rate": 0.00082
+        },
+        {
+          "age": 24,
+          "duration": 10,
+          "rate": 0.00087
+        },
+        {
+          "age": 24,
+          "duration": 11,
+          "rate": 0.00093
+        },
+        {
+          "age": 24,
+          "duration": 12,
+          "rate": 0.00097
+        },
+        {
+          "age": 24,
+          "duration": 13,
+          "rate": 0.00105
+        },
+        {
+          "age": 24,
+          "duration": 14,
+          "rate": 0.00117
+        },
+        {
+          "age": 24,
+          "duration": 15,
+          "rate": 0.00129
+        },
+        {
+          "age": 25,
+          "duration": 1,
+          "rate": 0.00072
+        },
+        {
+          "age": 25,
+          "duration": 2,
+          "rate": 0.00072
+        },
+        {
+          "age": 25,
+          "duration": 3,
+          "rate": 0.00072
+        },
+        {
+          "age": 25,
+          "duration": 4,
+          "rate": 0.00072
+        },
+        {
+          "age": 25,
+          "duration": 5,
+          "rate": 0.00074
+        },
+        {
+          "age": 25,
+          "duration": 6,
+          "rate": 0.00076
+        },
+        {
+          "age": 25,
+          "duration": 7,
+          "rate": 0.00077
+        },
+        {
+          "age": 25,
+          "duration": 8,
+          "rate": 0.00079
+        },
+        {
+          "age": 25,
+          "duration": 9,
+          "rate": 0.00084
+        },
+        {
+          "age": 25,
+          "duration": 10,
+          "rate": 0.0009
+        },
+        {
+          "age": 25,
+          "duration": 11,
+          "rate": 0.00096
+        },
+        {
+          "age": 25,
+          "duration": 12,
+          "rate": 0.00103
+        },
+        {
+          "age": 25,
+          "duration": 13,
+          "rate": 0.00112
+        },
+        {
+          "age": 25,
+          "duration": 14,
+          "rate": 0.00125
+        },
+        {
+          "age": 25,
+          "duration": 15,
+          "rate": 0.00138
+        },
+        {
+          "age": 26,
+          "duration": 1,
+          "rate": 0.0007
+        },
+        {
+          "age": 26,
+          "duration": 2,
+          "rate": 0.0007
+        },
+        {
+          "age": 26,
+          "duration": 3,
+          "rate": 0.00071
+        },
+        {
+          "age": 26,
+          "duration": 4,
+          "rate": 0.00072
+        },
+        {
+          "age": 26,
+          "duration": 5,
+          "rate": 0.00073
+        },
+        {
+          "age": 26,
+          "duration": 6,
+          "rate": 0.00076
+        },
+        {
+          "age": 26,
+          "duration": 7,
+          "rate": 0.00078
+        },
+        {
+          "age": 26,
+          "duration": 8,
+          "rate": 0.00082
+        },
+        {
+          "age": 26,
+          "duration": 9,
+          "rate": 0.00088
+        },
+        {
+          "age": 26,
+          "duration": 10,
+          "rate": 0.00095
+        },
+        {
+          "age": 26,
+          "duration": 11,
+          "rate": 0.00102
+        },
+        {
+          "age": 26,
+          "duration": 12,
+          "rate": 0.00109
+        },
+        {
+          "age": 26,
+          "duration": 13,
+          "rate": 0.0012
+        },
+        {
+          "age": 26,
+          "duration": 14,
+          "rate": 0.00135
+        },
+        {
+          "age": 26,
+          "duration": 15,
+          "rate": 0.00149
+        },
+        {
+          "age": 27,
+          "duration": 1,
+          "rate": 0.00068
+        },
+        {
+          "age": 27,
+          "duration": 2,
+          "rate": 0.00068
+        },
+        {
+          "age": 27,
+          "duration": 3,
+          "rate": 0.0007
+        },
+        {
+          "age": 27,
+          "duration": 4,
+          "rate": 0.00071
+        },
+        {
+          "age": 27,
+          "duration": 5,
+          "rate": 0.00073
+        },
+        {
+          "age": 27,
+          "duration": 6,
+          "rate": 0.00077
+        },
+        {
+          "age": 27,
+          "duration": 7,
+          "rate": 0.00081
+        },
+        {
+          "age": 27,
+          "duration": 8,
+          "rate": 0.00086
+        },
+        {
+          "age": 27,
+          "duration": 9,
+          "rate": 0.00092
+        },
+        {
+          "age": 27,
+          "duration": 10,
+          "rate": 0.00101
+        },
+        {
+          "age": 27,
+          "duration": 11,
+          "rate": 0.00108
+        },
+        {
+          "age": 27,
+          "duration": 12,
+          "rate": 0.00117
+        },
+        {
+          "age": 27,
+          "duration": 13,
+          "rate": 0.0013
+        },
+        {
+          "age": 27,
+          "duration": 14,
+          "rate": 0.00147
+        },
+        {
+          "age": 27,
+          "duration": 15,
+          "rate": 0.00163
+        },
+        {
+          "age": 28,
+          "duration": 1,
+          "rate": 0.00066
+        },
+        {
+          "age": 28,
+          "duration": 2,
+          "rate": 0.00068
+        },
+        {
+          "age": 28,
+          "duration": 3,
+          "rate": 0.00071
+        },
+        {
+          "age": 28,
+          "duration": 4,
+          "rate": 0.00073
+        },
+        {
+          "age": 28,
+          "duration": 5,
+          "rate": 0.00076
+        },
+        {
+          "age": 28,
+          "duration": 6,
+          "rate": 0.00081
+        },
+        {
+          "age": 28,
+          "duration": 7,
+          "rate": 0.00086
+        },
+        {
+          "age": 28,
+          "duration": 8,
+          "rate": 0.00092
+        },
+        {
+          "age": 28,
+          "duration": 9,
+          "rate": 0.001
+        },
+        {
+          "age": 28,
+          "duration": 10,
+          "rate": 0.00108
+        },
+        {
+          "age": 28,
+          "duration": 11,
+          "rate": 0.00117
+        },
+        {
+          "age": 28,
+          "duration": 12,
+          "rate": 0.00128
+        },
+        {
+          "age": 28,
+          "duration": 13,
+          "rate": 0.00142
+        },
+        {
+          "age": 28,
+          "duration": 14,
+          "rate": 0.00161
+        },
+        {
+          "age": 28,
+          "duration": 15,
+          "rate": 0.00181
+        },
+        {
+          "age": 29,
+          "duration": 1,
+          "rate": 0.00065
+        },
+        {
+          "age": 29,
+          "duration": 2,
+          "rate": 0.00068
+        },
+        {
+          "age": 29,
+          "duration": 3,
+          "rate": 0.00073
+        },
+        {
+          "age": 29,
+          "duration": 4,
+          "rate": 0.00076
+        },
+        {
+          "age": 29,
+          "duration": 5,
+          "rate": 0.00081
+        },
+        {
+          "age": 29,
+          "duration": 6,
+          "rate": 0.00086
+        },
+        {
+          "age": 29,
+          "duration": 7,
+          "rate": 0.00092
+        },
+        {
+          "age": 29,
+          "duration": 8,
+          "rate": 0.001
+        },
+        {
+          "age": 29,
+          "duration": 9,
+          "rate": 0.00108
+        },
+        {
+          "age": 29,
+          "duration": 10,
+          "rate": 0.00117
+        },
+        {
+          "age": 29,
+          "duration": 11,
+          "rate": 0.00128
+        },
+        {
+          "age": 29,
+          "duration": 12,
+          "rate": 0.00142
+        },
+        {
+          "age": 29,
+          "duration": 13,
+          "rate": 0.00158
+        },
+        {
+          "age": 29,
+          "duration": 14,
+          "rate": 0.00181
+        },
+        {
+          "age": 29,
+          "duration": 15,
+          "rate": 0.00203
+        },
+        {
+          "age": 30,
+          "duration": 1,
+          "rate": 0.00064
+        },
+        {
+          "age": 30,
+          "duration": 2,
+          "rate": 0.00068
+        },
+        {
+          "age": 30,
+          "duration": 3,
+          "rate": 0.00076
+        },
+        {
+          "age": 30,
+          "duration": 4,
+          "rate": 0.00081
+        },
+        {
+          "age": 30,
+          "duration": 5,
+          "rate": 0.00086
+        },
+        {
+          "age": 30,
+          "duration": 6,
+          "rate": 0.00092
+        },
+        {
+          "age": 30,
+          "duration": 7,
+          "rate": 0.001
+        },
+        {
+          "age": 30,
+          "duration": 8,
+          "rate": 0.00108
+        },
+        {
+          "age": 30,
+          "duration": 9,
+          "rate": 0.00117
+        },
+        {
+          "age": 30,
+          "duration": 10,
+          "rate": 0.00128
+        },
+        {
+          "age": 30,
+          "duration": 11,
+          "rate": 0.00142
+        },
+        {
+          "age": 30,
+          "duration": 12,
+          "rate": 0.00158
+        },
+        {
+          "age": 30,
+          "duration": 13,
+          "rate": 0.00181
+        },
+        {
+          "age": 30,
+          "duration": 14,
+          "rate": 0.00203
+        },
+        {
+          "age": 30,
+          "duration": 15,
+          "rate": 0.00226
+        },
+        {
+          "age": 31,
+          "duration": 1,
+          "rate": 0.00063
+        },
+        {
+          "age": 31,
+          "duration": 2,
+          "rate": 0.00069
+        },
+        {
+          "age": 31,
+          "duration": 3,
+          "rate": 0.00079
+        },
+        {
+          "age": 31,
+          "duration": 4,
+          "rate": 0.00086
+        },
+        {
+          "age": 31,
+          "duration": 5,
+          "rate": 0.00092
+        },
+        {
+          "age": 31,
+          "duration": 6,
+          "rate": 0.001
+        },
+        {
+          "age": 31,
+          "duration": 7,
+          "rate": 0.00108
+        },
+        {
+          "age": 31,
+          "duration": 8,
+          "rate": 0.00117
+        },
+        {
+          "age": 31,
+          "duration": 9,
+          "rate": 0.00128
+        },
+        {
+          "age": 31,
+          "duration": 10,
+          "rate": 0.00142
+        },
+        {
+          "age": 31,
+          "duration": 11,
+          "rate": 0.00158
+        },
+        {
+          "age": 31,
+          "duration": 12,
+          "rate": 0.00181
+        },
+        {
+          "age": 31,
+          "duration": 13,
+          "rate": 0.00203
+        },
+        {
+          "age": 31,
+          "duration": 14,
+          "rate": 0.00226
+        },
+        {
+          "age": 31,
+          "duration": 15,
+          "rate": 0.00253
+        },
+        {
+          "age": 32,
+          "duration": 1,
+          "rate": 0.00063
+        },
+        {
+          "age": 32,
+          "duration": 2,
+          "rate": 0.00071
+        },
+        {
+          "age": 32,
+          "duration": 3,
+          "rate": 0.00084
+        },
+        {
+          "age": 32,
+          "duration": 4,
+          "rate": 0.00092
+        },
+        {
+          "age": 32,
+          "duration": 5,
+          "rate": 0.001
+        },
+        {
+          "age": 32,
+          "duration": 6,
+          "rate": 0.00108
+        },
+        {
+          "age": 32,
+          "duration": 7,
+          "rate": 0.00117
+        },
+        {
+          "age": 32,
+          "duration": 8,
+          "rate": 0.00128
+        },
+        {
+          "age": 32,
+          "duration": 9,
+          "rate": 0.0014
+        },
+        {
+          "age": 32,
+          "duration": 10,
+          "rate": 0.00158
+        },
+        {
+          "age": 32,
+          "duration": 11,
+          "rate": 0.00181
+        },
+        {
+          "age": 32,
+          "duration": 12,
+          "rate": 0.00203
+        },
+        {
+          "age": 32,
+          "duration": 13,
+          "rate": 0.00226
+        },
+        {
+          "age": 32,
+          "duration": 14,
+          "rate": 0.00253
+        },
+        {
+          "age": 32,
+          "duration": 15,
+          "rate": 0.00283
+        },
+        {
+          "age": 33,
+          "duration": 1,
+          "rate": 0.00063
+        },
+        {
+          "age": 33,
+          "duration": 2,
+          "rate": 0.00072
+        },
+        {
+          "age": 33,
+          "duration": 3,
+          "rate": 0.00088
+        },
+        {
+          "age": 33,
+          "duration": 4,
+          "rate": 0.00098
+        },
+        {
+          "age": 33,
+          "duration": 5,
+          "rate": 0.00108
+        },
+        {
+          "age": 33,
+          "duration": 6,
+          "rate": 0.00117
+        },
+        {
+          "age": 33,
+          "duration": 7,
+          "rate": 0.00128
+        },
+        {
+          "age": 33,
+          "duration": 8,
+          "rate": 0.0014
+        },
+        {
+          "age": 33,
+          "duration": 9,
+          "rate": 0.00158
+        },
+        {
+          "age": 33,
+          "duration": 10,
+          "rate": 0.00178
+        },
+        {
+          "age": 33,
+          "duration": 11,
+          "rate": 0.00201
+        },
+        {
+          "age": 33,
+          "duration": 12,
+          "rate": 0.00225
+        },
+        {
+          "age": 33,
+          "duration": 13,
+          "rate": 0.00253
+        },
+        {
+          "age": 33,
+          "duration": 14,
+          "rate": 0.00283
+        },
+        {
+          "age": 33,
+          "duration": 15,
+          "rate": 0.00317
+        },
+        {
+          "age": 34,
+          "duration": 1,
+          "rate": 0.00063
+        },
+        {
+          "age": 34,
+          "duration": 2,
+          "rate": 0.00073
+        },
+        {
+          "age": 34,
+          "duration": 3,
+          "rate": 0.00093
+        },
+        {
+          "age": 34,
+          "duration": 4,
+          "rate": 0.00105
+        },
+        {
+          "age": 34,
+          "duration": 5,
+          "rate": 0.00117
+        },
+        {
+          "age": 34,
+          "duration": 6,
+          "rate": 0.00128
+        },
+        {
+          "age": 34,
+          "duration": 7,
+          "rate": 0.0014
+        },
+        {
+          "age": 34,
+          "duration": 8,
+          "rate": 0.00158
+        },
+        {
+          "age": 34,
+          "duration": 9,
+          "rate": 0.00178
+        },
+        {
+          "age": 34,
+          "duration": 10,
+          "rate": 0.00201
+        },
+        {
+          "age": 34,
+          "duration": 11,
+          "rate": 0.00224
+        },
+        {
+          "age": 34,
+          "duration": 12,
+          "rate": 0.00253
+        },
+        {
+          "age": 34,
+          "duration": 13,
+          "rate": 0.00281
+        },
+        {
+          "age": 34,
+          "duration": 14,
+          "rate": 0.00316
+        },
+        {
+          "age": 34,
+          "duration": 15,
+          "rate": 0.00354
+        },
+        {
+          "age": 35,
+          "duration": 1,
+          "rate": 0.00063
+        },
+        {
+          "age": 35,
+          "duration": 2,
+          "rate": 0.00076
+        },
+        {
+          "age": 35,
+          "duration": 3,
+          "rate": 0.00099
+        },
+        {
+          "age": 35,
+          "duration": 4,
+          "rate": 0.00114
+        },
+        {
+          "age": 35,
+          "duration": 5,
+          "rate": 0.00128
+        },
+        {
+          "age": 35,
+          "duration": 6,
+          "rate": 0.0014
+        },
+        {
+          "age": 35,
+          "duration": 7,
+          "rate": 0.00158
+        },
+        {
+          "age": 35,
+          "duration": 8,
+          "rate": 0.00178
+        },
+        {
+          "age": 35,
+          "duration": 9,
+          "rate": 0.00201
+        },
+        {
+          "age": 35,
+          "duration": 10,
+          "rate": 0.00224
+        },
+        {
+          "age": 35,
+          "duration": 11,
+          "rate": 0.00253
+        },
+        {
+          "age": 35,
+          "duration": 12,
+          "rate": 0.0028
+        },
+        {
+          "age": 35,
+          "duration": 13,
+          "rate": 0.00313
+        },
+        {
+          "age": 35,
+          "duration": 14,
+          "rate": 0.00352
+        },
+        {
+          "age": 35,
+          "duration": 15,
+          "rate": 0.00394
+        },
+        {
+          "age": 36,
+          "duration": 1,
+          "rate": 0.00065
+        },
+        {
+          "age": 36,
+          "duration": 2,
+          "rate": 0.00079
+        },
+        {
+          "age": 36,
+          "duration": 3,
+          "rate": 0.00106
+        },
+        {
+          "age": 36,
+          "duration": 4,
+          "rate": 0.00125
+        },
+        {
+          "age": 36,
+          "duration": 5,
+          "rate": 0.0014
+        },
+        {
+          "age": 36,
+          "duration": 6,
+          "rate": 0.00158
+        },
+        {
+          "age": 36,
+          "duration": 7,
+          "rate": 0.00178
+        },
+        {
+          "age": 36,
+          "duration": 8,
+          "rate": 0.00201
+        },
+        {
+          "age": 36,
+          "duration": 9,
+          "rate": 0.00224
+        },
+        {
+          "age": 36,
+          "duration": 10,
+          "rate": 0.00253
+        },
+        {
+          "age": 36,
+          "duration": 11,
+          "rate": 0.0028
+        },
+        {
+          "age": 36,
+          "duration": 12,
+          "rate": 0.0031
+        },
+        {
+          "age": 36,
+          "duration": 13,
+          "rate": 0.00348
+        },
+        {
+          "age": 36,
+          "duration": 14,
+          "rate": 0.00391
+        },
+        {
+          "age": 36,
+          "duration": 15,
+          "rate": 0.00436
+        },
+        {
+          "age": 37,
+          "duration": 1,
+          "rate": 0.00067
+        },
+        {
+          "age": 37,
+          "duration": 2,
+          "rate": 0.00084
+        },
+        {
+          "age": 37,
+          "duration": 3,
+          "rate": 0.00115
+        },
+        {
+          "age": 37,
+          "duration": 4,
+          "rate": 0.00137
+        },
+        {
+          "age": 37,
+          "duration": 5,
+          "rate": 0.00158
+        },
+        {
+          "age": 37,
+          "duration": 6,
+          "rate": 0.00178
+        },
+        {
+          "age": 37,
+          "duration": 7,
+          "rate": 0.00201
+        },
+        {
+          "age": 37,
+          "duration": 8,
+          "rate": 0.00224
+        },
+        {
+          "age": 37,
+          "duration": 9,
+          "rate": 0.00253
+        },
+        {
+          "age": 37,
+          "duration": 10,
+          "rate": 0.0028
+        },
+        {
+          "age": 37,
+          "duration": 11,
+          "rate": 0.00308
+        },
+        {
+          "age": 37,
+          "duration": 12,
+          "rate": 0.00343
+        },
+        {
+          "age": 37,
+          "duration": 13,
+          "rate": 0.00386
+        },
+        {
+          "age": 37,
+          "duration": 14,
+          "rate": 0.00432
+        },
+        {
+          "age": 37,
+          "duration": 15,
+          "rate": 0.00482
+        },
+        {
+          "age": 38,
+          "duration": 1,
+          "rate": 0.0007
+        },
+        {
+          "age": 38,
+          "duration": 2,
+          "rate": 0.00089
+        },
+        {
+          "age": 38,
+          "duration": 3,
+          "rate": 0.00123
+        },
+        {
+          "age": 38,
+          "duration": 4,
+          "rate": 0.00147
+        },
+        {
+          "age": 38,
+          "duration": 5,
+          "rate": 0.0017
+        },
+        {
+          "age": 38,
+          "duration": 6,
+          "rate": 0.00191
+        },
+        {
+          "age": 38,
+          "duration": 7,
+          "rate": 0.00216
+        },
+        {
+          "age": 38,
+          "duration": 8,
+          "rate": 0.00241
+        },
+        {
+          "age": 38,
+          "duration": 9,
+          "rate": 0.00272
+        },
+        {
+          "age": 38,
+          "duration": 10,
+          "rate": 0.00304
+        },
+        {
+          "age": 38,
+          "duration": 11,
+          "rate": 0.00335
+        },
+        {
+          "age": 38,
+          "duration": 12,
+          "rate": 0.00376
+        },
+        {
+          "age": 38,
+          "duration": 13,
+          "rate": 0.00425
+        },
+        {
+          "age": 38,
+          "duration": 14,
+          "rate": 0.00478
+        },
+        {
+          "age": 38,
+          "duration": 15,
+          "rate": 0.00533
+        },
+        {
+          "age": 39,
+          "duration": 1,
+          "rate": 0.00074
+        },
+        {
+          "age": 39,
+          "duration": 2,
+          "rate": 0.00095
+        },
+        {
+          "age": 39,
+          "duration": 3,
+          "rate": 0.00133
+        },
+        {
+          "age": 39,
+          "duration": 4,
+          "rate": 0.00159
+        },
+        {
+          "age": 39,
+          "duration": 5,
+          "rate": 0.00183
+        },
+        {
+          "age": 39,
+          "duration": 6,
+          "rate": 0.00207
+        },
+        {
+          "age": 39,
+          "duration": 7,
+          "rate": 0.00233
+        },
+        {
+          "age": 39,
+          "duration": 8,
+          "rate": 0.0026
+        },
+        {
+          "age": 39,
+          "duration": 9,
+          "rate": 0.00293
+        },
+        {
+          "age": 39,
+          "duration": 10,
+          "rate": 0.00327
+        },
+        {
+          "age": 39,
+          "duration": 11,
+          "rate": 0.00364
+        },
+        {
+          "age": 39,
+          "duration": 12,
+          "rate": 0.0041
+        },
+        {
+          "age": 39,
+          "duration": 13,
+          "rate": 0.00467
+        },
+        {
+          "age": 39,
+          "duration": 14,
+          "rate": 0.00528
+        },
+        {
+          "age": 39,
+          "duration": 15,
+          "rate": 0.00588
+        },
+        {
+          "age": 40,
+          "duration": 1,
+          "rate": 0.00079
+        },
+        {
+          "age": 40,
+          "duration": 2,
+          "rate": 0.00102
+        },
+        {
+          "age": 40,
+          "duration": 3,
+          "rate": 0.00145
+        },
+        {
+          "age": 40,
+          "duration": 4,
+          "rate": 0.00173
+        },
+        {
+          "age": 40,
+          "duration": 5,
+          "rate": 0.002
+        },
+        {
+          "age": 40,
+          "duration": 6,
+          "rate": 0.00223
+        },
+        {
+          "age": 40,
+          "duration": 7,
+          "rate": 0.00251
+        },
+        {
+          "age": 40,
+          "duration": 8,
+          "rate": 0.00279
+        },
+        {
+          "age": 40,
+          "duration": 9,
+          "rate": 0.00313
+        },
+        {
+          "age": 40,
+          "duration": 10,
+          "rate": 0.00351
+        },
+        {
+          "age": 40,
+          "duration": 11,
+          "rate": 0.00394
+        },
+        {
+          "age": 40,
+          "duration": 12,
+          "rate": 0.00447
+        },
+        {
+          "age": 40,
+          "duration": 13,
+          "rate": 0.00513
+        },
+        {
+          "age": 40,
+          "duration": 14,
+          "rate": 0.00582
+        },
+        {
+          "age": 40,
+          "duration": 15,
+          "rate": 0.00648
+        },
+        {
+          "age": 41,
+          "duration": 1,
+          "rate": 0.00085
+        },
+        {
+          "age": 41,
+          "duration": 2,
+          "rate": 0.00111
+        },
+        {
+          "age": 41,
+          "duration": 3,
+          "rate": 0.00159
+        },
+        {
+          "age": 41,
+          "duration": 4,
+          "rate": 0.0019
+        },
+        {
+          "age": 41,
+          "duration": 5,
+          "rate": 0.00217
+        },
+        {
+          "age": 41,
+          "duration": 6,
+          "rate": 0.00242
+        },
+        {
+          "age": 41,
+          "duration": 7,
+          "rate": 0.0027
+        },
+        {
+          "age": 41,
+          "duration": 8,
+          "rate": 0.00298
+        },
+        {
+          "age": 41,
+          "duration": 9,
+          "rate": 0.00333
+        },
+        {
+          "age": 41,
+          "duration": 10,
+          "rate": 0.00375
+        },
+        {
+          "age": 41,
+          "duration": 11,
+          "rate": 0.00424
+        },
+        {
+          "age": 41,
+          "duration": 12,
+          "rate": 0.00486
+        },
+        {
+          "age": 41,
+          "duration": 13,
+          "rate": 0.00562
+        },
+        {
+          "age": 41,
+          "duration": 14,
+          "rate": 0.00641
+        },
+        {
+          "age": 41,
+          "duration": 15,
+          "rate": 0.00712
+        },
+        {
+          "age": 42,
+          "duration": 1,
+          "rate": 0.00092
+        },
+        {
+          "age": 42,
+          "duration": 2,
+          "rate": 0.00122
+        },
+        {
+          "age": 42,
+          "duration": 3,
+          "rate": 0.00176
+        },
+        {
+          "age": 42,
+          "duration": 4,
+          "rate": 0.00209
+        },
+        {
+          "age": 42,
+          "duration": 5,
+          "rate": 0.00237
+        },
+        {
+          "age": 42,
+          "duration": 6,
+          "rate": 0.00262
+        },
+        {
+          "age": 42,
+          "duration": 7,
+          "rate": 0.00289
+        },
+        {
+          "age": 42,
+          "duration": 8,
+          "rate": 0.00318
+        },
+        {
+          "age": 42,
+          "duration": 9,
+          "rate": 0.00352
+        },
+        {
+          "age": 42,
+          "duration": 10,
+          "rate": 0.00399
+        },
+        {
+          "age": 42,
+          "duration": 11,
+          "rate": 0.00457
+        },
+        {
+          "age": 42,
+          "duration": 12,
+          "rate": 0.00528
+        },
+        {
+          "age": 42,
+          "duration": 13,
+          "rate": 0.00615
+        },
+        {
+          "age": 42,
+          "duration": 14,
+          "rate": 0.00705
+        },
+        {
+          "age": 42,
+          "duration": 15,
+          "rate": 0.00785
+        },
+        {
+          "age": 43,
+          "duration": 1,
+          "rate": 0.00099
+        },
+        {
+          "age": 43,
+          "duration": 2,
+          "rate": 0.00137
+        },
+        {
+          "age": 43,
+          "duration": 3,
+          "rate": 0.00192
+        },
+        {
+          "age": 43,
+          "duration": 4,
+          "rate": 0.0023
+        },
+        {
+          "age": 43,
+          "duration": 5,
+          "rate": 0.00261
+        },
+        {
+          "age": 43,
+          "duration": 6,
+          "rate": 0.00288
+        },
+        {
+          "age": 43,
+          "duration": 7,
+          "rate": 0.00318
+        },
+        {
+          "age": 43,
+          "duration": 8,
+          "rate": 0.00347
+        },
+        {
+          "age": 43,
+          "duration": 9,
+          "rate": 0.00383
+        },
+        {
+          "age": 43,
+          "duration": 10,
+          "rate": 0.00433
+        },
+        {
+          "age": 43,
+          "duration": 11,
+          "rate": 0.00496
+        },
+        {
+          "age": 43,
+          "duration": 12,
+          "rate": 0.00571
+        },
+        {
+          "age": 43,
+          "duration": 13,
+          "rate": 0.00663
+        },
+        {
+          "age": 43,
+          "duration": 14,
+          "rate": 0.00761
+        },
+        {
+          "age": 43,
+          "duration": 15,
+          "rate": 0.0085
+        },
+        {
+          "age": 44,
+          "duration": 1,
+          "rate": 0.00108
+        },
+        {
+          "age": 44,
+          "duration": 2,
+          "rate": 0.00153
+        },
+        {
+          "age": 44,
+          "duration": 3,
+          "rate": 0.00211
+        },
+        {
+          "age": 44,
+          "duration": 4,
+          "rate": 0.00252
+        },
+        {
+          "age": 44,
+          "duration": 5,
+          "rate": 0.00286
+        },
+        {
+          "age": 44,
+          "duration": 6,
+          "rate": 0.00317
+        },
+        {
+          "age": 44,
+          "duration": 7,
+          "rate": 0.00347
+        },
+        {
+          "age": 44,
+          "duration": 8,
+          "rate": 0.00379
+        },
+        {
+          "age": 44,
+          "duration": 9,
+          "rate": 0.00417
+        },
+        {
+          "age": 44,
+          "duration": 10,
+          "rate": 0.0047
+        },
+        {
+          "age": 44,
+          "duration": 11,
+          "rate": 0.00537
+        },
+        {
+          "age": 44,
+          "duration": 12,
+          "rate": 0.00616
+        },
+        {
+          "age": 44,
+          "duration": 13,
+          "rate": 0.00716
+        },
+        {
+          "age": 44,
+          "duration": 14,
+          "rate": 0.0082
+        },
+        {
+          "age": 44,
+          "duration": 15,
+          "rate": 0.00922
+        },
+        {
+          "age": 45,
+          "duration": 1,
+          "rate": 0.00117
+        },
+        {
+          "age": 45,
+          "duration": 2,
+          "rate": 0.00172
+        },
+        {
+          "age": 45,
+          "duration": 3,
+          "rate": 0.00231
+        },
+        {
+          "age": 45,
+          "duration": 4,
+          "rate": 0.00275
+        },
+        {
+          "age": 45,
+          "duration": 5,
+          "rate": 0.00313
+        },
+        {
+          "age": 45,
+          "duration": 6,
+          "rate": 0.00347
+        },
+        {
+          "age": 45,
+          "duration": 7,
+          "rate": 0.00379
+        },
+        {
+          "age": 45,
+          "duration": 8,
+          "rate": 0.00414
+        },
+        {
+          "age": 45,
+          "duration": 9,
+          "rate": 0.00456
+        },
+        {
+          "age": 45,
+          "duration": 10,
+          "rate": 0.00508
+        },
+        {
+          "age": 45,
+          "duration": 11,
+          "rate": 0.0058
+        },
+        {
+          "age": 45,
+          "duration": 12,
+          "rate": 0.00666
+        },
+        {
+          "age": 45,
+          "duration": 13,
+          "rate": 0.00773
+        },
+        {
+          "age": 45,
+          "duration": 14,
+          "rate": 0.00885
+        },
+        {
+          "age": 45,
+          "duration": 15,
+          "rate": 0.01002
+        },
+        {
+          "age": 46,
+          "duration": 1,
+          "rate": 0.00128
+        },
+        {
+          "age": 46,
+          "duration": 2,
+          "rate": 0.00194
+        },
+        {
+          "age": 46,
+          "duration": 3,
+          "rate": 0.00251
+        },
+        {
+          "age": 46,
+          "duration": 4,
+          "rate": 0.003
+        },
+        {
+          "age": 46,
+          "duration": 5,
+          "rate": 0.0034
+        },
+        {
+          "age": 46,
+          "duration": 6,
+          "rate": 0.00378
+        },
+        {
+          "age": 46,
+          "duration": 7,
+          "rate": 0.00414
+        },
+        {
+          "age": 46,
+          "duration": 8,
+          "rate": 0.00456
+        },
+        {
+          "age": 46,
+          "duration": 9,
+          "rate": 0.00491
+        },
+        {
+          "age": 46,
+          "duration": 10,
+          "rate": 0.00548
+        },
+        {
+          "age": 46,
+          "duration": 11,
+          "rate": 0.00628
+        },
+        {
+          "age": 46,
+          "duration": 12,
+          "rate": 0.00719
+        },
+        {
+          "age": 46,
+          "duration": 13,
+          "rate": 0.00835
+        },
+        {
+          "age": 46,
+          "duration": 14,
+          "rate": 0.00956
+        },
+        {
+          "age": 46,
+          "duration": 15,
+          "rate": 0.01089
+        },
+        {
+          "age": 47,
+          "duration": 1,
+          "rate": 0.00139
+        },
+        {
+          "age": 47,
+          "duration": 2,
+          "rate": 0.00217
+        },
+        {
+          "age": 47,
+          "duration": 3,
+          "rate": 0.00273
+        },
+        {
+          "age": 47,
+          "duration": 4,
+          "rate": 0.00325
+        },
+        {
+          "age": 47,
+          "duration": 5,
+          "rate": 0.00369
+        },
+        {
+          "age": 47,
+          "duration": 6,
+          "rate": 0.00413
+        },
+        {
+          "age": 47,
+          "duration": 7,
+          "rate": 0.00456
+        },
+        {
+          "age": 47,
+          "duration": 8,
+          "rate": 0.00489
+        },
+        {
+          "age": 47,
+          "duration": 9,
+          "rate": 0.00531
+        },
+        {
+          "age": 47,
+          "duration": 10,
+          "rate": 0.00593
+        },
+        {
+          "age": 47,
+          "duration": 11,
+          "rate": 0.00679
+        },
+        {
+          "age": 47,
+          "duration": 12,
+          "rate": 0.00778
+        },
+        {
+          "age": 47,
+          "duration": 13,
+          "rate": 0.00903
+        },
+        {
+          "age": 47,
+          "duration": 14,
+          "rate": 0.01034
+        },
+        {
+          "age": 47,
+          "duration": 15,
+          "rate": 0.01185
+        },
+        {
+          "age": 48,
+          "duration": 1,
+          "rate": 0.00149
+        },
+        {
+          "age": 48,
+          "duration": 2,
+          "rate": 0.00227
+        },
+        {
+          "age": 48,
+          "duration": 3,
+          "rate": 0.00284
+        },
+        {
+          "age": 48,
+          "duration": 4,
+          "rate": 0.0034
+        },
+        {
+          "age": 48,
+          "duration": 5,
+          "rate": 0.0039
+        },
+        {
+          "age": 48,
+          "duration": 6,
+          "rate": 0.00438
+        },
+        {
+          "age": 48,
+          "duration": 7,
+          "rate": 0.00487
+        },
+        {
+          "age": 48,
+          "duration": 8,
+          "rate": 0.00528
+        },
+        {
+          "age": 48,
+          "duration": 9,
+          "rate": 0.0058
+        },
+        {
+          "age": 48,
+          "duration": 10,
+          "rate": 0.00649
+        },
+        {
+          "age": 48,
+          "duration": 11,
+          "rate": 0.00753
+        },
+        {
+          "age": 48,
+          "duration": 12,
+          "rate": 0.00864
+        },
+        {
+          "age": 48,
+          "duration": 13,
+          "rate": 0.00994
+        },
+        {
+          "age": 48,
+          "duration": 14,
+          "rate": 0.0113
+        },
+        {
+          "age": 48,
+          "duration": 15,
+          "rate": 0.01279
+        },
+        {
+          "age": 49,
+          "duration": 1,
+          "rate": 0.0016
+        },
+        {
+          "age": 49,
+          "duration": 2,
+          "rate": 0.00235
+        },
+        {
+          "age": 49,
+          "duration": 3,
+          "rate": 0.00295
+        },
+        {
+          "age": 49,
+          "duration": 4,
+          "rate": 0.00354
+        },
+        {
+          "age": 49,
+          "duration": 5,
+          "rate": 0.00409
+        },
+        {
+          "age": 49,
+          "duration": 6,
+          "rate": 0.00462
+        },
+        {
+          "age": 49,
+          "duration": 7,
+          "rate": 0.00518
+        },
+        {
+          "age": 49,
+          "duration": 8,
+          "rate": 0.0057
+        },
+        {
+          "age": 49,
+          "duration": 9,
+          "rate": 0.00633
+        },
+        {
+          "age": 49,
+          "duration": 10,
+          "rate": 0.00712
+        },
+        {
+          "age": 49,
+          "duration": 11,
+          "rate": 0.00836
+        },
+        {
+          "age": 49,
+          "duration": 12,
+          "rate": 0.0096
+        },
+        {
+          "age": 49,
+          "duration": 13,
+          "rate": 0.01096
+        },
+        {
+          "age": 49,
+          "duration": 14,
+          "rate": 0.01232
+        },
+        {
+          "age": 49,
+          "duration": 15,
+          "rate": 0.01375
+        },
+        {
+          "age": 50,
+          "duration": 1,
+          "rate": 0.0017
+        },
+        {
+          "age": 50,
+          "duration": 2,
+          "rate": 0.00242
+        },
+        {
+          "age": 50,
+          "duration": 3,
+          "rate": 0.00304
+        },
+        {
+          "age": 50,
+          "duration": 4,
+          "rate": 0.00366
+        },
+        {
+          "age": 50,
+          "duration": 5,
+          "rate": 0.00429
+        },
+        {
+          "age": 50,
+          "duration": 6,
+          "rate": 0.00487
+        },
+        {
+          "age": 50,
+          "duration": 7,
+          "rate": 0.00551
+        },
+        {
+          "age": 50,
+          "duration": 8,
+          "rate": 0.00615
+        },
+        {
+          "age": 50,
+          "duration": 9,
+          "rate": 0.00693
+        },
+        {
+          "age": 50,
+          "duration": 10,
+          "rate": 0.00783
+        },
+        {
+          "age": 50,
+          "duration": 11,
+          "rate": 0.0093
+        },
+        {
+          "age": 50,
+          "duration": 12,
+          "rate": 0.01069
+        },
+        {
+          "age": 50,
+          "duration": 13,
+          "rate": 0.01206
+        },
+        {
+          "age": 50,
+          "duration": 14,
+          "rate": 0.0134
+        },
+        {
+          "age": 50,
+          "duration": 15,
+          "rate": 0.01477
+        },
+        {
+          "age": 51,
+          "duration": 1,
+          "rate": 0.0018
+        },
+        {
+          "age": 51,
+          "duration": 2,
+          "rate": 0.00248
+        },
+        {
+          "age": 51,
+          "duration": 3,
+          "rate": 0.00312
+        },
+        {
+          "age": 51,
+          "duration": 4,
+          "rate": 0.00377
+        },
+        {
+          "age": 51,
+          "duration": 5,
+          "rate": 0.00447
+        },
+        {
+          "age": 51,
+          "duration": 6,
+          "rate": 0.00512
+        },
+        {
+          "age": 51,
+          "duration": 7,
+          "rate": 0.00586
+        },
+        {
+          "age": 51,
+          "duration": 8,
+          "rate": 0.00665
+        },
+        {
+          "age": 51,
+          "duration": 9,
+          "rate": 0.00759
+        },
+        {
+          "age": 51,
+          "duration": 10,
+          "rate": 0.00861
+        },
+        {
+          "age": 51,
+          "duration": 11,
+          "rate": 0.01035
+        },
+        {
+          "age": 51,
+          "duration": 12,
+          "rate": 0.01189
+        },
+        {
+          "age": 51,
+          "duration": 13,
+          "rate": 0.01324
+        },
+        {
+          "age": 51,
+          "duration": 14,
+          "rate": 0.01456
+        },
+        {
+          "age": 51,
+          "duration": 15,
+          "rate": 0.01583
+        },
+        {
+          "age": 52,
+          "duration": 1,
+          "rate": 0.0019
+        },
+        {
+          "age": 52,
+          "duration": 2,
+          "rate": 0.00252
+        },
+        {
+          "age": 52,
+          "duration": 3,
+          "rate": 0.00317
+        },
+        {
+          "age": 52,
+          "duration": 4,
+          "rate": 0.00385
+        },
+        {
+          "age": 52,
+          "duration": 5,
+          "rate": 0.00465
+        },
+        {
+          "age": 52,
+          "duration": 6,
+          "rate": 0.00538
+        },
+        {
+          "age": 52,
+          "duration": 7,
+          "rate": 0.00623
+        },
+        {
+          "age": 52,
+          "duration": 8,
+          "rate": 0.0072
+        },
+        {
+          "age": 52,
+          "duration": 9,
+          "rate": 0.00832
+        },
+        {
+          "age": 52,
+          "duration": 10,
+          "rate": 0.00948
+        },
+        {
+          "age": 52,
+          "duration": 11,
+          "rate": 0.01151
+        },
+        {
+          "age": 52,
+          "duration": 12,
+          "rate": 0.01318
+        },
+        {
+          "age": 52,
+          "duration": 13,
+          "rate": 0.01452
+        },
+        {
+          "age": 52,
+          "duration": 14,
+          "rate": 0.0158
+        },
+        {
+          "age": 52,
+          "duration": 15,
+          "rate": 0.01696
+        },
+        {
+          "age": 53,
+          "duration": 1,
+          "rate": 0.00206
+        },
+        {
+          "age": 53,
+          "duration": 2,
+          "rate": 0.00275
+        },
+        {
+          "age": 53,
+          "duration": 3,
+          "rate": 0.00346
+        },
+        {
+          "age": 53,
+          "duration": 4,
+          "rate": 0.00423
+        },
+        {
+          "age": 53,
+          "duration": 5,
+          "rate": 0.00508
+        },
+        {
+          "age": 53,
+          "duration": 6,
+          "rate": 0.0059
+        },
+        {
+          "age": 53,
+          "duration": 7,
+          "rate": 0.00684
+        },
+        {
+          "age": 53,
+          "duration": 8,
+          "rate": 0.00789
+        },
+        {
+          "age": 53,
+          "duration": 9,
+          "rate": 0.00911
+        },
+        {
+          "age": 53,
+          "duration": 10,
+          "rate": 0.01043
+        },
+        {
+          "age": 53,
+          "duration": 11,
+          "rate": 0.01263
+        },
+        {
+          "age": 53,
+          "duration": 12,
+          "rate": 0.01452
+        },
+        {
+          "age": 53,
+          "duration": 13,
+          "rate": 0.0158
+        },
+        {
+          "age": 53,
+          "duration": 14,
+          "rate": 0.01696
+        },
+        {
+          "age": 53,
+          "duration": 15,
+          "rate": 0.01916
+        },
+        {
+          "age": 54,
+          "duration": 1,
+          "rate": 0.00223
+        },
+        {
+          "age": 54,
+          "duration": 2,
+          "rate": 0.00299
+        },
+        {
+          "age": 54,
+          "duration": 3,
+          "rate": 0.00378
+        },
+        {
+          "age": 54,
+          "duration": 4,
+          "rate": 0.00464
+        },
+        {
+          "age": 54,
+          "duration": 5,
+          "rate": 0.00557
+        },
+        {
+          "age": 54,
+          "duration": 6,
+          "rate": 0.00647
+        },
+        {
+          "age": 54,
+          "duration": 7,
+          "rate": 0.00752
+        },
+        {
+          "age": 54,
+          "duration": 8,
+          "rate": 0.00866
+        },
+        {
+          "age": 54,
+          "duration": 9,
+          "rate": 0.00996
+        },
+        {
+          "age": 54,
+          "duration": 10,
+          "rate": 0.01144
+        },
+        {
+          "age": 54,
+          "duration": 11,
+          "rate": 0.01385
+        },
+        {
+          "age": 54,
+          "duration": 12,
+          "rate": 0.0158
+        },
+        {
+          "age": 54,
+          "duration": 13,
+          "rate": 0.01696
+        },
+        {
+          "age": 54,
+          "duration": 14,
+          "rate": 0.01916
+        },
+        {
+          "age": 54,
+          "duration": 15,
+          "rate": 0.02162
+        },
+        {
+          "age": 55,
+          "duration": 1,
+          "rate": 0.00241
+        },
+        {
+          "age": 55,
+          "duration": 2,
+          "rate": 0.00327
+        },
+        {
+          "age": 55,
+          "duration": 3,
+          "rate": 0.00412
+        },
+        {
+          "age": 55,
+          "duration": 4,
+          "rate": 0.0051
+        },
+        {
+          "age": 55,
+          "duration": 5,
+          "rate": 0.00611
+        },
+        {
+          "age": 55,
+          "duration": 6,
+          "rate": 0.00711
+        },
+        {
+          "age": 55,
+          "duration": 7,
+          "rate": 0.00827
+        },
+        {
+          "age": 55,
+          "duration": 8,
+          "rate": 0.0095
+        },
+        {
+          "age": 55,
+          "duration": 9,
+          "rate": 0.01086
+        },
+        {
+          "age": 55,
+          "duration": 10,
+          "rate": 0.01254
+        },
+        {
+          "age": 55,
+          "duration": 11,
+          "rate": 0.01517
+        },
+        {
+          "age": 55,
+          "duration": 12,
+          "rate": 0.01696
+        },
+        {
+          "age": 55,
+          "duration": 13,
+          "rate": 0.01916
+        },
+        {
+          "age": 55,
+          "duration": 14,
+          "rate": 0.02162
+        },
+        {
+          "age": 55,
+          "duration": 15,
+          "rate": 0.02439
+        },
+        {
+          "age": 56,
+          "duration": 1,
+          "rate": 0.00261
+        },
+        {
+          "age": 56,
+          "duration": 2,
+          "rate": 0.00356
+        },
+        {
+          "age": 56,
+          "duration": 3,
+          "rate": 0.00451
+        },
+        {
+          "age": 56,
+          "duration": 4,
+          "rate": 0.00561
+        },
+        {
+          "age": 56,
+          "duration": 5,
+          "rate": 0.00671
+        },
+        {
+          "age": 56,
+          "duration": 6,
+          "rate": 0.00783
+        },
+        {
+          "age": 56,
+          "duration": 7,
+          "rate": 0.00909
+        },
+        {
+          "age": 56,
+          "duration": 8,
+          "rate": 0.01038
+        },
+        {
+          "age": 56,
+          "duration": 9,
+          "rate": 0.01183
+        },
+        {
+          "age": 56,
+          "duration": 10,
+          "rate": 0.01373
+        },
+        {
+          "age": 56,
+          "duration": 11,
+          "rate": 0.01662
+        },
+        {
+          "age": 56,
+          "duration": 12,
+          "rate": 0.01916
+        },
+        {
+          "age": 56,
+          "duration": 13,
+          "rate": 0.02162
+        },
+        {
+          "age": 56,
+          "duration": 14,
+          "rate": 0.02439
+        },
+        {
+          "age": 56,
+          "duration": 15,
+          "rate": 0.02747
+        },
+        {
+          "age": 57,
+          "duration": 1,
+          "rate": 0.00282
+        },
+        {
+          "age": 57,
+          "duration": 2,
+          "rate": 0.00389
+        },
+        {
+          "age": 57,
+          "duration": 3,
+          "rate": 0.00494
+        },
+        {
+          "age": 57,
+          "duration": 4,
+          "rate": 0.00618
+        },
+        {
+          "age": 57,
+          "duration": 5,
+          "rate": 0.00738
+        },
+        {
+          "age": 57,
+          "duration": 6,
+          "rate": 0.0086
+        },
+        {
+          "age": 57,
+          "duration": 7,
+          "rate": 0.00996
+        },
+        {
+          "age": 57,
+          "duration": 8,
+          "rate": 0.01133
+        },
+        {
+          "age": 57,
+          "duration": 9,
+          "rate": 0.01287
+        },
+        {
+          "age": 57,
+          "duration": 10,
+          "rate": 0.01503
+        },
+        {
+          "age": 57,
+          "duration": 11,
+          "rate": 0.01821
+        },
+        {
+          "age": 57,
+          "duration": 12,
+          "rate": 0.02136
+        },
+        {
+          "age": 57,
+          "duration": 13,
+          "rate": 0.02439
+        },
+        {
+          "age": 57,
+          "duration": 14,
+          "rate": 0.02715
+        },
+        {
+          "age": 57,
+          "duration": 15,
+          "rate": 0.03087
+        },
+        {
+          "age": 58,
+          "duration": 1,
+          "rate": 0.00296
+        },
+        {
+          "age": 58,
+          "duration": 2,
+          "rate": 0.00413
+        },
+        {
+          "age": 58,
+          "duration": 3,
+          "rate": 0.00544
+        },
+        {
+          "age": 58,
+          "duration": 4,
+          "rate": 0.00674
+        },
+        {
+          "age": 58,
+          "duration": 5,
+          "rate": 0.0081
+        },
+        {
+          "age": 58,
+          "duration": 6,
+          "rate": 0.0092
+        },
+        {
+          "age": 58,
+          "duration": 7,
+          "rate": 0.01059
+        },
+        {
+          "age": 58,
+          "duration": 8,
+          "rate": 0.01205
+        },
+        {
+          "age": 58,
+          "duration": 9,
+          "rate": 0.01366
+        },
+        {
+          "age": 58,
+          "duration": 10,
+          "rate": 0.01594
+        },
+        {
+          "age": 58,
+          "duration": 11,
+          "rate": 0.01922
+        },
+        {
+          "age": 58,
+          "duration": 12,
+          "rate": 0.02243
+        },
+        {
+          "age": 58,
+          "duration": 13,
+          "rate": 0.02564
+        },
+        {
+          "age": 58,
+          "duration": 14,
+          "rate": 0.02858
+        },
+        {
+          "age": 58,
+          "duration": 15,
+          "rate": 0.03276
+        },
+        {
+          "age": 59,
+          "duration": 1,
+          "rate": 0.0031
+        },
+        {
+          "age": 59,
+          "duration": 2,
+          "rate": 0.00437
+        },
+        {
+          "age": 59,
+          "duration": 3,
+          "rate": 0.006
+        },
+        {
+          "age": 59,
+          "duration": 4,
+          "rate": 0.00734
+        },
+        {
+          "age": 59,
+          "duration": 5,
+          "rate": 0.00887
+        },
+        {
+          "age": 59,
+          "duration": 6,
+          "rate": 0.00982
+        },
+        {
+          "age": 59,
+          "duration": 7,
+          "rate": 0.01123
+        },
+        {
+          "age": 59,
+          "duration": 8,
+          "rate": 0.01279
+        },
+        {
+          "age": 59,
+          "duration": 9,
+          "rate": 0.01447
+        },
+        {
+          "age": 59,
+          "duration": 10,
+          "rate": 0.01688
+        },
+        {
+          "age": 59,
+          "duration": 11,
+          "rate": 0.02025
+        },
+        {
+          "age": 59,
+          "duration": 12,
+          "rate": 0.02349
+        },
+        {
+          "age": 59,
+          "duration": 13,
+          "rate": 0.02685
+        },
+        {
+          "age": 59,
+          "duration": 14,
+          "rate": 0.02994
+        },
+        {
+          "age": 59,
+          "duration": 15,
+          "rate": 0.0347
+        },
+        {
+          "age": 60,
+          "duration": 1,
+          "rate": 0.00323
+        },
+        {
+          "age": 60,
+          "duration": 2,
+          "rate": 0.00463
+        },
+        {
+          "age": 60,
+          "duration": 3,
+          "rate": 0.00661
+        },
+        {
+          "age": 60,
+          "duration": 4,
+          "rate": 0.00797
+        },
+        {
+          "age": 60,
+          "duration": 5,
+          "rate": 0.00971
+        },
+        {
+          "age": 60,
+          "duration": 6,
+          "rate": 0.01046
+        },
+        {
+          "age": 60,
+          "duration": 7,
+          "rate": 0.01189
+        },
+        {
+          "age": 60,
+          "duration": 8,
+          "rate": 0.01357
+        },
+        {
+          "age": 60,
+          "duration": 9,
+          "rate": 0.01532
+        },
+        {
+          "age": 60,
+          "duration": 10,
+          "rate": 0.01785
+        },
+        {
+          "age": 60,
+          "duration": 11,
+          "rate": 0.02128
+        },
+        {
+          "age": 60,
+          "duration": 12,
+          "rate": 0.02448
+        },
+        {
+          "age": 60,
+          "duration": 13,
+          "rate": 0.02797
+        },
+        {
+          "age": 60,
+          "duration": 14,
+          "rate": 0.03128
+        },
+        {
+          "age": 60,
+          "duration": 15,
+          "rate": 0.03671
+        },
+        {
+          "age": 61,
+          "duration": 1,
+          "rate": 0.00337
+        },
+        {
+          "age": 61,
+          "duration": 2,
+          "rate": 0.00489
+        },
+        {
+          "age": 61,
+          "duration": 3,
+          "rate": 0.00726
+        },
+        {
+          "age": 61,
+          "duration": 4,
+          "rate": 0.00864
+        },
+        {
+          "age": 61,
+          "duration": 5,
+          "rate": 0.01046
+        },
+        {
+          "age": 61,
+          "duration": 6,
+          "rate": 0.01159
+        },
+        {
+          "age": 61,
+          "duration": 7,
+          "rate": 0.01258
+        },
+        {
+          "age": 61,
+          "duration": 8,
+          "rate": 0.01438
+        },
+        {
+          "age": 61,
+          "duration": 9,
+          "rate": 0.01618
+        },
+        {
+          "age": 61,
+          "duration": 10,
+          "rate": 0.01882
+        },
+        {
+          "age": 61,
+          "duration": 11,
+          "rate": 0.02226
+        },
+        {
+          "age": 61,
+          "duration": 12,
+          "rate": 0.02539
+        },
+        {
+          "age": 61,
+          "duration": 13,
+          "rate": 0.02904
+        },
+        {
+          "age": 61,
+          "duration": 14,
+          "rate": 0.03261
+        },
+        {
+          "age": 61,
+          "duration": 15,
+          "rate": 0.03882
+        },
+        {
+          "age": 62,
+          "duration": 1,
+          "rate": 0.0035
+        },
+        {
+          "age": 62,
+          "duration": 2,
+          "rate": 0.00514
+        },
+        {
+          "age": 62,
+          "duration": 3,
+          "rate": 0.00797
+        },
+        {
+          "age": 62,
+          "duration": 4,
+          "rate": 0.00936
+        },
+        {
+          "age": 62,
+          "duration": 5,
+          "rate": 0.01159
+        },
+        {
+          "age": 62,
+          "duration": 6,
+          "rate": 0.01183
+        },
+        {
+          "age": 62,
+          "duration": 7,
+          "rate": 0.01329
+        },
+        {
+          "age": 62,
+          "duration": 8,
+          "rate": 0.01521
+        },
+        {
+          "age": 62,
+          "duration": 9,
+          "rate": 0.01705
+        },
+        {
+          "age": 62,
+          "duration": 10,
+          "rate": 0.01977
+        },
+        {
+          "age": 62,
+          "duration": 11,
+          "rate": 0.02318
+        },
+        {
+          "age": 62,
+          "duration": 12,
+          "rate": 0.02621
+        },
+        {
+          "age": 62,
+          "duration": 13,
+          "rate": 0.03006
+        },
+        {
+          "age": 62,
+          "duration": 14,
+          "rate": 0.03393
+        },
+        {
+          "age": 62,
+          "duration": 15,
+          "rate": 0.04103
+        },
+        {
+          "age": 63,
+          "duration": 1,
+          "rate": 0.00389
+        },
+        {
+          "age": 63,
+          "duration": 2,
+          "rate": 0.00577
+        },
+        {
+          "age": 63,
+          "duration": 3,
+          "rate": 0.00874
+        },
+        {
+          "age": 63,
+          "duration": 4,
+          "rate": 0.01048
+        },
+        {
+          "age": 63,
+          "duration": 5,
+          "rate": 0.01183
+        },
+        {
+          "age": 63,
+          "duration": 6,
+          "rate": 0.01329
+        },
+        {
+          "age": 63,
+          "duration": 7,
+          "rate": 0.01521
+        },
+        {
+          "age": 63,
+          "duration": 8,
+          "rate": 0.01705
+        },
+        {
+          "age": 63,
+          "duration": 9,
+          "rate": 0.02011
+        },
+        {
+          "age": 63,
+          "duration": 10,
+          "rate": 0.02242
+        },
+        {
+          "age": 63,
+          "duration": 11,
+          "rate": 0.02579
+        },
+        {
+          "age": 63,
+          "duration": 12,
+          "rate": 0.02887
+        },
+        {
+          "age": 63,
+          "duration": 13,
+          "rate": 0.03314
+        },
+        {
+          "age": 63,
+          "duration": 14,
+          "rate": 0.03775
+        },
+        {
+          "age": 63,
+          "duration": 15,
+          "rate": 0.04466
+        },
+        {
+          "age": 64,
+          "duration": 1,
+          "rate": 0.00432
+        },
+        {
+          "age": 64,
+          "duration": 2,
+          "rate": 0.00647
+        },
+        {
+          "age": 64,
+          "duration": 3,
+          "rate": 0.00957
+        },
+        {
+          "age": 64,
+          "duration": 4,
+          "rate": 0.01173
+        },
+        {
+          "age": 64,
+          "duration": 5,
+          "rate": 0.01329
+        },
+        {
+          "age": 64,
+          "duration": 6,
+          "rate": 0.01521
+        },
+        {
+          "age": 64,
+          "duration": 7,
+          "rate": 0.01705
+        },
+        {
+          "age": 64,
+          "duration": 8,
+          "rate": 0.02011
+        },
+        {
+          "age": 64,
+          "duration": 9,
+          "rate": 0.02242
+        },
+        {
+          "age": 64,
+          "duration": 10,
+          "rate": 0.02579
+        },
+        {
+          "age": 64,
+          "duration": 11,
+          "rate": 0.02869
+        },
+        {
+          "age": 64,
+          "duration": 12,
+          "rate": 0.03293
+        },
+        {
+          "age": 64,
+          "duration": 13,
+          "rate": 0.03655
+        },
+        {
+          "age": 64,
+          "duration": 14,
+          "rate": 0.04202
+        },
+        {
+          "age": 64,
+          "duration": 15,
+          "rate": 0.0486
+        },
+        {
+          "age": 65,
+          "duration": 1,
+          "rate": 0.0048
+        },
+        {
+          "age": 65,
+          "duration": 2,
+          "rate": 0.00726
+        },
+        {
+          "age": 65,
+          "duration": 3,
+          "rate": 0.0105
+        },
+        {
+          "age": 65,
+          "duration": 4,
+          "rate": 0.01313
+        },
+        {
+          "age": 65,
+          "duration": 5,
+          "rate": 0.01521
+        },
+        {
+          "age": 65,
+          "duration": 6,
+          "rate": 0.01705
+        },
+        {
+          "age": 65,
+          "duration": 7,
+          "rate": 0.02011
+        },
+        {
+          "age": 65,
+          "duration": 8,
+          "rate": 0.02242
+        },
+        {
+          "age": 65,
+          "duration": 9,
+          "rate": 0.02579
+        },
+        {
+          "age": 65,
+          "duration": 10,
+          "rate": 0.02869
+        },
+        {
+          "age": 65,
+          "duration": 11,
+          "rate": 0.03293
+        },
+        {
+          "age": 65,
+          "duration": 12,
+          "rate": 0.03512
+        },
+        {
+          "age": 65,
+          "duration": 13,
+          "rate": 0.04034
+        },
+        {
+          "age": 65,
+          "duration": 14,
+          "rate": 0.04675
+        },
+        {
+          "age": 65,
+          "duration": 15,
+          "rate": 0.05283
+        },
+        {
+          "age": 66,
+          "duration": 1,
+          "rate": 0.00532
+        },
+        {
+          "age": 66,
+          "duration": 2,
+          "rate": 0.00814
+        },
+        {
+          "age": 66,
+          "duration": 3,
+          "rate": 0.01151
+        },
+        {
+          "age": 66,
+          "duration": 4,
+          "rate": 0.01469
+        },
+        {
+          "age": 66,
+          "duration": 5,
+          "rate": 0.01705
+        },
+        {
+          "age": 66,
+          "duration": 6,
+          "rate": 0.02011
+        },
+        {
+          "age": 66,
+          "duration": 7,
+          "rate": 0.02242
+        },
+        {
+          "age": 66,
+          "duration": 8,
+          "rate": 0.02579
+        },
+        {
+          "age": 66,
+          "duration": 9,
+          "rate": 0.02869
+        },
+        {
+          "age": 66,
+          "duration": 10,
+          "rate": 0.03293
+        },
+        {
+          "age": 66,
+          "duration": 11,
+          "rate": 0.03469
+        },
+        {
+          "age": 66,
+          "duration": 12,
+          "rate": 0.03878
+        },
+        {
+          "age": 66,
+          "duration": 13,
+          "rate": 0.04451
+        },
+        {
+          "age": 66,
+          "duration": 14,
+          "rate": 0.05197
+        },
+        {
+          "age": 66,
+          "duration": 15,
+          "rate": 0.05768
+        },
+        {
+          "age": 67,
+          "duration": 1,
+          "rate": 0.00591
+        },
+        {
+          "age": 67,
+          "duration": 2,
+          "rate": 0.00912
+        },
+        {
+          "age": 67,
+          "duration": 3,
+          "rate": 0.01262
+        },
+        {
+          "age": 67,
+          "duration": 4,
+          "rate": 0.01642
+        },
+        {
+          "age": 67,
+          "duration": 5,
+          "rate": 0.02011
+        },
+        {
+          "age": 67,
+          "duration": 6,
+          "rate": 0.02242
+        },
+        {
+          "age": 67,
+          "duration": 7,
+          "rate": 0.02579
+        },
+        {
+          "age": 67,
+          "duration": 8,
+          "rate": 0.02869
+        },
+        {
+          "age": 67,
+          "duration": 9,
+          "rate": 0.03293
+        },
+        {
+          "age": 67,
+          "duration": 10,
+          "rate": 0.03447
+        },
+        {
+          "age": 67,
+          "duration": 11,
+          "rate": 0.03842
+        },
+        {
+          "age": 67,
+          "duration": 12,
+          "rate": 0.0428
+        },
+        {
+          "age": 67,
+          "duration": 13,
+          "rate": 0.04908
+        },
+        {
+          "age": 67,
+          "duration": 14,
+          "rate": 0.05768
+        },
+        {
+          "age": 67,
+          "duration": 15,
+          "rate": 0.06218
+        },
+        {
+          "age": 68,
+          "duration": 1,
+          "rate": 0.00651
+        },
+        {
+          "age": 68,
+          "duration": 2,
+          "rate": 0.01004
+        },
+        {
+          "age": 68,
+          "duration": 3,
+          "rate": 0.01389
+        },
+        {
+          "age": 68,
+          "duration": 4,
+          "rate": 0.01804
+        },
+        {
+          "age": 68,
+          "duration": 5,
+          "rate": 0.02204
+        },
+        {
+          "age": 68,
+          "duration": 6,
+          "rate": 0.02454
+        },
+        {
+          "age": 68,
+          "duration": 7,
+          "rate": 0.02823
+        },
+        {
+          "age": 68,
+          "duration": 8,
+          "rate": 0.03144
+        },
+        {
+          "age": 68,
+          "duration": 9,
+          "rate": 0.03447
+        },
+        {
+          "age": 68,
+          "duration": 10,
+          "rate": 0.03782
+        },
+        {
+          "age": 68,
+          "duration": 11,
+          "rate": 0.04214
+        },
+        {
+          "age": 68,
+          "duration": 12,
+          "rate": 0.04691
+        },
+        {
+          "age": 68,
+          "duration": 13,
+          "rate": 0.05373
+        },
+        {
+          "age": 68,
+          "duration": 14,
+          "rate": 0.06218
+        },
+        {
+          "age": 68,
+          "duration": 15,
+          "rate": 0.06777
+        },
+        {
+          "age": 69,
+          "duration": 1,
+          "rate": 0.00717
+        },
+        {
+          "age": 69,
+          "duration": 2,
+          "rate": 0.01105
+        },
+        {
+          "age": 69,
+          "duration": 3,
+          "rate": 0.01525
+        },
+        {
+          "age": 69,
+          "duration": 4,
+          "rate": 0.01976
+        },
+        {
+          "age": 69,
+          "duration": 5,
+          "rate": 0.02412
+        },
+        {
+          "age": 69,
+          "duration": 6,
+          "rate": 0.02687
+        },
+        {
+          "age": 69,
+          "duration": 7,
+          "rate": 0.03094
+        },
+        {
+          "age": 69,
+          "duration": 8,
+          "rate": 0.03447
+        },
+        {
+          "age": 69,
+          "duration": 9,
+          "rate": 0.03782
+        },
+        {
+          "age": 69,
+          "duration": 10,
+          "rate": 0.04149
+        },
+        {
+          "age": 69,
+          "duration": 11,
+          "rate": 0.0462
+        },
+        {
+          "age": 69,
+          "duration": 12,
+          "rate": 0.05136
+        },
+        {
+          "age": 69,
+          "duration": 13,
+          "rate": 0.05872
+        },
+        {
+          "age": 69,
+          "duration": 14,
+          "rate": 0.06777
+        },
+        {
+          "age": 69,
+          "duration": 15,
+          "rate": 0.07369
+        },
+        {
+          "age": 70,
+          "duration": 1,
+          "rate": 0.00789
+        },
+        {
+          "age": 70,
+          "duration": 2,
+          "rate": 0.01214
+        },
+        {
+          "age": 70,
+          "duration": 3,
+          "rate": 0.01672
+        },
+        {
+          "age": 70,
+          "duration": 4,
+          "rate": 0.02164
+        },
+        {
+          "age": 70,
+          "duration": 5,
+          "rate": 0.02641
+        },
+        {
+          "age": 70,
+          "duration": 6,
+          "rate": 0.02944
+        },
+        {
+          "age": 70,
+          "duration": 7,
+          "rate": 0.03392
+        },
+        {
+          "age": 70,
+          "duration": 8,
+          "rate": 0.03782
+        },
+        {
+          "age": 70,
+          "duration": 9,
+          "rate": 0.04149
+        },
+        {
+          "age": 70,
+          "duration": 10,
+          "rate": 0.04548
+        },
+        {
+          "age": 70,
+          "duration": 11,
+          "rate": 0.05057
+        },
+        {
+          "age": 70,
+          "duration": 12,
+          "rate": 0.05613
+        },
+        {
+          "age": 70,
+          "duration": 13,
+          "rate": 0.064
+        },
+        {
+          "age": 70,
+          "duration": 14,
+          "rate": 0.07369
+        },
+        {
+          "age": 70,
+          "duration": 15,
+          "rate": 0.08022
+        },
+        {
+          "age": 71,
+          "duration": 1,
+          "rate": 0.00868
+        },
+        {
+          "age": 71,
+          "duration": 2,
+          "rate": 0.01333
+        },
+        {
+          "age": 71,
+          "duration": 3,
+          "rate": 0.01827
+        },
+        {
+          "age": 71,
+          "duration": 4,
+          "rate": 0.02377
+        },
+        {
+          "age": 71,
+          "duration": 5,
+          "rate": 0.02906
+        },
+        {
+          "age": 71,
+          "duration": 6,
+          "rate": 0.03255
+        },
+        {
+          "age": 71,
+          "duration": 7,
+          "rate": 0.03755
+        },
+        {
+          "age": 71,
+          "duration": 8,
+          "rate": 0.04179
+        },
+        {
+          "age": 71,
+          "duration": 9,
+          "rate": 0.04797
+        },
+        {
+          "age": 71,
+          "duration": 10,
+          "rate": 0.04993
+        },
+        {
+          "age": 71,
+          "duration": 11,
+          "rate": 0.05524
+        },
+        {
+          "age": 71,
+          "duration": 12,
+          "rate": 0.06757
+        },
+        {
+          "age": 71,
+          "duration": 13,
+          "rate": 0.08257
+        },
+        {
+          "age": 71,
+          "duration": 14,
+          "rate": 0.09936
+        },
+        {
+          "age": 71,
+          "duration": 15,
+          "rate": 0.11447
+        },
+        {
+          "age": 72,
+          "duration": 1,
+          "rate": 0.0095
+        },
+        {
+          "age": 72,
+          "duration": 2,
+          "rate": 0.01456
+        },
+        {
+          "age": 72,
+          "duration": 3,
+          "rate": 0.02004
+        },
+        {
+          "age": 72,
+          "duration": 4,
+          "rate": 0.02595
+        },
+        {
+          "age": 72,
+          "duration": 5,
+          "rate": 0.03173
+        },
+        {
+          "age": 72,
+          "duration": 6,
+          "rate": 0.03542
+        },
+        {
+          "age": 72,
+          "duration": 7,
+          "rate": 0.04083
+        },
+        {
+          "age": 72,
+          "duration": 8,
+          "rate": 0.04547
+        },
+        {
+          "age": 72,
+          "duration": 9,
+          "rate": 0.05215
+        },
+        {
+          "age": 72,
+          "duration": 10,
+          "rate": 0.05441
+        },
+        {
+          "age": 72,
+          "duration": 11,
+          "rate": 0.06024
+        },
+        {
+          "age": 72,
+          "duration": 12,
+          "rate": 0.07369
+        },
+        {
+          "age": 72,
+          "duration": 13,
+          "rate": 0.09002
+        },
+        {
+          "age": 72,
+          "duration": 14,
+          "rate": 0.10821
+        },
+        {
+          "age": 72,
+          "duration": 15,
+          "rate": 0.12466
+        },
+        {
+          "age": 73,
+          "duration": 1,
+          "rate": 0.0104
+        },
+        {
+          "age": 73,
+          "duration": 2,
+          "rate": 0.01593
+        },
+        {
+          "age": 73,
+          "duration": 3,
+          "rate": 0.02197
+        },
+        {
+          "age": 73,
+          "duration": 4,
+          "rate": 0.0284
+        },
+        {
+          "age": 73,
+          "duration": 5,
+          "rate": 0.03471
+        },
+        {
+          "age": 73,
+          "duration": 6,
+          "rate": 0.03864
+        },
+        {
+          "age": 73,
+          "duration": 7,
+          "rate": 0.04446
+        },
+        {
+          "age": 73,
+          "duration": 8,
+          "rate": 0.04948
+        },
+        {
+          "age": 73,
+          "duration": 9,
+          "rate": 0.05669
+        },
+        {
+          "age": 73,
+          "duration": 10,
+          "rate": 0.05921
+        },
+        {
+          "age": 73,
+          "duration": 11,
+          "rate": 0.06561
+        },
+        {
+          "age": 73,
+          "duration": 12,
+          "rate": 0.08031
+        },
+        {
+          "age": 73,
+          "duration": 13,
+          "rate": 0.09813
+        },
+        {
+          "age": 73,
+          "duration": 14,
+          "rate": 0.11784
+        },
+        {
+          "age": 73,
+          "duration": 15,
+          "rate": 0.13562
+        },
+        {
+          "age": 74,
+          "duration": 1,
+          "rate": 0.01142
+        },
+        {
+          "age": 74,
+          "duration": 2,
+          "rate": 0.0175
+        },
+        {
+          "age": 74,
+          "duration": 3,
+          "rate": 0.02415
+        },
+        {
+          "age": 74,
+          "duration": 4,
+          "rate": 0.0312
+        },
+        {
+          "age": 74,
+          "duration": 5,
+          "rate": 0.03811
+        },
+        {
+          "age": 74,
+          "duration": 6,
+          "rate": 0.04234
+        },
+        {
+          "age": 74,
+          "duration": 7,
+          "rate": 0.04859
+        },
+        {
+          "age": 74,
+          "duration": 8,
+          "rate": 0.05398
+        },
+        {
+          "age": 74,
+          "duration": 9,
+          "rate": 0.06176
+        },
+        {
+          "age": 74,
+          "duration": 10,
+          "rate": 0.06446
+        },
+        {
+          "age": 74,
+          "duration": 11,
+          "rate": 0.07142
+        },
+        {
+          "age": 74,
+          "duration": 12,
+          "rate": 0.08748
+        },
+        {
+          "age": 74,
+          "duration": 13,
+          "rate": 0.10687
+        },
+        {
+          "age": 74,
+          "duration": 14,
+          "rate": 0.12819
+        },
+        {
+          "age": 74,
+          "duration": 15,
+          "rate": 0.14723
+        },
+        {
+          "age": 75,
+          "duration": 1,
+          "rate": 0.01253
+        },
+        {
+          "age": 75,
+          "duration": 2,
+          "rate": 0.01924
+        },
+        {
+          "age": 75,
+          "duration": 3,
+          "rate": 0.02653
+        },
+        {
+          "age": 75,
+          "duration": 4,
+          "rate": 0.0343
+        },
+        {
+          "age": 75,
+          "duration": 5,
+          "rate": 0.04185
+        },
+        {
+          "age": 75,
+          "duration": 6,
+          "rate": 0.04644
+        },
+        {
+          "age": 75,
+          "duration": 7,
+          "rate": 0.05318
+        },
+        {
+          "age": 75,
+          "duration": 8,
+          "rate": 0.05894
+        },
+        {
+          "age": 75,
+          "duration": 9,
+          "rate": 0.06735
+        },
+        {
+          "age": 75,
+          "duration": 10,
+          "rate": 0.07018
+        },
+        {
+          "age": 75,
+          "duration": 11,
+          "rate": 0.07772
+        },
+        {
+          "age": 75,
+          "duration": 12,
+          "rate": 0.0952
+        },
+        {
+          "age": 75,
+          "duration": 13,
+          "rate": 0.11622
+        },
+        {
+          "age": 75,
+          "duration": 14,
+          "rate": 0.13918
+        },
+        {
+          "age": 75,
+          "duration": 15,
+          "rate": 0.15944
+        },
+        {
+          "age": 76,
+          "duration": 1,
+          "rate": 0.01374
+        },
+        {
+          "age": 76,
+          "duration": 2,
+          "rate": 0.0211
+        },
+        {
+          "age": 76,
+          "duration": 3,
+          "rate": 0.02908
+        },
+        {
+          "age": 76,
+          "duration": 4,
+          "rate": 0.03762
+        },
+        {
+          "age": 76,
+          "duration": 5,
+          "rate": 0.04587
+        },
+        {
+          "age": 76,
+          "duration": 6,
+          "rate": 0.05086
+        },
+        {
+          "age": 76,
+          "duration": 7,
+          "rate": 0.05815
+        },
+        {
+          "age": 76,
+          "duration": 8,
+          "rate": 0.06435
+        },
+        {
+          "age": 76,
+          "duration": 9,
+          "rate": 0.07345
+        },
+        {
+          "age": 76,
+          "duration": 10,
+          "rate": 0.07641
+        },
+        {
+          "age": 76,
+          "duration": 11,
+          "rate": 0.08454
+        },
+        {
+          "age": 76,
+          "duration": 12,
+          "rate": 0.10349
+        },
+        {
+          "age": 76,
+          "duration": 13,
+          "rate": 0.12616
+        },
+        {
+          "age": 76,
+          "duration": 14,
+          "rate": 0.15077
+        },
+        {
+          "age": 76,
+          "duration": 15,
+          "rate": 0.17221
+        },
+        {
+          "age": 77,
+          "duration": 1,
+          "rate": 0.01501
+        },
+        {
+          "age": 77,
+          "duration": 2,
+          "rate": 0.02305
+        },
+        {
+          "age": 77,
+          "duration": 3,
+          "rate": 0.03176
+        },
+        {
+          "age": 77,
+          "duration": 4,
+          "rate": 0.04109
+        },
+        {
+          "age": 77,
+          "duration": 5,
+          "rate": 0.05009
+        },
+        {
+          "age": 77,
+          "duration": 6,
+          "rate": 0.05553
+        },
+        {
+          "age": 77,
+          "duration": 7,
+          "rate": 0.06346
+        },
+        {
+          "age": 77,
+          "duration": 8,
+          "rate": 0.07019
+        },
+        {
+          "age": 77,
+          "duration": 9,
+          "rate": 0.08007
+        },
+        {
+          "age": 77,
+          "duration": 10,
+          "rate": 0.08319
+        },
+        {
+          "age": 77,
+          "duration": 11,
+          "rate": 0.09192
+        },
+        {
+          "age": 77,
+          "duration": 12,
+          "rate": 0.11235
+        },
+        {
+          "age": 77,
+          "duration": 13,
+          "rate": 0.13665
+        },
+        {
+          "age": 77,
+          "duration": 14,
+          "rate": 0.16289
+        },
+        {
+          "age": 77,
+          "duration": 15,
+          "rate": 0.18551
+        },
+        {
+          "age": 78,
+          "duration": 1,
+          "rate": 0.0164
+        },
+        {
+          "age": 78,
+          "duration": 2,
+          "rate": 0.02516
+        },
+        {
+          "age": 78,
+          "duration": 3,
+          "rate": 0.03464
+        },
+        {
+          "age": 78,
+          "duration": 4,
+          "rate": 0.0448
+        },
+        {
+          "age": 78,
+          "duration": 5,
+          "rate": 0.0546
+        },
+        {
+          "age": 78,
+          "duration": 6,
+          "rate": 0.06052
+        },
+        {
+          "age": 78,
+          "duration": 7,
+          "rate": 0.06918
+        },
+        {
+          "age": 78,
+          "duration": 8,
+          "rate": 0.07652
+        },
+        {
+          "age": 78,
+          "duration": 9,
+          "rate": 0.08722
+        },
+        {
+          "age": 78,
+          "duration": 10,
+          "rate": 0.09049
+        },
+        {
+          "age": 78,
+          "duration": 11,
+          "rate": 0.09979
+        },
+        {
+          "age": 78,
+          "duration": 12,
+          "rate": 0.12167
+        },
+        {
+          "age": 78,
+          "duration": 13,
+          "rate": 0.14755
+        },
+        {
+          "age": 78,
+          "duration": 14,
+          "rate": 0.17538
+        },
+        {
+          "age": 78,
+          "duration": 15,
+          "rate": 0.19917
+        },
+        {
+          "age": 79,
+          "duration": 1,
+          "rate": 0.01797
+        },
+        {
+          "age": 79,
+          "duration": 2,
+          "rate": 0.02751
+        },
+        {
+          "age": 79,
+          "duration": 3,
+          "rate": 0.03783
+        },
+        {
+          "age": 79,
+          "duration": 4,
+          "rate": 0.04887
+        },
+        {
+          "age": 79,
+          "duration": 5,
+          "rate": 0.05952
+        },
+        {
+          "age": 79,
+          "duration": 6,
+          "rate": 0.06597
+        },
+        {
+          "age": 79,
+          "duration": 7,
+          "rate": 0.07542
+        },
+        {
+          "age": 79,
+          "duration": 8,
+          "rate": 0.08337
+        },
+        {
+          "age": 79,
+          "duration": 9,
+          "rate": 0.0949
+        },
+        {
+          "age": 79,
+          "duration": 10,
+          "rate": 0.09825
+        },
+        {
+          "age": 79,
+          "duration": 11,
+          "rate": 0.10805
+        },
+        {
+          "age": 79,
+          "duration": 12,
+          "rate": 0.13132
+        },
+        {
+          "age": 79,
+          "duration": 13,
+          "rate": 0.15875
+        },
+        {
+          "age": 79,
+          "duration": 14,
+          "rate": 0.18814
+        },
+        {
+          "age": 79,
+          "duration": 15,
+          "rate": 0.2131
+        },
+        {
+          "age": 80,
+          "duration": 1,
+          "rate": 0.01969
+        },
+        {
+          "age": 80,
+          "duration": 2,
+          "rate": 0.03008
+        },
+        {
+          "age": 80,
+          "duration": 3,
+          "rate": 0.04129
+        },
+        {
+          "age": 80,
+          "duration": 4,
+          "rate": 0.05328
+        },
+        {
+          "age": 80,
+          "duration": 5,
+          "rate": 0.06484
+        },
+        {
+          "age": 80,
+          "duration": 6,
+          "rate": 0.07184
+        },
+        {
+          "age": 80,
+          "duration": 7,
+          "rate": 0.08212
+        },
+        {
+          "age": 80,
+          "duration": 8,
+          "rate": 0.0907
+        },
+        {
+          "age": 80,
+          "duration": 9,
+          "rate": 0.10304
+        },
+        {
+          "age": 80,
+          "duration": 10,
+          "rate": 0.10641
+        },
+        {
+          "age": 80,
+          "duration": 11,
+          "rate": 0.11667
+        },
+        {
+          "age": 80,
+          "duration": 12,
+          "rate": 0.14133
+        },
+        {
+          "age": 80,
+          "duration": 13,
+          "rate": 0.1703
+        },
+        {
+          "age": 80,
+          "duration": 14,
+          "rate": 0.20125
+        },
+        {
+          "age": 80,
+          "duration": 15,
+          "rate": 0.22736
+        },
+        {
+          "age": 81,
+          "duration": 1,
+          "rate": 0.02155
+        },
+        {
+          "age": 81,
+          "duration": 2,
+          "rate": 0.03285
+        },
+        {
+          "age": 81,
+          "duration": 3,
+          "rate": 0.04503
+        },
+        {
+          "age": 81,
+          "duration": 4,
+          "rate": 0.05802
+        },
+        {
+          "age": 81,
+          "duration": 5,
+          "rate": 0.07053
+        },
+        {
+          "age": 81,
+          "duration": 6,
+          "rate": 0.0781
+        },
+        {
+          "age": 81,
+          "duration": 7,
+          "rate": 0.08924
+        },
+        {
+          "age": 81,
+          "duration": 8,
+          "rate": 0.09844
+        },
+        {
+          "age": 81,
+          "duration": 9,
+          "rate": 0.1116
+        },
+        {
+          "age": 81,
+          "duration": 10,
+          "rate": 0.11495
+        },
+        {
+          "age": 81,
+          "duration": 11,
+          "rate": 0.12564
+        },
+        {
+          "age": 81,
+          "duration": 12,
+          "rate": 0.15169
+        },
+        {
+          "age": 81,
+          "duration": 13,
+          "rate": 0.18221
+        },
+        {
+          "age": 81,
+          "duration": 14,
+          "rate": 0.21474
+        },
+        {
+          "age": 81,
+          "duration": 15,
+          "rate": 0.24201
+        },
+        {
+          "age": 82,
+          "duration": 1,
+          "rate": 0.02353
+        },
+        {
+          "age": 82,
+          "duration": 2,
+          "rate": 0.03582
+        },
+        {
+          "age": 82,
+          "duration": 3,
+          "rate": 0.04902
+        },
+        {
+          "age": 82,
+          "duration": 4,
+          "rate": 0.06308
+        },
+        {
+          "age": 82,
+          "duration": 5,
+          "rate": 0.07659
+        },
+        {
+          "age": 82,
+          "duration": 6,
+          "rate": 0.08474
+        },
+        {
+          "age": 82,
+          "duration": 7,
+          "rate": 0.09675
+        },
+        {
+          "age": 82,
+          "duration": 8,
+          "rate": 0.10655
+        },
+        {
+          "age": 82,
+          "duration": 9,
+          "rate": 0.12052
+        },
+        {
+          "age": 82,
+          "duration": 10,
+          "rate": 0.12381
+        },
+        {
+          "age": 82,
+          "duration": 11,
+          "rate": 0.13494
+        },
+        {
+          "age": 82,
+          "duration": 12,
+          "rate": 0.16243
+        },
+        {
+          "age": 82,
+          "duration": 13,
+          "rate": 0.19454
+        },
+        {
+          "age": 82,
+          "duration": 14,
+          "rate": 0.22867
+        },
+        {
+          "age": 82,
+          "duration": 15,
+          "rate": 0.25712
+        },
+        {
+          "age": 83,
+          "duration": 1,
+          "rate": 0.02567
+        },
+        {
+          "age": 83,
+          "duration": 2,
+          "rate": 0.03903
+        },
+        {
+          "age": 83,
+          "duration": 3,
+          "rate": 0.05335
+        },
+        {
+          "age": 83,
+          "duration": 4,
+          "rate": 0.06855
+        },
+        {
+          "age": 83,
+          "duration": 5,
+          "rate": 0.0831
+        },
+        {
+          "age": 83,
+          "duration": 6,
+          "rate": 0.09179
+        },
+        {
+          "age": 83,
+          "duration": 7,
+          "rate": 0.10461
+        },
+        {
+          "age": 83,
+          "duration": 8,
+          "rate": 0.11495
+        },
+        {
+          "age": 83,
+          "duration": 9,
+          "rate": 0.12971
+        },
+        {
+          "age": 83,
+          "duration": 10,
+          "rate": 0.13291
+        },
+        {
+          "age": 83,
+          "duration": 11,
+          "rate": 0.14448
+        },
+        {
+          "age": 83,
+          "duration": 12,
+          "rate": 0.17345
+        },
+        {
+          "age": 83,
+          "duration": 13,
+          "rate": 0.20721
+        },
+        {
+          "age": 83,
+          "duration": 14,
+          "rate": 0.243
+        },
+        {
+          "age": 83,
+          "duration": 15,
+          "rate": 0.27266
+        },
+        {
+          "age": 84,
+          "duration": 1,
+          "rate": 0.02798
+        },
+        {
+          "age": 84,
+          "duration": 2,
+          "rate": 0.04254
+        },
+        {
+          "age": 84,
+          "duration": 3,
+          "rate": 0.05809
+        },
+        {
+          "age": 84,
+          "duration": 4,
+          "rate": 0.07452
+        },
+        {
+          "age": 84,
+          "duration": 5,
+          "rate": 0.09013
+        },
+        {
+          "age": 84,
+          "duration": 6,
+          "rate": 0.0993
+        },
+        {
+          "age": 84,
+          "duration": 7,
+          "rate": 0.11285
+        },
+        {
+          "age": 84,
+          "duration": 8,
+          "rate": 0.12364
+        },
+        {
+          "age": 84,
+          "duration": 9,
+          "rate": 0.13913
+        },
+        {
+          "age": 84,
+          "duration": 10,
+          "rate": 0.14219
+        },
+        {
+          "age": 84,
+          "duration": 11,
+          "rate": 0.15419
+        },
+        {
+          "age": 84,
+          "duration": 12,
+          "rate": 0.18469
+        },
+        {
+          "age": 84,
+          "duration": 13,
+          "rate": 0.22016
+        },
+        {
+          "age": 84,
+          "duration": 14,
+          "rate": 0.25767
+        },
+        {
+          "age": 84,
+          "duration": 15,
+          "rate": 0.28857
+        },
+        {
+          "age": 85,
+          "duration": 1,
+          "rate": 0.03047
+        },
+        {
+          "age": 85,
+          "duration": 2,
+          "rate": 0.04633
+        },
+        {
+          "age": 85,
+          "duration": 3,
+          "rate": 0.0632
+        },
+        {
+          "age": 85,
+          "duration": 4,
+          "rate": 0.08093
+        },
+        {
+          "age": 85,
+          "duration": 5,
+          "rate": 0.09764
+        },
+        {
+          "age": 85,
+          "duration": 6,
+          "rate": 0.10725
+        },
+        {
+          "age": 85,
+          "duration": 7,
+          "rate": 0.12146
+        },
+        {
+          "age": 85,
+          "duration": 8,
+          "rate": 0.13264
+        },
+        {
+          "age": 85,
+          "duration": 9,
+          "rate": 0.14882
+        },
+        {
+          "age": 85,
+          "duration": 10,
+          "rate": 0.1517
+        },
+        {
+          "age": 85,
+          "duration": 11,
+          "rate": 0.16413
+        },
+        {
+          "age": 85,
+          "duration": 12,
+          "rate": 0.19618
+        },
+        {
+          "age": 85,
+          "duration": 13,
+          "rate": 0.23341
+        },
+        {
+          "age": 85,
+          "duration": 14,
+          "rate": 0.27268
+        },
+        {
+          "age": 85,
+          "duration": 15,
+          "rate": 0.30486
+        },
+        {
+          "age": 86,
+          "duration": 1,
+          "rate": 0.03312
+        },
+        {
+          "age": 86,
+          "duration": 2,
+          "rate": 0.05036
+        },
+        {
+          "age": 86,
+          "duration": 3,
+          "rate": 0.06866
+        },
+        {
+          "age": 86,
+          "duration": 4,
+          "rate": 0.08776
+        },
+        {
+          "age": 86,
+          "duration": 5,
+          "rate": 0.10561
+        },
+        {
+          "age": 86,
+          "duration": 6,
+          "rate": 0.11562
+        },
+        {
+          "age": 86,
+          "duration": 7,
+          "rate": 0.13047
+        },
+        {
+          "age": 86,
+          "duration": 8,
+          "rate": 0.14198
+        },
+        {
+          "age": 86,
+          "duration": 9,
+          "rate": 0.15883
+        },
+        {
+          "age": 86,
+          "duration": 10,
+          "rate": 0.16149
+        },
+        {
+          "age": 86,
+          "duration": 11,
+          "rate": 0.17433
+        },
+        {
+          "age": 86,
+          "duration": 12,
+          "rate": 0.20796
+        },
+        {
+          "age": 86,
+          "duration": 13,
+          "rate": 0.24698
+        },
+        {
+          "age": 86,
+          "duration": 14,
+          "rate": 0.28806
+        },
+        {
+          "age": 86,
+          "duration": 15,
+          "rate": 0.32154
+        },
+        {
+          "age": 87,
+          "duration": 1,
+          "rate": 0.03591
+        },
+        {
+          "age": 87,
+          "duration": 2,
+          "rate": 0.05462
+        },
+        {
+          "age": 87,
+          "duration": 3,
+          "rate": 0.07441
+        },
+        {
+          "age": 87,
+          "duration": 4,
+          "rate": 0.09496
+        },
+        {
+          "age": 87,
+          "duration": 5,
+          "rate": 0.11398
+        },
+        {
+          "age": 87,
+          "duration": 6,
+          "rate": 0.1244
+        },
+        {
+          "age": 87,
+          "duration": 7,
+          "rate": 0.13987
+        },
+        {
+          "age": 87,
+          "duration": 8,
+          "rate": 0.15169
+        },
+        {
+          "age": 87,
+          "duration": 9,
+          "rate": 0.1692
+        },
+        {
+          "age": 87,
+          "duration": 10,
+          "rate": 0.17159
+        },
+        {
+          "age": 87,
+          "duration": 11,
+          "rate": 0.18483
+        },
+        {
+          "age": 87,
+          "duration": 12,
+          "rate": 0.22007
+        },
+        {
+          "age": 87,
+          "duration": 13,
+          "rate": 0.26092
+        },
+        {
+          "age": 87,
+          "duration": 14,
+          "rate": 0.30383
+        },
+        {
+          "age": 87,
+          "duration": 15,
+          "rate": 0.33863
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1975-80 Modified Basic Table with Milliman Extension – Male. Basis: Age Nearest Birthday. Minimum Ultimate Age: 15. Maximum Ultimate Age: 102",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "102",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 0.00068
+        },
+        {
+          "age": 16,
+          "rate": 0.00101
+        },
+        {
+          "age": 17,
+          "rate": 0.00114
+        },
+        {
+          "age": 18,
+          "rate": 0.00122
+        },
+        {
+          "age": 19,
+          "rate": 0.00131
+        },
+        {
+          "age": 20,
+          "rate": 0.00137
+        },
+        {
+          "age": 21,
+          "rate": 0.0014
+        },
+        {
+          "age": 22,
+          "rate": 0.00141
+        },
+        {
+          "age": 23,
+          "rate": 0.0014
+        },
+        {
+          "age": 24,
+          "rate": 0.00138
+        },
+        {
+          "age": 25,
+          "rate": 0.00134
+        },
+        {
+          "age": 26,
+          "rate": 0.00129
+        },
+        {
+          "age": 27,
+          "rate": 0.00124
+        },
+        {
+          "age": 28,
+          "rate": 0.0012
+        },
+        {
+          "age": 29,
+          "rate": 0.00117
+        },
+        {
+          "age": 30,
+          "rate": 0.00114
+        },
+        {
+          "age": 31,
+          "rate": 0.00112
+        },
+        {
+          "age": 32,
+          "rate": 0.00111
+        },
+        {
+          "age": 33,
+          "rate": 0.00112
+        },
+        {
+          "age": 34,
+          "rate": 0.00114
+        },
+        {
+          "age": 35,
+          "rate": 0.00117
+        },
+        {
+          "age": 36,
+          "rate": 0.00122
+        },
+        {
+          "age": 37,
+          "rate": 0.00128
+        },
+        {
+          "age": 38,
+          "rate": 0.00136
+        },
+        {
+          "age": 39,
+          "rate": 0.00145
+        },
+        {
+          "age": 40,
+          "rate": 0.00156
+        },
+        {
+          "age": 41,
+          "rate": 0.0017
+        },
+        {
+          "age": 42,
+          "rate": 0.00187
+        },
+        {
+          "age": 43,
+          "rate": 0.00207
+        },
+        {
+          "age": 44,
+          "rate": 0.00231
+        },
+        {
+          "age": 45,
+          "rate": 0.00258
+        },
+        {
+          "age": 46,
+          "rate": 0.00289
+        },
+        {
+          "age": 47,
+          "rate": 0.00324
+        },
+        {
+          "age": 48,
+          "rate": 0.00361
+        },
+        {
+          "age": 49,
+          "rate": 0.00402
+        },
+        {
+          "age": 50,
+          "rate": 0.00445
+        },
+        {
+          "age": 51,
+          "rate": 0.00492
+        },
+        {
+          "age": 52,
+          "rate": 0.00544
+        },
+        {
+          "age": 53,
+          "rate": 0.006
+        },
+        {
+          "age": 54,
+          "rate": 0.00661
+        },
+        {
+          "age": 55,
+          "rate": 0.00727
+        },
+        {
+          "age": 56,
+          "rate": 0.00801
+        },
+        {
+          "age": 57,
+          "rate": 0.00882
+        },
+        {
+          "age": 58,
+          "rate": 0.00973
+        },
+        {
+          "age": 59,
+          "rate": 0.01075
+        },
+        {
+          "age": 60,
+          "rate": 0.01189
+        },
+        {
+          "age": 61,
+          "rate": 0.01317
+        },
+        {
+          "age": 62,
+          "rate": 0.01457
+        },
+        {
+          "age": 63,
+          "rate": 0.01607
+        },
+        {
+          "age": 64,
+          "rate": 0.01771
+        },
+        {
+          "age": 65,
+          "rate": 0.0195
+        },
+        {
+          "age": 66,
+          "rate": 0.02147
+        },
+        {
+          "age": 67,
+          "rate": 0.02365
+        },
+        {
+          "age": 68,
+          "rate": 0.02605
+        },
+        {
+          "age": 69,
+          "rate": 0.02869
+        },
+        {
+          "age": 70,
+          "rate": 0.03157
+        },
+        {
+          "age": 71,
+          "rate": 0.03468
+        },
+        {
+          "age": 72,
+          "rate": 0.038
+        },
+        {
+          "age": 73,
+          "rate": 0.0416
+        },
+        {
+          "age": 74,
+          "rate": 0.04554
+        },
+        {
+          "age": 75,
+          "rate": 0.0499
+        },
+        {
+          "age": 76,
+          "rate": 0.05471
+        },
+        {
+          "age": 77,
+          "rate": 0.06003
+        },
+        {
+          "age": 78,
+          "rate": 0.06585
+        },
+        {
+          "age": 79,
+          "rate": 0.07218
+        },
+        {
+          "age": 80,
+          "rate": 0.07902
+        },
+        {
+          "age": 81,
+          "rate": 0.08636
+        },
+        {
+          "age": 82,
+          "rate": 0.09412
+        },
+        {
+          "age": 83,
+          "rate": 0.10235
+        },
+        {
+          "age": 84,
+          "rate": 0.11141
+        },
+        {
+          "age": 85,
+          "rate": 0.12131
+        },
+        {
+          "age": 86,
+          "rate": 0.13205
+        },
+        {
+          "age": 87,
+          "rate": 0.14363
+        },
+        {
+          "age": 88,
+          "rate": 0.15605
+        },
+        {
+          "age": 89,
+          "rate": 0.16912
+        },
+        {
+          "age": 90,
+          "rate": 0.18261
+        },
+        {
+          "age": 91,
+          "rate": 0.19652
+        },
+        {
+          "age": 92,
+          "rate": 0.21085
+        },
+        {
+          "age": 93,
+          "rate": 0.2256
+        },
+        {
+          "age": 94,
+          "rate": 0.24077
+        },
+        {
+          "age": 95,
+          "rate": 0.25636
+        },
+        {
+          "age": 96,
+          "rate": 0.27237
+        },
+        {
+          "age": 97,
+          "rate": 0.2888
+        },
+        {
+          "age": 98,
+          "rate": 0.30565
+        },
+        {
+          "age": 99,
+          "rate": 0.32292
+        },
+        {
+          "age": 100,
+          "rate": 0.34061
+        },
+        {
+          "age": 101,
+          "rate": 0.35872
+        },
+        {
+          "age": 102,
+          "rate": 0.37725
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "identifier": "1985_naic_cancer_claim_cost_table_all_payment_conversion_factors",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1476",
+    "providerDomain": "naic.org",
+    "providerName": "NAIC",
+    "tableReference": "National Association of Insurance Commissioners, \"1985 NAIC Cancer Claim Cost Tables\", Proceedings of the National Association of Insurance Commissioners, Vol. I. (Kansas City, Mo. 1986)",
+    "contentType": {
+      "code": "80",
+      "label": "Claim Incidence"
+    },
+    "tableName": "1985 NAIC Cancer Claim Cost Table All-Payment Conversion Factors",
+    "tableDescription": "1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table All-Payment Conversion Factors. Minimum Attained Age: 15. Maximum Attained Age: 99",
+    "comments": "Study Data: Based on lives insured under cancer expense policies. Claim information includes payments during 1978 and 1979. It is believed 80% of all applicable experience is included in the study. Methodology: Conversion factors developed for use in combining individual claim categories (hospital, attending physician, chemotherapy, etc See SOA Table Identities 1460-1475, 1483-1485, and 2587-2596) into an all-payment claim cost. These factors may be helpful in determining claim reserves and liabilities of companies reserving on the all-payment basis. To convert each-payment claim cost to an all-payment claim cost multiply A x B x C where A: All payment Conversion Factor of this table; B: an interest rate factor specified in the application valuation standard, and C: each-payment claim cost. Data Transcription Errors: None. Data Certified: 12/2012.",
+    "keywords": [
+      "Aggregate",
+      "Claim Incidence",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table All-Payment Conversion Factors. Minimum Attained Age: 15. Maximum Attained Age: 99",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "99",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 1.1733
+        },
+        {
+          "age": 16,
+          "rate": 1.1733
+        },
+        {
+          "age": 17,
+          "rate": 1.1733
+        },
+        {
+          "age": 18,
+          "rate": 1.1733
+        },
+        {
+          "age": 19,
+          "rate": 1.1733
+        },
+        {
+          "age": 20,
+          "rate": 1.1733
+        },
+        {
+          "age": 21,
+          "rate": 1.1733
+        },
+        {
+          "age": 22,
+          "rate": 1.1733
+        },
+        {
+          "age": 23,
+          "rate": 1.1691
+        },
+        {
+          "age": 24,
+          "rate": 1.1648
+        },
+        {
+          "age": 25,
+          "rate": 1.1605
+        },
+        {
+          "age": 26,
+          "rate": 1.1563
+        },
+        {
+          "age": 27,
+          "rate": 1.152
+        },
+        {
+          "age": 28,
+          "rate": 1.1477
+        },
+        {
+          "age": 29,
+          "rate": 1.1435
+        },
+        {
+          "age": 30,
+          "rate": 1.1392
+        },
+        {
+          "age": 31,
+          "rate": 1.1349
+        },
+        {
+          "age": 32,
+          "rate": 1.1307
+        },
+        {
+          "age": 33,
+          "rate": 1.1264
+        },
+        {
+          "age": 34,
+          "rate": 1.1221
+        },
+        {
+          "age": 35,
+          "rate": 1.1179
+        },
+        {
+          "age": 36,
+          "rate": 1.1136
+        },
+        {
+          "age": 37,
+          "rate": 1.1093
+        },
+        {
+          "age": 38,
+          "rate": 1.1051
+        },
+        {
+          "age": 39,
+          "rate": 1.1008
+        },
+        {
+          "age": 40,
+          "rate": 1.0965
+        },
+        {
+          "age": 41,
+          "rate": 1.0923
+        },
+        {
+          "age": 42,
+          "rate": 1.088
+        },
+        {
+          "age": 43,
+          "rate": 1.0837
+        },
+        {
+          "age": 44,
+          "rate": 1.0795
+        },
+        {
+          "age": 45,
+          "rate": 1.0752
+        },
+        {
+          "age": 46,
+          "rate": 1.0709
+        },
+        {
+          "age": 47,
+          "rate": 1.0667
+        },
+        {
+          "age": 48,
+          "rate": 1.0624
+        },
+        {
+          "age": 49,
+          "rate": 1.0581
+        },
+        {
+          "age": 50,
+          "rate": 1.0539
+        },
+        {
+          "age": 51,
+          "rate": 1.0496
+        },
+        {
+          "age": 52,
+          "rate": 1.0453
+        },
+        {
+          "age": 53,
+          "rate": 1.0411
+        },
+        {
+          "age": 54,
+          "rate": 1.0368
+        },
+        {
+          "age": 55,
+          "rate": 1.0325
+        },
+        {
+          "age": 56,
+          "rate": 1.0283
+        },
+        {
+          "age": 57,
+          "rate": 1.024
+        },
+        {
+          "age": 58,
+          "rate": 1.0197
+        },
+        {
+          "age": 59,
+          "rate": 1.0155
+        },
+        {
+          "age": 60,
+          "rate": 1.0112
+        },
+        {
+          "age": 61,
+          "rate": 1.0069
+        },
+        {
+          "age": 62,
+          "rate": 1.0027
+        },
+        {
+          "age": 63,
+          "rate": 0.9984
+        },
+        {
+          "age": 64,
+          "rate": 0.9941
+        },
+        {
+          "age": 65,
+          "rate": 0.9899
+        },
+        {
+          "age": 66,
+          "rate": 0.9856
+        },
+        {
+          "age": 67,
+          "rate": 0.9813
+        },
+        {
+          "age": 68,
+          "rate": 0.9771
+        },
+        {
+          "age": 69,
+          "rate": 0.9728
+        },
+        {
+          "age": 70,
+          "rate": 0.9685
+        },
+        {
+          "age": 71,
+          "rate": 0.9643
+        },
+        {
+          "age": 72,
+          "rate": 0.96
+        },
+        {
+          "age": 73,
+          "rate": 0.96
+        },
+        {
+          "age": 74,
+          "rate": 0.96
+        },
+        {
+          "age": 75,
+          "rate": 0.96
+        },
+        {
+          "age": 76,
+          "rate": 0.96
+        },
+        {
+          "age": 77,
+          "rate": 0.96
+        },
+        {
+          "age": 78,
+          "rate": 0.96
+        },
+        {
+          "age": 79,
+          "rate": 0.96
+        },
+        {
+          "age": 80,
+          "rate": 0.96
+        },
+        {
+          "age": 81,
+          "rate": 0.96
+        },
+        {
+          "age": 82,
+          "rate": 0.96
+        },
+        {
+          "age": 83,
+          "rate": 0.96
+        },
+        {
+          "age": 84,
+          "rate": 0.96
+        },
+        {
+          "age": 85,
+          "rate": 0.96
+        },
+        {
+          "age": 86,
+          "rate": 0.96
+        },
+        {
+          "age": 87,
+          "rate": 0.96
+        },
+        {
+          "age": 88,
+          "rate": 0.96
+        },
+        {
+          "age": 89,
+          "rate": 0.96
+        },
+        {
+          "age": 90,
+          "rate": 0.96
+        },
+        {
+          "age": 91,
+          "rate": 0.96
+        },
+        {
+          "age": 92,
+          "rate": 0.96
+        },
+        {
+          "age": 93,
+          "rate": 0.96
+        },
+        {
+          "age": 94,
+          "rate": 0.96
+        },
+        {
+          "age": 95,
+          "rate": 0.96
+        },
+        {
+          "age": 96,
+          "rate": 0.96
+        },
+        {
+          "age": 97,
+          "rate": 0.96
+        },
+        {
+          "age": 98,
+          "rate": 0.96
+        },
+        {
+          "age": 99,
+          "rate": 0.96
+        }
+      ]
+    }
+  ]
+}

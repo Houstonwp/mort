@@ -1,0 +1,335 @@
+{
+  "identifier": "rp_2000_1992_base_mortality_table_male_aggregate_employee",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "985",
+    "providerDomain": "soa.org",
+    "providerName": "Stephen J. Strommen",
+    "tableReference": "Retirement Plans Experience Committee of the Society of Actuaries, “The RP-2000 Mortality Tables”, Society of Actuaries, (2000), p 34-36. Accessed: October, 2012 from www.soa.org/files/research/exp-study/rp00_mortalitytables.pdf.",
+    "contentType": {
+      "code": "78",
+      "label": "Annuitant Mortality"
+    },
+    "tableName": "RP-2000 - 1992 Base Mortality Table – Male Aggregate - Employee",
+    "tableDescription": "Retirement Plan (RP) - 2000 Mortality Table - Male Aggregate - Employee, (Table 3-1), Base Year 1992.  Minimum Age: 1. Maximum Age: 70",
+    "comments": "Study Data: The Retirement Protection Act of 1994 (RPA) established mortality assumptions to be used when calculating Current Liabilities for pension plans. More than 100 pension plans submitted data from plan years 1990 through 1994. Note that the data behind the tables is from pension plans thereby having implications on annuity benefits. It is of no consequence that the various tables are labeled as \"employee\", \"disabled retiree\", etc.; all the RP-2000 tables are simply designated \"annuitant mortality\". Methodology: Contributors categorized their submissions as blue collar, white collar, or mixed collar. The data contributors summarized their mortality experience into cells by age, gender, and status (employee, retiree, disabled, and beneficiary). Data submissions that combined all inactive statuses (healthy retirees, beneficiaries, and/or disability retirees) or combined active employees with one or more inactive statuses were excluded. Data submitted in 5-year groups rather than single ages were also excluded. Data with unknown participant status were excluded. Also excluded was data of pension plans that are not directly affected by the RPA Current Liability rules so that the resulting mortality experience would be more appropriate for purposes of the Act. The central year of the data for these tables was estimated as 1992 and the tables were projected to the base year 2000 (See SOA Table Identities 1594-1599, 987 and 991). Three sources of data were reviewed to study recent trends in mortality: Social Security, Federal Civil Service, and the data collected for the study. Mortality improvement factors to project from 1992 to 2000 were based on analysis of these sources. To study long-term trends in mortality the data from four sources was examined: Social Security, Federal Civil Service, the Railroad Retirement Board, and the Society of Actuaries group annuity mortality studies. Liabilities for pension plans are automatically weighted by amounts thus mortality rates calculated were based on amounts. The resulting amount-adjusted mortality rates for employees, healthy annuitants, and disabled annuitants were graduated using Whittaker-Henderson Type B with third differences. Data Transcription Errors Detected: 10/5/2012.  Data Corrected and Certified: 10/2012",
+    "keywords": [
+      "Aggregate",
+      "United States of America",
+      "Annuitant Mortality",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "Retirement Plan (RP) - 2000 Mortality Table - Male Aggregate - Employee, (Table 3-1), Base Year 1992.  Minimum Age: 1. Maximum Age: 70",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "1",
+            "maxValue": "70",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 0.000637
+        },
+        {
+          "age": 2,
+          "rate": 0.00043
+        },
+        {
+          "age": 3,
+          "rate": 0.000357
+        },
+        {
+          "age": 4,
+          "rate": 0.000278
+        },
+        {
+          "age": 5,
+          "rate": 0.000255
+        },
+        {
+          "age": 6,
+          "rate": 0.000244
+        },
+        {
+          "age": 7,
+          "rate": 0.000234
+        },
+        {
+          "age": 8,
+          "rate": 0.000216
+        },
+        {
+          "age": 9,
+          "rate": 0.000209
+        },
+        {
+          "age": 10,
+          "rate": 0.000212
+        },
+        {
+          "age": 11,
+          "rate": 0.000219
+        },
+        {
+          "age": 12,
+          "rate": 0.000228
+        },
+        {
+          "age": 13,
+          "rate": 0.00024
+        },
+        {
+          "age": 14,
+          "rate": 0.000254
+        },
+        {
+          "age": 15,
+          "rate": 0.000269
+        },
+        {
+          "age": 16,
+          "rate": 0.000284
+        },
+        {
+          "age": 17,
+          "rate": 0.000301
+        },
+        {
+          "age": 18,
+          "rate": 0.000316
+        },
+        {
+          "age": 19,
+          "rate": 0.000331
+        },
+        {
+          "age": 20,
+          "rate": 0.000345
+        },
+        {
+          "age": 21,
+          "rate": 0.000357
+        },
+        {
+          "age": 22,
+          "rate": 0.000366
+        },
+        {
+          "age": 23,
+          "rate": 0.000373
+        },
+        {
+          "age": 24,
+          "rate": 0.000376
+        },
+        {
+          "age": 25,
+          "rate": 0.000376
+        },
+        {
+          "age": 26,
+          "rate": 0.000378
+        },
+        {
+          "age": 27,
+          "rate": 0.000382
+        },
+        {
+          "age": 28,
+          "rate": 0.000393
+        },
+        {
+          "age": 29,
+          "rate": 0.000412
+        },
+        {
+          "age": 30,
+          "rate": 0.000444
+        },
+        {
+          "age": 31,
+          "rate": 0.000499
+        },
+        {
+          "age": 32,
+          "rate": 0.000562
+        },
+        {
+          "age": 33,
+          "rate": 0.000631
+        },
+        {
+          "age": 34,
+          "rate": 0.000702
+        },
+        {
+          "age": 35,
+          "rate": 0.000773
+        },
+        {
+          "age": 36,
+          "rate": 0.000841
+        },
+        {
+          "age": 37,
+          "rate": 0.000904
+        },
+        {
+          "age": 38,
+          "rate": 0.000964
+        },
+        {
+          "age": 39,
+          "rate": 0.001021
+        },
+        {
+          "age": 40,
+          "rate": 0.001079
+        },
+        {
+          "age": 41,
+          "rate": 0.001142
+        },
+        {
+          "age": 42,
+          "rate": 0.001215
+        },
+        {
+          "age": 43,
+          "rate": 0.001299
+        },
+        {
+          "age": 44,
+          "rate": 0.001397
+        },
+        {
+          "age": 45,
+          "rate": 0.001508
+        },
+        {
+          "age": 46,
+          "rate": 0.001629
+        },
+        {
+          "age": 47,
+          "rate": 0.001762
+        },
+        {
+          "age": 48,
+          "rate": 0.001905
+        },
+        {
+          "age": 49,
+          "rate": 0.00206
+        },
+        {
+          "age": 50,
+          "rate": 0.002225
+        },
+        {
+          "age": 51,
+          "rate": 0.002401
+        },
+        {
+          "age": 52,
+          "rate": 0.002589
+        },
+        {
+          "age": 53,
+          "rate": 0.002795
+        },
+        {
+          "age": 54,
+          "rate": 0.003023
+        },
+        {
+          "age": 55,
+          "rate": 0.003283
+        },
+        {
+          "age": 56,
+          "rate": 0.003583
+        },
+        {
+          "age": 57,
+          "rate": 0.003932
+        },
+        {
+          "age": 58,
+          "rate": 0.004332
+        },
+        {
+          "age": 59,
+          "rate": 0.004784
+        },
+        {
+          "age": 60,
+          "rate": 0.005286
+        },
+        {
+          "age": 61,
+          "rate": 0.005833
+        },
+        {
+          "age": 62,
+          "rate": 0.006414
+        },
+        {
+          "age": 63,
+          "rate": 0.007014
+        },
+        {
+          "age": 64,
+          "rate": 0.007616
+        },
+        {
+          "age": 65,
+          "rate": 0.008207
+        },
+        {
+          "age": 66,
+          "rate": 0.008777
+        },
+        {
+          "age": 67,
+          "rate": 0.009318
+        },
+        {
+          "age": 68,
+          "rate": 0.009828
+        },
+        {
+          "age": 69,
+          "rate": 0.010306
+        },
+        {
+          "age": 70,
+          "rate": 0.010753
+        }
+      ]
+    }
+  ]
+}

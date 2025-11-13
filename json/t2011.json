@@ -1,0 +1,358 @@
+{
+  "identifier": "joint_1939_445_basic_table_anb",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2011",
+    "providerDomain": "soa.org",
+    "providerName": "Susie Lee",
+    "tableReference": "James S. Elston, “Analysis of Joint Mortality Experience 1939-45”, Transactions of the Society of Actuaries Vol. VIII, Part Two, No. 118. (1947) Table 14, p. 262.",
+    "contentType": {
+      "code": "4",
+      "label": "Insured Lives Mortality"
+    },
+    "tableName": "Joint 1939-44^(5) Basic Table, ANB",
+    "tableDescription": "Joint 1939-44^(5) Basic Mortality Table (Excluding Direct War Losses). Basis: Age Nearest Birthday. Minimum Age: 25. Maximum Age: 100",
+    "comments": "Study Data: Based on data from 16 companies that contribute to Joint Committee on Mortality of the Society of Actuaries (SOA). Submissions include standard business excluding non-medical and attained age conversions of term policies. The Committee recognized at the outset that war deaths would prove a serious obstacle but it seemed worth while despite this handicap to use the material available rather than to wait several years for the development of war-free mortality. Accordingly, war losses excluded are the \"death claims of service personnel from service-connected causes (including diseases) and of civilians from causes directly connected with the war.” Methodology:  Crude rates graduated with a Henderson-A formula. Graduated rates compared to other recent United States (U.S.) mortality tables. No completely satisfactory explanation has been found of the high death rates under age 30. NOTE: In all, four tables were constructed by the committee: (1) A \"Fifteen Year Ultimate\" Table, designated as the Joint 1939-44^(15) Table, covering the experience on policies in force more than fifteen years. (2) A \"Fifteen Year Select\" Table, called the Joint 1939-44 \"Select\" Table, covering policies in force less than fifteen year. (3) A “Ten Year Ultimate” Table, designated as the Joint 1939-44^(10),  built by adding the actual deaths in the eleventh to the fifteenth policy years to those used in the Joint 1939-44^(15) Table and similarly adding the tabular deaths, for the eleventh to the  fifteenth years to the tabular used in the Joint 1939-44^(15) Table. The Joint 1939-44^(10) Table was further graduated by inspection after applying graduated ratios of actual to tabular by the Joint 1939-44^(15). (4) A Joint 1939-44^(5) Table was similarly constructed and graduated by use of the Joint 1939-44^(10) Table. Data Transcription Errors: None. Data Certified: 08/2013.",
+    "keywords": [
+      "Aggregate",
+      "Insured Lives Mortality",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "Joint 1939-44^(5) Basic Mortality Table (Excluding Direct War Losses). Basis: Age Nearest Birthday. Minimum Age: 25. Maximum Age: 100",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "25",
+            "maxValue": "100",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 25,
+          "rate": 0.00117
+        },
+        {
+          "age": 26,
+          "rate": 0.00121
+        },
+        {
+          "age": 27,
+          "rate": 0.00126
+        },
+        {
+          "age": 28,
+          "rate": 0.00131
+        },
+        {
+          "age": 29,
+          "rate": 0.00137
+        },
+        {
+          "age": 30,
+          "rate": 0.00144
+        },
+        {
+          "age": 31,
+          "rate": 0.00151
+        },
+        {
+          "age": 32,
+          "rate": 0.00158
+        },
+        {
+          "age": 33,
+          "rate": 0.00166
+        },
+        {
+          "age": 34,
+          "rate": 0.00174
+        },
+        {
+          "age": 35,
+          "rate": 0.00184
+        },
+        {
+          "age": 36,
+          "rate": 0.00197
+        },
+        {
+          "age": 37,
+          "rate": 0.00212
+        },
+        {
+          "age": 38,
+          "rate": 0.00231
+        },
+        {
+          "age": 39,
+          "rate": 0.00254
+        },
+        {
+          "age": 40,
+          "rate": 0.00281
+        },
+        {
+          "age": 41,
+          "rate": 0.00313
+        },
+        {
+          "age": 42,
+          "rate": 0.00349
+        },
+        {
+          "age": 43,
+          "rate": 0.00389
+        },
+        {
+          "age": 44,
+          "rate": 0.00433
+        },
+        {
+          "age": 45,
+          "rate": 0.00482
+        },
+        {
+          "age": 46,
+          "rate": 0.00536
+        },
+        {
+          "age": 47,
+          "rate": 0.00596
+        },
+        {
+          "age": 48,
+          "rate": 0.00663
+        },
+        {
+          "age": 49,
+          "rate": 0.00738
+        },
+        {
+          "age": 50,
+          "rate": 0.00821
+        },
+        {
+          "age": 51,
+          "rate": 0.0091
+        },
+        {
+          "age": 52,
+          "rate": 0.01004
+        },
+        {
+          "age": 53,
+          "rate": 0.01102
+        },
+        {
+          "age": 54,
+          "rate": 0.01205
+        },
+        {
+          "age": 55,
+          "rate": 0.01316
+        },
+        {
+          "age": 56,
+          "rate": 0.01437
+        },
+        {
+          "age": 57,
+          "rate": 0.01572
+        },
+        {
+          "age": 58,
+          "rate": 0.01723
+        },
+        {
+          "age": 59,
+          "rate": 0.01892
+        },
+        {
+          "age": 60,
+          "rate": 0.02082
+        },
+        {
+          "age": 61,
+          "rate": 0.02296
+        },
+        {
+          "age": 62,
+          "rate": 0.02538
+        },
+        {
+          "age": 63,
+          "rate": 0.02798
+        },
+        {
+          "age": 64,
+          "rate": 0.03077
+        },
+        {
+          "age": 65,
+          "rate": 0.03366
+        },
+        {
+          "age": 66,
+          "rate": 0.03665
+        },
+        {
+          "age": 67,
+          "rate": 0.03976
+        },
+        {
+          "age": 68,
+          "rate": 0.04303
+        },
+        {
+          "age": 69,
+          "rate": 0.0465
+        },
+        {
+          "age": 70,
+          "rate": 0.0502
+        },
+        {
+          "age": 71,
+          "rate": 0.05414
+        },
+        {
+          "age": 72,
+          "rate": 0.05837
+        },
+        {
+          "age": 73,
+          "rate": 0.06299
+        },
+        {
+          "age": 74,
+          "rate": 0.06816
+        },
+        {
+          "age": 75,
+          "rate": 0.07402
+        },
+        {
+          "age": 76,
+          "rate": 0.0807
+        },
+        {
+          "age": 77,
+          "rate": 0.08829
+        },
+        {
+          "age": 78,
+          "rate": 0.09675
+        },
+        {
+          "age": 79,
+          "rate": 0.10607
+        },
+        {
+          "age": 80,
+          "rate": 0.11625
+        },
+        {
+          "age": 81,
+          "rate": 0.12725
+        },
+        {
+          "age": 82,
+          "rate": 0.13899
+        },
+        {
+          "age": 83,
+          "rate": 0.15141
+        },
+        {
+          "age": 84,
+          "rate": 0.16453
+        },
+        {
+          "age": 85,
+          "rate": 0.17852
+        },
+        {
+          "age": 86,
+          "rate": 0.19366
+        },
+        {
+          "age": 87,
+          "rate": 0.21032
+        },
+        {
+          "age": 88,
+          "rate": 0.22881
+        },
+        {
+          "age": 89,
+          "rate": 0.24928
+        },
+        {
+          "age": 90,
+          "rate": 0.27176
+        },
+        {
+          "age": 91,
+          "rate": 0.29629
+        },
+        {
+          "age": 92,
+          "rate": 0.32315
+        },
+        {
+          "age": 93,
+          "rate": 0.35268
+        },
+        {
+          "age": 94,
+          "rate": 0.38525
+        },
+        {
+          "age": 95,
+          "rate": 0.42126
+        },
+        {
+          "age": 96,
+          "rate": 0.46121
+        },
+        {
+          "age": 97,
+          "rate": 0.50563
+        },
+        {
+          "age": 98,
+          "rate": 0.55516
+        },
+        {
+          "age": 99,
+          "rate": 0.645
+        },
+        {
+          "age": 100,
+          "rate": 1
+        }
+      ]
+    }
+  ]
+}

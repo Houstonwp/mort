@@ -1,0 +1,494 @@
+{
+  "identifier": "us_life_tables_1969_71_white_females_anb",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "514",
+    "providerDomain": "soa.org",
+    "providerName": "Roger Scott Lumsden",
+    "tableReference": "U.S. Department of Health Education and Welfare, “United States Life Tables: 1969-71” Public Health Service Publication No. (HRA) 75-1150 – Vol. I, No. 1, (1975) Table 6. Accessed: May, 2013 from http://www.cdc.gov/nchs/data/lifetables/life69_1_1.pdf AND U.S. Department of Health, Education, and Welfare, “Methodology of the National, Regional, and State Life Tables for the United States: 1969-71”, Public Health Service Publication No. (HRA) 75-1150 – Vol. I, No. 3 (1975), National Center for Health Statistics Accessed: May, 2013 from http://www.cdc.gov/nchs/data/lifetables/life69_1_3.pdf",
+    "contentType": {
+      "code": "84",
+      "label": "Population Mortality"
+    },
+    "tableName": "US Life Tables 1969-71 – White Females, ANB",
+    "tableDescription": "United States (U.S.) Life Tables 1969-71 – White Females. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 109",
+    "comments": "Study Data: Unlike a generation life table, a current life table considers a hypothetical cohort and assumes that it is subject throughout its existence to the age- specific mortality rates observed for an actual population during a particular period of relatively short duration (often 1 to 3 years). With the exception of those for ages 95 and over (and to a lesser extent those for ages 85-94), these mortality rates have been calculated from the data of the 1970 Census of Population and deaths occurring in the United States in the 3 years 1969-71. In deriving life-table values at ages under 2, reported births for each of the years 1967 to 1971 have also been used. Mortality rates at ages 95 and over, where the data from the census and from registered deaths are scanty and- unreliable, are based on the experience of the Medicare program (provided by the Office of the Actuary of the Social Security Administration). Methodology: Special formulas employed for ages under 2 and then ages 2 through 4. Uniform distribution of deaths assumed in both formulas. At ages 5 through 95, individual age rates derived by interpolation performed on the quinquennial l(x) values using interpolation coefficients developed by H. S. Beers. The smoothness inherent in the Beers coefficients insures that l(4) and l(5) will form a smooth progression with l(6) and succeeding values. The coefficients were also designed to secure equality of 5-year central death rates in the life table and in the actual population. At ages 85-94 the mortality rates obtained from the census data were blended with those derived from experience of the Medicare program. Mortality rates at ages 95 and over were based exclusively on experience of the Medicare program. The crude rates from age 66 to 102, inclusive, were then graduated by a Whittaker-Henderson Type B formula. It was considered desirable to have the graduated rates smoothly approach 1, while never reaching 1. Accordingly the graduated rates at certain of the oldest ages were rejected and replaced by rates obtained by extrapolation. As the underlying data were available in such a form that the mortality rate heretofore referred to as q(x) was in reality q(x - ½2) interpolation was performed to get the correct rates for integral ages from 85 to 109. Values of qx were available for ages 2 and above but not for ages under 2. Accordingly q(0) and q(1) were calculated by the formulas q(0) = 1 – l(1)/l(0) and q(1) = 1 - l(2)/l(1). Data Transcription Errors: None. Data Certified: 05/2013",
+    "keywords": [
+      "Aggregate",
+      "Population",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "United States (U.S.) Life Tables 1969-71 – White Females. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 109",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "0",
+            "maxValue": "109",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 0,
+          "rate": 0.01532
+        },
+        {
+          "age": 1,
+          "rate": 0.00101
+        },
+        {
+          "age": 2,
+          "rate": 0.00067
+        },
+        {
+          "age": 3,
+          "rate": 0.00054
+        },
+        {
+          "age": 4,
+          "rate": 0.00047
+        },
+        {
+          "age": 5,
+          "rate": 0.0004
+        },
+        {
+          "age": 6,
+          "rate": 0.00036
+        },
+        {
+          "age": 7,
+          "rate": 0.00032
+        },
+        {
+          "age": 8,
+          "rate": 0.00029
+        },
+        {
+          "age": 9,
+          "rate": 0.00027
+        },
+        {
+          "age": 10,
+          "rate": 0.00025
+        },
+        {
+          "age": 11,
+          "rate": 0.00024
+        },
+        {
+          "age": 12,
+          "rate": 0.00026
+        },
+        {
+          "age": 13,
+          "rate": 0.00031
+        },
+        {
+          "age": 14,
+          "rate": 0.00038
+        },
+        {
+          "age": 15,
+          "rate": 0.00046
+        },
+        {
+          "age": 16,
+          "rate": 0.00055
+        },
+        {
+          "age": 17,
+          "rate": 0.00061
+        },
+        {
+          "age": 18,
+          "rate": 0.00064
+        },
+        {
+          "age": 19,
+          "rate": 0.00064
+        },
+        {
+          "age": 20,
+          "rate": 0.00064
+        },
+        {
+          "age": 21,
+          "rate": 0.00065
+        },
+        {
+          "age": 22,
+          "rate": 0.00065
+        },
+        {
+          "age": 23,
+          "rate": 0.00066
+        },
+        {
+          "age": 24,
+          "rate": 0.00067
+        },
+        {
+          "age": 25,
+          "rate": 0.00068
+        },
+        {
+          "age": 26,
+          "rate": 0.0007
+        },
+        {
+          "age": 27,
+          "rate": 0.00072
+        },
+        {
+          "age": 28,
+          "rate": 0.00075
+        },
+        {
+          "age": 29,
+          "rate": 0.00079
+        },
+        {
+          "age": 30,
+          "rate": 0.00084
+        },
+        {
+          "age": 31,
+          "rate": 0.0009
+        },
+        {
+          "age": 32,
+          "rate": 0.00097
+        },
+        {
+          "age": 33,
+          "rate": 0.00104
+        },
+        {
+          "age": 34,
+          "rate": 0.00113
+        },
+        {
+          "age": 35,
+          "rate": 0.00122
+        },
+        {
+          "age": 36,
+          "rate": 0.00133
+        },
+        {
+          "age": 37,
+          "rate": 0.00146
+        },
+        {
+          "age": 38,
+          "rate": 0.00161
+        },
+        {
+          "age": 39,
+          "rate": 0.00177
+        },
+        {
+          "age": 40,
+          "rate": 0.00193
+        },
+        {
+          "age": 41,
+          "rate": 0.00211
+        },
+        {
+          "age": 42,
+          "rate": 0.0023
+        },
+        {
+          "age": 43,
+          "rate": 0.00254
+        },
+        {
+          "age": 44,
+          "rate": 0.0028
+        },
+        {
+          "age": 45,
+          "rate": 0.00308
+        },
+        {
+          "age": 46,
+          "rate": 0.00336
+        },
+        {
+          "age": 47,
+          "rate": 0.00366
+        },
+        {
+          "age": 48,
+          "rate": 0.00397
+        },
+        {
+          "age": 49,
+          "rate": 0.0043
+        },
+        {
+          "age": 50,
+          "rate": 0.00466
+        },
+        {
+          "age": 51,
+          "rate": 0.00507
+        },
+        {
+          "age": 52,
+          "rate": 0.0055
+        },
+        {
+          "age": 53,
+          "rate": 0.00596
+        },
+        {
+          "age": 54,
+          "rate": 0.00646
+        },
+        {
+          "age": 55,
+          "rate": 0.00699
+        },
+        {
+          "age": 56,
+          "rate": 0.00758
+        },
+        {
+          "age": 57,
+          "rate": 0.00819
+        },
+        {
+          "age": 58,
+          "rate": 0.00884
+        },
+        {
+          "age": 59,
+          "rate": 0.00953
+        },
+        {
+          "age": 60,
+          "rate": 0.01027
+        },
+        {
+          "age": 61,
+          "rate": 0.0111
+        },
+        {
+          "age": 62,
+          "rate": 0.01203
+        },
+        {
+          "age": 63,
+          "rate": 0.01309
+        },
+        {
+          "age": 64,
+          "rate": 0.01429
+        },
+        {
+          "age": 65,
+          "rate": 0.01563
+        },
+        {
+          "age": 66,
+          "rate": 0.01713
+        },
+        {
+          "age": 67,
+          "rate": 0.01883
+        },
+        {
+          "age": 68,
+          "rate": 0.02075
+        },
+        {
+          "age": 69,
+          "rate": 0.02288
+        },
+        {
+          "age": 70,
+          "rate": 0.02513
+        },
+        {
+          "age": 71,
+          "rate": 0.02759
+        },
+        {
+          "age": 72,
+          "rate": 0.03048
+        },
+        {
+          "age": 73,
+          "rate": 0.03396
+        },
+        {
+          "age": 74,
+          "rate": 0.03803
+        },
+        {
+          "age": 75,
+          "rate": 0.04255
+        },
+        {
+          "age": 76,
+          "rate": 0.0474
+        },
+        {
+          "age": 77,
+          "rate": 0.05264
+        },
+        {
+          "age": 78,
+          "rate": 0.05829
+        },
+        {
+          "age": 79,
+          "rate": 0.0644
+        },
+        {
+          "age": 80,
+          "rate": 0.07128
+        },
+        {
+          "age": 81,
+          "rate": 0.07893
+        },
+        {
+          "age": 82,
+          "rate": 0.08702
+        },
+        {
+          "age": 83,
+          "rate": 0.09539
+        },
+        {
+          "age": 84,
+          "rate": 0.10427
+        },
+        {
+          "age": 85,
+          "rate": 0.11465
+        },
+        {
+          "age": 86,
+          "rate": 0.12685
+        },
+        {
+          "age": 87,
+          "rate": 0.13944
+        },
+        {
+          "age": 88,
+          "rate": 0.15144
+        },
+        {
+          "age": 89,
+          "rate": 0.16303
+        },
+        {
+          "age": 90,
+          "rate": 0.1757
+        },
+        {
+          "age": 91,
+          "rate": 0.19046
+        },
+        {
+          "age": 92,
+          "rate": 0.20617
+        },
+        {
+          "age": 93,
+          "rate": 0.22206
+        },
+        {
+          "age": 94,
+          "rate": 0.23758
+        },
+        {
+          "age": 95,
+          "rate": 0.25298
+        },
+        {
+          "age": 96,
+          "rate": 0.26762
+        },
+        {
+          "age": 97,
+          "rate": 0.28133
+        },
+        {
+          "age": 98,
+          "rate": 0.29413
+        },
+        {
+          "age": 99,
+          "rate": 0.30615
+        },
+        {
+          "age": 100,
+          "rate": 0.31742
+        },
+        {
+          "age": 101,
+          "rate": 0.32794
+        },
+        {
+          "age": 102,
+          "rate": 0.33772
+        },
+        {
+          "age": 103,
+          "rate": 0.34679
+        },
+        {
+          "age": 104,
+          "rate": 0.35517
+        },
+        {
+          "age": 105,
+          "rate": 0.36289
+        },
+        {
+          "age": 106,
+          "rate": 0.36999
+        },
+        {
+          "age": 107,
+          "rate": 0.37651
+        },
+        {
+          "age": 108,
+          "rate": 0.38248
+        },
+        {
+          "age": 109,
+          "rate": 0.38793
+        }
+      ]
+    }
+  ]
+}

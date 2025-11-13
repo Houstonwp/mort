@@ -1,0 +1,234 @@
+{
+  "identifier": "table_4_1944_rrb_railway_annuitants_mortality_table",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "855",
+    "providerDomain": "soa.org",
+    "providerName": "Roger Scott Lumsden",
+    "tableReference": "Joseph Musher, “Third Annual Valuation of the Assets and Liabilities Under the Railroad Retirement Acts as of December 31, 1944”, Railroad Retirement Board (Chicago, 1946) Table 4 - Annuitants Mortality. Reprinted by Joseph Musher, “Actuarial Aspects of the Railroad Retirement System”, Transactions of the Society of Actuaries Vol. II No.2 (Chicago, 1950). Accessed:  01/2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1950/January/tsa50v2n22.pdf, p. 16",
+    "contentType": {
+      "code": "78",
+      "label": "Annuitant Mortality"
+    },
+    "tableName": "Table 4: 1944 RRB Railway Annuitants Mortality Table",
+    "tableDescription": "Table 4: 1944 Railroad Retirement Board (RBB) Railway Annuitants Mortality Table. Minimum Age: 60 Maximum Age: 104.",
+    "comments": "Study Data: Annuity values are based on experience among non-disability retirements for the years 1938-41. Methodology: A multiple-decrement model is used for calculating mortality, non-disability withdrawal, non-disability retirement, and disability retirement. The original publication or the article in the Transactions of the Society of Actuaries should be consulted for further details as the methodology is complex. Data Transcription Errors: None. Data Certified: 01/2013.",
+    "keywords": [
+      "Aggregate",
+      "Annuitant mortality",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "Table 4: 1944 Railroad Retirement Board (RBB) Railway Annuitants Mortality Table. Minimum Age: 60 Maximum Age: 104",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "60",
+            "maxValue": "104",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 60,
+          "rate": 0.02051
+        },
+        {
+          "age": 61,
+          "rate": 0.02162
+        },
+        {
+          "age": 62,
+          "rate": 0.02363
+        },
+        {
+          "age": 63,
+          "rate": 0.02652
+        },
+        {
+          "age": 64,
+          "rate": 0.03022
+        },
+        {
+          "age": 65,
+          "rate": 0.03452
+        },
+        {
+          "age": 66,
+          "rate": 0.03908
+        },
+        {
+          "age": 67,
+          "rate": 0.04341
+        },
+        {
+          "age": 68,
+          "rate": 0.04712
+        },
+        {
+          "age": 69,
+          "rate": 0.0502
+        },
+        {
+          "age": 70,
+          "rate": 0.05295
+        },
+        {
+          "age": 71,
+          "rate": 0.05588
+        },
+        {
+          "age": 72,
+          "rate": 0.05942
+        },
+        {
+          "age": 73,
+          "rate": 0.06374
+        },
+        {
+          "age": 74,
+          "rate": 0.06891
+        },
+        {
+          "age": 75,
+          "rate": 0.07491
+        },
+        {
+          "age": 76,
+          "rate": 0.08166
+        },
+        {
+          "age": 77,
+          "rate": 0.08894
+        },
+        {
+          "age": 78,
+          "rate": 0.09642
+        },
+        {
+          "age": 79,
+          "rate": 0.10376
+        },
+        {
+          "age": 80,
+          "rate": 0.11082
+        },
+        {
+          "age": 81,
+          "rate": 0.11772
+        },
+        {
+          "age": 82,
+          "rate": 0.12504
+        },
+        {
+          "age": 83,
+          "rate": 0.1335
+        },
+        {
+          "age": 84,
+          "rate": 0.1433
+        },
+        {
+          "age": 85,
+          "rate": 0.1538
+        },
+        {
+          "age": 86,
+          "rate": 0.1645
+        },
+        {
+          "age": 87,
+          "rate": 0.17608
+        },
+        {
+          "age": 88,
+          "rate": 0.18976
+        },
+        {
+          "age": 89,
+          "rate": 0.20613
+        },
+        {
+          "age": 90,
+          "rate": 0.22314
+        },
+        {
+          "age": 91,
+          "rate": 0.2394
+        },
+        {
+          "age": 92,
+          "rate": 0.2561
+        },
+        {
+          "age": 93,
+          "rate": 0.27378
+        },
+        {
+          "age": 94,
+          "rate": 0.29248
+        },
+        {
+          "age": 95,
+          "rate": 0.31222
+        },
+        {
+          "age": 96,
+          "rate": 0.33303
+        },
+        {
+          "age": 97,
+          "rate": 0.35494
+        },
+        {
+          "age": 98,
+          "rate": 0.37798
+        },
+        {
+          "age": 99,
+          "rate": 0.40213
+        },
+        {
+          "age": 100,
+          "rate": 0.42742
+        },
+        {
+          "age": 101,
+          "rate": 0.45384
+        },
+        {
+          "age": 102,
+          "rate": 0.4814
+        },
+        {
+          "age": 103,
+          "rate": 0.51008
+        },
+        {
+          "age": 104,
+          "rate": 1
+        }
+      ]
+    }
+  ]
+}

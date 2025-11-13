@@ -1,0 +1,411 @@
+{
+  "identifier": "craigs_impaired_life_table",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2829",
+    "providerDomain": "soa.org",
+    "providerName": "Susie Lee",
+    "tableReference": "James M. Craig, “Observations on Impaired Lives”, Actuarial Society of America (1890) reprinted Miles Menander Dawson, “Practical Lesson in Actuarial Science”, The Spectator Company (New York, 1898). Accessed: June, 2014 from  https://archive.org/stream/practicallessons00dawsrich#page/334/mode/2up/search/%22impaired+lives%22",
+    "contentType": {
+      "code": "57",
+      "label": "Life Table"
+    },
+    "tableName": "Craig’s Impaired Life Table",
+    "tableDescription": "Craig’s Impaired Life Table. Minimum Age: 10 Maximum Age: 98",
+    "comments": "Study Data: Mr. James Craig was an actuary of the Metropolitan Life Insurance Company. As no experience existed for impaired or sub-standard lives, Mr. Craig modified the Actuaries’ Table (See SOA Table Identity 252), a British table based on those who have passed a medical examination. When initially reproduced, Mr. Dawson was of the opinion that the table was suitable for use in industrial insurance. Mr. Craig protested this form and hence in subsequent publications, the original name, that of “impaired lives” was restored. Methodology: Modification consisted of doubling the rate of mortality to age 60 after which it gradually declines towards the Actuaries’ Table ratios. Data Transcription Errors: None. Data Certified: 06/2014",
+    "keywords": [
+      "Aggregate",
+      "Life Table",
+      "Survival",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "Craig’s Impaired Life Table. Minimum Age: 10 Maximum Age: 98",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "1",
+            "maxValue": "98",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 1,
+          "rate": 100000
+        },
+        {
+          "age": 2,
+          "rate": 98648
+        },
+        {
+          "age": 3,
+          "rate": 97309
+        },
+        {
+          "age": 4,
+          "rate": 95983
+        },
+        {
+          "age": 5,
+          "rate": 94668
+        },
+        {
+          "age": 6,
+          "rate": 93362
+        },
+        {
+          "age": 7,
+          "rate": 92065
+        },
+        {
+          "age": 8,
+          "rate": 90776
+        },
+        {
+          "age": 9,
+          "rate": 80494
+        },
+        {
+          "age": 10,
+          "rate": 88217
+        },
+        {
+          "age": 11,
+          "rate": 86946
+        },
+        {
+          "age": 12,
+          "rate": 85678
+        },
+        {
+          "age": 13,
+          "rate": 84414
+        },
+        {
+          "age": 14,
+          "rate": 83154
+        },
+        {
+          "age": 15,
+          "rate": 81896
+        },
+        {
+          "age": 16,
+          "rate": 80640
+        },
+        {
+          "age": 17,
+          "rate": 79387
+        },
+        {
+          "age": 18,
+          "rate": 78135
+        },
+        {
+          "age": 19,
+          "rate": 76884
+        },
+        {
+          "age": 20,
+          "rate": 75632
+        },
+        {
+          "age": 21,
+          "rate": 74380
+        },
+        {
+          "age": 22,
+          "rate": 73127
+        },
+        {
+          "age": 23,
+          "rate": 71872
+        },
+        {
+          "age": 24,
+          "rate": 70615
+        },
+        {
+          "age": 25,
+          "rate": 69355
+        },
+        {
+          "age": 26,
+          "rate": 68093
+        },
+        {
+          "age": 27,
+          "rate": 66827
+        },
+        {
+          "age": 28,
+          "rate": 65559
+        },
+        {
+          "age": 29,
+          "rate": 64289
+        },
+        {
+          "age": 30,
+          "rate": 63015
+        },
+        {
+          "age": 31,
+          "rate": 61738
+        },
+        {
+          "age": 32,
+          "rate": 60459
+        },
+        {
+          "age": 33,
+          "rate": 59176
+        },
+        {
+          "age": 34,
+          "rate": 57887
+        },
+        {
+          "age": 35,
+          "rate": 56584
+        },
+        {
+          "age": 36,
+          "rate": 55260
+        },
+        {
+          "age": 37,
+          "rate": 53910
+        },
+        {
+          "age": 38,
+          "rate": 52526
+        },
+        {
+          "age": 39,
+          "rate": 51106
+        },
+        {
+          "age": 40,
+          "rate": 49648
+        },
+        {
+          "age": 41,
+          "rate": 48153
+        },
+        {
+          "age": 42,
+          "rate": 46618
+        },
+        {
+          "age": 43,
+          "rate": 45043
+        },
+        {
+          "age": 44,
+          "rate": 43426
+        },
+        {
+          "age": 45,
+          "rate": 41768
+        },
+        {
+          "age": 46,
+          "rate": 40071
+        },
+        {
+          "age": 47,
+          "rate": 38335
+        },
+        {
+          "age": 48,
+          "rate": 36652
+        },
+        {
+          "age": 49,
+          "rate": 34757
+        },
+        {
+          "age": 50,
+          "rate": 32923
+        },
+        {
+          "age": 51,
+          "rate": 31063
+        },
+        {
+          "age": 52,
+          "rate": 29216
+        },
+        {
+          "age": 53,
+          "rate": 27387
+        },
+        {
+          "age": 54,
+          "rate": 25579
+        },
+        {
+          "age": 55,
+          "rate": 23798
+        },
+        {
+          "age": 56,
+          "rate": 22049
+        },
+        {
+          "age": 57,
+          "rate": 20338
+        },
+        {
+          "age": 58,
+          "rate": 18673
+        },
+        {
+          "age": 59,
+          "rate": 17059
+        },
+        {
+          "age": 60,
+          "rate": 15503
+        },
+        {
+          "age": 61,
+          "rate": 14013
+        },
+        {
+          "age": 62,
+          "rate": 12594
+        },
+        {
+          "age": 63,
+          "rate": 11251
+        },
+        {
+          "age": 64,
+          "rate": 9989
+        },
+        {
+          "age": 65,
+          "rate": 8812
+        },
+        {
+          "age": 66,
+          "rate": 7721
+        },
+        {
+          "age": 67,
+          "rate": 6718
+        },
+        {
+          "age": 68,
+          "rate": 5804
+        },
+        {
+          "age": 69,
+          "rate": 4976
+        },
+        {
+          "age": 70,
+          "rate": 4233
+        },
+        {
+          "age": 71,
+          "rate": 3572
+        },
+        {
+          "age": 72,
+          "rate": 2991
+        },
+        {
+          "age": 73,
+          "rate": 2484
+        },
+        {
+          "age": 74,
+          "rate": 2047
+        },
+        {
+          "age": 75,
+          "rate": 1673
+        },
+        {
+          "age": 76,
+          "rate": 1356
+        },
+        {
+          "age": 77,
+          "rate": 1078
+        },
+        {
+          "age": 78,
+          "rate": 838
+        },
+        {
+          "age": 79,
+          "rate": 636
+        },
+        {
+          "age": 80,
+          "rate": 468
+        },
+        {
+          "age": 81,
+          "rate": 332
+        },
+        {
+          "age": 82,
+          "rate": 225
+        },
+        {
+          "age": 83,
+          "rate": 144
+        },
+        {
+          "age": 84,
+          "rate": 86
+        },
+        {
+          "age": 85,
+          "rate": 47
+        },
+        {
+          "age": 86,
+          "rate": 23
+        },
+        {
+          "age": 87,
+          "rate": 10
+        },
+        {
+          "age": 88,
+          "rate": 4
+        },
+        {
+          "age": 89,
+          "rate": 1
+        }
+      ]
+    }
+  ]
+}

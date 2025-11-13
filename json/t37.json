@@ -1,0 +1,394 @@
+{
+  "identifier": "1980_cso_female_nonsmoker_alb",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "37",
+    "providerDomain": "soa.org",
+    "providerName": "Robert J. Johansen",
+    "tableReference": "“Report of the Task Force on Smoker/Nonsmoker Mortality”, Transactions Society of Actuaries - 1982 Reports, Society of Actuaries (1982) p. 383. Accessed: February, 2013 from http://www.soa.org/library/research/transactions-reports-of-mortality-moribidity-and-experience/1980-89/1982/january/tsr8210.pdf, p. 41",
+    "contentType": {
+      "code": "85",
+      "label": "CSO/CET"
+    },
+    "tableName": "1980 CSO - Female Nonsmoker, ALB",
+    "tableDescription": "1980 Commissioners Standard Ordinary (CSO) - Female Nonsmoker. Basis: Age Last Birthday. Minimum Age: 15.  Maximum Age: 99",
+    "comments": "Study Data: The exposure period for the underlying data is from Society of Actuary (SOA) data submissions for 1970 through 1975 policy anniversaries. All war deaths were excluded. Unlike the 1958 Commissioners Standard Ordinary (CSO) table, policies issued on a nonmedical basis were included due to the trend in writing larger proportions of nonmedical business and to provide adequate data for a separate female table. Methodology: Derived from Smoker/Nonsmoker 1980 CSO Tables on age nearest birthday basis (See SOA Table Identities 38 and 40) in the same way that the 1980 CSO age nearest birthday basis tables were converted to and age last birthday basis: [q(x) + (1-q(x))*q(x+1)]/[2-q(x)] . A uniform distribution of deaths is assumed. Data Transcription Errors: None. Data Certified: 02/2013",
+    "keywords": [
+      "Aggregate",
+      "CSO/CET",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1980 Commissioners Standard Ordinary (CSO) - Female Nonsmoker. Basis: Age Last Birthday. Minimum Age: 15.  Maximum Age: 99",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "15",
+            "maxValue": "99",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "rate": 0.00086
+        },
+        {
+          "age": 16,
+          "rate": 0.0009
+        },
+        {
+          "age": 17,
+          "rate": 0.00093
+        },
+        {
+          "age": 18,
+          "rate": 0.00096
+        },
+        {
+          "age": 19,
+          "rate": 0.00099
+        },
+        {
+          "age": 20,
+          "rate": 0.00101
+        },
+        {
+          "age": 21,
+          "rate": 0.00103
+        },
+        {
+          "age": 22,
+          "rate": 0.00104
+        },
+        {
+          "age": 23,
+          "rate": 0.00106
+        },
+        {
+          "age": 24,
+          "rate": 0.00108
+        },
+        {
+          "age": 25,
+          "rate": 0.0011
+        },
+        {
+          "age": 26,
+          "rate": 0.00113
+        },
+        {
+          "age": 27,
+          "rate": 0.00115
+        },
+        {
+          "age": 28,
+          "rate": 0.00118
+        },
+        {
+          "age": 29,
+          "rate": 0.00122
+        },
+        {
+          "age": 30,
+          "rate": 0.00125
+        },
+        {
+          "age": 31,
+          "rate": 0.00129
+        },
+        {
+          "age": 32,
+          "rate": 0.00133
+        },
+        {
+          "age": 33,
+          "rate": 0.00138
+        },
+        {
+          "age": 34,
+          "rate": 0.00144
+        },
+        {
+          "age": 35,
+          "rate": 0.00151
+        },
+        {
+          "age": 36,
+          "rate": 0.00161
+        },
+        {
+          "age": 37,
+          "rate": 0.00173
+        },
+        {
+          "age": 38,
+          "rate": 0.00186
+        },
+        {
+          "age": 39,
+          "rate": 0.002
+        },
+        {
+          "age": 40,
+          "rate": 0.00217
+        },
+        {
+          "age": 41,
+          "rate": 0.00235
+        },
+        {
+          "age": 42,
+          "rate": 0.00253
+        },
+        {
+          "age": 43,
+          "rate": 0.00271
+        },
+        {
+          "age": 44,
+          "rate": 0.00289
+        },
+        {
+          "age": 45,
+          "rate": 0.00309
+        },
+        {
+          "age": 46,
+          "rate": 0.0033
+        },
+        {
+          "age": 47,
+          "rate": 0.00353
+        },
+        {
+          "age": 48,
+          "rate": 0.00377
+        },
+        {
+          "age": 49,
+          "rate": 0.00404
+        },
+        {
+          "age": 50,
+          "rate": 0.00434
+        },
+        {
+          "age": 51,
+          "rate": 0.00467
+        },
+        {
+          "age": 52,
+          "rate": 0.00505
+        },
+        {
+          "age": 53,
+          "rate": 0.00547
+        },
+        {
+          "age": 54,
+          "rate": 0.0059
+        },
+        {
+          "age": 55,
+          "rate": 0.00636
+        },
+        {
+          "age": 56,
+          "rate": 0.00682
+        },
+        {
+          "age": 57,
+          "rate": 0.00727
+        },
+        {
+          "age": 58,
+          "rate": 0.00772
+        },
+        {
+          "age": 59,
+          "rate": 0.00823
+        },
+        {
+          "age": 60,
+          "rate": 0.00883
+        },
+        {
+          "age": 61,
+          "rate": 0.00957
+        },
+        {
+          "age": 62,
+          "rate": 0.01049
+        },
+        {
+          "age": 63,
+          "rate": 0.01162
+        },
+        {
+          "age": 64,
+          "rate": 0.01289
+        },
+        {
+          "age": 65,
+          "rate": 0.01426
+        },
+        {
+          "age": 66,
+          "rate": 0.01568
+        },
+        {
+          "age": 67,
+          "rate": 0.01713
+        },
+        {
+          "age": 68,
+          "rate": 0.01863
+        },
+        {
+          "age": 69,
+          "rate": 0.0203
+        },
+        {
+          "age": 70,
+          "rate": 0.02226
+        },
+        {
+          "age": 71,
+          "rate": 0.02465
+        },
+        {
+          "age": 72,
+          "rate": 0.02758
+        },
+        {
+          "age": 73,
+          "rate": 0.03109
+        },
+        {
+          "age": 74,
+          "rate": 0.03513
+        },
+        {
+          "age": 75,
+          "rate": 0.03964
+        },
+        {
+          "age": 76,
+          "rate": 0.04452
+        },
+        {
+          "age": 77,
+          "rate": 0.04975
+        },
+        {
+          "age": 78,
+          "rate": 0.05541
+        },
+        {
+          "age": 79,
+          "rate": 0.06168
+        },
+        {
+          "age": 80,
+          "rate": 0.06881
+        },
+        {
+          "age": 81,
+          "rate": 0.07701
+        },
+        {
+          "age": 82,
+          "rate": 0.08646
+        },
+        {
+          "age": 83,
+          "rate": 0.09712
+        },
+        {
+          "age": 84,
+          "rate": 0.10887
+        },
+        {
+          "age": 85,
+          "rate": 0.12158
+        },
+        {
+          "age": 86,
+          "rate": 0.13516
+        },
+        {
+          "age": 87,
+          "rate": 0.14959
+        },
+        {
+          "age": 88,
+          "rate": 0.16488
+        },
+        {
+          "age": 89,
+          "rate": 0.18115
+        },
+        {
+          "age": 90,
+          "rate": 0.19853
+        },
+        {
+          "age": 91,
+          "rate": 0.21742
+        },
+        {
+          "age": 92,
+          "rate": 0.23853
+        },
+        {
+          "age": 93,
+          "rate": 0.26335
+        },
+        {
+          "age": 94,
+          "rate": 0.29523
+        },
+        {
+          "age": 95,
+          "rate": 0.34102
+        },
+        {
+          "age": 96,
+          "rate": 0.41388
+        },
+        {
+          "age": 97,
+          "rate": 0.53724
+        },
+        {
+          "age": 98,
+          "rate": 0.74396
+        },
+        {
+          "age": 99,
+          "rate": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "identifier": "american_tropical_experience_table",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2830",
+    "providerDomain": "soa.org",
+    "providerName": "Susie Lee",
+    "tableReference": "C. N. Jones, “A Life Table Based on Upon Insurance in the American Tropics”, Papers and Transactions 1893-1894, Volume III, Actuarial Society of America, John C. Rankin (New York, 1894). Accessed: June, 2014 from http://scans.library.utoronto.ca/pdf/5/39/transactions03actuuoft/transactions03actuuoft.pdf",
+    "contentType": {
+      "code": "4",
+      "label": "Insured Lives Mortality"
+    },
+    "tableName": "American Tropical Experience Table",
+    "tableDescription": "American Tropical Experience Table. Minimum Age: 20. Maximum Age: 96.",
+    "comments": "Study Data: Experience of New York Life Insurance Company written in the American Tropics (Mexico, Brazil, Cuba, and West Indies primarily). Initially intended for Tontine insurance but expanded to cover business paying tropical premiums after the effects of medical selection had disappeared. Examination showed no marked differences in mortality after the second policy year while those of the first and second policy year were strikingly below the general average. Hence it appeared judicious to combine the exposures of the third and following years. The greatest proportion of the business is upon lives belonging to the Latin race, mostly of Spanish or Portuguese descent. Closer review shows that about six-sevenths of the business is upon the lives of merchants, professional men, artisans, and business managers. Table adopted as the standard by many South American companies; table is even specified in 1976 Philippine insurance regulations. Methodology:  Graduation by way of Makeham’s formula was in harmony with the experience and no further graduation was performed due to the lack of adequate data below age 20 and above age 65. Furthermore, the author states that too often he finds data is smoothed “to taste” and actuaries must take strides to avoid such temptations. Tests showed the Makeham curve fit the data on an actual-to-expected basis well. Data Transcription Errors: None. Data Certified: 06/2014",
+    "keywords": [
+      "Aggregate",
+      "Insured Lives Mortality",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "American Tropical Experience Table. Minimum Age: 20. Maximum Age: 96",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "20",
+            "maxValue": "96",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 20,
+          "rate": 0.01174
+        },
+        {
+          "age": 21,
+          "rate": 0.01182
+        },
+        {
+          "age": 22,
+          "rate": 0.01191
+        },
+        {
+          "age": 23,
+          "rate": 0.012
+        },
+        {
+          "age": 24,
+          "rate": 0.01211
+        },
+        {
+          "age": 25,
+          "rate": 0.01222
+        },
+        {
+          "age": 26,
+          "rate": 0.01235
+        },
+        {
+          "age": 27,
+          "rate": 0.01249
+        },
+        {
+          "age": 28,
+          "rate": 0.01265
+        },
+        {
+          "age": 29,
+          "rate": 0.0128
+        },
+        {
+          "age": 30,
+          "rate": 0.013
+        },
+        {
+          "age": 31,
+          "rate": 0.01319
+        },
+        {
+          "age": 32,
+          "rate": 0.01342
+        },
+        {
+          "age": 33,
+          "rate": 0.01366
+        },
+        {
+          "age": 34,
+          "rate": 0.01392
+        },
+        {
+          "age": 35,
+          "rate": 0.01422
+        },
+        {
+          "age": 36,
+          "rate": 0.01453
+        },
+        {
+          "age": 37,
+          "rate": 0.01488
+        },
+        {
+          "age": 38,
+          "rate": 0.01526
+        },
+        {
+          "age": 39,
+          "rate": 0.01569
+        },
+        {
+          "age": 40,
+          "rate": 0.01613
+        },
+        {
+          "age": 41,
+          "rate": 0.01665
+        },
+        {
+          "age": 42,
+          "rate": 0.0172
+        },
+        {
+          "age": 43,
+          "rate": 0.0178
+        },
+        {
+          "age": 44,
+          "rate": 0.01846
+        },
+        {
+          "age": 45,
+          "rate": 0.0192
+        },
+        {
+          "age": 46,
+          "rate": 0.01998
+        },
+        {
+          "age": 47,
+          "rate": 0.02086
+        },
+        {
+          "age": 48,
+          "rate": 0.02182
+        },
+        {
+          "age": 49,
+          "rate": 0.02286
+        },
+        {
+          "age": 50,
+          "rate": 0.02401
+        },
+        {
+          "age": 51,
+          "rate": 0.02526
+        },
+        {
+          "age": 52,
+          "rate": 0.02663
+        },
+        {
+          "age": 53,
+          "rate": 0.02813
+        },
+        {
+          "age": 54,
+          "rate": 0.02977
+        },
+        {
+          "age": 55,
+          "rate": 0.03159
+        },
+        {
+          "age": 56,
+          "rate": 0.03356
+        },
+        {
+          "age": 57,
+          "rate": 0.03571
+        },
+        {
+          "age": 58,
+          "rate": 0.03808
+        },
+        {
+          "age": 59,
+          "rate": 0.04065
+        },
+        {
+          "age": 60,
+          "rate": 0.04348
+        },
+        {
+          "age": 61,
+          "rate": 0.04657
+        },
+        {
+          "age": 62,
+          "rate": 0.04992
+        },
+        {
+          "age": 63,
+          "rate": 0.05362
+        },
+        {
+          "age": 64,
+          "rate": 0.05764
+        },
+        {
+          "age": 65,
+          "rate": 0.06201
+        },
+        {
+          "age": 66,
+          "rate": 0.06683
+        },
+        {
+          "age": 67,
+          "rate": 0.07203
+        },
+        {
+          "age": 68,
+          "rate": 0.07773
+        },
+        {
+          "age": 69,
+          "rate": 0.08394
+        },
+        {
+          "age": 70,
+          "rate": 0.09069
+        },
+        {
+          "age": 71,
+          "rate": 0.09806
+        },
+        {
+          "age": 72,
+          "rate": 0.10602
+        },
+        {
+          "age": 73,
+          "rate": 0.11468
+        },
+        {
+          "age": 74,
+          "rate": 0.12416
+        },
+        {
+          "age": 75,
+          "rate": 0.13433
+        },
+        {
+          "age": 76,
+          "rate": 0.14535
+        },
+        {
+          "age": 77,
+          "rate": 0.15739
+        },
+        {
+          "age": 78,
+          "rate": 0.17035
+        },
+        {
+          "age": 79,
+          "rate": 0.18413
+        },
+        {
+          "age": 80,
+          "rate": 0.19935
+        },
+        {
+          "age": 81,
+          "rate": 0.21546
+        },
+        {
+          "age": 82,
+          "rate": 0.23272
+        },
+        {
+          "age": 83,
+          "rate": 0.25115
+        },
+        {
+          "age": 84,
+          "rate": 0.27144
+        },
+        {
+          "age": 85,
+          "rate": 0.29194
+        },
+        {
+          "age": 86,
+          "rate": 0.31497
+        },
+        {
+          "age": 87,
+          "rate": 0.33914
+        },
+        {
+          "age": 88,
+          "rate": 0.36308
+        },
+        {
+          "age": 89,
+          "rate": 0.39172
+        },
+        {
+          "age": 90,
+          "rate": 0.41885
+        },
+        {
+          "age": 91,
+          "rate": 0.44144
+        },
+        {
+          "age": 92,
+          "rate": 0.48387
+        },
+        {
+          "age": 93,
+          "rate": 0.5625
+        },
+        {
+          "age": 94,
+          "rate": 0.64286
+        },
+        {
+          "age": 95,
+          "rate": 0.8
+        },
+        {
+          "age": 96,
+          "rate": 1
+        }
+      ]
+    }
+  ]
+}

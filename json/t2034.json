@@ -1,0 +1,1110 @@
+{
+  "identifier": "2005_group_term_life_waiver_study_male_select_period_disabled_death_rates",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "2034",
+    "providerDomain": "www.soa.org",
+    "providerName": "Society of Actuaries",
+    "tableReference": "Group Life Insurance Experience Committee, “Report of the Society of Actuaries Group Life Insurance Experience Committee”, Society of Actuaries (2006). Accessed: July, 2013 from http://www.soa.org/files/research/exp-study/research-05-gl-waiver.pdf",
+    "contentType": {
+      "code": "2",
+      "label": "Disabled Lives Mortality"
+    },
+    "tableName": "2005 Group Term Life Waiver Study – Male, Select Period, Disabled Death Rates",
+    "tableDescription": "2005 Group Term Life Waiver Study - Select Period Death Rates for Disabled - Male. Years 1-10 (Exhibit 4) Central Ages. Minimum Age: 17. Maximum Age: 72",
+    "comments": "Study Data: Twenty-four companies contributed to the Society of Actuaries study, but the Committee had to exclude data from six for various reasons. Covers waiver claims open at some point during the 10-year period of January 1, 1993 through December 31, 2002. Exposure starts after a 9-month elimination period, which remains the most common elimination period used within the industry. The last such study was done in 1970 and produced the Intercompany Group Life Disability Experience Table, also known as the Krieger Table (See SOA Table Identity 1554). The 2005 Table uses the same structure as the 1970 Table, namely separate “Select” and “Ultimate” tables. Claims in the first ten years form the Select Table, which is constructed using two variables: age at disability and duration of disability. Claims in durations beyond the first ten years form the Ultimate Table, which is based on one variable: attained age. Because there was relatively little female exposure (Krieger estimated 15%), the 1970 study results were presented on a unisex basis. In contrast, female composition for the 2005 study was 39%, and the Committee was able to present results separately for males and females. Methodology: The Committee reviewed raw experience rates and smoothed them to develop graduated experience values. After the results were smoothed, the Committee developed margins to create a valuation table. The Committee selected margins of 25% for deaths and 35% for recoveries, i.e., death rates are multiplied by 125% and recoveries are multiplied by 65%. There is a higher margin for recoveries because there was more variance among companies for recoveries than for deaths. The Committee reviewed raw experience rates and smoothed them to develop graduated experience values, using 2nd degree polynomial trend lines and other spreadsheet application tools in Excel, as well as some manual adjustments. In some cases, we used the slope of the 1970 Table (i.e. Krieger). The death rates are relatively flat for males between the ages of 30 and 55, compared to the 1970 Table (i.e. Krieger), although the raw data for females follow a slope similar to that of the 1970 Table. Data Transcription Errors: None. Data Certified: 07/2018",
+    "keywords": [
+      "Select",
+      "United States of America",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2005 Group Term Life Waiver Study – Male. Select Period Death Rates for Disabled. Fourth Quarter Death Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72",
+        "axes": [
+          {
+            "id": "Month",
+            "scaleType": {
+              "code": "0",
+              "label": "Unknown"
+            },
+            "axisName": "Month",
+            "minValue": "9",
+            "maxValue": "9",
+            "increment": "0"
+          },
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 9,
+          "duration": 17,
+          "rate": 0.017
+        },
+        {
+          "age": 9,
+          "duration": 22,
+          "rate": 0.02
+        },
+        {
+          "age": 9,
+          "duration": 27,
+          "rate": 0.02
+        },
+        {
+          "age": 9,
+          "duration": 32,
+          "rate": 0.023
+        },
+        {
+          "age": 9,
+          "duration": 37,
+          "rate": 0.028
+        },
+        {
+          "age": 9,
+          "duration": 42,
+          "rate": 0.028
+        },
+        {
+          "age": 9,
+          "duration": 47,
+          "rate": 0.028
+        },
+        {
+          "age": 9,
+          "duration": 52,
+          "rate": 0.03
+        },
+        {
+          "age": 9,
+          "duration": 57,
+          "rate": 0.031
+        },
+        {
+          "age": 9,
+          "duration": 62,
+          "rate": 0.037
+        },
+        {
+          "age": 9,
+          "duration": 67,
+          "rate": 0.034
+        },
+        {
+          "age": 9,
+          "duration": 72,
+          "rate": 0.031
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2005 Group Term Life Waiver Study – Male. Select Period Death Rates for Disabled. First Quarter Death Rates for Year 2 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72",
+        "axes": [
+          {
+            "id": "Month",
+            "scaleType": {
+              "code": "0",
+              "label": "Unknown"
+            },
+            "axisName": "Month",
+            "minValue": "12",
+            "maxValue": "12",
+            "increment": "0"
+          },
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 12,
+          "duration": 17,
+          "rate": 0.021
+        },
+        {
+          "age": 12,
+          "duration": 22,
+          "rate": 0.023
+        },
+        {
+          "age": 12,
+          "duration": 27,
+          "rate": 0.024
+        },
+        {
+          "age": 12,
+          "duration": 32,
+          "rate": 0.029
+        },
+        {
+          "age": 12,
+          "duration": 37,
+          "rate": 0.03
+        },
+        {
+          "age": 12,
+          "duration": 42,
+          "rate": 0.03
+        },
+        {
+          "age": 12,
+          "duration": 47,
+          "rate": 0.03
+        },
+        {
+          "age": 12,
+          "duration": 52,
+          "rate": 0.03
+        },
+        {
+          "age": 12,
+          "duration": 57,
+          "rate": 0.03
+        },
+        {
+          "age": 12,
+          "duration": 62,
+          "rate": 0.03
+        },
+        {
+          "age": 12,
+          "duration": 67,
+          "rate": 0.027
+        },
+        {
+          "age": 12,
+          "duration": 72,
+          "rate": 0.024
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2005 Group Term Life Waiver Study – Male. Select Period Death Rates for Disabled. Second Quarter Death Rates for Year 2 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72",
+        "axes": [
+          {
+            "id": "Month",
+            "scaleType": {
+              "code": "0",
+              "label": "Unknown"
+            },
+            "axisName": "Month",
+            "minValue": "15",
+            "maxValue": "15",
+            "increment": "0"
+          },
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 15,
+          "duration": 17,
+          "rate": 0.022
+        },
+        {
+          "age": 15,
+          "duration": 22,
+          "rate": 0.024
+        },
+        {
+          "age": 15,
+          "duration": 27,
+          "rate": 0.024
+        },
+        {
+          "age": 15,
+          "duration": 32,
+          "rate": 0.03
+        },
+        {
+          "age": 15,
+          "duration": 37,
+          "rate": 0.028
+        },
+        {
+          "age": 15,
+          "duration": 42,
+          "rate": 0.028
+        },
+        {
+          "age": 15,
+          "duration": 47,
+          "rate": 0.027
+        },
+        {
+          "age": 15,
+          "duration": 52,
+          "rate": 0.027
+        },
+        {
+          "age": 15,
+          "duration": 57,
+          "rate": 0.027
+        },
+        {
+          "age": 15,
+          "duration": 62,
+          "rate": 0.027
+        },
+        {
+          "age": 15,
+          "duration": 67,
+          "rate": 0.026
+        },
+        {
+          "age": 15,
+          "duration": 72,
+          "rate": 0.023
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2005 Group Term Life Waiver Study – Male. Select Period Death Rates for Disabled. Third Quarter Death Rates for Year 2 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72",
+        "axes": [
+          {
+            "id": "Month",
+            "scaleType": {
+              "code": "0",
+              "label": "Unknown"
+            },
+            "axisName": "Month",
+            "minValue": "18",
+            "maxValue": "18",
+            "increment": "0"
+          },
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 18,
+          "duration": 17,
+          "rate": 0.025
+        },
+        {
+          "age": 18,
+          "duration": 22,
+          "rate": 0.027
+        },
+        {
+          "age": 18,
+          "duration": 27,
+          "rate": 0.027
+        },
+        {
+          "age": 18,
+          "duration": 32,
+          "rate": 0.027
+        },
+        {
+          "age": 18,
+          "duration": 37,
+          "rate": 0.021
+        },
+        {
+          "age": 18,
+          "duration": 42,
+          "rate": 0.021
+        },
+        {
+          "age": 18,
+          "duration": 47,
+          "rate": 0.022
+        },
+        {
+          "age": 18,
+          "duration": 52,
+          "rate": 0.022
+        },
+        {
+          "age": 18,
+          "duration": 57,
+          "rate": 0.023
+        },
+        {
+          "age": 18,
+          "duration": 62,
+          "rate": 0.023
+        },
+        {
+          "age": 18,
+          "duration": 67,
+          "rate": 0.023
+        },
+        {
+          "age": 18,
+          "duration": 72,
+          "rate": 0.02
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2005 Group Term Life Waiver Study – Male. Select Period Death Rates for Disabled. Foruth Quarter Death Rates for Year 2 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72",
+        "axes": [
+          {
+            "id": "Month",
+            "scaleType": {
+              "code": "0",
+              "label": "Unknown"
+            },
+            "axisName": "Month",
+            "minValue": "21",
+            "maxValue": "21",
+            "increment": "0"
+          },
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 21,
+          "duration": 17,
+          "rate": 0.027
+        },
+        {
+          "age": 21,
+          "duration": 22,
+          "rate": 0.031
+        },
+        {
+          "age": 21,
+          "duration": 27,
+          "rate": 0.03
+        },
+        {
+          "age": 21,
+          "duration": 32,
+          "rate": 0.026
+        },
+        {
+          "age": 21,
+          "duration": 37,
+          "rate": 0.018
+        },
+        {
+          "age": 21,
+          "duration": 42,
+          "rate": 0.018
+        },
+        {
+          "age": 21,
+          "duration": 47,
+          "rate": 0.018
+        },
+        {
+          "age": 21,
+          "duration": 52,
+          "rate": 0.018
+        },
+        {
+          "age": 21,
+          "duration": 57,
+          "rate": 0.017
+        },
+        {
+          "age": 21,
+          "duration": 62,
+          "rate": 0.017
+        },
+        {
+          "age": 21,
+          "duration": 67,
+          "rate": 0.017
+        },
+        {
+          "age": 21,
+          "duration": 72,
+          "rate": 0.017
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "2005 Group Term Life Waiver Study – Male. Select Period Death Rates for Disabled. Annual Death Rates for Year 2 -10 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72",
+        "axes": [
+          {
+            "id": "Year",
+            "scaleType": {
+              "code": "0",
+              "label": "Unknown"
+            },
+            "axisName": "Year",
+            "minValue": "2",
+            "maxValue": "10",
+            "increment": "1"
+          },
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "17",
+            "maxValue": "72",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 2,
+          "duration": 17,
+          "rate": 0.0839
+        },
+        {
+          "age": 2,
+          "duration": 22,
+          "rate": 0.0923
+        },
+        {
+          "age": 2,
+          "duration": 27,
+          "rate": 0.0939
+        },
+        {
+          "age": 2,
+          "duration": 32,
+          "rate": 0.1017
+        },
+        {
+          "age": 2,
+          "duration": 37,
+          "rate": 0.0895
+        },
+        {
+          "age": 2,
+          "duration": 42,
+          "rate": 0.0907
+        },
+        {
+          "age": 2,
+          "duration": 47,
+          "rate": 0.0912
+        },
+        {
+          "age": 2,
+          "duration": 52,
+          "rate": 0.0921
+        },
+        {
+          "age": 2,
+          "duration": 57,
+          "rate": 0.0923
+        },
+        {
+          "age": 2,
+          "duration": 62,
+          "rate": 0.0927
+        },
+        {
+          "age": 2,
+          "duration": 67,
+          "rate": 0.0891
+        },
+        {
+          "age": 2,
+          "duration": 72,
+          "rate": 0.0809
+        },
+        {
+          "age": 3,
+          "duration": 17,
+          "rate": 0.03
+        },
+        {
+          "age": 3,
+          "duration": 22,
+          "rate": 0.045
+        },
+        {
+          "age": 3,
+          "duration": 27,
+          "rate": 0.055
+        },
+        {
+          "age": 3,
+          "duration": 32,
+          "rate": 0.056
+        },
+        {
+          "age": 3,
+          "duration": 37,
+          "rate": 0.057
+        },
+        {
+          "age": 3,
+          "duration": 42,
+          "rate": 0.058
+        },
+        {
+          "age": 3,
+          "duration": 47,
+          "rate": 0.059
+        },
+        {
+          "age": 3,
+          "duration": 52,
+          "rate": 0.06
+        },
+        {
+          "age": 3,
+          "duration": 57,
+          "rate": 0.065
+        },
+        {
+          "age": 3,
+          "duration": 62,
+          "rate": 0.067
+        },
+        {
+          "age": 3,
+          "duration": 67,
+          "rate": 0.069
+        },
+        {
+          "age": 3,
+          "duration": 72,
+          "rate": 0.073
+        },
+        {
+          "age": 4,
+          "duration": 17,
+          "rate": 0.018
+        },
+        {
+          "age": 4,
+          "duration": 22,
+          "rate": 0.026
+        },
+        {
+          "age": 4,
+          "duration": 27,
+          "rate": 0.048
+        },
+        {
+          "age": 4,
+          "duration": 32,
+          "rate": 0.048
+        },
+        {
+          "age": 4,
+          "duration": 37,
+          "rate": 0.049
+        },
+        {
+          "age": 4,
+          "duration": 42,
+          "rate": 0.05
+        },
+        {
+          "age": 4,
+          "duration": 47,
+          "rate": 0.05
+        },
+        {
+          "age": 4,
+          "duration": 52,
+          "rate": 0.05
+        },
+        {
+          "age": 4,
+          "duration": 57,
+          "rate": 0.055
+        },
+        {
+          "age": 4,
+          "duration": 62,
+          "rate": 0.057
+        },
+        {
+          "age": 4,
+          "duration": 67,
+          "rate": 0.059
+        },
+        {
+          "age": 4,
+          "duration": 72,
+          "rate": 0.062
+        },
+        {
+          "age": 5,
+          "duration": 17,
+          "rate": 0.012
+        },
+        {
+          "age": 5,
+          "duration": 22,
+          "rate": 0.018
+        },
+        {
+          "age": 5,
+          "duration": 27,
+          "rate": 0.033
+        },
+        {
+          "age": 5,
+          "duration": 32,
+          "rate": 0.039
+        },
+        {
+          "age": 5,
+          "duration": 37,
+          "rate": 0.04
+        },
+        {
+          "age": 5,
+          "duration": 42,
+          "rate": 0.041
+        },
+        {
+          "age": 5,
+          "duration": 47,
+          "rate": 0.042
+        },
+        {
+          "age": 5,
+          "duration": 52,
+          "rate": 0.042
+        },
+        {
+          "age": 5,
+          "duration": 57,
+          "rate": 0.045
+        },
+        {
+          "age": 5,
+          "duration": 62,
+          "rate": 0.047
+        },
+        {
+          "age": 5,
+          "duration": 67,
+          "rate": 0.052
+        },
+        {
+          "age": 5,
+          "duration": 72,
+          "rate": 0.055
+        },
+        {
+          "age": 6,
+          "duration": 17,
+          "rate": 0.012
+        },
+        {
+          "age": 6,
+          "duration": 22,
+          "rate": 0.018
+        },
+        {
+          "age": 6,
+          "duration": 27,
+          "rate": 0.03
+        },
+        {
+          "age": 6,
+          "duration": 32,
+          "rate": 0.033
+        },
+        {
+          "age": 6,
+          "duration": 37,
+          "rate": 0.034
+        },
+        {
+          "age": 6,
+          "duration": 42,
+          "rate": 0.035
+        },
+        {
+          "age": 6,
+          "duration": 47,
+          "rate": 0.036
+        },
+        {
+          "age": 6,
+          "duration": 52,
+          "rate": 0.037
+        },
+        {
+          "age": 6,
+          "duration": 57,
+          "rate": 0.042
+        },
+        {
+          "age": 6,
+          "duration": 62,
+          "rate": 0.043
+        },
+        {
+          "age": 6,
+          "duration": 67,
+          "rate": 0.055
+        },
+        {
+          "age": 6,
+          "duration": 72,
+          "rate": 0.061
+        },
+        {
+          "age": 7,
+          "duration": 17,
+          "rate": 0.012
+        },
+        {
+          "age": 7,
+          "duration": 22,
+          "rate": 0.018
+        },
+        {
+          "age": 7,
+          "duration": 27,
+          "rate": 0.022
+        },
+        {
+          "age": 7,
+          "duration": 32,
+          "rate": 0.025
+        },
+        {
+          "age": 7,
+          "duration": 37,
+          "rate": 0.026
+        },
+        {
+          "age": 7,
+          "duration": 42,
+          "rate": 0.027
+        },
+        {
+          "age": 7,
+          "duration": 47,
+          "rate": 0.028
+        },
+        {
+          "age": 7,
+          "duration": 52,
+          "rate": 0.03
+        },
+        {
+          "age": 7,
+          "duration": 57,
+          "rate": 0.039
+        },
+        {
+          "age": 7,
+          "duration": 62,
+          "rate": 0.042
+        },
+        {
+          "age": 7,
+          "duration": 67,
+          "rate": 0.057
+        },
+        {
+          "age": 7,
+          "duration": 72,
+          "rate": 0.063
+        },
+        {
+          "age": 8,
+          "duration": 17,
+          "rate": 0.012
+        },
+        {
+          "age": 8,
+          "duration": 22,
+          "rate": 0.018
+        },
+        {
+          "age": 8,
+          "duration": 27,
+          "rate": 0.02
+        },
+        {
+          "age": 8,
+          "duration": 32,
+          "rate": 0.023
+        },
+        {
+          "age": 8,
+          "duration": 37,
+          "rate": 0.025
+        },
+        {
+          "age": 8,
+          "duration": 42,
+          "rate": 0.026
+        },
+        {
+          "age": 8,
+          "duration": 47,
+          "rate": 0.027
+        },
+        {
+          "age": 8,
+          "duration": 52,
+          "rate": 0.029
+        },
+        {
+          "age": 8,
+          "duration": 57,
+          "rate": 0.044
+        },
+        {
+          "age": 8,
+          "duration": 62,
+          "rate": 0.046
+        },
+        {
+          "age": 8,
+          "duration": 67,
+          "rate": 0.062
+        },
+        {
+          "age": 8,
+          "duration": 72,
+          "rate": 0.068
+        },
+        {
+          "age": 9,
+          "duration": 17,
+          "rate": 0.012
+        },
+        {
+          "age": 9,
+          "duration": 22,
+          "rate": 0.018
+        },
+        {
+          "age": 9,
+          "duration": 27,
+          "rate": 0.018
+        },
+        {
+          "age": 9,
+          "duration": 32,
+          "rate": 0.019
+        },
+        {
+          "age": 9,
+          "duration": 37,
+          "rate": 0.023
+        },
+        {
+          "age": 9,
+          "duration": 42,
+          "rate": 0.025
+        },
+        {
+          "age": 9,
+          "duration": 47,
+          "rate": 0.027
+        },
+        {
+          "age": 9,
+          "duration": 52,
+          "rate": 0.032
+        },
+        {
+          "age": 9,
+          "duration": 57,
+          "rate": 0.045
+        },
+        {
+          "age": 9,
+          "duration": 62,
+          "rate": 0.048
+        },
+        {
+          "age": 9,
+          "duration": 67,
+          "rate": 0.065
+        },
+        {
+          "age": 9,
+          "duration": 72,
+          "rate": 0.075
+        },
+        {
+          "age": 10,
+          "duration": 17,
+          "rate": 0.012
+        },
+        {
+          "age": 10,
+          "duration": 22,
+          "rate": 0.018
+        },
+        {
+          "age": 10,
+          "duration": 27,
+          "rate": 0.015
+        },
+        {
+          "age": 10,
+          "duration": 32,
+          "rate": 0.017
+        },
+        {
+          "age": 10,
+          "duration": 37,
+          "rate": 0.019
+        },
+        {
+          "age": 10,
+          "duration": 42,
+          "rate": 0.022
+        },
+        {
+          "age": 10,
+          "duration": 47,
+          "rate": 0.027
+        },
+        {
+          "age": 10,
+          "duration": 52,
+          "rate": 0.034
+        },
+        {
+          "age": 10,
+          "duration": 57,
+          "rate": 0.045
+        },
+        {
+          "age": 10,
+          "duration": 62,
+          "rate": 0.05
+        },
+        {
+          "age": 10,
+          "duration": 67,
+          "rate": 0.07
+        },
+        {
+          "age": 10,
+          "duration": 72,
+          "rate": 0.081
+        }
+      ]
+    }
+  ]
+}

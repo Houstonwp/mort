@@ -1,0 +1,306 @@
+{
+  "identifier": "pubt_2010b_female_employee",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "3407",
+    "providerDomain": "soa.org",
+    "providerName": "Retirement Plans Experience Committee",
+    "tableReference": "Society of Actuaries, public-pension-amount-exposure.xlsx, Sheet 'PubT-2010(B)', https://www.soa.org/resources/experience-studies/2018/public-pension-amount-exposure.xlsx",
+    "contentType": {
+      "code": "78",
+      "label": "Annuitant Mortality"
+    },
+    "tableName": "PubT-2010(B) Female Employee",
+    "tableDescription": "Pub-2010 Amount-weighted Teachers Below-Median Mortality Table - Female Employee. Ages 18-80. Base Year July 1, 2010 - June 30, 2011.",
+    "comments": "Study Data: The primary focus of this study was a comprehensive review of recent mortality experience of public retirement plans in the United States. The final dataset upon which this study has been based includes approximately 46 million life-years of exposure and 580 thousand deaths from public pension systems across the United States. Data certified: 09/2018.",
+    "keywords": [
+      "Aggregate",
+      "Annuitant Mortality",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "Pub-2010 Amount-weighted Teachers Below-Median Mortality Table - Female Employee. Ages 18-80. Base Year July 1, 2010 - June 30, 2011.",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "18",
+            "maxValue": "80",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 18,
+          "rate": 0.00013
+        },
+        {
+          "age": 19,
+          "rate": 0.00014
+        },
+        {
+          "age": 20,
+          "rate": 0.00013
+        },
+        {
+          "age": 21,
+          "rate": 0.00013
+        },
+        {
+          "age": 22,
+          "rate": 0.00012
+        },
+        {
+          "age": 23,
+          "rate": 0.00011
+        },
+        {
+          "age": 24,
+          "rate": 0.00011
+        },
+        {
+          "age": 25,
+          "rate": 0.00011
+        },
+        {
+          "age": 26,
+          "rate": 0.00012
+        },
+        {
+          "age": 27,
+          "rate": 0.00013
+        },
+        {
+          "age": 28,
+          "rate": 0.00014
+        },
+        {
+          "age": 29,
+          "rate": 0.00016
+        },
+        {
+          "age": 30,
+          "rate": 0.00017
+        },
+        {
+          "age": 31,
+          "rate": 0.00019
+        },
+        {
+          "age": 32,
+          "rate": 0.0002
+        },
+        {
+          "age": 33,
+          "rate": 0.00022
+        },
+        {
+          "age": 34,
+          "rate": 0.00024
+        },
+        {
+          "age": 35,
+          "rate": 0.00026
+        },
+        {
+          "age": 36,
+          "rate": 0.00028
+        },
+        {
+          "age": 37,
+          "rate": 0.00031
+        },
+        {
+          "age": 38,
+          "rate": 0.00033
+        },
+        {
+          "age": 39,
+          "rate": 0.00036
+        },
+        {
+          "age": 40,
+          "rate": 0.0004
+        },
+        {
+          "age": 41,
+          "rate": 0.00043
+        },
+        {
+          "age": 42,
+          "rate": 0.00047
+        },
+        {
+          "age": 43,
+          "rate": 0.00052
+        },
+        {
+          "age": 44,
+          "rate": 0.00056
+        },
+        {
+          "age": 45,
+          "rate": 0.00062
+        },
+        {
+          "age": 46,
+          "rate": 0.00067
+        },
+        {
+          "age": 47,
+          "rate": 0.00073
+        },
+        {
+          "age": 48,
+          "rate": 0.00079
+        },
+        {
+          "age": 49,
+          "rate": 0.00086
+        },
+        {
+          "age": 50,
+          "rate": 0.00093
+        },
+        {
+          "age": 51,
+          "rate": 0.00101
+        },
+        {
+          "age": 52,
+          "rate": 0.00109
+        },
+        {
+          "age": 53,
+          "rate": 0.00117
+        },
+        {
+          "age": 54,
+          "rate": 0.00126
+        },
+        {
+          "age": 55,
+          "rate": 0.00135
+        },
+        {
+          "age": 56,
+          "rate": 0.00146
+        },
+        {
+          "age": 57,
+          "rate": 0.00158
+        },
+        {
+          "age": 58,
+          "rate": 0.00171
+        },
+        {
+          "age": 59,
+          "rate": 0.00186
+        },
+        {
+          "age": 60,
+          "rate": 0.00204
+        },
+        {
+          "age": 61,
+          "rate": 0.00225
+        },
+        {
+          "age": 62,
+          "rate": 0.00248
+        },
+        {
+          "age": 63,
+          "rate": 0.00276
+        },
+        {
+          "age": 64,
+          "rate": 0.00307
+        },
+        {
+          "age": 65,
+          "rate": 0.00342
+        },
+        {
+          "age": 66,
+          "rate": 0.00383
+        },
+        {
+          "age": 67,
+          "rate": 0.0043
+        },
+        {
+          "age": 68,
+          "rate": 0.00483
+        },
+        {
+          "age": 69,
+          "rate": 0.00545
+        },
+        {
+          "age": 70,
+          "rate": 0.00616
+        },
+        {
+          "age": 71,
+          "rate": 0.00698
+        },
+        {
+          "age": 72,
+          "rate": 0.00793
+        },
+        {
+          "age": 73,
+          "rate": 0.00902
+        },
+        {
+          "age": 74,
+          "rate": 0.01027
+        },
+        {
+          "age": 75,
+          "rate": 0.0117
+        },
+        {
+          "age": 76,
+          "rate": 0.01341
+        },
+        {
+          "age": 77,
+          "rate": 0.01538
+        },
+        {
+          "age": 78,
+          "rate": 0.01763
+        },
+        {
+          "age": 79,
+          "rate": 0.02022
+        },
+        {
+          "age": 80,
+          "rate": 0.02318
+        }
+      ]
+    }
+  ]
+}

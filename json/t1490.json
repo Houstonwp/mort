@@ -1,0 +1,569 @@
+{
+  "identifier": "1996_adb_central_age_and_individual_age_tables_female",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1490",
+    "providerDomain": "soa.org",
+    "providerName": "Society of Actuaries",
+    "tableReference": "Jay M. Jaffe, “Accidental Death Experience: A Review of Recent Experience for the Practicing actuary and the 1996 Accidental Death Benefits Table”, Transactions of the Society of Actuaries, 1997-1998 Reports, Society of Actuaries (1998) p. 172-173. Accessed: March, 2013 from http://www.soa.org/library/research/transactions-reports-of-mortality-moribidity-and-experience/1990-99/1997/january/TSR976.pdf",
+    "contentType": {
+      "code": "77",
+      "label": "ADB, AD\u0026D"
+    },
+    "tableName": "1996 ADB Central Age and Individual Age Tables – Female",
+    "tableDescription": "1996 Accidental Death and Disablement (ADB) Central Age (Table 9) and Individual Age (Table 10) Tables – Female. Minimum Central Age: 0-4. Maximum Central Age: 100 and over. Minimum Individual Age: 0. Maximum Individual Age: 99",
+    "comments": "Study Data: Accidental death benefits (ADB) cover deaths resulting from falls, drowning, motor vehicle accidents, and other accidents, but such contracts also pay benefits when an insured's death results from homicide and the specific cause is otherwise not excluded by the contract. Current, publicly available, data on accidental death experience from non-insurance industry sources was used. As current percentages covered by individual life insurance are nearly identical, tables for both males (See SOA Table Identity 1479) and females have been developed. Methodology: Consistent with the 1959 ADB table (See SOA Table Identities 703 and 704) the 1996 table has been constructed to represent standard underwritten accidental death coverage such as would occur in ADB riders attached to ordinary life policies. NOTE: The Central Age Table is listed first then Individual Age Table. For the Central Age Table, values apply to a range of ages, such as 0-4, accordingly the table is coded with the value applying to the central age in the range. Data Transcription Errors Detected: 03/2013. Data Corrected and Certified: 03/2013.",
+    "keywords": [
+      "Aggregate",
+      "ADB",
+      "AD\u0026D",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1996 Accidental Death and Disablement (ADB) Central Age (Table 9) Table – Female. Minimum Central Age: 0-4. Maximum Central Age: 100 and over.",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "2",
+            "maxValue": "100",
+            "increment": "5"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 2,
+          "rate": 0.000157
+        },
+        {
+          "age": 7,
+          "rate": 0.000061
+        },
+        {
+          "age": 12,
+          "rate": 0.000056
+        },
+        {
+          "age": 17,
+          "rate": 0.00016
+        },
+        {
+          "age": 22,
+          "rate": 0.000125
+        },
+        {
+          "age": 27,
+          "rate": 0.000122
+        },
+        {
+          "age": 32,
+          "rate": 0.000133
+        },
+        {
+          "age": 37,
+          "rate": 0.000136
+        },
+        {
+          "age": 42,
+          "rate": 0.000134
+        },
+        {
+          "age": 47,
+          "rate": 0.000145
+        },
+        {
+          "age": 52,
+          "rate": 0.000135
+        },
+        {
+          "age": 57,
+          "rate": 0.000143
+        },
+        {
+          "age": 62,
+          "rate": 0.000173
+        },
+        {
+          "age": 67,
+          "rate": 0.000223
+        },
+        {
+          "age": 72,
+          "rate": 0.000325
+        },
+        {
+          "age": 77,
+          "rate": 0.000584
+        },
+        {
+          "age": 82,
+          "rate": 0.001021
+        },
+        {
+          "age": 87,
+          "rate": 0.001796
+        },
+        {
+          "age": 92,
+          "rate": 0.002896
+        },
+        {
+          "age": 97,
+          "rate": 0.004077
+        },
+        {
+          "age": 100,
+          "rate": 0.005
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "1996 Accidental Death and Disablement (ADB) Individual Age (Table 10) Table – Female. Minimum Individual Age: 0. Maximum Individual Age: 99",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "0",
+            "maxValue": "99",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 0,
+          "rate": 0.000272
+        },
+        {
+          "age": 1,
+          "rate": 0.000237
+        },
+        {
+          "age": 2,
+          "rate": 0.000207
+        },
+        {
+          "age": 3,
+          "rate": 0.000181
+        },
+        {
+          "age": 4,
+          "rate": 0.000159
+        },
+        {
+          "age": 5,
+          "rate": 0.000139
+        },
+        {
+          "age": 6,
+          "rate": 0.000123
+        },
+        {
+          "age": 7,
+          "rate": 0.000111
+        },
+        {
+          "age": 8,
+          "rate": 0.000102
+        },
+        {
+          "age": 9,
+          "rate": 0.000098
+        },
+        {
+          "age": 10,
+          "rate": 0.000098
+        },
+        {
+          "age": 11,
+          "rate": 0.000103
+        },
+        {
+          "age": 12,
+          "rate": 0.000113
+        },
+        {
+          "age": 13,
+          "rate": 0.00013
+        },
+        {
+          "age": 14,
+          "rate": 0.000149
+        },
+        {
+          "age": 15,
+          "rate": 0.000169
+        },
+        {
+          "age": 16,
+          "rate": 0.000186
+        },
+        {
+          "age": 17,
+          "rate": 0.000198
+        },
+        {
+          "age": 18,
+          "rate": 0.000203
+        },
+        {
+          "age": 19,
+          "rate": 0.000201
+        },
+        {
+          "age": 20,
+          "rate": 0.000195
+        },
+        {
+          "age": 21,
+          "rate": 0.000188
+        },
+        {
+          "age": 22,
+          "rate": 0.00018
+        },
+        {
+          "age": 23,
+          "rate": 0.000175
+        },
+        {
+          "age": 24,
+          "rate": 0.000172
+        },
+        {
+          "age": 25,
+          "rate": 0.000171
+        },
+        {
+          "age": 26,
+          "rate": 0.000171
+        },
+        {
+          "age": 27,
+          "rate": 0.000172
+        },
+        {
+          "age": 28,
+          "rate": 0.000174
+        },
+        {
+          "age": 29,
+          "rate": 0.000176
+        },
+        {
+          "age": 30,
+          "rate": 0.000178
+        },
+        {
+          "age": 31,
+          "rate": 0.00018
+        },
+        {
+          "age": 32,
+          "rate": 0.000182
+        },
+        {
+          "age": 33,
+          "rate": 0.000184
+        },
+        {
+          "age": 34,
+          "rate": 0.000185
+        },
+        {
+          "age": 35,
+          "rate": 0.000185
+        },
+        {
+          "age": 36,
+          "rate": 0.000186
+        },
+        {
+          "age": 37,
+          "rate": 0.000186
+        },
+        {
+          "age": 38,
+          "rate": 0.000185
+        },
+        {
+          "age": 39,
+          "rate": 0.000185
+        },
+        {
+          "age": 40,
+          "rate": 0.000185
+        },
+        {
+          "age": 41,
+          "rate": 0.000185
+        },
+        {
+          "age": 42,
+          "rate": 0.000185
+        },
+        {
+          "age": 43,
+          "rate": 0.000187
+        },
+        {
+          "age": 44,
+          "rate": 0.000189
+        },
+        {
+          "age": 45,
+          "rate": 0.000191
+        },
+        {
+          "age": 46,
+          "rate": 0.000192
+        },
+        {
+          "age": 47,
+          "rate": 0.000193
+        },
+        {
+          "age": 48,
+          "rate": 0.000192
+        },
+        {
+          "age": 49,
+          "rate": 0.000191
+        },
+        {
+          "age": 50,
+          "rate": 0.000189
+        },
+        {
+          "age": 51,
+          "rate": 0.000187
+        },
+        {
+          "age": 52,
+          "rate": 0.000186
+        },
+        {
+          "age": 53,
+          "rate": 0.000186
+        },
+        {
+          "age": 54,
+          "rate": 0.000186
+        },
+        {
+          "age": 55,
+          "rate": 0.000187
+        },
+        {
+          "age": 56,
+          "rate": 0.00019
+        },
+        {
+          "age": 57,
+          "rate": 0.000193
+        },
+        {
+          "age": 58,
+          "rate": 0.000197
+        },
+        {
+          "age": 59,
+          "rate": 0.000202
+        },
+        {
+          "age": 60,
+          "rate": 0.000208
+        },
+        {
+          "age": 61,
+          "rate": 0.000214
+        },
+        {
+          "age": 62,
+          "rate": 0.000221
+        },
+        {
+          "age": 63,
+          "rate": 0.000228
+        },
+        {
+          "age": 64,
+          "rate": 0.000236
+        },
+        {
+          "age": 65,
+          "rate": 0.000245
+        },
+        {
+          "age": 66,
+          "rate": 0.000258
+        },
+        {
+          "age": 67,
+          "rate": 0.000274
+        },
+        {
+          "age": 68,
+          "rate": 0.000294
+        },
+        {
+          "age": 69,
+          "rate": 0.000319
+        },
+        {
+          "age": 70,
+          "rate": 0.000349
+        },
+        {
+          "age": 71,
+          "rate": 0.000384
+        },
+        {
+          "age": 72,
+          "rate": 0.000426
+        },
+        {
+          "age": 73,
+          "rate": 0.000474
+        },
+        {
+          "age": 74,
+          "rate": 0.000528
+        },
+        {
+          "age": 75,
+          "rate": 0.000589
+        },
+        {
+          "age": 76,
+          "rate": 0.000656
+        },
+        {
+          "age": 77,
+          "rate": 0.000729
+        },
+        {
+          "age": 78,
+          "rate": 0.000808
+        },
+        {
+          "age": 79,
+          "rate": 0.000895
+        },
+        {
+          "age": 80,
+          "rate": 0.000993
+        },
+        {
+          "age": 81,
+          "rate": 0.001103
+        },
+        {
+          "age": 82,
+          "rate": 0.001229
+        },
+        {
+          "age": 83,
+          "rate": 0.001371
+        },
+        {
+          "age": 84,
+          "rate": 0.00153
+        },
+        {
+          "age": 85,
+          "rate": 0.001704
+        },
+        {
+          "age": 86,
+          "rate": 0.001894
+        },
+        {
+          "age": 87,
+          "rate": 0.002098
+        },
+        {
+          "age": 88,
+          "rate": 0.002316
+        },
+        {
+          "age": 89,
+          "rate": 0.002546
+        },
+        {
+          "age": 90,
+          "rate": 0.002786
+        },
+        {
+          "age": 91,
+          "rate": 0.003037
+        },
+        {
+          "age": 92,
+          "rate": 0.003296
+        },
+        {
+          "age": 93,
+          "rate": 0.003562
+        },
+        {
+          "age": 94,
+          "rate": 0.003835
+        },
+        {
+          "age": 95,
+          "rate": 0.004112
+        },
+        {
+          "age": 96,
+          "rate": 0.004393
+        },
+        {
+          "age": 97,
+          "rate": 0.004677
+        },
+        {
+          "age": 98,
+          "rate": 0.004964
+        },
+        {
+          "age": 99,
+          "rate": 0.005254
+        }
+      ]
+    }
+  ]
+}

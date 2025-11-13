@@ -1,0 +1,255 @@
+{
+  "identifier": "krieger_table_graduated_ultimate_disability_recovery_rates",
+  "version": "unknown",
+  "classification": {
+    "tableIdentity": "1584",
+    "providerDomain": "soa.org",
+    "providerName": "Society of Actuaries",
+    "tableReference": "Raymond B. Krieger, \"Reserves for Lives Disabled under Group Insurance Extended Death Benefit Provisions of the Premium-Waiver Type\", Transactions of the Society of Actuaries, Vol. XXIII, No. 67, Part I: Appendix 2B (1971) p. 441. Accessed: 12/2012 from http://www.soa.org/library/research/transactions-of-society-of-actuaries/1971/january/tsa71v23pt1n6722.pdf, p. 23",
+    "contentType": {
+      "code": "8",
+      "label": "Disability Recovery"
+    },
+    "tableName": "Krieger Table – Graduated Ultimate Disability Recovery Rates",
+    "tableDescription": "Ultimate Probability of Recovery following Disability, Years 11 and over Based on Lives for Both Sexes Combined, Rates by Attained Age. Minimum Age: 27. Maximum Age: 76.",
+    "comments": "Study Data:  Intercompany group experience was used to propose an actuarial basis appropriate for setting up disabled life reserves held under extended death benefit provisions of the premium-waiver type. Data is limited to a nine-month presumptive provision, that is, one in which total disability is presumed to be permanent after a nine-month waiting period from date of disablement and where proof of continued disability must be provided annually. The starting point for the study was data published in the 1968 Reports of the Transactions of the Society of Actuaries. The 1968 Study was based on the same types of cases as are included in the quinquennial studies of group life mortality experience; that is, it excludes union, trusteeship, and association cases as well as group indebtedness experience. The study covers the group term life experience of 12 companies in the Unites States and Canada between 1955 and 1965 anniversaries of the date of disablement for all disabilities approved before 1965. Together with death following disability data (SOA Table 1584), the probability of recovery data of this table creates disability termination rates (SOA Table 1583). Methodology:  As the original publication is extensively detailed with respect to the methodology used to construct the table, the “Transactions” publication should be consulted.  Data Transcription Errors: None. Data Certified: 12/2012",
+    "keywords": [
+      "Ultimate",
+      "Claim Termination",
+      "United States of America",
+      "United States of America"
+    ]
+  },
+  "tables": [
+    {
+      "index": 0,
+      "metadata": {
+        "scalingFactor": "0",
+        "dataType": {
+          "code": "2",
+          "label": "Floating Point"
+        },
+        "nation": {
+          "code": "1",
+          "label": "United States of America"
+        },
+        "tableDescription": "Ultimate Probability of Recovery following Disability, Years 11 and over Based on Lives for Both Sexes Combined, Rates by Attained Age. Minimum Age: 27. Maximum Age: 76",
+        "axes": [
+          {
+            "id": "Age",
+            "scaleType": {
+              "code": "3",
+              "label": "Age"
+            },
+            "axisName": "Age",
+            "minValue": "27",
+            "maxValue": "76",
+            "increment": "1"
+          }
+        ]
+      },
+      "rates": [
+        {
+          "age": 27,
+          "rate": 0.02
+        },
+        {
+          "age": 28,
+          "rate": 0.02
+        },
+        {
+          "age": 29,
+          "rate": 0.02
+        },
+        {
+          "age": 30,
+          "rate": 0.02
+        },
+        {
+          "age": 31,
+          "rate": 0.02
+        },
+        {
+          "age": 32,
+          "rate": 0.019
+        },
+        {
+          "age": 33,
+          "rate": 0.019
+        },
+        {
+          "age": 34,
+          "rate": 0.019
+        },
+        {
+          "age": 35,
+          "rate": 0.019
+        },
+        {
+          "age": 36,
+          "rate": 0.019
+        },
+        {
+          "age": 37,
+          "rate": 0.018
+        },
+        {
+          "age": 38,
+          "rate": 0.018
+        },
+        {
+          "age": 39,
+          "rate": 0.017
+        },
+        {
+          "age": 40,
+          "rate": 0.017
+        },
+        {
+          "age": 41,
+          "rate": 0.016
+        },
+        {
+          "age": 42,
+          "rate": 0.016
+        },
+        {
+          "age": 43,
+          "rate": 0.016
+        },
+        {
+          "age": 44,
+          "rate": 0.015
+        },
+        {
+          "age": 45,
+          "rate": 0.015
+        },
+        {
+          "age": 46,
+          "rate": 0.014
+        },
+        {
+          "age": 47,
+          "rate": 0.014
+        },
+        {
+          "age": 48,
+          "rate": 0.014
+        },
+        {
+          "age": 49,
+          "rate": 0.013
+        },
+        {
+          "age": 50,
+          "rate": 0.013
+        },
+        {
+          "age": 51,
+          "rate": 0.012
+        },
+        {
+          "age": 52,
+          "rate": 0.012
+        },
+        {
+          "age": 53,
+          "rate": 0.011
+        },
+        {
+          "age": 54,
+          "rate": 0.01
+        },
+        {
+          "age": 55,
+          "rate": 0.009
+        },
+        {
+          "age": 56,
+          "rate": 0.008
+        },
+        {
+          "age": 57,
+          "rate": 0.007
+        },
+        {
+          "age": 58,
+          "rate": 0.007
+        },
+        {
+          "age": 59,
+          "rate": 0.006
+        },
+        {
+          "age": 60,
+          "rate": 0.006
+        },
+        {
+          "age": 61,
+          "rate": 0.005
+        },
+        {
+          "age": 62,
+          "rate": 0.005
+        },
+        {
+          "age": 63,
+          "rate": 0.005
+        },
+        {
+          "age": 64,
+          "rate": 0.004
+        },
+        {
+          "age": 65,
+          "rate": 0.003
+        },
+        {
+          "age": 66,
+          "rate": 0.002
+        },
+        {
+          "age": 67,
+          "rate": 0.002
+        },
+        {
+          "age": 68,
+          "rate": 0.002
+        },
+        {
+          "age": 69,
+          "rate": 0.001
+        },
+        {
+          "age": 70,
+          "rate": 0.001
+        },
+        {
+          "age": 71,
+          "rate": 0.001
+        },
+        {
+          "age": 72,
+          "rate": 0.001
+        },
+        {
+          "age": 73,
+          "rate": 0.001
+        },
+        {
+          "age": 74,
+          "rate": 0.001
+        },
+        {
+          "age": 75,
+          "rate": 0.001
+        },
+        {
+          "age": 76,
+          "rate": 0
+        }
+      ]
+    }
+  ]
+}
