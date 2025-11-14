@@ -225,6 +225,12 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				m.resetTextView()
 				return m, nil
 			}
+		case "enter":
+			if m.state == stateList && m.list.FilterState() != list.Filtering {
+				if item, ok := m.list.SelectedItem().(tableItem); ok {
+					return m, loadDetailCmd(item.summary.FilePath)
+				}
+			}
 		case "1", "2", "3":
 			if m.state == stateDetail && m.detail != nil {
 				idx := int(msg.Runes[0] - '1')
@@ -233,11 +239,6 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 					m.refreshRatesTable()
 					m.resetTextView()
 					return m, nil
-				}
-			}
-			if m.state == stateList && len(m.filtered) > 0 {
-				if item, ok := m.list.SelectedItem().(tableItem); ok {
-					return m, loadDetailCmd(item.summary.FilePath)
 				}
 			}
 		case "left", "h":
@@ -255,16 +256,17 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				return m, nil
 			}
 		}
+	}
 
-		if m.state == stateDetail && m.detail != nil && m.detailTab == tabRates {
+	if m.state == stateDetail && m.detail != nil {
+		if m.detailTab == tabRates {
 			var cmd tea.Cmd
 			m.ratesTable, cmd = m.ratesTable.Update(msg)
 			return m, cmd
-		} else if m.state == stateDetail && m.detail != nil && m.detailTab != tabRates {
-			var cmd tea.Cmd
-			m.textView, cmd = m.textView.Update(msg)
-			return m, cmd
 		}
+		var cmd tea.Cmd
+		m.textView, cmd = m.textView.Update(msg)
+		return m, cmd
 	}
 
 	if m.state == stateList {
