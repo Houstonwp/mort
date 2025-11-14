@@ -145,9 +145,5 @@ func (t tableItem) Description() string {
 }
 
 func (t tableItem) FilterValue() string {
-	fields := []string{
-		t.summary.Name,
-		t.summary.Summary,
-	}
-	return strings.ToLower(strings.Join(fields, " "))
+	return strings.ToLower(t.summary.Name)
 }
