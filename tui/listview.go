@@ -148,9 +148,6 @@ func (t tableItem) FilterValue() string {
 	fields := []string{
 		t.summary.Name,
 		t.summary.Summary,
-		t.summary.TableIdentity,
-		t.summary.Identifier,
-		strings.Join(t.summary.Keywords, " "),
 	}
 	return strings.ToLower(strings.Join(fields, " "))
 }
