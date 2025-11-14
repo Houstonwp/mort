@@ -196,14 +196,7 @@ func (m Model) View() string {
 }
 
 func (m Model) listView() string {
-	view := m.list.View(m.detailContentWidth(), m.height)
-	return lipgloss.Place(
-		max(1, m.width),
-		max(1, m.height),
-		lipgloss.Left,
-		lipgloss.Top,
-		view,
-	)
+	return m.list.View(m.width, m.height)
 }
 
 func (m Model) detailView() string {

@@ -60,16 +60,21 @@ func (lv *listView) Update(msg tea.Msg) tea.Cmd {
 	return cmd
 }
 
-func (lv listView) View(contentWidth, totalHeight int) string {
-	availableHeight := max(6, totalHeight-4)
-	listHeight := max(5, availableHeight)
-	lv.model.SetSize(max(10, contentWidth-2), listHeight)
-	body := panelStyle.Width(contentWidth).Render(lv.model.View())
+func (lv listView) View(totalWidth, totalHeight int) string {
+	panelWidth := max(20, totalWidth-2)
+	panelHeight := max(6, totalHeight-3)
+	listWidth := max(10, panelWidth-2)
+	listHeight := max(5, panelHeight-2)
 
-	title := headerStyle.Width(contentWidth).Render("Mortality Tables")
+	lv.model.SetSize(listWidth, listHeight)
+
+	body := panelStyle.Width(panelWidth).Height(panelHeight).Render(lv.model.View())
+	title := headerStyle.Width(panelWidth).Render("Mortality Tables")
+	content := lipgloss.JoinVertical(lipgloss.Left, title, body)
 	return lipgloss.NewStyle().
-		Width(contentWidth).
-		Render(lipgloss.JoinVertical(lipgloss.Left, title, body))
+		Width(totalWidth).
+		Height(totalHeight).
+		Render(content)
 }
 
 func (lv listView) SelectedSummary() (tuiapp.TableSummary, bool) {
