@@ -33,10 +33,8 @@ var tabLabels = []string{"Classification", "Metadata", "Rates"}
 var (
 	accentColor       = lipgloss.Color("99")
 	subtleColor       = lipgloss.Color("245")
-	warningColor      = lipgloss.Color("203")
 	panelStyle        = lipgloss.NewStyle().Border(lipgloss.RoundedBorder()).BorderForeground(accentColor).Padding(0, 1)
 	ratesPanelStyle   = lipgloss.NewStyle().Border(lipgloss.RoundedBorder()).BorderForeground(accentColor).Padding(0, 1)
-	warningPanelStyle = lipgloss.NewStyle().Border(lipgloss.RoundedBorder()).BorderForeground(warningColor).Padding(0, 1)
 	helperTextStyle   = lipgloss.NewStyle().Foreground(subtleColor)
 	tabActiveStyle    = lipgloss.NewStyle().Foreground(lipgloss.Color("0")).Background(accentColor).Bold(true).Padding(0, 2)
 	tabInactiveStyle  = lipgloss.NewStyle().Foreground(subtleColor).Padding(0, 2)
@@ -44,10 +42,8 @@ var (
 	valueStyle        = lipgloss.NewStyle().Foreground(lipgloss.Color("252"))
 	labelStyle        = lipgloss.NewStyle().Foreground(accentColor).Bold(true)
 	sectionTitleStyle = lipgloss.NewStyle().Bold(true).Foreground(lipgloss.Color("15")).Underline(true)
-	warningTextStyle  = lipgloss.NewStyle().Foreground(warningColor).Bold(true)
 )
 
-const maxWarningMessages = 50
 const mortLogo = ` __  __  ___  ____ _____
 |  \/  |/ _ \|  _ \_   _|
 | |\/| | | | | |_) || |
@@ -71,7 +67,6 @@ type Model struct {
 	list        list.Model
 	summaries   []tuiapp.TableSummary
 	filtered    []tuiapp.TableSummary
-	warnings    []string
 	detail      *tuiapp.TableDetail
 	detailIndex int
 	detailTab   int
@@ -168,9 +163,6 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		if msg.err != nil {
 			m.err = msg.err
 			return m, nil
-		}
-		if len(msg.warn) > 0 {
-			m.addWarnings(msg.warn)
 		}
 		if len(msg.chunk) > 0 {
 			m.summaries = append(m.summaries, msg.chunk...)
@@ -305,16 +297,9 @@ func (m Model) View() string {
 func (m Model) listView() string {
 	contentWidth := m.detailContentWidth()
 	availableHeight := max(6, m.height-4)
-	warning := m.warningView(contentWidth)
 	listHeight := max(5, availableHeight)
 	m.list.SetSize(m.detailInnerWidth(), listHeight)
-	bodySections := []string{m.list.View()}
-	if warning != "" {
-		bodySections = append(bodySections, warning)
-	}
-	body := panelStyle.Width(contentWidth).Render(
-		lipgloss.JoinVertical(lipgloss.Left, bodySections...),
-	)
+	body := panelStyle.Width(contentWidth).Render(m.list.View())
 
 	title := headerStyle.Width(contentWidth).Render("Mortality Tables")
 	content := lipgloss.JoinVertical(
@@ -347,13 +332,7 @@ func (m Model) detailView() string {
 	bodyHeight := m.availableBodyHeight(info, tabs, footer)
 	bodyPanel := m.renderBodyPanel(contentWidth, bodyHeight)
 
-	warningLine := m.warningView(contentWidth)
-	var content string
-	if warningLine != "" {
-		content = lipgloss.JoinVertical(lipgloss.Left, info, tabs, bodyPanel, warningLine, footer)
-	} else {
-		content = lipgloss.JoinVertical(lipgloss.Left, info, tabs, bodyPanel, footer)
-	}
+	content := lipgloss.JoinVertical(lipgloss.Left, info, tabs, bodyPanel, footer)
 	return lipgloss.NewStyle().
 		Width(max(1, m.width)).
 		Height(max(1, m.height)).
@@ -370,31 +349,6 @@ func renderTabs(active int) string {
 		segments = append(segments, style.Render(label))
 	}
 	return lipgloss.JoinHorizontal(lipgloss.Left, segments...)
-}
-
-func (m *Model) addWarnings(entries []string) {
-	if len(entries) == 0 {
-		return
-	}
-	m.warnings = append(m.warnings, entries...)
-	if len(m.warnings) > maxWarningMessages {
-		m.warnings = append([]string(nil), m.warnings[len(m.warnings)-maxWarningMessages:]...)
-	}
-}
-
-func (m Model) warningView(width int) string {
-	if len(m.warnings) == 0 {
-		return ""
-	}
-	previewCount := min(len(m.warnings), 3)
-	start := len(m.warnings) - previewCount
-	preview := append([]string(nil), m.warnings[start:]...)
-	if len(m.warnings) > previewCount {
-		preview = append(preview, fmt.Sprintf("+%d more warning(s)", len(m.warnings)-previewCount))
-	}
-	panelWidth := max(10, width-4)
-	text := warningTextStyle.Render(strings.Join(preview, " • "))
-	return warningPanelStyle.Width(panelWidth).Render(text)
 }
 
 func (m *Model) applyFilter(query string) {
@@ -678,7 +632,6 @@ type summariesChunkMsg struct {
 	files []string
 	next  int
 	done  bool
-	warn  []string
 	err   error
 }
 
@@ -715,13 +668,11 @@ func loadSummariesCmd(dir string, files []string, start int) tea.Cmd {
 		}
 
 		chunk := make([]tuiapp.TableSummary, 0, end-start)
-		warnings := make([]string, 0)
 		for _, name := range names[start:end] {
 			path := filepath.Join(dir, name)
 			summary, err := tuiapp.LoadTableSummary(path)
 			if err != nil {
-				warnings = append(warnings, fmt.Sprintf("%s: %v", name, err))
-				continue
+				return summariesChunkMsg{err: err}
 			}
 			chunk = append(chunk, *summary)
 		}
@@ -732,7 +683,6 @@ func loadSummariesCmd(dir string, files []string, start int) tea.Cmd {
 			files: names,
 			next:  end,
 			done:  done,
-			warn:  warnings,
 		}
 	}
 }
