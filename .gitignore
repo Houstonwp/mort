@@ -1,4 +1,4 @@
-# macOS clutter
+# macOS system clutter
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -6,6 +6,21 @@ Icon?
 ._*
 .Spotlight-V100
 .Trashes
+.TemporaryItems
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+.DocumentRevisions-V100
+.fseventsd
+.VolumeIcon.icns
+
+# Node/JS artifacts
+node_modules/
+web/node_modules/
+web/dist/
+web/.astro/
 
 # Go build artifacts
 bin/
