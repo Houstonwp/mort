@@ -25,6 +25,7 @@ export default function MortalityApp({ tables }: MortalityAppProps) {
   const [csvDownloadingId, setCsvDownloadingId] = useState<string | null>(null);
   const [selectedKeys, setSelectedKeys] = useState<Set<string>>(() => new Set());
   const [bulkLoading, setBulkLoading] = useState<'json' | 'csv' | null>(null);
+  const [lastSelectedIndex, setLastSelectedIndex] = useState<number | null>(null);
   const selectAllRef = useRef<HTMLInputElement | null>(null);
 
   const fuse = useMemo(() => {
@@ -127,16 +128,38 @@ export default function MortalityApp({ tables }: MortalityAppProps) {
     }
   };
 
-  const toggleSelection = (detailPath: string) => {
+  const handleCheckboxSelection = (
+    detailPath: string,
+    options: { shiftKey: boolean; nextChecked: boolean },
+  ) => {
+    const currentIndex = filtered.findIndex((table) => table.detailPath === detailPath);
+    if (currentIndex === -1) {
+      return;
+    }
     setSelectedKeys((prev) => {
       const next = new Set(prev);
-      if (next.has(detailPath)) {
-        next.delete(detailPath);
+      const applySelection = (path: string) => {
+        if (options.nextChecked) {
+          next.add(path);
+        } else {
+          next.delete(path);
+        }
+      };
+      if (options.shiftKey && lastSelectedIndex !== null) {
+        const start = Math.min(currentIndex, lastSelectedIndex);
+        const end = Math.max(currentIndex, lastSelectedIndex);
+        for (let idx = start; idx <= end; idx++) {
+          const rangePath = filtered[idx]?.detailPath;
+          if (rangePath) {
+            applySelection(rangePath);
+          }
+        }
       } else {
-        next.add(detailPath);
+        applySelection(detailPath);
       }
       return next;
     });
+    setLastSelectedIndex(currentIndex);
   };
 
   const handleSelectAllFiltered = () => {
@@ -214,6 +237,10 @@ export default function MortalityApp({ tables }: MortalityAppProps) {
   useEffect(() => {
     setVisibleCount((prev) => Math.min(prev, filtered.length));
   }, [filtered.length]);
+
+  useEffect(() => {
+    setLastSelectedIndex(null);
+  }, [filtered]);
 
   useEffect(() => {
     const node = listRef.current;
@@ -378,8 +405,14 @@ export default function MortalityApp({ tables }: MortalityAppProps) {
                     <input
                       type="checkbox"
                       checked={selectedKeys.has(table.detailPath)}
-                      onChange={() => toggleSelection(table.detailPath)}
-                      onClick={(event) => event.stopPropagation()}
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        const target = event.currentTarget as HTMLInputElement;
+                        handleCheckboxSelection(table.detailPath, {
+                          shiftKey: event.shiftKey,
+                          nextChecked: target.checked,
+                        });
+                      }}
                       aria-label={`Select ${table.name}`}
                     />
                   </td>
