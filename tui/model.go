@@ -160,6 +160,11 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				m.detail.NextTable()
 				return m, nil
 			}
+		case "v":
+			if m.state == stateDetail {
+				m.detail.ToggleRateView()
+				return m, nil
+			}
 		}
 	}
 

@@ -2,6 +2,7 @@ package tui
 
 import (
 	"fmt"
+	"sort"
 	"strings"
 
 	"github.com/charmbracelet/bubbles/key"
@@ -12,6 +13,14 @@ import (
 	"github.com/muesli/reflow/wordwrap"
 
 	"mort/internal/tuiapp"
+	"mort/internal/xtbml"
+)
+
+type rateViewMode int
+
+const (
+	rateViewList rateViewMode = iota
+	rateViewMatrix
 )
 
 type detailView struct {
@@ -21,16 +30,12 @@ type detailView struct {
 	rates       table.Model
 	viewport    viewport.Model
 	textContent string
+	rateView    rateViewMode
 }
 
-func newDetailView() detailView {
-	rateColumns := []table.Column{
-		{Title: "Age", Width: 8},
-		{Title: "Dur", Width: 6},
-		{Title: "Rate", Width: 20},
-	}
+func newRatesTableWithColumns(columns []table.Column) table.Model {
 	rt := table.New(
-		table.WithColumns(rateColumns),
+		table.WithColumns(columns),
 		table.WithRows(nil),
 		table.WithFocused(true),
 	)
@@ -40,6 +45,26 @@ func newDetailView() detailView {
 	tableStyles.Cell = tableStyles.Cell.Foreground(lipgloss.Color("252")).Padding(0, 0)
 	tableStyles.Selected = tableStyles.Selected.Foreground(lipgloss.Color("15")).Background(lipgloss.Color("236"))
 	rt.SetStyles(tableStyles)
+	return rt
+}
+
+func rateColumnsWithDuration() []table.Column {
+	return []table.Column{
+		{Title: "Age", Width: 8},
+		{Title: "Dur", Width: 6},
+		{Title: "Rate", Width: 20},
+	}
+}
+
+func rateColumnsWithoutDuration() []table.Column {
+	return []table.Column{
+		{Title: "Age", Width: 8},
+		{Title: "Rate", Width: 20},
+	}
+}
+
+func newDetailView() detailView {
+	rt := newRatesTableWithColumns(rateColumnsWithDuration())
 
 	tv := viewport.New(0, 0)
 	km := viewport.DefaultKeyMap()
@@ -54,6 +79,7 @@ func newDetailView() detailView {
 	return detailView{
 		rates:    rt,
 		viewport: tv,
+		rateView: rateViewList,
 	}
 }
 
@@ -61,6 +87,7 @@ func (dv *detailView) SetDetail(detail *tuiapp.TableDetail) {
 	dv.detail = detail
 	dv.index = 0
 	dv.tab = tabClassification
+	dv.rateView = rateViewList
 	dv.resetViewport()
 	dv.refreshRatesTable()
 }
@@ -92,7 +119,7 @@ func (dv *detailView) View(width, height int) string {
 	)
 
 	tabs := lipgloss.NewStyle().Width(contentWidth).Render(renderTabs(dv.tab))
-	footer := helperTextStyle.Width(contentWidth).Render("←/→ table • Tab switch panel • j/k scroll rates • esc back")
+	footer := helperTextStyle.Width(contentWidth).Render("←/→ table • Tab switch panel • j/k scroll rates • v toggle rates view • esc back")
 
 	bodyHeight := availableBodyHeight(height, info, tabs, footer)
 	bodyPanel := dv.renderBodyPanel(contentWidth, bodyHeight)
@@ -174,28 +201,165 @@ func (dv *detailView) refreshRatesTable() {
 		dv.index = len(dv.detail.Tables) - 1
 	}
 	tableData := dv.detail.Tables[dv.index]
-	rows := make([]table.Row, 0, len(tableData.Rates))
-	for _, rate := range tableData.Rates {
-		duration := "-"
-		if rate.Duration != nil {
-			duration = fmt.Sprintf("%d", *rate.Duration)
+	hasDuration := ratesHaveDuration(tableData.Rates)
+	if dv.rateView == rateViewMatrix && !hasDuration {
+		dv.rateView = rateViewList
+	}
+
+	width := dv.rates.Width()
+	height := dv.rates.Height()
+	focused := dv.tab == tabRates
+
+	var (
+		columns []table.Column
+		rows    []table.Row
+	)
+
+	if dv.rateView == rateViewMatrix {
+		durations := uniqueDurations(tableData.Rates)
+		columns = buildMatrixColumns(durations)
+		rows = buildMatrixRows(tableData.Rates, durations)
+	} else {
+		columns = buildListColumns(hasDuration)
+		rows = buildListRows(tableData.Rates, hasDuration)
+	}
+
+	rt := newRatesTableWithColumns(columns)
+	if width > 0 {
+		rt.SetWidth(width)
+	}
+	if height > 0 {
+		rt.SetHeight(height)
+	}
+	rt.SetRows(rows)
+	if focused {
+		rt.Focus()
+	} else {
+		rt.Blur()
+	}
+	dv.rates = rt
+}
+
+func (dv *detailView) ToggleRateView() {
+	if dv.detail == nil || len(dv.detail.Tables) == 0 {
+		return
+	}
+	tableData := dv.detail.Tables[dv.index]
+	hasDuration := ratesHaveDuration(tableData.Rates)
+	if dv.rateView == rateViewList {
+		if !hasDuration {
+			return
 		}
-		value := "N/A"
-		if rate.Rate != nil {
-			value = fmt.Sprintf("%.6f", *rate.Rate)
+		dv.rateView = rateViewMatrix
+	} else {
+		dv.rateView = rateViewList
+	}
+	dv.refreshRatesTable()
+}
+
+func buildListColumns(includeDuration bool) []table.Column {
+	if includeDuration {
+		return rateColumnsWithDuration()
+	}
+	return rateColumnsWithoutDuration()
+}
+
+func buildListRows(rates []xtbml.RateEntryPayload, includeDuration bool) []table.Row {
+	rows := make([]table.Row, 0, len(rates))
+	for _, rate := range rates {
+		row := table.Row{fmt.Sprintf("%d", rate.Age)}
+		if includeDuration {
+			if rate.Duration != nil {
+				row = append(row, fmt.Sprintf("%d", *rate.Duration))
+			} else {
+				row = append(row, "—")
+			}
 		}
-		rows = append(rows, table.Row{
-			fmt.Sprintf("%d", rate.Age),
-			duration,
-			value,
+		row = append(row, formatRate(rate.Rate))
+		rows = append(rows, row)
+	}
+	return rows
+}
+
+func buildMatrixColumns(durations []int) []table.Column {
+	columns := make([]table.Column, 0, len(durations)+1)
+	columns = append(columns, table.Column{Title: "Age", Width: 8})
+	for _, dur := range durations {
+		columns = append(columns, table.Column{
+			Title: fmt.Sprintf("Dur %d", dur),
+			Width: 8,
 		})
 	}
-	dv.rates.SetRows(rows)
-	if dv.tab == tabRates {
-		dv.rates.Focus()
-	} else {
-		dv.rates.Blur()
+	return columns
+}
+
+func buildMatrixRows(rates []xtbml.RateEntryPayload, durations []int) []table.Row {
+	ageSet := make(map[int]struct{})
+	valueMap := make(map[int]map[int]string)
+	for _, rate := range rates {
+		ageSet[rate.Age] = struct{}{}
+		if rate.Duration == nil {
+			continue
+		}
+		if _, ok := valueMap[rate.Age]; !ok {
+			valueMap[rate.Age] = make(map[int]string)
+		}
+		valueMap[rate.Age][*rate.Duration] = formatRate(rate.Rate)
 	}
+
+	ages := make([]int, 0, len(ageSet))
+	for age := range ageSet {
+		ages = append(ages, age)
+	}
+	sort.Ints(ages)
+
+	rows := make([]table.Row, 0, len(ages))
+	for _, age := range ages {
+		row := table.Row{fmt.Sprintf("%d", age)}
+		for _, dur := range durations {
+			if ageRates, ok := valueMap[age]; ok {
+				if val, ok := ageRates[dur]; ok {
+					row = append(row, val)
+					continue
+				}
+			}
+			row = append(row, "—")
+		}
+		rows = append(rows, row)
+	}
+	return rows
+}
+
+func uniqueDurations(rates []xtbml.RateEntryPayload) []int {
+	set := make(map[int]struct{})
+	for _, rate := range rates {
+		if rate.Duration == nil {
+			continue
+		}
+		set[*rate.Duration] = struct{}{}
+	}
+	durations := make([]int, 0, len(set))
+	for dur := range set {
+		durations = append(durations, dur)
+	}
+	sort.Ints(durations)
+	return durations
+}
+
+func ratesHaveDuration(rates []xtbml.RateEntryPayload) bool {
+	for _, rate := range rates {
+		if rate.Duration != nil {
+			return true
+		}
+	}
+	return false
+}
+
+func formatRate(val *float64) string {
+	if val == nil {
+		return "N/A"
+	}
+	return fmt.Sprintf("%.6f", *val)
 }
 
 func (dv *detailView) NextTable() {
