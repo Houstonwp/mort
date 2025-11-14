@@ -6,6 +6,6 @@ import preact from '@astrojs/preact';
 // https://astro.build/config
 export default defineConfig({
   integrations: [preact()],
-  base: '/mort/',
-  site: 'https://houstonwp.github.io/mort/'
+  base: '/',
+  site: 'https://mort.houstonp.com'
 });
