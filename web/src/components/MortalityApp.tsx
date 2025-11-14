@@ -232,6 +232,20 @@ export default function MortalityApp({ tables }: MortalityAppProps) {
   }, [filtered.length]);
 
   useEffect(() => {
+    if (typeof document === 'undefined') {
+      return;
+    }
+    const body = document.body;
+    if (selected) {
+      body.classList.add('modal-open');
+      return () => {
+        body.classList.remove('modal-open');
+      };
+    }
+    body.classList.remove('modal-open');
+  }, [selected]);
+
+  useEffect(() => {
     if (!selectAllRef.current) {
       return;
     }

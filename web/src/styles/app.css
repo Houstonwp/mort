@@ -21,6 +21,10 @@ body {
   min-height: 100vh;
   background: radial-gradient(circle at top, #13203b, #06090f 60%);
   color: #edf2ff;
+  overflow: auto;
+}
+
+body.modal-open {
   overflow: hidden;
 }
 
@@ -503,14 +507,15 @@ td.empty {
 
   .modal {
     width: 100%;
-    max-height: 100vh;
+    height: 100vh;
+    max-height: none;
     border-radius: 0;
-    overflow-y: auto;
+    overflow: hidden;
   }
 
   .modal-overlay {
     padding: 0;
-    align-items: flex-start;
+    align-items: stretch;
   }
 
   .modal-header,
@@ -527,11 +532,18 @@ td.empty {
     gap: 0.5rem;
   }
 
+  .tab-content {
+    overflow-y: auto;
+  }
+
   .rates-scroll {
     max-height: none;
   }
 
-  .tab-content {
-    overflow-y: visible;
+  .modal-footer {
+    position: sticky;
+    bottom: 0;
+    background: #05070d;
+    border-top: 1px solid var(--panel-border);
   }
 }
