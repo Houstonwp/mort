@@ -347,14 +347,12 @@ func (m Model) detailView() string {
 	bodyHeight := m.availableBodyHeight(info, tabs, footer)
 	bodyPanel := m.renderBodyPanel(contentWidth, bodyHeight)
 
-	scrollLine := helperTextStyle.Width(contentWidth).
-		Render(fmt.Sprintf("Scroll %.0f%%", m.textView.ScrollPercent()*100))
 	warningLine := m.warningView(contentWidth)
 	var content string
 	if warningLine != "" {
-		content = lipgloss.JoinVertical(lipgloss.Left, info, tabs, bodyPanel, scrollLine, warningLine, footer)
+		content = lipgloss.JoinVertical(lipgloss.Left, info, tabs, bodyPanel, warningLine, footer)
 	} else {
-		content = lipgloss.JoinVertical(lipgloss.Left, info, tabs, bodyPanel, scrollLine, footer)
+		content = lipgloss.JoinVertical(lipgloss.Left, info, tabs, bodyPanel, footer)
 	}
 	return lipgloss.NewStyle().
 		Width(max(1, m.width)).
