@@ -345,8 +345,8 @@ export default function MortalityApp({ tables }: MortalityAppProps) {
             <thead>
               <tr>
                 <th class="select-col">
-                    <input
-                      ref={selectAllRef}
+                  <input
+                    ref={selectAllRef}
                       type="checkbox"
                     onChange={handleSelectAllFiltered}
                     aria-label="Select all filtered tables"
@@ -354,7 +354,7 @@ export default function MortalityApp({ tables }: MortalityAppProps) {
                 </th>
                 <th>ID</th>
                 <th>Name</th>
-                <th>Download</th>
+                <th class="download-col">Download</th>
               </tr>
             </thead>
             <tbody>
@@ -374,7 +374,7 @@ export default function MortalityApp({ tables }: MortalityAppProps) {
                     <span class="name">{table.name}</span>
                     <span class="summary">{table.summary}</span>
                   </td>
-                  <td>
+                  <td class="download-col">
                     <div class="download-buttons" onClick={(event) => event.stopPropagation()}>
                       <button onClick={() => triggerJsonDownload(table.detailPath, table.identifier)}>JSON</button>
                       <button

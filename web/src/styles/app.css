@@ -206,6 +206,11 @@ td {
   cursor: pointer;
 }
 
+.download-col {
+  text-align: right;
+  width: 140px;
+}
+
 tbody tr {
   cursor: pointer;
   transition: background 120ms ease;
@@ -472,5 +477,27 @@ td.empty {
 @media (max-width: 900px) {
   .kv {
     grid-template-columns: 1fr;
+  }
+
+  .selection-bar,
+  .select-col,
+  th.select-col,
+  td.select-col,
+  .download-buttons,
+  .download-col,
+  th.download-col,
+  td.download-col,
+  .download-actions {
+    display: none !important;
+  }
+
+  .results-table th,
+  .results-table td {
+    padding: 0.4rem 0.5rem;
+  }
+
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
