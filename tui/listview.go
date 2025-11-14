@@ -13,7 +13,9 @@ import (
 )
 
 type listView struct {
-	model list.Model
+	model       list.Model
+	totalWidth  int
+	totalHeight int
 }
 
 func newListView() listView {
@@ -40,7 +42,13 @@ func newListView() listView {
 	l.Styles.PaginationStyle = helperTextStyle
 	l.Styles.HelpStyle = helperTextStyle
 
-	return listView{model: l}
+	lv := listView{
+		model:       l,
+		totalWidth:  80,
+		totalHeight: 24,
+	}
+	lv.applySize()
+	return lv
 }
 
 func (lv *listView) SetItems(items []tuiapp.TableSummary) {
@@ -60,21 +68,45 @@ func (lv *listView) Update(msg tea.Msg) tea.Cmd {
 	return cmd
 }
 
+func (lv *listView) SetSize(totalWidth, totalHeight int) {
+	if totalWidth > 0 {
+		lv.totalWidth = totalWidth
+	}
+	if totalHeight > 0 {
+		lv.totalHeight = totalHeight
+	}
+	lv.applySize()
+}
+
 func (lv listView) View(totalWidth, totalHeight int) string {
-	panelWidth := max(20, totalWidth-2)
-	panelHeight := max(6, totalHeight-3)
-	listWidth := max(10, panelWidth-2)
-	listHeight := max(5, panelHeight-2)
-
-	lv.model.SetSize(listWidth, listHeight)
-
-	body := panelStyle.Width(panelWidth).Height(panelHeight).Render(lv.model.View())
-	title := headerStyle.Width(panelWidth).Render("Mortality Tables")
-	content := lipgloss.JoinVertical(lipgloss.Left, title, body)
+	content := lipgloss.JoinVertical(
+		lipgloss.Left,
+		headerStyle.Width(lv.panelWidth()).Render("Mortality Tables"),
+		panelStyle.
+			Width(lv.panelWidth()).
+			Height(lv.panelHeight()).
+			Render(lv.model.View()),
+	)
 	return lipgloss.NewStyle().
 		Width(totalWidth).
 		Height(totalHeight).
 		Render(content)
+}
+
+func (lv *listView) applySize() {
+	panelWidth := lv.panelWidth()
+	panelHeight := lv.panelHeight()
+	listWidth := max(10, panelWidth-2)
+	listHeight := max(5, panelHeight-2)
+	lv.model.SetSize(listWidth, listHeight)
+}
+
+func (lv listView) panelWidth() int {
+	return max(20, lv.totalWidth-2)
+}
+
+func (lv listView) panelHeight() int {
+	return max(6, lv.totalHeight-3)
 }
 
 func (lv listView) SelectedSummary() (tuiapp.TableSummary, bool) {
