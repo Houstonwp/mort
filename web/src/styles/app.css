@@ -507,15 +507,16 @@ td.empty {
 
   .modal {
     width: 100%;
-    height: 100vh;
-    max-height: none;
-    border-radius: 0;
+    height: calc(100vh - 10vh);
+    max-height: calc(100vh - 10vh);
+    border-radius: 1rem;
     overflow: hidden;
   }
 
   .modal-overlay {
-    padding: 0;
-    align-items: stretch;
+    padding: 5vh 10vw;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .modal-header,
