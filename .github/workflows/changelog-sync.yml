@@ -1,0 +1,50 @@
+name: Sync SOA tables
+
+on:
+  schedule:
+    - cron: '0 11 * * *'
+  workflow_dispatch:
+    inputs:
+      tableId:
+        description: 'Optional SOA table ID to fetch (numeric)'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.25'
+
+      - name: Run changelog sync
+        env:
+          TABLE_ID: ${{ inputs.tableId }}
+        run: |
+          if [ -n "$TABLE_ID" ]; then
+            go run ./cmd/changelogsync -table "$TABLE_ID"
+          else
+            go run ./cmd/changelogsync
+          fi
+
+      - name: Commit updates
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "mort-bot"
+          git config user.email "mort-bot@users.noreply.github.com"
+          git add xml json/changelog_state.json
+          git commit -m "Sync SOA tables"
+          git push
