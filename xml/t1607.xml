@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XTbML>
+	<ContentClassification>
+		<TableIdentity>1607</TableIdentity>
+		<ProviderDomain>soa.org</ProviderDomain>
+		<ProviderName>Society of Actuaries</ProviderName>
+		<TableReference>Individual Disability Experience Committee, “Development of the 2012 IDEC Claim Incidence Rate Table (Version 1.0)”, Society of Actuaries (2012). Accessed: May, 2013 from http://www.soa.org/files/research/exp-study/2012_idec_claim_incidence_rate_table.pdf AND Individual Disability Experience Committee, “SOA IDEC 2012 Tables Workbook Version 1.0 Excel File”, Society of Actuaries (2012) Accessed: May, 2013 from http://www.soa.org/Files/Research/Exp-Study/soa_idec_2012_tables_workbook_excel.xls</TableReference>
+		<ContentType tc="80">Claim Incidence</ContentType>
+		<TableName>2012 IDEC Claim Incidence Table - Male, Accident</TableName>
+		<TableDescription>2012 Individual Disability Experience Committee (IDEC) Claim Incidence Table – Male. Basis: Accident. All Occupation Classes. Cohort Elimination Periods</TableDescription>
+		<Comments>Study Data: Data represents Version 1.0 (before claim incidence adjustment factors) and should be considered work in progress. Based on individual disability income (IDI) experience from 1990 to 2007 and contain no explicit margins for adverse deviations. One company’s policy and claim data was scaled down so as to represent only 40% of total exposure over the study period. Claim experience for attained ages over 64 was excluded since experience at these ages was mainly conditionally renewable, i.e., the insured had to be employed during the year of exposure. Methodology: Expected claims for each policy and exposure year were first derived using occupation class 1 claim incidence rates from the 1985 Commissioners Individual DisabilityTable A (CIDA) table (See SOA Table Identities 1230-1437), regardless of the IDEC occupation class. This allowed Actual-to-Expected (A/E) incidence ratios that reflect differences by occupation. The A/E experience for elimination periods 180, 360 and 720 days was combined because of the lack of data. A manual smoothing was first performed on the raw A/E ratios prior to the graduation process to ensure reasonable relationships among the occupation classes. Care was taken to preserve the overall A/E ratios for each combination of cause, gender, occupation class, and elimination period. The smoothed A/E ratios were then applied to the corresponding 1985 CIDA occupation class 1 incidence rates at pivotal ages 27, 32, 37, 42, 47, 52, 57 and 62. The resulting incidence rates were graduated using Whittaker-Henderson Type B. The graduated claim incidence rates were then used to recalculate the expected claims and new A/E ratios were derived for all of the policies and exposure years. The A/E ratios by count and monthly indemnity were then calculated for subsets based on gender, occupation class and elimination period. NOTE: The current structure of MORT only supports lookup keys on an axis with equal increments. The most commonly used elimination periods (0 days, 7 days, 14 days, 30 days, 60 days, etc.) do not follow this equal increment pattern. Thus there are successive tables to represent each elimination period. In each table, rows represent age while columns represent occupation classes with the caveat that column 5 is analogous to occupation class M.</Comments>
+		<KeyWord>Select</KeyWord>
+		<KeyWord>Claim Incidence</KeyWord>
+		<KeyWord>United States of America</KeyWord>
+	</ContentClassification>
+	<Table>
+		<MetaData>
+			<ScalingFactor>0</ScalingFactor>
+			<DataType tc="2">Floating Point</DataType>
+			<Nation tc="1">United States of America</Nation>
+			<TableDescription>2012 Individual Disability Experience Committee (IDEC) Claim Incidence Table – Male. Basis: Accident. All Occupation Classes. Elimination Period: 0 days</TableDescription>
+			<AxisDef id="Age">
+				<ScaleType tc="3">Age</ScaleType>
+				<AxisName>Age</AxisName>
+				<MinScaleValue>20</MinScaleValue>
+				<MaxScaleValue>70</MaxScaleValue>
+				<Increment>1</Increment>
+			</AxisDef>
+			<AxisDef id="Duration">
+				<ScaleType tc="2">Ordinal Date</ScaleType>
+				<AxisName>Duration</AxisName>
+				<MinScaleValue>1</MinScaleValue>
+				<MaxScaleValue>5</MaxScaleValue>
+				<Increment>1</Increment>
+			</AxisDef>
+		</MetaData>
+		<Values>
+			<Axis t="20">
+				<Axis>
+					<Y t="1">0.028463</Y><Y t="2">0.048036</Y><Y t="3">0.055304</Y><Y t="4">0.089483</Y><Y t="5">0.076144</Y>
+				</Axis>
+			</Axis>
+			<Axis t="21">
+				<Axis>
+					<Y t="1">0.028463</Y><Y t="2">0.048036</Y><Y t="3">0.055304</Y><Y t="4">0.089483</Y><Y t="5">0.076144</Y>
+				</Axis>
+			</Axis>
+			<Axis t="22">
+				<Axis>
+					<Y t="1">0.028463</Y><Y t="2">0.048036</Y><Y t="3">0.055304</Y><Y t="4">0.089483</Y><Y t="5">0.076144</Y>
+				</Axis>
+			</Axis>
+			<Axis t="23">
+				<Axis>
+					<Y t="1">0.028463</Y><Y t="2">0.048036</Y><Y t="3">0.055304</Y><Y t="4">0.089483</Y><Y t="5">0.076144</Y>
+				</Axis>
+			</Axis>
+			<Axis t="24">
+				<Axis>
+					<Y t="1">0.028463</Y><Y t="2">0.048036</Y><Y t="3">0.055304</Y><Y t="4">0.089483</Y><Y t="5">0.076144</Y>
+				</Axis>
+			</Axis>
+			<Axis t="25">
+				<Axis>
+					<Y t="1">0.028463</Y><Y t="2">0.048036</Y><Y t="3">0.055304</Y><Y t="4">0.089483</Y><Y t="5">0.076144</Y>
+				</Axis>
+			</Axis>
+			<Axis t="26">
+				<Axis>
+					<Y t="1">0.028072</Y><Y t="2">0.0482900</Y><Y t="3">0.056040</Y><Y t="4">0.090843</Y><Y t="5">0.074324</Y>
+				</Axis>
+			</Axis>
+			<Axis t="27">
+				<Axis>
+					<Y t="1">0.027681</Y><Y t="2">0.048543</Y><Y t="3">0.056775</Y><Y t="4">0.092204</Y><Y t="5">0.072503</Y>
+				</Axis>
+			</Axis>
+			<Axis t="28">
+				<Axis>
+					<Y t="1">0.027290</Y><Y t="2">0.048796</Y><Y t="3">0.057511</Y><Y t="4">0.093565</Y><Y t="5">0.070682</Y>
+				</Axis>
+			</Axis>
+			<Axis t="29">
+				<Axis>
+					<Y t="1">0.026898</Y><Y t="2">0.049050</Y><Y t="3">0.058246</Y><Y t="4">0.094925</Y><Y t="5">0.068862</Y>
+				</Axis>
+			</Axis>
+			<Axis t="30">
+				<Axis>
+					<Y t="1">0.026507</Y><Y t="2">0.049303</Y><Y t="3">0.058981</Y><Y t="4">0.096286</Y><Y t="5">0.067041</Y>
+				</Axis>
+			</Axis>
+			<Axis t="31">
+				<Axis>
+					<Y t="1">0.026116</Y><Y t="2">0.049556</Y><Y t="3">0.059717</Y><Y t="4">0.097647</Y><Y t="5">0.065220</Y>
+				</Axis>
+			</Axis>
+			<Axis t="32">
+				<Axis>
+					<Y t="1">0.025725</Y><Y t="2">0.049809</Y><Y t="3">0.060452</Y><Y t="4">0.099007</Y><Y t="5">0.063399</Y>
+				</Axis>
+			</Axis>
+			<Axis t="33">
+				<Axis>
+					<Y t="1">0.025394</Y><Y t="2">0.049811</Y><Y t="3">0.060645</Y><Y t="4">0.099745</Y><Y t="5">0.061635</Y>
+				</Axis>
+			</Axis>
+			<Axis t="34">
+				<Axis>
+					<Y t="1">0.025063</Y><Y t="2">0.049812</Y><Y t="3">0.060839</Y><Y t="4">0.100483</Y><Y t="5">0.059871</Y>
+				</Axis>
+			</Axis>
+			<Axis t="35">
+				<Axis>
+					<Y t="1">0.024731</Y><Y t="2">0.049813</Y><Y t="3">0.061032</Y><Y t="4">0.101221</Y><Y t="5">0.058107</Y>
+				</Axis>
+			</Axis>
+			<Axis t="36">
+				<Axis>
+					<Y t="1">0.024400</Y><Y t="2">0.049815</Y><Y t="3">0.061225</Y><Y t="4">0.101959</Y><Y t="5">0.056343</Y>
+				</Axis>
+			</Axis>
+			<Axis t="37">
+				<Axis>
+					<Y t="1">0.024069</Y><Y t="2">0.049816</Y><Y t="3">0.061419</Y><Y t="4">0.102697</Y><Y t="5">0.054579</Y>
+				</Axis>
+			</Axis>
+			<Axis t="38">
+				<Axis>
+					<Y t="1">0.023794</Y><Y t="2">0.049686</Y><Y t="3">0.061329</Y><Y t="4">0.103102</Y><Y t="5">0.052874</Y>
+				</Axis>
+			</Axis>
+			<Axis t="39">
+				<Axis>
+					<Y t="1">0.023530</Y><Y t="2">0.049511</Y><Y t="3">0.061170</Y><Y t="4">0.103385</Y><Y t="5">0.051196</Y>
+				</Axis>
+			</Axis>
+			<Axis t="40">
+				<Axis>
+					<Y t="1">0.023273</Y><Y t="2">0.049294</Y><Y t="3">0.060960</Y><Y t="4">0.103554</Y><Y t="5">0.049554</Y>
+				</Axis>
+			</Axis>
+			<Axis t="41">
+				<Axis>
+					<Y t="1">0.023023</Y><Y t="2">0.049042</Y><Y t="3">0.060722</Y><Y t="4">0.103620</Y><Y t="5">0.047958</Y>
+				</Axis>
+			</Axis>
+			<Axis t="42">
+				<Axis>
+					<Y t="1">0.022780</Y><Y t="2">0.048763</Y><Y t="3">0.060484</Y><Y t="4">0.103604</Y><Y t="5">0.0464200</Y>
+				</Axis>
+			</Axis>
+			<Axis t="43">
+				<Axis>
+					<Y t="1">0.022546</Y><Y t="2">0.048466</Y><Y t="3">0.060272</Y><Y t="4">0.103528</Y><Y t="5">0.044953</Y>
+				</Axis>
+			</Axis>
+			<Axis t="44">
+				<Axis>
+					<Y t="1">0.022324</Y><Y t="2">0.048162</Y><Y t="3">0.060114</Y><Y t="4">0.103421</Y><Y t="5">0.043574</Y>
+				</Axis>
+			</Axis>
+			<Axis t="45">
+				<Axis>
+					<Y t="1">0.022120</Y><Y t="2">0.047861</Y><Y t="3">0.060034</Y><Y t="4">0.103315</Y><Y t="5">0.042298</Y>
+				</Axis>
+			</Axis>
+			<Axis t="46">
+				<Axis>
+					<Y t="1">0.021940</Y><Y t="2">0.047574</Y><Y t="3">0.060056</Y><Y t="4">0.103239</Y><Y t="5">0.041144</Y>
+				</Axis>
+			</Axis>
+			<Axis t="47">
+				<Axis>
+					<Y t="1">0.021791</Y><Y t="2">0.047310</Y><Y t="3">0.060196</Y><Y t="4">0.103224</Y><Y t="5">0.040126</Y>
+				</Axis>
+			</Axis>
+			<Axis t="48">
+				<Axis>
+					<Y t="1">0.021680</Y><Y t="2">0.047075</Y><Y t="3">0.060465</Y><Y t="4">0.103296</Y><Y t="5">0.039262</Y>
+				</Axis>
+			</Axis>
+			<Axis t="49">
+				<Axis>
+					<Y t="1">0.021616</Y><Y t="2">0.046875</Y><Y t="3">0.060868</Y><Y t="4">0.103479</Y><Y t="5">0.038566</Y>
+				</Axis>
+			</Axis>
+			<Axis t="50">
+				<Axis>
+					<Y t="1">0.021606</Y><Y t="2">0.046710</Y><Y t="3">0.061402</Y><Y t="4">0.103787</Y><Y t="5">0.038052</Y>
+				</Axis>
+			</Axis>
+			<Axis t="51">
+				<Axis>
+					<Y t="1">0.021657</Y><Y t="2">0.046578</Y><Y t="3">0.062057</Y><Y t="4">0.104232</Y><Y t="5">0.037731</Y>
+				</Axis>
+			</Axis>
+			<Axis t="52">
+				<Axis>
+					<Y t="1">0.021776</Y><Y t="2">0.046474</Y><Y t="3">0.062817</Y><Y t="4">0.104817</Y><Y t="5">0.037612</Y>
+				</Axis>
+			</Axis>
+			<Axis t="53">
+				<Axis>
+					<Y t="1">0.021969</Y><Y t="2">0.046391</Y><Y t="3">0.063660</Y><Y t="4">0.105539</Y><Y t="5">0.037703</Y>
+				</Axis>
+			</Axis>
+			<Axis t="54">
+				<Axis>
+					<Y t="1">0.022239</Y><Y t="2">0.046317</Y><Y t="3">0.064562</Y><Y t="4">0.106391</Y><Y t="5">0.038008</Y>
+				</Axis>
+			</Axis>
+			<Axis t="55">
+				<Axis>
+					<Y t="1">0.022591</Y><Y t="2">0.046244</Y><Y t="3">0.065500</Y><Y t="4">0.107365</Y><Y t="5">0.038528</Y>
+				</Axis>
+			</Axis>
+			<Axis t="56">
+				<Axis>
+					<Y t="1">0.023024</Y><Y t="2">0.046159</Y><Y t="3">0.066455</Y><Y t="4">0.108450</Y><Y t="5">0.039266</Y>
+				</Axis>
+			</Axis>
+			<Axis t="57">
+				<Axis>
+					<Y t="1">0.023540</Y><Y t="2">0.046056</Y><Y t="3">0.067417</Y><Y t="4">0.109645</Y><Y t="5">0.040220</Y>
+				</Axis>
+			</Axis>
+			<Axis t="58">
+				<Axis>
+					<Y t="1">0.024139</Y><Y t="2">0.045933</Y><Y t="3">0.068394</Y><Y t="4">0.110957</Y><Y t="5">0.041391</Y>
+				</Axis>
+			</Axis>
+			<Axis t="59">
+				<Axis>
+					<Y t="1">0.024819</Y><Y t="2">0.045799</Y><Y t="3">0.069418</Y><Y t="4">0.112415</Y><Y t="5">0.042780</Y>
+				</Axis>
+			</Axis>
+			<Axis t="60">
+				<Axis>
+					<Y t="1">0.025578</Y><Y t="2">0.045674</Y><Y t="3">0.070552</Y><Y t="4">0.114072</Y><Y t="5">0.044390</Y>
+				</Axis>
+			</Axis>
+			<Axis t="61">
+				<Axis>
+					<Y t="1">0.026418</Y><Y t="2">0.045596</Y><Y t="3">0.071907</Y><Y t="4">0.116023</Y><Y t="5">0.046230</Y>
+				</Axis>
+			</Axis>
+			<Axis t="62">
+				<Axis>
+					<Y t="1">0.027339</Y><Y t="2">0.045629</Y><Y t="3">0.073646</Y><Y t="4">0.118409</Y><Y t="5">0.048316</Y>
+				</Axis>
+			</Axis>
+			<Axis t="63">
+				<Axis>
+					<Y t="1">0.028260</Y><Y t="2">0.045661</Y><Y t="3">0.075385</Y><Y t="4">0.120796</Y><Y t="5">0.050401</Y>
+				</Axis>
+			</Axis>
+			<Axis t="64">
+				<Axis>
+					<Y t="1">0.029182</Y><Y t="2">0.045693</Y><Y t="3">0.077125</Y><Y t="4">0.123183</Y><Y t="5">0.052486</Y>
+				</Axis>
+			</Axis>
+			<Axis t="65">
+				<Axis>
+					<Y t="1">0.030103</Y><Y t="2">0.045726</Y><Y t="3">0.078864</Y><Y t="4">0.125569</Y><Y t="5">0.054571</Y>
+				</Axis>
+			</Axis>
+			<Axis t="66">
+				<Axis>
+					<Y t="1">0.031024</Y><Y t="2">0.045758</Y><Y t="3">0.080603</Y><Y t="4">0.127956</Y><Y t="5">0.056657</Y>
+				</Axis>
+			</Axis>
+			<Axis t="67">
+				<Axis>
+					<Y t="1">0.031945</Y><Y t="2">0.045790</Y><Y t="3">0.082343</Y><Y t="4">0.130342</Y><Y t="5">0.058742</Y>
+				</Axis>
+			</Axis>
+			<Axis t="68">
+				<Axis>
+					<Y t="1">0.032867</Y><Y t="2">0.045823</Y><Y t="3">0.084082</Y><Y t="4">0.132729</Y><Y t="5">0.060827</Y>
+				</Axis>
+			</Axis>
+			<Axis t="69">
+				<Axis>
+					<Y t="1">0.033788</Y><Y t="2">0.045855</Y><Y t="3">0.085821</Y><Y t="4">0.135116</Y><Y t="5">0.062913</Y>
+				</Axis>
+			</Axis>
+			<Axis t="70">
+				<Axis>
+					<Y t="1">0.034709</Y><Y t="2">0.045888</Y><Y t="3">0.087561</Y><Y t="4">0.137502</Y><Y t="5">0.064998</Y>
+				</Axis>
+			</Axis>
+		</Values>
+	</Table>
+	<Table>
+		<MetaData>
+			<ScalingFactor>0</ScalingFactor>
+			<DataType tc="2">Floating Point</DataType>
+			<Nation tc="1">United States of America</Nation>
+			<TableDescription>2012 Individual Disability Experience Committee (IDEC) Claim Incidence Table – Male. Basis: Accident. All Occupation Classes. Elimination Period: 7 days</TableDescription>
+			<AxisDef id="Age">
+				<ScaleType tc="3">Age</ScaleType>
+				<AxisName>Age</AxisName>
+				<MinScaleValue>20</MinScaleValue>
+				<MaxScaleValue>70</MaxScaleValue>
+				<Increment>1</Increment>
+			</AxisDef>
+			<AxisDef id="Duration">
+				<ScaleType tc="2">Ordinal Date</ScaleType>
+				<AxisName>Duration</AxisName>
+				<MinScaleValue>1</MinScaleValue>
+				<MaxScaleValue>5</MaxScaleValue>
+				<Increment>1</Increment>
+			</AxisDef>
+		</MetaData>
+		<Values>
+			<Axis t="20">
+				<Axis>
+					<Y t="1">0.021750</Y><Y t="2">0.037226</Y><Y t="3">0.043318</Y><Y t="4">0.069634</Y><Y t="5">0.057996</Y>
+				</Axis>
+			</Axis>
+			<Axis t="21">
+				<Axis>
+					<Y t="1">0.021750</Y><Y t="2">0.037226</Y><Y t="3">0.043318</Y><Y t="4">0.069634</Y><Y t="5">0.057996</Y>
+				</Axis>
+			</Axis>
+			<Axis t="22">
+				<Axis>
+					<Y t="1">0.021750</Y><Y t="2">0.037226</Y><Y t="3">0.043318</Y><Y t="4">0.069634</Y><Y t="5">0.057996</Y>
+				</Axis>
+			</Axis>
+			<Axis t="23">
+				<Axis>
+					<Y t="1">0.021750</Y><Y t="2">0.037226</Y><Y t="3">0.043318</Y><Y t="4">0.069634</Y><Y t="5">0.057996</Y>
+				</Axis>
+			</Axis>
+			<Axis t="24">
+				<Axis>
+					<Y t="1">0.021750</Y><Y t="2">0.037226</Y><Y t="3">0.043318</Y><Y t="4">0.069634</Y><Y t="5">0.057996</Y>
+				</Axis>
+			</Axis>
+			<Axis t="25">
+				<Axis>
+					<Y t="1">0.021750</Y><Y t="2">0.037226</Y><Y t="3">0.043318</Y><Y t="4">0.069634</Y><Y t="5">0.057996</Y>
+				</Axis>
+			</Axis>
+			<Axis t="26">
+				<Axis>
+					<Y t="1">0.021352</Y><Y t="2">0.037185</Y><Y t="3">0.043590</Y><Y t="4">0.070182</Y><Y t="5">0.056397</Y>
+				</Axis>
+			</Axis>
+			<Axis t="27">
+				<Axis>
+					<Y t="1">0.020954</Y><Y t="2">0.037145</Y><Y t="3">0.043863</Y><Y t="4">0.070731</Y><Y t="5">0.054798</Y>
+				</Axis>
+			</Axis>
+			<Axis t="28">
+				<Axis>
+					<Y t="1">0.020556</Y><Y t="2">0.037104</Y><Y t="3">0.044135</Y><Y t="4">0.071279</Y><Y t="5">0.053199</Y>
+				</Axis>
+			</Axis>
+			<Axis t="29">
+				<Axis>
+					<Y t="1">0.020159</Y><Y t="2">0.037064</Y><Y t="3">0.044408</Y><Y t="4">0.071827</Y><Y t="5">0.051600</Y>
+				</Axis>
+			</Axis>
+			<Axis t="30">
+				<Axis>
+					<Y t="1">0.019761</Y><Y t="2">0.037023</Y><Y t="3">0.044680</Y><Y t="4">0.072375</Y><Y t="5">0.050000</Y>
+				</Axis>
+			</Axis>
+			<Axis t="31">
+				<Axis>
+					<Y t="1">0.019363</Y><Y t="2">0.036983</Y><Y t="3">0.044952</Y><Y t="4">0.072924</Y><Y t="5">0.048401</Y>
+				</Axis>
+			</Axis>
+			<Axis t="32">
+				<Axis>
+					<Y t="1">0.018965</Y><Y t="2">0.036943</Y><Y t="3">0.045225</Y><Y t="4">0.073472</Y><Y t="5">0.046802</Y>
+				</Axis>
+			</Axis>
+			<Axis t="33">
+				<Axis>
+					<Y t="1">0.018624</Y><Y t="2">0.036716</Y><Y t="3">0.045075</Y><Y t="4">0.073549</Y><Y t="5">0.045298</Y>
+				</Axis>
+			</Axis>
+			<Axis t="34">
+				<Axis>
+					<Y t="1">0.018283</Y><Y t="2">0.036489</Y><Y t="3">0.044925</Y><Y t="4">0.073625</Y><Y t="5">0.043794</Y>
+				</Axis>
+			</Axis>
+			<Axis t="35">
+				<Axis>
+					<Y t="1">0.017942</Y><Y t="2">0.036263</Y><Y t="3">0.044774</Y><Y t="4">0.073702</Y><Y t="5">0.042290</Y>
+				</Axis>
+			</Axis>
+			<Axis t="36">
+				<Axis>
+					<Y t="1">0.017601</Y><Y t="2">0.036036</Y><Y t="3">0.044624</Y><Y t="4">0.073779</Y><Y t="5">0.040786</Y>
+				</Axis>
+			</Axis>
+			<Axis t="37">
+				<Axis>
+					<Y t="1">0.017260</Y><Y t="2">0.035809</Y><Y t="3">0.044474</Y><Y t="4">0.073856</Y><Y t="5">0.039282</Y>
+				</Axis>
+			</Axis>
+			<Axis t="38">
+				<Axis>
+					<Y t="1">0.016968</Y><Y t="2">0.035485</Y><Y t="3">0.044104</Y><Y t="4">0.073678</Y><Y t="5">0.037852</Y>
+				</Axis>
+			</Axis>
+			<Axis t="39">
+				<Axis>
+					<Y t="1">0.016685</Y><Y t="2">0.035128</Y><Y t="3">0.043680</Y><Y t="4">0.073409</Y><Y t="5">0.036451</Y>
+				</Axis>
+			</Axis>
+			<Axis t="40">
+				<Axis>
+					<Y t="1">0.016409</Y><Y t="2">0.034740</Y><Y t="3">0.043218</Y><Y t="4">0.073054</Y><Y t="5">0.035085</Y>
+				</Axis>
+			</Axis>
+			<Axis t="41">
+				<Axis>
+					<Y t="1">0.016140</Y><Y t="2">0.034326</Y><Y t="3">0.042732</Y><Y t="4">0.072621</Y><Y t="5">0.033759</Y>
+				</Axis>
+			</Axis>
+			<Axis t="42">
+				<Axis>
+					<Y t="1">0.015875</Y><Y t="2">0.033889</Y><Y t="3">0.042241</Y><Y t="4">0.072120</Y><Y t="5">0.032481</Y>
+				</Axis>
+			</Axis>
+			<Axis t="43">
+				<Axis>
+					<Y t="1">0.015616</Y><Y t="2">0.033438</Y><Y t="3">0.041763</Y><Y t="4">0.071566</Y><Y t="5">0.031257</Y>
+				</Axis>
+			</Axis>
+			<Axis t="44">
+				<Axis>
+					<Y t="1">0.015364</Y><Y t="2">0.032976</Y><Y t="3">0.0413122</Y><Y t="4">0.070973</Y><Y t="5">0.030097</Y>
+				</Axis>
+			</Axis>
+			<Axis t="45">
+				<Axis>
+					<Y t="1">0.015119</Y><Y t="2">0.032510</Y><Y t="3">0.040903</Y><Y t="4">0.070359</Y><Y t="5">0.029007</Y>
+				</Axis>
+			</Axis>
+			<Axis t="46">
+				<Axis>
+					<Y t="1">0.014884</Y><Y t="2">0.032045</Y><Y t="3">0.040548</Y><Y t="4">0.069736</Y><Y t="5">0.027995</Y>
+				</Axis>
+			</Axis>
+			<Axis t="47">
+				<Axis>
+					<Y t="1">0.014662</Y><Y t="2">0.031585</Y><Y t="3">0.040252</Y><Y t="4">0.069118</Y><Y t="5">0.027069</Y>
+				</Axis>
+			</Axis>
+			<Axis t="48">
+				<Axis>
+					<Y t="1">0.014455</Y><Y t="2">0.031130</Y><Y t="3">0.040016</Y><Y t="4">0.068512</Y><Y t="5">0.026233</Y>
+				</Axis>
+			</Axis>
+			<Axis t="49">
+				<Axis>
+					<Y t="1">0.014265</Y><Y t="2">0.030681</Y><Y t="3">0.039839</Y><Y t="4">0.067924</Y><Y t="5">0.025491</Y>
+				</Axis>
+			</Axis>
+			<Axis t="50">
+				<Axis>
+					<Y t="1">0.014093</Y><Y t="2">0.030233</Y><Y t="3">0.039706</Y><Y t="4">0.067350</Y><Y t="5">0.024845</Y>
+				</Axis>
+			</Axis>
+			<Axis t="51">
+				<Axis>
+					<Y t="1">0.013941</Y><Y t="2">0.029782</Y><Y t="3">0.039607</Y><Y t="4">0.066786</Y><Y t="5">0.024296</Y>
+				</Axis>
+			</Axis>
+			<Axis t="52">
+				<Axis>
+					<Y t="1">0.013810</Y><Y t="2">0.029319</Y><Y t="3">0.039521</Y><Y t="4">0.066218</Y><Y t="5">0.023843</Y>
+				</Axis>
+			</Axis>
+			<Axis t="53">
+				<Axis>
+					<Y t="1">0.013699</Y><Y t="2">0.028833</Y><Y t="3">0.039423</Y><Y t="4">0.065630</Y><Y t="5">0.023480</Y>
+				</Axis>
+			</Axis>
+			<Axis t="54">
+				<Axis>
+					<Y t="1">0.013607</Y><Y t="2">0.028313</Y><Y t="3">0.039290</Y><Y t="4">0.065002</Y><Y t="5">0.023205</Y>
+				</Axis>
+			</Axis>
+			<Axis t="55">
+				<Axis>
+					<Y t="1">0.013532</Y><Y t="2">0.027747</Y><Y t="3">0.039097</Y><Y t="4">0.064313</Y><Y t="5">0.023009</Y>
+				</Axis>
+			</Axis>
+			<Axis t="56">
+				<Axis>
+					<Y t="1">0.013471</Y><Y t="2">0.027123</Y><Y t="3">0.038824</Y><Y t="4">0.063544</Y><Y t="5">0.022888</Y>
+				</Axis>
+			</Axis>
+			<Axis t="57">
+				<Axis>
+					<Y t="1">0.013422</Y><Y t="2">0.026434</Y><Y t="3">0.038459</Y><Y t="4">0.062682</Y><Y t="5">0.022833</Y>
+				</Axis>
+			</Axis>
+			<Axis t="58">
+				<Axis>
+					<Y t="1">0.013381</Y><Y t="2">0.025675</Y><Y t="3">0.038001</Y><Y t="4">0.061724</Y><Y t="5">0.022841</Y>
+				</Axis>
+			</Axis>
+			<Axis t="59">
+				<Axis>
+					<Y t="1">0.013348</Y><Y t="2">0.024853</Y><Y t="3">0.037471</Y><Y t="4">0.060685</Y><Y t="5">0.022911</Y>
+				</Axis>
+			</Axis>
+			<Axis t="60">
+				<Axis>
+					<Y t="1">0.013322</Y><Y t="2">0.023980</Y><Y t="3">0.036913</Y><Y t="4">0.059604</Y><Y t="5">0.023044</Y>
+				</Axis>
+			</Axis>
+			<Axis t="61">
+				<Axis>
+					<Y t="1">0.013304</Y><Y t="2">0.023089</Y><Y t="3">0.036404</Y><Y t="4">0.058552</Y><Y t="5">0.023250</Y>
+				</Axis>
+			</Axis>
+			<Axis t="62">
+				<Axis>
+					<Y t="1">0.013301</Y><Y t="2">0.022228</Y><Y t="3">0.036063</Y><Y t="4">0.057644</Y><Y t="5">0.023549</Y>
+				</Axis>
+			</Axis>
+			<Axis t="63">
+				<Axis>
+					<Y t="1">0.013297</Y><Y t="2">0.021367</Y><Y t="3">0.035722</Y><Y t="4">0.056736</Y><Y t="5">0.023848</Y>
+				</Axis>
+			</Axis>
+			<Axis t="64">
+				<Axis>
+					<Y t="1">0.013294</Y><Y t="2">0.020506</Y><Y t="3">0.035382</Y><Y t="4">0.055828</Y><Y t="5">0.024147</Y>
+				</Axis>
+			</Axis>
+			<Axis t="65">
+				<Axis>
+					<Y t="1">0.013290</Y><Y t="2">0.019645</Y><Y t="3">0.035041</Y><Y t="4">0.054920</Y><Y t="5">0.024446</Y>
+				</Axis>
+			</Axis>
+			<Axis t="66">
+				<Axis>
+					<Y t="1">0.013287</Y><Y t="2">0.018784</Y><Y t="3">0.034701</Y><Y t="4">0.054012</Y><Y t="5">0.024745</Y>
+				</Axis>
+			</Axis>
+			<Axis t="67">
+				<Axis>
+					<Y t="1">0.013283</Y><Y t="2">0.017923</Y><Y t="3">0.034360</Y><Y t="4">0.053104</Y><Y t="5">0.025044</Y>
+				</Axis>
+			</Axis>
+			<Axis t="68">
+				<Axis>
+					<Y t="1">0.013280</Y><Y t="2">0.017063</Y><Y t="3">0.034020</Y><Y t="4">0.052196</Y><Y t="5">0.025342</Y>
+				</Axis>
+			</Axis>
+			<Axis t="69">
+				<Axis>
+					<Y t="1">0.013276</Y><Y t="2">0.016202</Y><Y t="3">0.033679</Y><Y t="4">0.051289</Y><Y t="5">0.025641</Y>
+				</Axis>
+			</Axis>
+			<Axis t="70">
+				<Axis>
+					<Y t="1">0.013273</Y><Y t="2">0.015341</Y><Y t="3">0.033339</Y><Y t="4">0.050381</Y><Y t="5">0.025940</Y>
+				</Axis>
+			</Axis>
+		</Values>
+	</Table>
+</XTbML>
