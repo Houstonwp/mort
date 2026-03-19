@@ -6,6 +6,7 @@ import type { ConvertedTable, DetailTab, TablePayload, TableSummary } from '../l
 
 const LOAD_BATCH = 40;
 const TAB_ORDER: DetailTab[] = ['classification', 'metadata', 'rates'];
+const PAGE_DISCLAIMER = 'Reference only—verify against original source data.';
 type RateView = 'list' | 'matrix';
 
 interface MortalityAppProps {
@@ -545,6 +546,8 @@ export default function MortalityApp({ tables }: MortalityAppProps) {
           </div>
         </div>
       )}
+
+      <p class="page-disclaimer">{PAGE_DISCLAIMER}</p>
     </div>
   );
 }
