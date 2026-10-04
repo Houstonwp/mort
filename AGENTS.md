@@ -1,12 +1,12 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-The repository is a monorepo centered on mortality tables in `xml/`. Go source lives under `cmd/` for binaries and `internal/xtbml/` for shared logic and tests. Future UI layers will sit in `web/` (TypeScript React) and `tui/` (Go). Keep fixtures inside the package under test or the `testdata/` folder to minimize coupling.
+The repository is a monorepo centered on mortality tables in `xml/`. Go source lives under `cmd/` for binaries and `internal/xtbml/` for shared logic and tests. UI layers live in `web/` (Astro and TypeScript Preact) and `tui/` (Go). Keep fixtures inside the package under test or the `testdata/` folder to minimize coupling.
 
 ## Build, Test, and Development Commands
 - `go test ./...` – runs every Go unit test; execute before every commit.
 - `gofmt -w <files>` – formats Go code; required on touched files.
-- `npm install && npm test` (within `web/`) – installs dependencies and executes UI tests once the frontend exists.
+- `npm ci && npm run build` (within `web/`) – installs locked dependencies and validates the static site build; web unit tests are not yet configured.
 
 ## Coding Style & Naming Conventions
 Use Go modules with Go 1.25; rely on `gofmt` for spacing and imports. Package names stay short and lowercase (`xtbml`, `tui`). Exported identifiers must include doc comments, while private helpers should remain concise (<= 40 lines). For TypeScript, prefer ESM, `strict` mode, and descriptive file names like `tableSearch.ts`.
@@ -19,7 +19,7 @@ Commits should be small, scoped to a single behavior, and use imperative subject
 1. Reference related issues or TODOs.
 2. Describe the failing test added first and how subsequent commits make it pass.
 3. Include screenshots or CLI output when UI behavior changes.
-4. List verification commands (`go test`, `npm test`).
+4. List verification commands (`go test ./...`, `go vet ./...`, `npm run build`) and distinguish build validation from unit tests.
 
 ## Security & Configuration Tips
 Never commit raw mortality data outside `xml/`. Secrets belong in local env vars or `.env.local`, not version control. Validate third-party dependencies with `go env GOPROXY=direct` or npm advisories before adoption.

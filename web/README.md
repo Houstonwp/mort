@@ -28,12 +28,14 @@ Run everything from `web/`:
 
 | Command           | Purpose                                                     |
 | ----------------- | ----------------------------------------------------------- |
-| `npm install`     | Install Astro, Preact, Fuse.js, and supporting deps         |
+| `npm ci`          | Install locked Astro, Preact, Fuse.js, and supporting deps   |
 | `npm run dev`     | Start the local dev server at `http://localhost:4321`       |
 | `npm run build`   | Build the static site + JSON detail payloads into `dist/`   |
 | `npm run preview` | Preview the production build                                |
 
 > `npm run build` requires the repository-level `json/` directory to be present because it reads those files to create the index and detail payloads.
+
+The automated web check is `npm ci && npm run build`. There is no `npm test` script yet; build validation does not cover browser interactions.
 
 ## Notes
 
